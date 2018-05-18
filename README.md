@@ -3,6 +3,8 @@ Material counter / processing time calculator for [Creativerse](https://store.st
 
 Live latest version on [my website](http://entuland.com/creaticount).
 
+Discussion about CreatiCount on the [Steam Forums](https://steamcommunity.com/app/280790/discussions/3/3288067088097143542/)
+
 # License
 The data in the following files is copyright of [Playfulcorp](http://www.playfulcorp.com), creators of Creativerse, used here with their permission:
 - [img/icons_00.jpg](img/icons_00.jpg)
