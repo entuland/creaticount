@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<title>Creativerse Materials Counter</title>
+<script src="js/icondata.js?83828456654"></script>
+<script src="js/items.js?83828456654"></script>
+<script src="js/counter.js?83828456654"></script>
+<link href="css/counter.css?83828456654" rel="stylesheet">
+</head>
+<body>
+	<div id="heading">
+		<strong><big>Creativerse Materials Counter</big></strong>
+		<button class="rounded shadow" id="info-button">Help! What's this?</button> <a class="rounded shadow" target="_blank" href="http://entuland.com/en/support-entuland">Want to support me?</a><hr>
+		<label class="rounded shadow">Search: <input type="text" id="search" placeholder="type here to search items" value=""></label>
+	</div>
+	<div id="search-result">
+	</div>
+	
+	<div id="counter-interface">
+		<div id="counter-settings">
+			<label class="rounded shadow">No. of Processors: <input type="number" id="processors" value="1" min="1"></label>
+			<label class="rounded shadow">No. of Forges: <input type="number" id="forges" value="1" min="1"></label>
+			<span class="rounded shadow control-group">Fuel:
+				<label><input type="radio" name="fuel" id="leaves">Leaves / Wood</label>
+				<label><input type="radio" name="fuel" id="coal" checked>Coal</label>
+				<label><input type="radio" name="fuel" id="tarfood">Tar food</label>
+			</span>
+			<span id="timing-recap" class="rounded shadow control-group"></span>
+		</div>
+		<h2>Chosen items</h2>
+		<div id="chosen-list"></div>
+		<h2>Preparation</h2>
+		<div id="prepare-list"></div>
+	</div>
+
+	<div id="info-cover" class="cover" style="display: none" title="click here to close"></div>
+	<div id="info-content" class="cover-content rounded shadow" style="display: none">
+		<h2>Creativerse Materials Counter</h2>
+		<p>This tool lets you work out materials and time needed to craft / process / forge other items in the game <a href="http://store.steampowered.com/app/280790" target="_blank">Creativerse</a>, free to play on Steam.</p>
+		<p>Check out the <a href="http://entuland.com/creatisign" target="_blank"><strong>CreatiSign Generator</strong></a> to import your images into Arc Signs and the <a href="http://entuland.com/creatisprites" target="_blank"><strong>CreatiSprites Picker</strong></a> to easily choose and arrange sprites!</p>
+		<h2>How to use this counter tool</h2>
+		<p>Type part of the name of the item you need in the search box, then click on it to add it to the "Chosen items" list: once it's there enter the amount you "Need".</p>
+		<p>The "Preparation" section will show the items you have chosen with an additional "Possessed" number box (you can enter there the amount of items you have already placed in the BP or the amount of items you have already in your inventories, the Counter will tell you how many are missing considering that).</p>
+		<p>If an item has a recipe you can expand it in order to see what ingredients you need to craft them and how many you need in total. Those ingredients will be added to the "Preparation" section and if such a recipe involves forging or processing, the relative amount of time will be added to the total, depending on the amount of stations and the type of fuel you plan to use.</p>
+		<p>The amount of "Forge runs" refers to the total of separate jobs regardless of the fuel you chose, so you have to multiply that number if you're not going to use Coal or Tar food (which only consumes one unit of fuel per job).</p>
+		<h2>Notes / Links</h2>
+		<p style="font-weight: bolder; color: #060">First version 15/04/2018</p>
+		<p>This Counter does not include food recipes.</p>
+		<p>In the context of this Counter, the verb "create" stands for "craft", "forge" or "process" depending on the item, whereas the verb "obtain" stands for "gather" or "pick from your chests".</p>
+		<p><a href="https://steamcommunity.com/app/280790/discussions/3/3288067088097143542/" target="_blank">CreatiCount discussion on Steam forums</a></p>
+		<p>Only tested in Chrome, may work in other browsers.</p>
+	</div>
+	
+</body>
+</html>

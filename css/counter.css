@@ -1,0 +1,127 @@
+	* {
+		box-sizing: border-box;
+	}
+	
+	body {
+		font-family: sans-serif;
+		background: #DDD;
+	}
+	
+	h2 {
+		margin: 0;
+	}
+	
+	#heading {
+		padding: 1em;
+		display: block;
+	}
+
+	#search-result {
+		width: 49%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	#counter-interface {
+		width: 49%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	label,
+	#heading button {
+		padding: 3px;
+		font-weight: bolder;
+		background: #AFA;
+		cursor: pointer;
+		display: inline-block;
+		margin: 3px;
+		font-size: 1em;
+	}
+	
+	.control-group {
+		padding: 3px;
+		font-weight: bolder;
+		background: #AFA;
+		display: inline-block;
+		margin: 3px;
+		font-size: 1em;
+		vertical-align: middle;
+	}
+	
+	.control-group label {
+		font-weight: bold;
+	}
+	
+	.rounded {
+		border-radius: 3px;
+		border: 1px solid black;
+	}
+	
+	.shadow {
+		box-shadow: 2px 2px 2px #999;
+	}
+	
+	a.rounded.shadow {
+		background: yellow;
+		padding: 3px;
+		font-weight: bolder;
+		color: black;
+		text-decoration: none;
+	}
+
+	.cover {
+		z-index: 10;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.6);
+		cursor: not-allowed;
+	}
+	
+	.cover-content {
+		position: fixed;
+		z-index: 20;
+		max-height: 80%;
+		padding: 15px;
+		width: 75%;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background: #EEE;
+		overflow-y: scroll;
+	}
+	
+	.icon {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	.entry {
+		margin: 5px;
+		background: #AFA;
+		padding: 5px;
+		display: inline-block;
+		text-align: left;
+	}
+	
+	#prepare-list .entry {
+		display: block;
+	}
+  
+	.delete-button {
+		color: white;
+		background: red;
+	}
+
+	.entry input {
+		width: 5em;
+		margin-left: 0.5em;
+	}
+	
+	.total {
+		font-size: 120%;
+		font-weight: bolder;
+	}
