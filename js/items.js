@@ -983,7 +983,8 @@
             "torch_industrial_02",
             "vent_industrial",
             "chimney_industrial_top",
-            "snowman"
+            "snowman",
+            "stairs_asphault"
         ]
     },
     "corruption_dust": {
@@ -1580,7 +1581,8 @@
             "sword_crowbar",
             "chimney_industrial",
             "chimney_industrial_top",
-            "door_ice"
+            "door_ice",
+            "lattice_stone"
         ]
     },
     "leather": {
@@ -2110,7 +2112,9 @@
             "chain_medieval",
             "chest_medieval",
             "stairs_ice",
-            "container_snow"
+            "container_snow",
+            "lattice_stone",
+            "stairs_asphault"
         ]
     },
     "miru_eye": {
@@ -5180,7 +5184,8 @@
             "bone",
             "asphault_item",
             "lamp_gas",
-            "gravestone_haunted_01"
+            "gravestone_haunted_01",
+            "stairs_asphault"
         ]
     },
     "glass": {
@@ -5970,7 +5975,11 @@
                 "station": "none"
             }
         ],
-        "creates": []
+        "creates": [
+            "column_asphault",
+            "slab_asphault",
+            "slope_asphault"
+        ]
     },
     "salt_item": {
         "id": "salt_item",
@@ -11887,9 +11896,9 @@
     },
     "roof_straw_slanted_inner_corner": {
         "id": "roof_straw_slanted_inner_corner",
-        "name": "Slanted Straw Roof Inner Corner",
+        "name": "Thatched Roof Inner Corner",
         "icon": "roof_straw_inner_corner",
-        "namesearch": "slanted straw roof inner corner roof_straw_inner_corner roof_straw_slanted_inner_corner",
+        "namesearch": "thatched roof inner corner roof_straw_inner_corner roof_straw_slanted_inner_corner",
         "recipes": [
             {
                 "materials": {
@@ -11904,9 +11913,9 @@
     },
     "roof_straw_slanted_outer_corner": {
         "id": "roof_straw_slanted_outer_corner",
-        "name": "Slanted Straw Roof Outer Corner",
+        "name": "Thatched Roof Outer Corner",
         "icon": "roof_straw_outer_corner",
-        "namesearch": "slanted straw roof outer corner roof_straw_outer_corner roof_straw_slanted_outer_corner",
+        "namesearch": "thatched roof outer corner roof_straw_outer_corner roof_straw_slanted_outer_corner",
         "recipes": [
             {
                 "materials": {
@@ -15998,6 +16007,168 @@
                 "count": "4",
                 "time": 0,
                 "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "column_asphault": {
+        "id": "column_asphault",
+        "name": "Asphalt Column",
+        "icon": "column_asphault",
+        "namesearch": "asphalt column column_asphault column_asphault",
+        "recipes": [
+            {
+                "materials": {
+                    "asphault_item": "1"
+                },
+                "count": "2",
+                "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "roof_asphault_outer_corner": {
+        "id": "roof_asphault_outer_corner",
+        "name": "Asphalt Slope Outer Corner",
+        "icon": "roof_asphault_outer_corner",
+        "namesearch": "asphalt slope outer corner roof_asphault_outer_corner roof_asphault_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_asphault": "1"
+                },
+                "count": "2",
+                "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "roof_asphault_inner_corner": {
+        "id": "roof_asphault_inner_corner",
+        "name": "Asphalt Slope Inner Corner",
+        "icon": "roof_asphault_inner_corner",
+        "namesearch": "asphalt slope inner corner roof_asphault_inner_corner roof_asphault_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_asphault": "1"
+                },
+                "count": "1",
+                "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_asphault": {
+        "id": "slab_asphault",
+        "name": "Asphalt Slab",
+        "icon": "slab_asphault",
+        "namesearch": "asphalt slab slab_asphault slab_asphault",
+        "recipes": [
+            {
+                "materials": {
+                    "asphault_item": "1"
+                },
+                "count": "2",
+                "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_asphault": {
+        "id": "slope_asphault",
+        "name": "Asphalt Slope",
+        "icon": "slope_asphault",
+        "namesearch": "asphalt slope slope_asphault slope_asphault",
+        "recipes": [
+            {
+                "materials": {
+                    "asphault_item": "1"
+                },
+                "count": "2",
+                "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "roof_asphault_outer_corner",
+            "roof_asphault_inner_corner"
+        ]
+    },
+    "lattice_stone": {
+        "id": "lattice_stone",
+        "name": "Stone Window Lattice",
+        "icon": "window_stone_lattice",
+        "namesearch": "stone window lattice window_stone_lattice lattice_stone",
+        "recipes": [
+            {
+                "materials": {
+                    "rod_stone": "4",
+                    "rod_iron": "2"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_asphault": {
+        "id": "stairs_asphault",
+        "name": "Asphalt Stairs",
+        "icon": "stairs_asphault",
+        "namesearch": "asphalt stairs stairs_asphault stairs_asphault",
+        "recipes": [
+            {
+                "materials": {
+                    "coal": "2",
+                    "fossils": "1",
+                    "rod_stone": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_asphault_inner_corner",
+            "stairs_asphault_outer_corner"
+        ]
+    },
+    "stairs_asphault_inner_corner": {
+        "id": "stairs_asphault_inner_corner",
+        "name": "Asphalt Stairs Inner Corner",
+        "icon": "stairs_asphault_inner_corner",
+        "namesearch": "asphalt stairs inner corner stairs_asphault_inner_corner stairs_asphault_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_asphault": "1"
+                },
+                "count": "2",
+                "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_asphault_outer_corner": {
+        "id": "stairs_asphault_outer_corner",
+        "name": "Asphalt Stairs Outer Corner",
+        "icon": "stairs_asphault_outer_corner",
+        "namesearch": "asphalt stairs outer corner stairs_asphault_outer_corner stairs_asphault_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_asphault": "1"
+                },
+                "count": "2",
+                "time": 10,
+                "station": "processor"
             }
         ],
         "creates": []
