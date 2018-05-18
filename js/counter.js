@@ -100,6 +100,9 @@ var counter = {
 		if(station === "none") {
 			return;
 		}
+		if(!time) {
+			time = 1;
+		}
 		if(!counter.stations[station][time]) {
 			counter.stations[station][time] = 0;
 		}
@@ -108,7 +111,6 @@ var counter = {
 	},
 	
 	displayTime: function() {
-		var totalTime = 0;
 		var forges = parseInt(counter.forgesCount.value);
 		var processors = parseInt(counter.processorsCount.value);
 		var divisor = 1;
@@ -119,24 +121,28 @@ var counter = {
 			divisor = 10;
 		}
 		var forgeRuns = 0;
+		var forgeTime = 0;
+		var processorTime = 0;
 		for(var station in counter.stations) {
 			for(var time in counter.stations[station]) {
 				var runs = counter.stations[station][time];
 				if(station === "processor") {
 					var symRuns = Math.ceil(runs / processors);
-					totalTime += symRuns * time;
+					processorTime += symRuns * time;
 					continue;
 				}
 				forgeRuns += runs;
 				var symRuns = Math.ceil(runs / forges);
-				totalTime += symRuns * (time / divisor);
+				forgeTime += symRuns * (time / divisor);
 			}
 		}
-		counter.timingRecapContainer.innerHTML = "";
-		if(totalTime) {
-			counter.timingRecapContainer.innerHTML = "Total station time: " + utils.formatTime(totalTime) + 		
-														"<br>Forge runs: " + forgeRuns;			
-		}
+		var totalTime = processorTime + forgeTime;
+		var output = "";
+		output += totalTime ? "Total time: " + utils.formatTime(totalTime) + "<br>" : "";
+		output += processorTime ? "Processor time: " + utils.formatTime(processorTime) + "<br>" : "";
+		output += forgeTime ? "Forge time: " + utils.formatTime(forgeTime) + "<br>" : "";
+		output += forgeRuns ? "Forge runs: " + forgeRuns : "";
+		counter.timingRecapContainer.innerHTML = output;
 	},
 	
 	processDelayedSearch: function() {
@@ -154,10 +160,6 @@ var counter = {
 			var item = items[id];
 			if(item.namesearch.indexOf(search) !== -1) {
 				counter.addResult(items[id]);
-			}
-			if(item.recipes.length > 1) {
-				//console.log(id + " " + counter.describeRecipe(counter.getRecipe(id)));
-				//console.log(item.recipes);
 			}
 		}
 	},
@@ -273,7 +275,7 @@ var counter = {
 		needed.setAttribute("type", "number");
 		needed.setAttribute("min", "1");
 		needed.value = 1;
-		var neededLabel = counter.labelize("Need", needed);
+		var neededLabel = counter.labelize(item.name + "<br>Need", needed);
 		needed.addEventListener("input", counter.computePreparationDelayed);
 		node.appendChild(neededLabel);
 		node.appendChild(deleteButton);
@@ -301,13 +303,27 @@ var counter = {
 			counter.processPending(cur[0], cur[1]);
 		}
 		counter.displayPreparation();
-		//console.log(counter.prepare);
 	},
 	
 	displayPreparation: function() {
 		counter.prepareListContainer.innerHTML = "";
-		counter.clearTime();
-		var ids = utils.sortedKeysByProperty(counter.prepare, "name");
+		counter.clearTime();		
+		var ids = utils.keys(counter.prepare);
+		ids.sort(function(a, b) {
+			var itemA = counter.prepare[a];
+			var itemB = counter.prepare[b];
+			var expandedA = itemA.expanded;
+			var expandedB = itemB.expanded;
+			if(expandedA < expandedB) {
+				return -1;
+			}
+			if(expandedA > expandedB) {
+				return 1;
+			}
+			var textA = itemA.name.toUpperCase();
+			var textB = itemB.name.toUpperCase();
+			return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+		});
 		for(var i in ids) {
 			counter.displayPrep(counter.prepare[ids[i]]);
 		}
@@ -322,14 +338,14 @@ var counter = {
 			obtain = 0;
 		}
 		var node = document.createElement("div");
-		node.setAttribute("class", "entry rounded shadow");
+		node.setAttribute("class", "entry rounded shadow collapsed");
 		var item = items[prep.id];
 		var icon = counter.createIcon(item);
 		var possessed = document.createElement("input");
 		possessed.type = "number";
 		possessed.min = 0;
 		possessed.value = prep.possessed;
-		var labelPossessed = counter.labelize("Possessed", possessed);
+		var labelPossessed = counter.labelize(item.name + "<br>Possessed", possessed);
 		node.appendChild(icon);
 		node.appendChild(labelPossessed);
 		possessed.addEventListener("input", function() {
@@ -339,7 +355,7 @@ var counter = {
 		var total = document.createElement("div");
 		total.classList.add("total");
 		total.style.textAlign = "right";
-		total.innerHTML = "Still to obtain: " + obtain;				
+		total.innerHTML = "Obtain: " + obtain;				
 		if(prep.recipe) {
 			if(obtain) {
 				var expand = document.createElement("button");
@@ -351,7 +367,19 @@ var counter = {
 				node.appendChild(expand);				
 			}
 			if(prep.expanded) {
-				total.innerHTML = "Still to create: " + obtain + "<br>";
+				node.classList.remove("collapsed");
+				node.classList.add("expanded");
+				switch(true) {
+					case prep.recipe.station == "processor":
+						verb = "Process";
+						break;
+					case prep.recipe.station == "forge":
+						verb = "Forge";
+						break;
+					default:
+						verb = "Craft";
+				}
+				total.innerHTML = verb + ": " + obtain + "<br>";
 				if(obtain) {
 					var runs = Math.ceil(obtain / prep.recipe.count);
 					var mult = prep.recipe.count;
@@ -373,15 +401,6 @@ var counter = {
 		}
 		node.appendChild(total);
 		counter.prepareListContainer.appendChild(node);
-	},
-	
-	finalComputeDelayed: function() {
-		clearTimeout(counter.finalComputeDelayed.timeout);
-		counter.finalComputeDelayed.timeout = setTimeout(counter.finalCompute, counter.delay);
-	},
-	
-	finalCompute: function() {
-		
 	},
 	
 	labelize: function(labelText, content) {
