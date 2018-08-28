@@ -1037,7 +1037,6 @@
             "table_mayan",
             "altar_mayan",
             "goblet_mayan",
-            "chest_mayan",
             "sword_mayan"
         ]
     },
@@ -1139,6 +1138,14 @@
             {
                 "materials": {
                     "mold": "1"
+                },
+                "count": "6",
+                "time": 30,
+                "station": "processor"
+            },
+            {
+                "materials": {
+                    "block_goo_green": "1"
                 },
                 "count": "6",
                 "time": 30,
@@ -1789,7 +1796,6 @@
             "number_pad_industrial",
             "gate_industrial",
             "fence_industrial",
-            "chest_industrial",
             "wall_industrial_grate",
             "wall_industrial_plate",
             "floor_industrial_non_skid",
@@ -2056,9 +2062,6 @@
             "torch_holiday_blue",
             "torch_holiday_red",
             "torch_holiday_green",
-            "gift_box_red",
-            "gift_box_green",
-            "gift_box_blue",
             "wall_gingerbread_tile",
             "wall_gingerbread_swirl",
             "roof_gingerbread",
@@ -4684,7 +4687,6 @@
             "chair_medieval",
             "table_medieval",
             "door_medieval",
-            "chest_medieval",
             "fireworks_holiday"
         ]
     },
@@ -7357,15 +7359,25 @@
             "poi_item",
             "tear_item",
             "arc_text_projector_item",
+            "gift_box_red",
+            "gift_box_green",
+            "gift_box_blue",
             "delay_block_item",
             "invert_block_item",
             "actuator_item",
+            "chest_mayan",
             "logic_gate_item",
             "number_comparison_item",
             "spawner_mob_item",
             "spawner_loot_item",
             "sensor_item",
-            "sword_sci_fi"
+            "chest_medieval",
+            "chest_industrial",
+            "sword_sci_fi",
+            "pumpkiru_chest_basic_storage",
+            "pumpkiru_chest_advanced_storage",
+            "pumpkiru_chest_super_storage",
+            "chest_valentines"
         ]
     },
     "regenerate_health_basic": {
@@ -8698,7 +8710,9 @@
                 "station": "none"
             }
         ],
-        "creates": []
+        "creates": [
+            "glob_goo"
+        ]
     },
     "block_goo_purple": {
         "id": "block_goo_purple",
@@ -8717,7 +8731,9 @@
                 "station": "none"
             }
         ],
-        "creates": []
+        "creates": [
+            "glob_goo_purple"
+        ]
     },
     "block_goo_orange": {
         "id": "block_goo_orange",
@@ -8736,7 +8752,9 @@
                 "station": "none"
             }
         ],
-        "creates": []
+        "creates": [
+            "glob_goo_orange"
+        ]
     },
     "log_wood_ornamental": {
         "id": "log_wood_ornamental",
@@ -9532,7 +9550,7 @@
                     "slab_stone": "2",
                     "glob_goo": "1",
                     "dye_red": "1",
-                    "rod_stone": "1"
+                    "arcstone": "1"
                 },
                 "count": "1",
                 "time": 0,
@@ -9553,7 +9571,7 @@
                     "glob_goo": "1",
                     "dye_blue": "1",
                     "dye_yellow": "1",
-                    "rod_stone": "1"
+                    "arcstone": "1"
                 },
                 "count": "1",
                 "time": 0,
@@ -9573,7 +9591,7 @@
                     "slab_stone": "2",
                     "glob_goo": "1",
                     "dye_blue": "1",
-                    "rod_stone": "1"
+                    "arcstone": "1"
                 },
                 "count": "1",
                 "time": 0,
@@ -10232,8 +10250,8 @@
                 "materials": {
                     "rod_stone": "4",
                     "wood_jungle": "2",
-                    "crystal_plant": "1",
-                    "stone_item": "1"
+                    "stone_item": "1",
+                    "arcstone": "1"
                 },
                 "count": "1",
                 "time": 0,
@@ -11884,7 +11902,7 @@
                 "materials": {
                     "rod_stone": "4",
                     "glue": "1",
-                    "slab_wood": "1",
+                    "arcstone": "1",
                     "wood_oak_item": "2"
                 },
                 "count": "1",
@@ -13835,8 +13853,8 @@
             {
                 "materials": {
                     "slab_iron": "1",
-                    "rod_obsidian": "1",
-                    "glue": "1"
+                    "glue": "1",
+                    "arcstone": "1"
                 },
                 "count": "1",
                 "time": 0,
@@ -14711,7 +14729,7 @@
                 "materials": {
                     "slope_glass_moroccan": "1"
                 },
-                "count": "2",
+                "count": "1",
                 "time": 0,
                 "station": "processor"
             }
@@ -14728,7 +14746,7 @@
                 "materials": {
                     "slope_glass_moroccan": "1"
                 },
-                "count": "1",
+                "count": "2",
                 "time": 0,
                 "station": "processor"
             }
@@ -14743,9 +14761,10 @@
         "recipes": [
             {
                 "materials": {
-                    "wood_oak_item": "1",
                     "pumpkin_haunted": "1",
-                    "leafy_leaf": "1"
+                    "leafy_leaf": "1",
+                    "arcstone": "1",
+                    "wood_oak_item": "1"
                 },
                 "count": "1",
                 "time": 0,
@@ -14764,7 +14783,8 @@
                 "materials": {
                     "bone": "1",
                     "pumpkin_haunted": "1",
-                    "vines": "1"
+                    "vines": "1",
+                    "arcstone": "1"
                 },
                 "count": "1",
                 "time": 0,
@@ -14783,7 +14803,8 @@
                 "materials": {
                     "bone": "1",
                     "pumpkin_haunted": "1",
-                    "vines": "1"
+                    "vines": "1",
+                    "arcstone": "2"
                 },
                 "count": "1",
                 "time": 0,
@@ -15687,6 +15708,7 @@
             {
                 "materials": {
                     "twine": "1",
+                    "arcstone": "1",
                     "wood_oak_item": "2",
                     "flower_yellow": "5"
                 },
@@ -16168,6 +16190,40 @@
                 },
                 "count": "2",
                 "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "glob_goo_purple": {
+        "id": "glob_goo_purple",
+        "name": "Glob of Goo",
+        "icon": "globgoopurple",
+        "namesearch": "glob of goo globgoopurple glob_goo_purple",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_purple": "1"
+                },
+                "count": "6",
+                "time": 30,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "glob_goo_orange": {
+        "id": "glob_goo_orange",
+        "name": "Glob of Goo",
+        "icon": "globgooorange",
+        "namesearch": "glob of goo globgooorange glob_goo_orange",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_orange": "1"
+                },
+                "count": "6",
+                "time": 30,
                 "station": "processor"
             }
         ],

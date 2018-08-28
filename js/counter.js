@@ -197,7 +197,7 @@ var counter = {
 		icon.style.backgroundSize = 4096 * ratio + "px auto";
 		if(sprite.s === "01") {
 			icon.style.backgroundSize = 2048 * ratio + "px auto";
-			y = (1024 - sprite.y - sprite.h) * ratio;
+			y = (2048 - sprite.y - sprite.h) * ratio;
 		}
 		var internal = sprite.i;
 		var visible = sprite.v
