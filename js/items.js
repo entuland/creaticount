@@ -250,6 +250,7 @@
             "slab_stone",
             "wall_roman_bedrock_square",
             "capital_roman_bedrock_laurel",
+            "capital_roman_bedrock_leaf",
             "door_limestone_bedrock"
         ]
     },
@@ -319,7 +320,10 @@
             "icicle",
             "snow_blower",
             "container_ice",
-            "bed_ice"
+            "bed_ice",
+            "stairs_lumite_light",
+            "holiday_stained_glass_white",
+            "holiday_stained_glass_white2"
         ]
     },
     "igneous_rock_item": {
@@ -385,7 +389,11 @@
         "namesearch": "mud mud mud_item",
         "recipes": [],
         "creates": [
-            "adobe_brick"
+            "adobe_brick",
+            "holiday_wall_brick",
+            "holiday_wall_brick_white",
+            "holiday_fireplace",
+            "holiday_fireplace_white"
         ]
     },
     "salt_rock_item": {
@@ -444,7 +452,38 @@
             "turret_snow_item",
             "wall_ice_rocky_snow",
             "container_snow",
-            "snowman"
+            "snowman",
+            "slope_snow",
+            "slab_snow",
+            "stairs_snow",
+            "column_snow",
+            "snow_globe_leafi",
+            "snow_globe_frosted",
+            "holiday_stained_glass_blue",
+            "holiday_stained_glass_green",
+            "holiday_stained_glass_red",
+            "holiday_stained_glass_white",
+            "holiday_carpet_beige",
+            "holiday_carpet_dark_beige",
+            "holiday_carpet_grey",
+            "holiday_carpet_dark_grey",
+            "holiday_bed_candycane",
+            "holiday_bed_giftwrap",
+            "holiday_wall_brick_white",
+            "holiday_fireplace_white",
+            "holiday_stained_glass_blue2",
+            "holiday_stained_glass_green2",
+            "holiday_stained_glass_red2",
+            "holiday_stained_glass_white2",
+            "door_wood_white",
+            "table_wood_white",
+            "chair_wood_white",
+            "holiday_shelf_wood_white",
+            "snow_globe_pigsy",
+            "snow_globe_trog",
+            "snow_globe_reaudolph",
+            "wall_wood_white",
+            "floor_wood_white"
         ]
     },
     "stalactite_item": {
@@ -523,8 +562,8 @@
     "sulfur_item": {
         "id": "sulfur_item",
         "name": "Sulfur",
-        "icon": "sulfur",
-        "namesearch": "sulfur sulfur sulfur_item",
+        "icon": "igneous_sulfur",
+        "namesearch": "sulfur igneous_sulfur sulfur_item",
         "recipes": [],
         "creates": [
             "floor_hardened_lava",
@@ -694,7 +733,11 @@
         "namesearch": "citrus autumnwood leaves leaf_autumn_yellow leaves_autumnwood_yellow",
         "recipes": [],
         "creates": [
-            "leaves_shredded"
+            "leaves_shredded",
+            "container_tree",
+            "holiday_wreath",
+            "holiday_garland",
+            "led_holiday_tree"
         ]
     },
     "leaves_autumnwood_red": {
@@ -757,6 +800,7 @@
         "creates": [
             "stick_wood",
             "sword_wood",
+            "easel",
             "station_sawyer",
             "torch",
             "chest_wood",
@@ -783,7 +827,14 @@
             "lantern_chinese_dog",
             "wall_wood_red_chinese",
             "roof_chinese_red",
-            "roof_chinese_jade"
+            "roof_chinese_jade",
+            "canvas",
+            "snow_globe_leafi",
+            "snow_globe_frosted",
+            "snow_globe_pigsy",
+            "snow_globe_trog",
+            "snow_globe_reaudolph",
+            "wall_wood_white"
         ]
     },
     "wood_sequoia_item": {
@@ -854,7 +905,10 @@
             "gift_box_green",
             "gift_box_blue",
             "light_candy_skull",
-            "light_candy_skull_blue"
+            "light_candy_skull_blue",
+            "holiday_stained_glass_blue",
+            "holiday_bed_plaid",
+            "holiday_stained_glass_blue2"
         ]
     },
     "flower_blue": {
@@ -866,7 +920,8 @@
         "creates": [
             "dye_blue",
             "bomb_flare",
-            "bomb_halloween_flare"
+            "bomb_halloween_flare",
+            "holiday_giftwrap_blue"
         ]
     },
     "bone": {
@@ -893,6 +948,7 @@
             "sword_stone",
             "sword_wood_hardened",
             "fossils",
+            "deathstatue",
             "wall_haunted",
             "floor_haunted",
             "wall_haunted_stone",
@@ -926,9 +982,17 @@
         "creates": [
             "potion_small",
             "regenerate_stamina_basic",
+            "capital_roman_bedrock_leaf",
             "pumpkiru_chest_basic_storage",
             "bomb_wreath",
-            "music_box"
+            "music_box",
+            "snow_globe_leafi",
+            "snow_globe_frosted",
+            "holiday_stained_glass_green",
+            "holiday_stained_glass_green2",
+            "snow_globe_pigsy",
+            "snow_globe_trog",
+            "snow_globe_reaudolph"
         ]
     },
     "chizzard_gizzard": {
@@ -1126,7 +1190,9 @@
             "wall_lumite_shattered",
             "wall_lumite_shattered_dark",
             "wall_lumite_shattered_light",
-            "corrupt_obelisk"
+            "corrupt_obelisk",
+            "stairs_lumite_light",
+            "stairs_lumite_dark"
         ]
     },
     "glob_goo": {
@@ -1141,15 +1207,15 @@
                 },
                 "count": "6",
                 "time": 30,
-                "station": "processor"
+                "station": null
             },
             {
                 "materials": {
-                    "block_goo_green": "1"
+                    "mold": "1"
                 },
                 "count": "6",
                 "time": 30,
-                "station": "processor"
+                "station": "none"
             }
         ],
         "creates": [
@@ -1228,7 +1294,8 @@
             "fireworks_halloween",
             "banner_candy_skull",
             "statue_candy_skull",
-            "roof_chinese_jade"
+            "roof_chinese_jade",
+            "cauldron_goo_green"
         ]
     },
     "mushroom_glowing": {
@@ -1384,7 +1451,13 @@
             "floor_industrial_non_skid",
             "floor_industrial",
             "stairs_industrial",
-            "bellows_industrial"
+            "bellows_industrial",
+            "holiday_giftwrap_red",
+            "holiday_giftwrap_blue",
+            "holiday_giftwrap_green",
+            "holiday_giftwrap_candycane",
+            "table_wood_white",
+            "holiday_shelf_wood_white"
         ]
     },
     "gunpowder": {
@@ -1492,7 +1565,8 @@
             "sign_stone_hanging",
             "torch_medieval",
             "lamp_medieval",
-            "sword_medieval"
+            "sword_medieval",
+            "door_wood_white"
         ]
     },
     "ore_iron": {
@@ -1610,8 +1684,10 @@
             "leggings_obsidian",
             "helmet_obsidian",
             "sword_wood_hardened",
+            "easel",
             "picture_frame_item",
             "placemat",
+            "flower_daisy",
             "wall_medieval_banner",
             "table_medieval",
             "stairs_medieval_rug",
@@ -1625,7 +1701,11 @@
             "banner_candy_skull",
             "bomb_wreath",
             "music_box",
-            "snowman"
+            "snowman",
+            "canvas",
+            "stairs_canvas",
+            "holiday_wreath",
+            "holiday_garland"
         ]
     },
     "ore_lumite": {
@@ -1774,6 +1854,7 @@
             "pedistal_roman_obsidian_caskette",
             "wall_roman_limestone_decorative_corners",
             "capital_roman_bedrock_laurel",
+            "capital_roman_bedrock_leaf",
             "wall_moroccan_iron",
             "wall_moroccan_iron_curl",
             "wall_tin",
@@ -1857,7 +1938,17 @@
             "light_candy_skull_red",
             "fireworks_holiday",
             "wall_wood_red_chinese",
-            "roof_chinese_red"
+            "roof_chinese_red",
+            "flower_poinsettia",
+            "holiday_wreath",
+            "holiday_garland",
+            "holiday_ornament_red",
+            "holiday_stained_glass_red",
+            "holiday_bed_candycane",
+            "holiday_bed_giftwrap",
+            "holiday_wall_brick",
+            "holiday_fireplace",
+            "holiday_stained_glass_red2"
         ]
     },
     "flower_red": {
@@ -1868,7 +1959,9 @@
         "recipes": [],
         "creates": [
             "dye_red",
-            "resist_freeze_basic"
+            "resist_freeze_basic",
+            "holiday_giftwrap_red",
+            "holiday_giftwrap_candycane"
         ]
     },
     "mushroom_red": {
@@ -1907,6 +2000,16 @@
             "helmet_leather",
             "wall_stone_ornamental",
             "wall_stone_ornamental_swirl"
+        ]
+    },
+    "sinew": {
+        "id": "sinew",
+        "name": "Sinew",
+        "icon": "sinew",
+        "namesearch": "sinew sinew sinew",
+        "recipes": [],
+        "creates": [
+            "twine"
         ]
     },
     "rod_stone": {
@@ -2117,7 +2220,19 @@
             "stairs_ice",
             "container_snow",
             "lattice_stone",
-            "stairs_asphault"
+            "stairs_asphault",
+            "stairs_canvas",
+            "stairs_goo_green",
+            "stairs_goo_orange",
+            "stairs_goo_purple",
+            "holiday_carpet_beige",
+            "holiday_carpet_dark_beige",
+            "holiday_carpet_grey",
+            "holiday_carpet_dark_grey",
+            "holiday_bed_candycane",
+            "holiday_bed_plaid",
+            "holiday_bed_giftwrap",
+            "holiday_shelf_wood_white"
         ]
     },
     "miru_eye": {
@@ -2184,6 +2299,14 @@
             {
                 "materials": {
                     "vines": "1"
+                },
+                "count": "4",
+                "time": 10,
+                "station": "processor"
+            },
+            {
+                "materials": {
+                    "sinew": "1"
                 },
                 "count": "4",
                 "time": 10,
@@ -2378,7 +2501,15 @@
             "roof_chinese_red",
             "roof_chinese_jade",
             "window_chinese",
-            "lattice_chinese"
+            "lattice_chinese",
+            "stairs_gingerbread_basic",
+            "holiday_bed_candycane",
+            "holiday_bed_plaid",
+            "holiday_bed_giftwrap",
+            "holiday_window",
+            "table_wood_white",
+            "chair_wood_white",
+            "floor_wood_white"
         ]
     },
     "bomb_flare": {
@@ -2454,11 +2585,13 @@
             "potion_basic_quick",
             "focus_stone",
             "regenerate_stamina_basic",
+            "flower_daisy",
             "potion_gold",
             "taming_collar",
             "planter_mayan",
             "statue_candy_skull",
-            "chest_valentines"
+            "chest_valentines",
+            "flower_poinsettia"
         ]
     },
     "leaves_shredded": {
@@ -2560,7 +2693,14 @@
             "bed_yellow",
             "pumpkin_haunted",
             "column_leaves_shredded",
-            "container_tree"
+            "holiday_giftwrap_green",
+            "holiday_carpet_beige",
+            "holiday_carpet_dark_beige",
+            "holiday_carpet_grey",
+            "holiday_carpet_dark_grey",
+            "holiday_bed_candycane",
+            "holiday_bed_plaid",
+            "holiday_bed_giftwrap"
         ]
     },
     "potion_basic": {
@@ -3528,6 +3668,24 @@
                     "slab_wood": "2",
                     "leather": "1",
                     "bone": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "easel": {
+        "id": "easel",
+        "name": "Easel",
+        "icon": "easel_icon",
+        "namesearch": "easel easel_icon easel",
+        "recipes": [
+            {
+                "materials": {
+                    "leather": "2",
+                    "wood_oak_item": "20"
                 },
                 "count": "1",
                 "time": 0,
@@ -4687,7 +4845,17 @@
             "chair_medieval",
             "table_medieval",
             "door_medieval",
-            "fireworks_holiday"
+            "fireworks_holiday",
+            "stairs_canvas",
+            "holiday_giftwrap_red",
+            "holiday_giftwrap_blue",
+            "holiday_giftwrap_green",
+            "holiday_giftwrap_candycane",
+            "door_wood_white",
+            "table_wood_white",
+            "chair_wood_white",
+            "holiday_shelf_wood_white",
+            "floor_wood_white"
         ]
     },
     "slab_stone": {
@@ -4760,6 +4928,7 @@
             "roof_roman_limestone_halfgable",
             "wall_roman_limestone_decorative_corners",
             "capital_roman_bedrock_laurel",
+            "capital_roman_bedrock_leaf",
             "door_limestone_bedrock",
             "gift_box_red",
             "gift_box_green",
@@ -4940,7 +5109,9 @@
             "roof_lumite",
             "wall_lumite_shattered",
             "wall_lumite_shattered_dark",
-            "wall_lumite_shattered_light"
+            "wall_lumite_shattered_light",
+            "stairs_lumite_light",
+            "stairs_lumite_dark"
         ]
     },
     "stairs_wood": {
@@ -5252,7 +5423,22 @@
             "light_candy_skull",
             "light_candy_skull_red",
             "light_candy_skull_blue",
-            "light_candy_skull_yellow"
+            "light_candy_skull_yellow",
+            "led_holiday_tree",
+            "snow_globe_leafi",
+            "holiday_ornament_red",
+            "holiday_stained_glass_blue",
+            "holiday_stained_glass_green",
+            "holiday_stained_glass_red",
+            "holiday_stained_glass_white",
+            "holiday_window",
+            "holiday_stained_glass_blue2",
+            "holiday_stained_glass_green2",
+            "holiday_stained_glass_red2",
+            "holiday_stained_glass_white2",
+            "snow_globe_pigsy",
+            "snow_globe_trog",
+            "snow_globe_reaudolph"
         ]
     },
     "floor_stone": {
@@ -6257,9 +6443,9 @@
     },
     "floor_wood_tile": {
         "id": "floor_wood_tile",
-        "name": "Tile Wood Floor",
+        "name": "Wood Tile Floor",
         "icon": "floor_wood_tile",
-        "namesearch": "tile wood floor floor_wood_tile floor_wood_tile",
+        "namesearch": "wood tile floor floor_wood_tile floor_wood_tile",
         "recipes": [
             {
                 "materials": {
@@ -7334,6 +7520,27 @@
         ],
         "creates": []
     },
+    "deathstatue": {
+        "id": "deathstatue",
+        "name": "Death Statue",
+        "icon": "death_statue",
+        "namesearch": "death statue death_statue deathstatue",
+        "recipes": [
+            {
+                "materials": {
+                    "bone": "10"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "cauldron_goo_green",
+            "cauldron_goo_purple",
+            "cauldron_goo_orange"
+        ]
+    },
     "arcstone": {
         "id": "arcstone",
         "name": "Arcstone",
@@ -7377,7 +7584,9 @@
             "pumpkiru_chest_basic_storage",
             "pumpkiru_chest_advanced_storage",
             "pumpkiru_chest_super_storage",
-            "chest_valentines"
+            "chest_valentines",
+            "led_holiday_tree",
+            "snow_globe_frosted"
         ]
     },
     "regenerate_health_basic": {
@@ -7707,6 +7916,26 @@
         ],
         "creates": []
     },
+    "capital_roman_bedrock_leaf": {
+        "id": "capital_roman_bedrock_leaf",
+        "name": "Imprinted Bedrock Wall",
+        "icon": "capital_roman_bedrock_leaf",
+        "namesearch": "imprinted bedrock wall capital_roman_bedrock_leaf capital_roman_bedrock_leaf",
+        "recipes": [
+            {
+                "materials": {
+                    "bedrock_item": "2",
+                    "slab_stone": "1",
+                    "rod_obsidian": "1",
+                    "leafy_leaf": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
     "sign_wood": {
         "id": "sign_wood",
         "name": "Wood Sign",
@@ -7941,6 +8170,24 @@
             "resist_fire_basic"
         ]
     },
+    "flower_daisy": {
+        "id": "flower_daisy",
+        "name": "Canvas Flower",
+        "icon": "flower_tundra",
+        "namesearch": "canvas flower flower_tundra flower_daisy",
+        "recipes": [
+            {
+                "materials": {
+                    "leather": "1",
+                    "flower_yellow": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
     "snowball": {
         "id": "snowball",
         "name": "Snowcube",
@@ -7953,7 +8200,15 @@
                 },
                 "count": "4",
                 "time": 20,
-                "station": "processor"
+                "station": null
+            },
+            {
+                "materials": {
+                    "snow_item": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "none"
             }
         ],
         "creates": []
@@ -7993,7 +8248,8 @@
             "breastplate_diamond",
             "leggings_diamond",
             "helmet_diamond",
-            "resist_fire_basic"
+            "resist_fire_basic",
+            "holiday_bed_plaid"
         ]
     },
     "shrewd_shrew_tail": {
@@ -8711,7 +8967,10 @@
             }
         ],
         "creates": [
-            "glob_goo"
+            "slope_goo_green",
+            "slab_goo_green",
+            "stairs_goo_green",
+            "column_goo_green"
         ]
     },
     "block_goo_purple": {
@@ -8732,7 +8991,11 @@
             }
         ],
         "creates": [
-            "glob_goo_purple"
+            "glob_goo_purple",
+            "slope_goo_purple",
+            "slab_goo_purple",
+            "stairs_goo_purple",
+            "column_goo_purple"
         ]
     },
     "block_goo_orange": {
@@ -8753,7 +9016,11 @@
             }
         ],
         "creates": [
-            "glob_goo_orange"
+            "glob_goo_orange",
+            "slope_goo_orange",
+            "slab_goo_orange",
+            "stairs_goo_orange",
+            "column_goo_orange"
         ]
     },
     "log_wood_ornamental": {
@@ -9066,7 +9333,11 @@
                 "station": "none"
             }
         ],
-        "creates": []
+        "creates": [
+            "slope_lumite_dark",
+            "slab_lumite_dark",
+            "column_lumite_dark"
+        ]
     },
     "wall_lumite_light": {
         "id": "wall_lumite_light",
@@ -9086,7 +9357,11 @@
                 "station": "none"
             }
         ],
-        "creates": []
+        "creates": [
+            "slope_lumite_light",
+            "slab_lumite_light",
+            "column_lumite_light"
+        ]
     },
     "wall_lumite_beveled": {
         "id": "wall_lumite_beveled",
@@ -9106,7 +9381,9 @@
             }
         ],
         "creates": [
-            "column_lumite_beveled"
+            "column_lumite_beveled",
+            "slope_lumite_beveled",
+            "slab_lumite_beveled"
         ]
     },
     "roof_lumite": {
@@ -9615,7 +9892,12 @@
                 "station": "none"
             }
         ],
-        "creates": []
+        "creates": [
+            "slope_gingerbread_basic",
+            "stairs_gingerbread_basic",
+            "slab_gingerbread_basic",
+            "column_gingerbread_basic"
+        ]
     },
     "wall_gingerbread_brick": {
         "id": "wall_gingerbread_brick",
@@ -15596,8 +15878,8 @@
         "recipes": [
             {
                 "materials": {
-                    "leaves_shredded": "2",
-                    "wood_oak_item": "2"
+                    "wood_oak_item": "2",
+                    "leaves_autumnwood_yellow": "2"
                 },
                 "count": "1",
                 "time": 0,
@@ -16207,10 +16489,13 @@
                 },
                 "count": "6",
                 "time": 30,
-                "station": "processor"
+                "station": "none"
             }
         ],
-        "creates": []
+        "creates": [
+            "stairs_lumite_dark",
+            "cauldron_goo_purple"
+        ]
     },
     "glob_goo_orange": {
         "id": "glob_goo_orange",
@@ -16224,7 +16509,2249 @@
                 },
                 "count": "6",
                 "time": 30,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "cauldron_goo_orange"
+        ]
+    },
+    "slope_snow": {
+        "id": "slope_snow",
+        "name": "Snow Slope",
+        "icon": "slope_snow",
+        "namesearch": "snow slope slope_snow slope_snow",
+        "recipes": [
+            {
+                "materials": {
+                    "snow_item": "1"
+                },
+                "count": "4",
+                "time": 0,
                 "station": "processor"
+            }
+        ],
+        "creates": [
+            "slope_snow_inner_corner",
+            "slope_snow_outer_corner",
+            "slope_round_snow"
+        ]
+    },
+    "slope_snow_inner_corner": {
+        "id": "slope_snow_inner_corner",
+        "name": "Snow Slope Inner Corner",
+        "icon": "slope_snow_inner_corner",
+        "namesearch": "snow slope inner corner slope_snow_inner_corner slope_snow_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_snow": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_snow_outer_corner": {
+        "id": "slope_snow_outer_corner",
+        "name": "Snow Slope Outer Corner",
+        "icon": "slope_snow_outer_corner",
+        "namesearch": "snow slope outer corner slope_snow_outer_corner slope_snow_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_snow": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_snow": {
+        "id": "slab_snow",
+        "name": "Snow Slab",
+        "icon": "slab_snow",
+        "namesearch": "snow slab slab_snow slab_snow",
+        "recipes": [
+            {
+                "materials": {
+                    "snow_item": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_snow": {
+        "id": "stairs_snow",
+        "name": "Snow Stairs",
+        "icon": "stairs_snow",
+        "namesearch": "snow stairs stairs_snow stairs_snow",
+        "recipes": [
+            {
+                "materials": {
+                    "snow_item": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_snow_inner_corner",
+            "stairs_snow_outer_corner"
+        ]
+    },
+    "stairs_snow_inner_corner": {
+        "id": "stairs_snow_inner_corner",
+        "name": "Snow Stairs Inner Corner",
+        "icon": "stairs_snow_inner_corner",
+        "namesearch": "snow stairs inner corner stairs_snow_inner_corner stairs_snow_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_snow": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_snow_outer_corner": {
+        "id": "stairs_snow_outer_corner",
+        "name": "Snow Stairs Outer Corner",
+        "icon": "stairs_snow_outer_corner",
+        "namesearch": "snow stairs outer corner stairs_snow_outer_corner stairs_snow_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_snow": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_round_snow": {
+        "id": "slope_round_snow",
+        "name": "Rounded Snow Slope",
+        "icon": "slope_round_snow",
+        "namesearch": "rounded snow slope slope_round_snow slope_round_snow",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_snow": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "column_snow": {
+        "id": "column_snow",
+        "name": "Snow Column",
+        "icon": "column_snow",
+        "namesearch": "snow column column_snow column_snow",
+        "recipes": [
+            {
+                "materials": {
+                    "snow_item": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_lumite_beveled": {
+        "id": "slope_lumite_beveled",
+        "name": "Lumite Slope",
+        "icon": "slope_lumite_bevel",
+        "namesearch": "lumite slope slope_lumite_bevel slope_lumite_beveled",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_lumite_beveled": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "slope_lumite_beveled_inner_corner",
+            "slope_lumite_beveled_outer_corner",
+            "slope_round_lumite_beveled"
+        ]
+    },
+    "slope_lumite_beveled_inner_corner": {
+        "id": "slope_lumite_beveled_inner_corner",
+        "name": "Lumite Slope Inner Corner",
+        "icon": "slope_lumite_bevel_inner_corner",
+        "namesearch": "lumite slope inner corner slope_lumite_bevel_inner_corner slope_lumite_beveled_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_lumite_beveled": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_lumite_beveled_outer_corner": {
+        "id": "slope_lumite_beveled_outer_corner",
+        "name": "Lumite Slope Outer Corner",
+        "icon": "slope_lumite_bevel_outer_corner",
+        "namesearch": "lumite slope outer corner slope_lumite_bevel_outer_corner slope_lumite_beveled_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_lumite_beveled": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_lumite_beveled": {
+        "id": "slab_lumite_beveled",
+        "name": "Beveled Lumite Slab",
+        "icon": "slab_lumite_bevel",
+        "namesearch": "beveled lumite slab slab_lumite_bevel slab_lumite_beveled",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_lumite_beveled": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_round_lumite_beveled": {
+        "id": "slope_round_lumite_beveled",
+        "name": "Rounded Lumite Slope",
+        "icon": "slope_round_lumite_bevel",
+        "namesearch": "rounded lumite slope slope_round_lumite_bevel slope_round_lumite_beveled",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_lumite_beveled": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_lumite_light": {
+        "id": "slope_lumite_light",
+        "name": "Light Lumite Slope",
+        "icon": "slope_lumite_bevel_light",
+        "namesearch": "light lumite slope slope_lumite_bevel_light slope_lumite_light",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_lumite_light": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "slope_lumite_light_inner_corner",
+            "slope_lumite_light_outer_corner",
+            "slope_round_lumite_light"
+        ]
+    },
+    "slope_lumite_light_inner_corner": {
+        "id": "slope_lumite_light_inner_corner",
+        "name": "Light Lumite Slope Inner Corner",
+        "icon": "slope_lumite_bevel_light_inner_corner",
+        "namesearch": "light lumite slope inner corner slope_lumite_bevel_light_inner_corner slope_lumite_light_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_lumite_light": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_lumite_light_outer_corner": {
+        "id": "slope_lumite_light_outer_corner",
+        "name": "Light Lumite Slope Outer Corner",
+        "icon": "slope_lumite_bevel_light_outer_corner",
+        "namesearch": "light lumite slope outer corner slope_lumite_bevel_light_outer_corner slope_lumite_light_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_lumite_light": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_lumite_light": {
+        "id": "slab_lumite_light",
+        "name": "Light Lumite Slab",
+        "icon": "slab_lumite_bevel_light",
+        "namesearch": "light lumite slab slab_lumite_bevel_light slab_lumite_light",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_lumite_light": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_lumite_light": {
+        "id": "stairs_lumite_light",
+        "name": "Light Lumite Stairs",
+        "icon": "stairs_lumite_bevel_light",
+        "namesearch": "light lumite stairs stairs_lumite_bevel_light stairs_lumite_light",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_lumite": "2",
+                    "rod_diamond": "1",
+                    "ice_item": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_lumite_light_inner_corner",
+            "stairs_lumite_light_outer_corner"
+        ]
+    },
+    "stairs_lumite_light_inner_corner": {
+        "id": "stairs_lumite_light_inner_corner",
+        "name": "Light Lumite Stairs Inner Corner",
+        "icon": "stairs_lumite_bevel_light_inner_corner",
+        "namesearch": "light lumite stairs inner corner stairs_lumite_bevel_light_inner_corner stairs_lumite_light_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_lumite_light": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_lumite_light_outer_corner": {
+        "id": "stairs_lumite_light_outer_corner",
+        "name": "Light Lumite Stairs Outer Corner",
+        "icon": "stairs_lumite_bevel_light_outer_corner",
+        "namesearch": "light lumite stairs outer corner stairs_lumite_bevel_light_outer_corner stairs_lumite_light_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_lumite_light": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_round_lumite_light": {
+        "id": "slope_round_lumite_light",
+        "name": "Rounded Light Lumite Slope",
+        "icon": "slope_round_lumite_bevel_light",
+        "namesearch": "rounded light lumite slope slope_round_lumite_bevel_light slope_round_lumite_light",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_lumite_light": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "column_lumite_light": {
+        "id": "column_lumite_light",
+        "name": "Light Lumite Column",
+        "icon": "column_lumite_bevel_light",
+        "namesearch": "light lumite column column_lumite_bevel_light column_lumite_light",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_lumite_light": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_lumite_dark": {
+        "id": "slope_lumite_dark",
+        "name": "Dark Lumite Slope",
+        "icon": "slope_lumite_bevel_dark",
+        "namesearch": "dark lumite slope slope_lumite_bevel_dark slope_lumite_dark",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_lumite_dark": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "slope_lumite_dark_inner_corner",
+            "slope_lumite_dark_outer_corner",
+            "slope_round_lumite_dark"
+        ]
+    },
+    "slope_lumite_dark_inner_corner": {
+        "id": "slope_lumite_dark_inner_corner",
+        "name": "Dark Lumite Slope Inner Corner",
+        "icon": "slope_lumite_bevel_dark_inner_corner",
+        "namesearch": "dark lumite slope inner corner slope_lumite_bevel_dark_inner_corner slope_lumite_dark_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_lumite_dark": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_lumite_dark_outer_corner": {
+        "id": "slope_lumite_dark_outer_corner",
+        "name": "Dark Lumite Slope Outer Corner",
+        "icon": "slope_lumite_bevel_dark_outer_corner",
+        "namesearch": "dark lumite slope outer corner slope_lumite_bevel_dark_outer_corner slope_lumite_dark_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_lumite_dark": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_lumite_dark": {
+        "id": "slab_lumite_dark",
+        "name": "Dark Lumite Slab",
+        "icon": "slab_lumite_bevel_dark",
+        "namesearch": "dark lumite slab slab_lumite_bevel_dark slab_lumite_dark",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_lumite_dark": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_lumite_dark": {
+        "id": "stairs_lumite_dark",
+        "name": "Dark Lumite Stairs",
+        "icon": "stairs_lumite_bevel_dark",
+        "namesearch": "dark lumite stairs stairs_lumite_bevel_dark stairs_lumite_dark",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_lumite": "2",
+                    "rod_diamond": "1",
+                    "glob_goo_purple": "2"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_lumite_dark_inner_corner",
+            "stairs_lumite_dark_outer_corner"
+        ]
+    },
+    "stairs_lumite_dark_inner_corner": {
+        "id": "stairs_lumite_dark_inner_corner",
+        "name": "Dark Lumite Slope Inner Corner",
+        "icon": "stairs_lumite_bevel_dark_inner_corner",
+        "namesearch": "dark lumite slope inner corner stairs_lumite_bevel_dark_inner_corner stairs_lumite_dark_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_lumite_dark": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_lumite_dark_outer_corner": {
+        "id": "stairs_lumite_dark_outer_corner",
+        "name": "Dark Lumite Slope Outer Corner",
+        "icon": "stairs_lumite_bevel_dark_outer_corner",
+        "namesearch": "dark lumite slope outer corner stairs_lumite_bevel_dark_outer_corner stairs_lumite_dark_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_lumite_dark": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_round_lumite_dark": {
+        "id": "slope_round_lumite_dark",
+        "name": "Rounded Dark Lumite Slope",
+        "icon": "slope_round_lumite_bevel_dark",
+        "namesearch": "rounded dark lumite slope slope_round_lumite_bevel_dark slope_round_lumite_dark",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_lumite_dark": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "column_lumite_dark": {
+        "id": "column_lumite_dark",
+        "name": "Dark Lumite Column",
+        "icon": "column_lumite_bevel_dark",
+        "namesearch": "dark lumite column column_lumite_bevel_dark column_lumite_dark",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_lumite_dark": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "canvas": {
+        "id": "canvas",
+        "name": "Canvas Wall",
+        "icon": "wall_canvas",
+        "namesearch": "canvas wall wall_canvas canvas",
+        "recipes": [
+            {
+                "materials": {
+                    "leather": "1",
+                    "wood_oak_item": "2"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "slope_canvas",
+            "slab_canvas",
+            "column_canvas"
+        ]
+    },
+    "slope_canvas": {
+        "id": "slope_canvas",
+        "name": "Canvas Slope",
+        "icon": "slope_canvas",
+        "namesearch": "canvas slope slope_canvas slope_canvas",
+        "recipes": [
+            {
+                "materials": {
+                    "canvas": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "slope_canvas_inner_corner",
+            "slope_canvas_outer_corner",
+            "slope_round_canvas"
+        ]
+    },
+    "slope_canvas_inner_corner": {
+        "id": "slope_canvas_inner_corner",
+        "name": "Canvas Slope Inner Corner",
+        "icon": "slope_canvas_inner_corner",
+        "namesearch": "canvas slope inner corner slope_canvas_inner_corner slope_canvas_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_canvas": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_canvas_outer_corner": {
+        "id": "slope_canvas_outer_corner",
+        "name": "Canvas Slope Outer Corner",
+        "icon": "slope_canvas_outer_corner",
+        "namesearch": "canvas slope outer corner slope_canvas_outer_corner slope_canvas_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_canvas": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_round_canvas": {
+        "id": "slope_round_canvas",
+        "name": "Rounded Canvas Slope",
+        "icon": "slope_round_canvas",
+        "namesearch": "rounded canvas slope slope_round_canvas slope_round_canvas",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_canvas": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_canvas": {
+        "id": "slab_canvas",
+        "name": "Canvas Slab",
+        "icon": "slab_canvas",
+        "namesearch": "canvas slab slab_canvas slab_canvas",
+        "recipes": [
+            {
+                "materials": {
+                    "canvas": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "eighth_canvas"
+        ]
+    },
+    "eighth_canvas": {
+        "id": "eighth_canvas",
+        "name": "Canvas Eighth",
+        "icon": "slab_eighth_canvas",
+        "namesearch": "canvas eighth slab_eighth_canvas eighth_canvas",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_canvas": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_canvas": {
+        "id": "stairs_canvas",
+        "name": "Canvas Stairs",
+        "icon": "stairs_canvas",
+        "namesearch": "canvas stairs stairs_canvas stairs_canvas",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "2",
+                    "rod_stone": "1",
+                    "leather": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_canvas_inner_corner",
+            "stairs_canvas_outer_corner"
+        ]
+    },
+    "stairs_canvas_inner_corner": {
+        "id": "stairs_canvas_inner_corner",
+        "name": "Canvas Stairs Inner Corner",
+        "icon": "stairs_canvas_inner_corner",
+        "namesearch": "canvas stairs inner corner stairs_canvas_inner_corner stairs_canvas_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_canvas": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_canvas_outer_corner": {
+        "id": "stairs_canvas_outer_corner",
+        "name": "Canvas Stairs Outer Corner",
+        "icon": "stairs_canvas_outer_corner",
+        "namesearch": "canvas stairs outer corner stairs_canvas_outer_corner stairs_canvas_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_canvas": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "column_canvas": {
+        "id": "column_canvas",
+        "name": "Canvas Column",
+        "icon": "column_canvas",
+        "namesearch": "canvas column column_canvas column_canvas",
+        "recipes": [
+            {
+                "materials": {
+                    "canvas": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "cauldron_goo_green": {
+        "id": "cauldron_goo_green",
+        "name": "Green Goo Cauldron",
+        "icon": "cauldron_goo_green",
+        "namesearch": "green goo cauldron cauldron_goo_green cauldron_goo_green",
+        "recipes": [
+            {
+                "materials": {
+                    "deathstatue": "1",
+                    "glob_goo": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "cauldron_goo_purple": {
+        "id": "cauldron_goo_purple",
+        "name": "Purple Goo Cauldron",
+        "icon": "cauldron_goo_purple",
+        "namesearch": "purple goo cauldron cauldron_goo_purple cauldron_goo_purple",
+        "recipes": [
+            {
+                "materials": {
+                    "deathstatue": "1",
+                    "glob_goo_purple": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "cauldron_goo_orange": {
+        "id": "cauldron_goo_orange",
+        "name": "Orange Goo Cauldron",
+        "icon": "cauldron_goo_orange",
+        "namesearch": "orange goo cauldron cauldron_goo_orange cauldron_goo_orange",
+        "recipes": [
+            {
+                "materials": {
+                    "deathstatue": "1",
+                    "glob_goo_orange": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "slope_goo_green": {
+        "id": "slope_goo_green",
+        "name": "Green Goo Slope",
+        "icon": "slope_goo_green",
+        "namesearch": "green goo slope slope_goo_green slope_goo_green",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_green": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "slope_goo_green_inner_corner",
+            "slope_goo_green_outer_corner",
+            "slope_round_goo_green"
+        ]
+    },
+    "slope_goo_green_inner_corner": {
+        "id": "slope_goo_green_inner_corner",
+        "name": "Green Goo Slope Inner Corner",
+        "icon": "slope_goo_green_inner_corner",
+        "namesearch": "green goo slope inner corner slope_goo_green_inner_corner slope_goo_green_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_goo_green": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_goo_green_outer_corner": {
+        "id": "slope_goo_green_outer_corner",
+        "name": "Green Goo Slope Outer Corner",
+        "icon": "slope_goo_green_outer_corner",
+        "namesearch": "green goo slope outer corner slope_goo_green_outer_corner slope_goo_green_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_goo_green": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_goo_green": {
+        "id": "slab_goo_green",
+        "name": "Green Goo Slab",
+        "icon": "slab_goo_green",
+        "namesearch": "green goo slab slab_goo_green slab_goo_green",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_green": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_goo_green": {
+        "id": "stairs_goo_green",
+        "name": "Green Goo Stairs",
+        "icon": "stairs_goo_green",
+        "namesearch": "green goo stairs stairs_goo_green stairs_goo_green",
+        "recipes": [
+            {
+                "materials": {
+                    "rod_stone": "1",
+                    "block_goo_green": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_goo_green_inner_corner",
+            "stairs_goo_green_outer_corner"
+        ]
+    },
+    "stairs_goo_green_inner_corner": {
+        "id": "stairs_goo_green_inner_corner",
+        "name": "Green Goo Stairs Inner Corner",
+        "icon": "stairs_goo_green_inner_corner",
+        "namesearch": "green goo stairs inner corner stairs_goo_green_inner_corner stairs_goo_green_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_goo_green": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_goo_green_outer_corner": {
+        "id": "stairs_goo_green_outer_corner",
+        "name": "Green Goo Stairs Outer Corner",
+        "icon": "stairs_goo_green_outer_corner",
+        "namesearch": "green goo stairs outer corner stairs_goo_green_outer_corner stairs_goo_green_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_goo_green": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_round_goo_green": {
+        "id": "slope_round_goo_green",
+        "name": "Green Goo Rounded Slope",
+        "icon": "slope_round_goo_green",
+        "namesearch": "green goo rounded slope slope_round_goo_green slope_round_goo_green",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_goo_green": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "column_goo_green": {
+        "id": "column_goo_green",
+        "name": "Green Goo Column",
+        "icon": "column_goo_green",
+        "namesearch": "green goo column column_goo_green column_goo_green",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_green": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_goo_orange": {
+        "id": "slope_goo_orange",
+        "name": "Orange Goo Slope",
+        "icon": "slope_goo_orange",
+        "namesearch": "orange goo slope slope_goo_orange slope_goo_orange",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_orange": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "slope_goo_orange_inner_corner",
+            "slope_goo_orange_outer_corner",
+            "slope_round_goo_orange"
+        ]
+    },
+    "slope_goo_orange_inner_corner": {
+        "id": "slope_goo_orange_inner_corner",
+        "name": "Orange Goo Slope Inner Corner",
+        "icon": "slope_goo_orange_inner_corner",
+        "namesearch": "orange goo slope inner corner slope_goo_orange_inner_corner slope_goo_orange_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_goo_orange": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_goo_orange_outer_corner": {
+        "id": "slope_goo_orange_outer_corner",
+        "name": "Orange Goo Slope Outer Corner",
+        "icon": "slope_goo_orange_outer_corner",
+        "namesearch": "orange goo slope outer corner slope_goo_orange_outer_corner slope_goo_orange_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_goo_orange": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_goo_orange": {
+        "id": "slab_goo_orange",
+        "name": "Orange Goo Slab",
+        "icon": "slab_goo_orange",
+        "namesearch": "orange goo slab slab_goo_orange slab_goo_orange",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_orange": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_goo_orange": {
+        "id": "stairs_goo_orange",
+        "name": "Orange Goo Stairs",
+        "icon": "stairs_goo_orange",
+        "namesearch": "orange goo stairs stairs_goo_orange stairs_goo_orange",
+        "recipes": [
+            {
+                "materials": {
+                    "rod_stone": "1",
+                    "block_goo_orange": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_goo_orange_inner_corner",
+            "stairs_goo_orange_outer_corner"
+        ]
+    },
+    "stairs_goo_orange_inner_corner": {
+        "id": "stairs_goo_orange_inner_corner",
+        "name": "Orange Goo Stairs Inner Corner",
+        "icon": "stairs_goo_orange_inner_corner",
+        "namesearch": "orange goo stairs inner corner stairs_goo_orange_inner_corner stairs_goo_orange_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_goo_orange": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_goo_orange_outer_corner": {
+        "id": "stairs_goo_orange_outer_corner",
+        "name": "Orange Goo Stairs Outer Corner",
+        "icon": "stairs_goo_orange_outer_corner",
+        "namesearch": "orange goo stairs outer corner stairs_goo_orange_outer_corner stairs_goo_orange_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_goo_orange": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_round_goo_orange": {
+        "id": "slope_round_goo_orange",
+        "name": "Orange Goo Rounded Slope",
+        "icon": "slope_round_goo_orange",
+        "namesearch": "orange goo rounded slope slope_round_goo_orange slope_round_goo_orange",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_goo_orange": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "column_goo_orange": {
+        "id": "column_goo_orange",
+        "name": "Orange Goo Column",
+        "icon": "column_goo_orange",
+        "namesearch": "orange goo column column_goo_orange column_goo_orange",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_orange": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_goo_purple": {
+        "id": "slope_goo_purple",
+        "name": "Purple Goo Slope",
+        "icon": "slope_goo_purple",
+        "namesearch": "purple goo slope slope_goo_purple slope_goo_purple",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_purple": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "slope_goo_purple_inner_corner",
+            "slope_goo_purple_outer_corner",
+            "slope_round_goo_purple"
+        ]
+    },
+    "slope_goo_purple_inner_corner": {
+        "id": "slope_goo_purple_inner_corner",
+        "name": "Purple Goo Slope Inner Corner",
+        "icon": "slope_goo_purple_inner_corner",
+        "namesearch": "purple goo slope inner corner slope_goo_purple_inner_corner slope_goo_purple_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_goo_purple": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_goo_purple_outer_corner": {
+        "id": "slope_goo_purple_outer_corner",
+        "name": "Purple Goo Slope Outer Corner",
+        "icon": "slope_goo_purple_outer_corner",
+        "namesearch": "purple goo slope outer corner slope_goo_purple_outer_corner slope_goo_purple_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_goo_purple": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_goo_purple": {
+        "id": "slab_goo_purple",
+        "name": "Purple Goo Slab",
+        "icon": "slab_goo_purple",
+        "namesearch": "purple goo slab slab_goo_purple slab_goo_purple",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_purple": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_goo_purple": {
+        "id": "stairs_goo_purple",
+        "name": "Purple Goo Stairs",
+        "icon": "stairs_goo_purple",
+        "namesearch": "purple goo stairs stairs_goo_purple stairs_goo_purple",
+        "recipes": [
+            {
+                "materials": {
+                    "rod_stone": "1",
+                    "block_goo_purple": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_goo_purple_inner_corner",
+            "stairs_goo_purple_outer_corner"
+        ]
+    },
+    "stairs_goo_purple_inner_corner": {
+        "id": "stairs_goo_purple_inner_corner",
+        "name": "Purple Goo Stairs Inner Corner",
+        "icon": "stairs_goo_purple_inner_corner",
+        "namesearch": "purple goo stairs inner corner stairs_goo_purple_inner_corner stairs_goo_purple_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_goo_purple": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_goo_purple_outer_corner": {
+        "id": "stairs_goo_purple_outer_corner",
+        "name": "Purple Goo Stairs Outer Corner",
+        "icon": "stairs_goo_purple_outer_corner",
+        "namesearch": "purple goo stairs outer corner stairs_goo_purple_outer_corner stairs_goo_purple_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_goo_purple": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_round_goo_purple": {
+        "id": "slope_round_goo_purple",
+        "name": "Purple Goo Rounded Slope",
+        "icon": "slope_round_goo_purple",
+        "namesearch": "purple goo rounded slope slope_round_goo_purple slope_round_goo_purple",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_goo_purple": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "column_goo_purple": {
+        "id": "column_goo_purple",
+        "name": "Purple Goo Column",
+        "icon": "column_goo_purple",
+        "namesearch": "purple goo column column_goo_purple column_goo_purple",
+        "recipes": [
+            {
+                "materials": {
+                    "block_goo_purple": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_gingerbread_basic": {
+        "id": "slope_gingerbread_basic",
+        "name": "Plain Gingerbread Slope",
+        "icon": "slope_gingerbread_basic",
+        "namesearch": "plain gingerbread slope slope_gingerbread_basic slope_gingerbread_basic",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_gingerbread": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "slope_gingerbread_basic_inner_corner",
+            "slope_gingerbread_basic_outer_corner"
+        ]
+    },
+    "slope_gingerbread_basic_inner_corner": {
+        "id": "slope_gingerbread_basic_inner_corner",
+        "name": "Plain Gingerbread Slope Inner Corner",
+        "icon": "slope_gingerbread_basic_inner_corner",
+        "namesearch": "plain gingerbread slope inner corner slope_gingerbread_basic_inner_corner slope_gingerbread_basic_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_gingerbread_basic": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slope_gingerbread_basic_outer_corner": {
+        "id": "slope_gingerbread_basic_outer_corner",
+        "name": "Plain Gingerbread Slope Outer Corner",
+        "icon": "slope_gingerbread_basic_outer_corner",
+        "namesearch": "plain gingerbread slope outer corner slope_gingerbread_basic_outer_corner slope_gingerbread_basic_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slope_gingerbread_basic": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_gingerbread_basic": {
+        "id": "stairs_gingerbread_basic",
+        "name": "Plain Gingerbread Stairs",
+        "icon": "stairs_gingerbread_basic",
+        "namesearch": "plain gingerbread stairs stairs_gingerbread_basic stairs_gingerbread_basic",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_gingerbread": "1",
+                    "stick_wood": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_gingerbread_basic_inner_corner",
+            "stairs_gingerbread_basic_outer_corner"
+        ]
+    },
+    "stairs_gingerbread_basic_inner_corner": {
+        "id": "stairs_gingerbread_basic_inner_corner",
+        "name": "Plain Gingerbread Stairs Inner Corner",
+        "icon": "stairs_gingerbread_basic_inner_corner",
+        "namesearch": "plain gingerbread stairs inner corner stairs_gingerbread_basic_inner_corner stairs_gingerbread_basic_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_gingerbread_basic": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_gingerbread_basic_outer_corner": {
+        "id": "stairs_gingerbread_basic_outer_corner",
+        "name": "Plain Gingerbread Stairs Outer Corner",
+        "icon": "stairs_gingerbread_basic_outer_corner",
+        "namesearch": "plain gingerbread stairs outer corner stairs_gingerbread_basic_outer_corner stairs_gingerbread_basic_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_gingerbread_basic": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "slab_gingerbread_basic": {
+        "id": "slab_gingerbread_basic",
+        "name": "Plain Gingerbread Slab",
+        "icon": "slab_gingerbread_basic",
+        "namesearch": "plain gingerbread slab slab_gingerbread_basic slab_gingerbread_basic",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_gingerbread": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "eighth_gingerbread_basic"
+        ]
+    },
+    "eighth_gingerbread_basic": {
+        "id": "eighth_gingerbread_basic",
+        "name": "Plain Gingerbread Eighth",
+        "icon": "eighth_gingerbread_basic",
+        "namesearch": "plain gingerbread eighth eighth_gingerbread_basic eighth_gingerbread_basic",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_gingerbread_basic": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "column_gingerbread_basic": {
+        "id": "column_gingerbread_basic",
+        "name": "Plain Gingerbread Column",
+        "icon": "column_gingerbread_basic",
+        "namesearch": "plain gingerbread column column_gingerbread_basic column_gingerbread_basic",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_gingerbread": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "flower_poinsettia": {
+        "id": "flower_poinsettia",
+        "name": "Poinsettia",
+        "icon": "flower_poinsettia",
+        "namesearch": "poinsettia flower_poinsettia flower_poinsettia",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "flower_yellow": "2"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_wreath": {
+        "id": "holiday_wreath",
+        "name": "Holiday Wreath",
+        "icon": "holiday_wreath",
+        "namesearch": "holiday wreath holiday_wreath holiday_wreath",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "leather": "1",
+                    "leaves_autumnwood_yellow": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_garland": {
+        "id": "holiday_garland",
+        "name": "Holiday Garland",
+        "icon": "holiday_garland",
+        "namesearch": "holiday garland holiday_garland holiday_garland",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "leather": "1",
+                    "leaves_autumnwood_yellow": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "led_holiday_tree": {
+        "id": "led_holiday_tree",
+        "name": "LED Tree Block",
+        "icon": "led_holiday_tree",
+        "namesearch": "led tree block led_holiday_tree led_holiday_tree",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "2",
+                    "arcstone": "1",
+                    "leaves_autumnwood_yellow": "8"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "snow_globe_leafi": {
+        "id": "snow_globe_leafi",
+        "name": "Leafi Snow Globe",
+        "icon": "snow_globe_leafi",
+        "namesearch": "leafi snow globe snow_globe_leafi snow_globe_leafi",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "1",
+                    "snow_item": "1",
+                    "leafy_leaf": "1",
+                    "wood_oak_item": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "snow_globe_frosted": {
+        "id": "snow_globe_frosted",
+        "name": "Magic Snow Globe",
+        "icon": "snow_globe_frosted",
+        "namesearch": "magic snow globe snow_globe_frosted snow_globe_frosted",
+        "recipes": [
+            {
+                "materials": {
+                    "arcstone": "1",
+                    "snow_item": "1",
+                    "leafy_leaf": "1",
+                    "wood_oak_item": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_ornament_red": {
+        "id": "holiday_ornament_red",
+        "name": "Red Ornament",
+        "icon": "holiday_ornament_red",
+        "namesearch": "red ornament holiday_ornament_red holiday_ornament_red",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "1",
+                    "dye_red": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_stained_glass_blue": {
+        "id": "holiday_stained_glass_blue",
+        "name": "Blue Snowflake Glass",
+        "icon": "holiday_stained_glass_blue",
+        "namesearch": "blue snowflake glass holiday_stained_glass_blue holiday_stained_glass_blue",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "2",
+                    "snow_item": "2",
+                    "dye_blue": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_stained_glass_green": {
+        "id": "holiday_stained_glass_green",
+        "name": "Green Snowflake Glass",
+        "icon": "holiday_stained_glass_green",
+        "namesearch": "green snowflake glass holiday_stained_glass_green holiday_stained_glass_green",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "2",
+                    "snow_item": "2",
+                    "leafy_leaf": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_stained_glass_red": {
+        "id": "holiday_stained_glass_red",
+        "name": "Red Snowflake Glass",
+        "icon": "holiday_stained_glass_red",
+        "namesearch": "red snowflake glass holiday_stained_glass_red holiday_stained_glass_red",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "2",
+                    "snow_item": "2",
+                    "dye_red": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_stained_glass_white": {
+        "id": "holiday_stained_glass_white",
+        "name": "White Snowflake Glass",
+        "icon": "holiday_stained_glass_white",
+        "namesearch": "white snowflake glass holiday_stained_glass_white holiday_stained_glass_white",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "2",
+                    "snow_item": "2",
+                    "ice_item": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_giftwrap_red": {
+        "id": "holiday_giftwrap_red",
+        "name": "Red Giftwrap Block",
+        "icon": "holiday_giftwrap_red",
+        "namesearch": "red giftwrap block holiday_giftwrap_red holiday_giftwrap_red",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "1",
+                    "flower_red": "4",
+                    "glue": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_giftwrap_blue": {
+        "id": "holiday_giftwrap_blue",
+        "name": "Blue Giftwrap Block",
+        "icon": "holiday_giftwrap_blue",
+        "namesearch": "blue giftwrap block holiday_giftwrap_blue holiday_giftwrap_blue",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "1",
+                    "flower_blue": "4",
+                    "glue": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_giftwrap_green": {
+        "id": "holiday_giftwrap_green",
+        "name": "Green Giftwrap Block",
+        "icon": "holiday_giftwrap_green",
+        "namesearch": "green giftwrap block holiday_giftwrap_green holiday_giftwrap_green",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "1",
+                    "leaves_shredded": "4",
+                    "glue": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_giftwrap_candycane": {
+        "id": "holiday_giftwrap_candycane",
+        "name": "Candycane Giftwrap Block",
+        "icon": "holiday_giftwrap_candycane",
+        "namesearch": "candycane giftwrap block holiday_giftwrap_candycane holiday_giftwrap_candycane",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "1",
+                    "flower_red": "2",
+                    "glue": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_carpet_beige": {
+        "id": "holiday_carpet_beige",
+        "name": "Beige Holiday Carpet",
+        "icon": "holiday_carpet_beige",
+        "namesearch": "beige holiday carpet holiday_carpet_beige holiday_carpet_beige",
+        "recipes": [
+            {
+                "materials": {
+                    "leaves_shredded": "2",
+                    "rod_stone": "4",
+                    "snow_item": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_carpet_dark_beige": {
+        "id": "holiday_carpet_dark_beige",
+        "name": "Dark Beige Holiday Carpet",
+        "icon": "holiday_carpet_dark_beige",
+        "namesearch": "dark beige holiday carpet holiday_carpet_dark_beige holiday_carpet_dark_beige",
+        "recipes": [
+            {
+                "materials": {
+                    "leaves_shredded": "2",
+                    "rod_stone": "4",
+                    "snow_item": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_carpet_grey": {
+        "id": "holiday_carpet_grey",
+        "name": "Grey Holiday Carpet",
+        "icon": "holiday_carpet_grey",
+        "namesearch": "grey holiday carpet holiday_carpet_grey holiday_carpet_grey",
+        "recipes": [
+            {
+                "materials": {
+                    "leaves_shredded": "2",
+                    "rod_stone": "4",
+                    "snow_item": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_carpet_dark_grey": {
+        "id": "holiday_carpet_dark_grey",
+        "name": "Dark Grey Holiday Carpet",
+        "icon": "holiday_carpet_dark_grey",
+        "namesearch": "dark grey holiday carpet holiday_carpet_dark_grey holiday_carpet_dark_grey",
+        "recipes": [
+            {
+                "materials": {
+                    "leaves_shredded": "2",
+                    "rod_stone": "4",
+                    "snow_item": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_bed_candycane": {
+        "id": "holiday_bed_candycane",
+        "name": "Candycane Bed",
+        "icon": "holiday_bed_candycane",
+        "namesearch": "candycane bed holiday_bed_candycane holiday_bed_candycane",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "leaves_shredded": "1",
+                    "stick_wood": "4",
+                    "rod_stone": "2",
+                    "snow_item": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_bed_plaid": {
+        "id": "holiday_bed_plaid",
+        "name": "Plaid Bed",
+        "icon": "holiday_bed_plaid",
+        "namesearch": "plaid bed holiday_bed_plaid holiday_bed_plaid",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_blue": "1",
+                    "leaves_shredded": "1",
+                    "stick_wood": "4",
+                    "rod_stone": "2",
+                    "rambeau_tuft": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_bed_giftwrap": {
+        "id": "holiday_bed_giftwrap",
+        "name": "Giftwrapped Bed",
+        "icon": "holiday_bed_giftwrap",
+        "namesearch": "giftwrapped bed holiday_bed_giftwrap holiday_bed_giftwrap",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "leaves_shredded": "1",
+                    "stick_wood": "4",
+                    "rod_stone": "2",
+                    "snow_item": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_wall_brick": {
+        "id": "holiday_wall_brick",
+        "name": "Red Brick Wall",
+        "icon": "holiday_wall_brick",
+        "namesearch": "red brick wall holiday_wall_brick holiday_wall_brick",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "mud_item": "4"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_wall_brick_white": {
+        "id": "holiday_wall_brick_white",
+        "name": "White Brick Wall",
+        "icon": "holiday_wall_brick_white",
+        "namesearch": "white brick wall holiday_wall_brick_white holiday_wall_brick_white",
+        "recipes": [
+            {
+                "materials": {
+                    "snow_item": "1",
+                    "mud_item": "4"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_fireplace": {
+        "id": "holiday_fireplace",
+        "name": "Red Brick Fireplace",
+        "icon": "holiday_fireplace",
+        "namesearch": "red brick fireplace holiday_fireplace holiday_fireplace",
+        "recipes": [
+            {
+                "materials": {
+                    "mud_item": "6",
+                    "dye_red": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_fireplace_white": {
+        "id": "holiday_fireplace_white",
+        "name": "White Brick Fireplace",
+        "icon": "holiday_fireplace_white",
+        "namesearch": "white brick fireplace holiday_fireplace_white holiday_fireplace_white",
+        "recipes": [
+            {
+                "materials": {
+                    "mud_item": "4",
+                    "snow_item": "2"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_window": {
+        "id": "holiday_window",
+        "name": "Holiday Window",
+        "icon": "holiday_window",
+        "namesearch": "holiday window holiday_window holiday_window",
+        "recipes": [
+            {
+                "materials": {
+                    "stick_wood": "4",
+                    "glass": "2"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_stained_glass_blue2": {
+        "id": "holiday_stained_glass_blue2",
+        "name": "Blue Star Glass",
+        "icon": "holiday_stained_glass_blue2",
+        "namesearch": "blue star glass holiday_stained_glass_blue2 holiday_stained_glass_blue2",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "2",
+                    "snow_item": "2",
+                    "dye_blue": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_stained_glass_green2": {
+        "id": "holiday_stained_glass_green2",
+        "name": "Green Star Glass",
+        "icon": "holiday_stained_glass_green2",
+        "namesearch": "green star glass holiday_stained_glass_green2 holiday_stained_glass_green2",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "2",
+                    "snow_item": "2",
+                    "leafy_leaf": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_stained_glass_red2": {
+        "id": "holiday_stained_glass_red2",
+        "name": "Red Star Glass",
+        "icon": "holiday_stained_glass_red2",
+        "namesearch": "red star glass holiday_stained_glass_red2 holiday_stained_glass_red2",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "2",
+                    "snow_item": "2",
+                    "dye_red": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_stained_glass_white2": {
+        "id": "holiday_stained_glass_white2",
+        "name": "White Star Glass",
+        "icon": "holiday_stained_glass_white2",
+        "namesearch": "white star glass holiday_stained_glass_white2 holiday_stained_glass_white2",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "2",
+                    "snow_item": "2",
+                    "ice_item": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "door_wood_white": {
+        "id": "door_wood_white",
+        "name": "White Wood Door",
+        "icon": "door_wood_white",
+        "namesearch": "white wood door door_wood_white door_wood_white",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "4",
+                    "iron_bar": "1",
+                    "snow_item": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "table_wood_white": {
+        "id": "table_wood_white",
+        "name": "White Wood Table",
+        "icon": "table_wood_white",
+        "namesearch": "white wood table table_wood_white table_wood_white",
+        "recipes": [
+            {
+                "materials": {
+                    "stick_wood": "4",
+                    "slab_wood": "2",
+                    "glue": "1",
+                    "snow_item": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "chair_wood_white": {
+        "id": "chair_wood_white",
+        "name": "White Wood Chair",
+        "icon": "chair_wood_white",
+        "namesearch": "white wood chair chair_wood_white chair_wood_white",
+        "recipes": [
+            {
+                "materials": {
+                    "stick_wood": "4",
+                    "slab_wood": "2",
+                    "snow_item": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_shelf_wood_white": {
+        "id": "holiday_shelf_wood_white",
+        "name": "Holiday Mantle",
+        "icon": "holiday_shelf_wood_white",
+        "namesearch": "holiday mantle holiday_shelf_wood_white holiday_shelf_wood_white",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "2",
+                    "rod_stone": "1",
+                    "glue": "1",
+                    "snow_item": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "snow_globe_pigsy": {
+        "id": "snow_globe_pigsy",
+        "name": "Pigsy Snow Globe",
+        "icon": "snow_globe_pigsy",
+        "namesearch": "pigsy snow globe snow_globe_pigsy snow_globe_pigsy",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "1",
+                    "snow_item": "1",
+                    "leafy_leaf": "1",
+                    "wood_oak_item": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "snow_globe_trog": {
+        "id": "snow_globe_trog",
+        "name": "Trog Snow Globe",
+        "icon": "snow_globe_trog",
+        "namesearch": "trog snow globe snow_globe_trog snow_globe_trog",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "1",
+                    "snow_item": "1",
+                    "leafy_leaf": "1",
+                    "wood_oak_item": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "snow_globe_reaudolph": {
+        "id": "snow_globe_reaudolph",
+        "name": "Reaudolph Snow Globe",
+        "icon": "snow_globe_reaudolph",
+        "namesearch": "reaudolph snow globe snow_globe_reaudolph snow_globe_reaudolph",
+        "recipes": [
+            {
+                "materials": {
+                    "glass": "1",
+                    "snow_item": "1",
+                    "leafy_leaf": "1",
+                    "wood_oak_item": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "wall_wood_white": {
+        "id": "wall_wood_white",
+        "name": "White Wood Wall",
+        "icon": "wall_wood_white",
+        "namesearch": "white wood wall wall_wood_white wall_wood_white",
+        "recipes": [
+            {
+                "materials": {
+                    "snow_item": "1",
+                    "wood_oak_item": "2"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "floor_wood_white": {
+        "id": "floor_wood_white",
+        "name": "White Wood Floor",
+        "icon": "floor_wood_white",
+        "namesearch": "white wood floor floor_wood_white floor_wood_white",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "3",
+                    "stick_wood": "1",
+                    "snow_item": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
             }
         ],
         "creates": []

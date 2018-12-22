@@ -153,15 +153,25 @@ var counter = {
 	processSearch: function() {
 		counter.searchResult.innerHTML = "";
 		var search = counter.searchInput.value.toLowerCase().replace(/^\s+(.+)\s+$/g, "$1");
-		if(!search) {
-			return;
-		}
+		var notice = document.querySelector("#search-notice");
+		var added = 0;
 		for(var id in items) {
 			var item = items[id];
-			if(item.namesearch.indexOf(search) !== -1) {
+			if(search.length > 1 && item.namesearch.indexOf(search) !== -1) {
 				counter.addResult(items[id]);
+				++added;
 			}
 		}
+		if(!added) {
+			notice.innerHTML = "No matches found or no search query";
+			for(var id in items) {
+				counter.addResult(items[id]);
+				++added;
+			}
+		} else {
+			notice.innerHTML = "Search matches found";
+		}
+		notice.innerHTML += " - shown items: " + added;
 	},
 	
 	addResult: function(item) {
@@ -196,7 +206,7 @@ var counter = {
 		var	y = (4096 - sprite.y - sprite.h) * ratio;
 		icon.style.backgroundSize = 4096 * ratio + "px auto";
 		if(sprite.s === "01") {
-			icon.style.backgroundSize = 2048 * ratio + "px auto";
+			icon.style.backgroundSize = 4096 * ratio + "px auto";
 			y = (2048 - sprite.y - sprite.h) * ratio;
 		}
 		var internal = sprite.i;
