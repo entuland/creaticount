@@ -201,7 +201,9 @@
             "light_candy_skull_blue",
             "light_candy_skull_yellow",
             "window_chinese",
-            "lattice_chinese"
+            "lattice_chinese",
+            "hotel_dresser",
+            "hotel_cabinets"
         ]
     },
     "stone_corrupted_item": {
@@ -748,7 +750,8 @@
         "recipes": [],
         "creates": [
             "leaves_shredded",
-            "lantern_chinese_dog"
+            "lantern_chinese_dog",
+            "lantern_chinese_pig"
         ]
     },
     "leaves_autumnwood_brown": {
@@ -834,7 +837,14 @@
             "snow_globe_pigsy",
             "snow_globe_trog",
             "snow_globe_reaudolph",
-            "wall_wood_white"
+            "wall_wood_white",
+            "lantern_chinese_pig",
+            "hotel_dresser",
+            "hotel_cabinets",
+            "hotel_jabot",
+            "hotel_wall",
+            "hotel_wall_base",
+            "hotel_wall_trim"
         ]
     },
     "wood_sequoia_item": {
@@ -908,7 +918,8 @@
             "light_candy_skull_blue",
             "holiday_stained_glass_blue",
             "holiday_bed_plaid",
-            "holiday_stained_glass_blue2"
+            "holiday_stained_glass_blue2",
+            "hotel_floor"
         ]
     },
     "flower_blue": {
@@ -971,6 +982,16 @@
             "light_candy_skull_yellow",
             "banner_candy_skull",
             "statue_candy_skull"
+        ]
+    },
+    "mushroom_brown": {
+        "id": "mushroom_brown",
+        "name": "Brown Mushroom",
+        "icon": "mushroom_brown",
+        "namesearch": "brown mushroom mushroom_brown mushroom_brown",
+        "recipes": [],
+        "creates": [
+            "spore_mushroom_brown"
         ]
     },
     "leafy_leaf": {
@@ -1048,7 +1069,10 @@
             "vent_industrial",
             "chimney_industrial_top",
             "snowman",
-            "stairs_asphault"
+            "stairs_asphault",
+            "hotel_chandelier",
+            "hotel_torch",
+            "hotel_lamp_standing"
         ]
     },
     "corruption_dust": {
@@ -1305,6 +1329,7 @@
         "namesearch": "glowing mushroom mushroom_glowing mushroom_glowing",
         "recipes": [],
         "creates": [
+            "spore_mushroom_glowing",
             "focus_iron"
         ]
     },
@@ -1566,7 +1591,8 @@
             "torch_medieval",
             "lamp_medieval",
             "sword_medieval",
-            "door_wood_white"
+            "door_wood_white",
+            "hotel_door"
         ]
     },
     "ore_iron": {
@@ -1663,7 +1689,9 @@
             "chimney_industrial",
             "chimney_industrial_top",
             "door_ice",
-            "lattice_stone"
+            "lattice_stone",
+            "hotel_torch",
+            "hotel_lamp_standing"
         ]
     },
     "leather": {
@@ -1705,7 +1733,13 @@
             "canvas",
             "stairs_canvas",
             "holiday_wreath",
-            "holiday_garland"
+            "holiday_garland",
+            "hotel_chair",
+            "hotel_couch",
+            "hotel_couch_ottoman",
+            "hotel_couch_corner",
+            "hotel_jabot",
+            "hotel_curtain"
         ]
     },
     "ore_lumite": {
@@ -1948,7 +1982,16 @@
             "holiday_bed_giftwrap",
             "holiday_wall_brick",
             "holiday_fireplace",
-            "holiday_stained_glass_red2"
+            "holiday_stained_glass_red2",
+            "hotel_couch",
+            "hotel_couch_ottoman",
+            "hotel_couch_corner",
+            "hotel_bed",
+            "hotel_flower",
+            "hotel_jabot",
+            "hotel_curtain",
+            "hotel_wall",
+            "hotel_wall_trim"
         ]
     },
     "flower_red": {
@@ -1964,6 +2007,57 @@
             "holiday_giftwrap_candycane"
         ]
     },
+    "spore_mushroom_red": {
+        "id": "spore_mushroom_red",
+        "name": "Red Mushroom Spores",
+        "icon": "spore_mushroom_red",
+        "namesearch": "red mushroom spores spore_mushroom_red spore_mushroom_red",
+        "recipes": [
+            {
+                "materials": {
+                    "mushroom_red": "1"
+                },
+                "count": "1",
+                "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "spore_mushroom_brown": {
+        "id": "spore_mushroom_brown",
+        "name": "Brown Mushroom Spores",
+        "icon": "spore_mushroom_brown",
+        "namesearch": "brown mushroom spores spore_mushroom_brown spore_mushroom_brown",
+        "recipes": [
+            {
+                "materials": {
+                    "mushroom_brown": "1"
+                },
+                "count": "1",
+                "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "spore_mushroom_glowing": {
+        "id": "spore_mushroom_glowing",
+        "name": "Glowing Mushroom Spores",
+        "icon": "spore_mushroom_glowing",
+        "namesearch": "glowing mushroom spores spore_mushroom_glowing spore_mushroom_glowing",
+        "recipes": [
+            {
+                "materials": {
+                    "mushroom_glowing": "1"
+                },
+                "count": "1",
+                "time": 10,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
     "mushroom_red": {
         "id": "mushroom_red",
         "name": "Red Mushroom",
@@ -1971,6 +2065,7 @@
         "namesearch": "red mushroom mushroom_red mushroom_red",
         "recipes": [],
         "creates": [
+            "spore_mushroom_red",
             "potion_basic",
             "potion_basic_quick",
             "potion_small",
@@ -2232,7 +2327,11 @@
             "holiday_bed_candycane",
             "holiday_bed_plaid",
             "holiday_bed_giftwrap",
-            "holiday_shelf_wood_white"
+            "holiday_shelf_wood_white",
+            "hotel_dresser",
+            "hotel_cabinets",
+            "hotel_wall_base",
+            "hotel_floor"
         ]
     },
     "miru_eye": {
@@ -2509,7 +2608,9 @@
             "holiday_window",
             "table_wood_white",
             "chair_wood_white",
-            "floor_wood_white"
+            "floor_wood_white",
+            "plum_blossom",
+            "lantern_chinese_pig"
         ]
     },
     "bomb_flare": {
@@ -2570,7 +2671,8 @@
             "gift_box_green",
             "pumpkin_haunted",
             "light_candy_skull",
-            "light_candy_skull_yellow"
+            "light_candy_skull_yellow",
+            "hotel_chair"
         ]
     },
     "flower_yellow": {
@@ -2591,7 +2693,9 @@
             "planter_mayan",
             "statue_candy_skull",
             "chest_valentines",
-            "flower_poinsettia"
+            "flower_poinsettia",
+            "plum_blossom",
+            "hotel_flower"
         ]
     },
     "leaves_shredded": {
@@ -2700,7 +2804,9 @@
             "holiday_carpet_dark_grey",
             "holiday_bed_candycane",
             "holiday_bed_plaid",
-            "holiday_bed_giftwrap"
+            "holiday_bed_giftwrap",
+            "hotel_bed",
+            "hotel_floor"
         ]
     },
     "potion_basic": {
@@ -4855,7 +4961,14 @@
             "table_wood_white",
             "chair_wood_white",
             "holiday_shelf_wood_white",
-            "floor_wood_white"
+            "floor_wood_white",
+            "hotel_chair",
+            "hotel_couch",
+            "hotel_couch_ottoman",
+            "hotel_couch_corner",
+            "hotel_bed",
+            "hotel_wall_trim",
+            "hotel_door"
         ]
     },
     "slab_stone": {
@@ -5053,7 +5166,9 @@
             "table_industrial",
             "stairs_industrial",
             "sword_crowbar",
-            "chimney_industrial"
+            "chimney_industrial",
+            "hotel_chandelier",
+            "hotel_bed"
         ]
     },
     "slab_diamond": {
@@ -5438,7 +5553,11 @@
             "holiday_stained_glass_white2",
             "snow_globe_pigsy",
             "snow_globe_trog",
-            "snow_globe_reaudolph"
+            "snow_globe_reaudolph",
+            "hotel_chandelier",
+            "hotel_torch",
+            "hotel_lamp_standing",
+            "hotel_flower"
         ]
     },
     "floor_stone": {
@@ -16055,7 +16174,9 @@
         ],
         "creates": [
             "slope_wood_red_chinese",
-            "column_wood_red_chinese"
+            "column_wood_red_chinese",
+            "slab_wood_red_chinese",
+            "stairs_wood_red_chinese"
         ]
     },
     "slope_wood_red_chinese": {
@@ -18752,6 +18873,472 @@
                 "count": "8",
                 "time": 0,
                 "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "plum_blossom": {
+        "id": "plum_blossom",
+        "name": "Plum Blossom",
+        "icon": "plum_blossom",
+        "namesearch": "plum blossom plum_blossom plum_blossom",
+        "recipes": [
+            {
+                "materials": {
+                    "stick_wood": "4",
+                    "flower_yellow": "2"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "lantern_chinese_pig": {
+        "id": "lantern_chinese_pig",
+        "name": "Year of the Pig Lantern",
+        "icon": "lantern_chinese_pig",
+        "namesearch": "year of the pig lantern lantern_chinese_pig lantern_chinese_pig",
+        "recipes": [
+            {
+                "materials": {
+                    "leaves_autumnwood_red": "2",
+                    "stick_wood": "1",
+                    "wood_oak_item": "2"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_dresser": {
+        "id": "hotel_dresser",
+        "name": "Deluxrative Dresser",
+        "icon": "hotel_dresser",
+        "namesearch": "deluxrative dresser hotel_dresser hotel_dresser",
+        "recipes": [
+            {
+                "materials": {
+                    "rod_stone": "4",
+                    "bees_wax": "1",
+                    "wood_oak_item": "2"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_cabinets": {
+        "id": "hotel_cabinets",
+        "name": "Cabernatious Cabinets",
+        "icon": "hotel_cabinets",
+        "namesearch": "cabernatious cabinets hotel_cabinets hotel_cabinets",
+        "recipes": [
+            {
+                "materials": {
+                    "rod_stone": "2",
+                    "bees_wax": "1",
+                    "wood_oak_item": "2"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_chair": {
+        "id": "hotel_chair",
+        "name": "Cherishizing Chair",
+        "icon": "hotel_chair",
+        "namesearch": "cherishizing chair hotel_chair hotel_chair",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "2",
+                    "leather": "2",
+                    "dye_yellow": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_chandelier": {
+        "id": "hotel_chandelier",
+        "name": "Charmacious Chandelier",
+        "icon": "hotel_chandelier",
+        "namesearch": "charmacious chandelier hotel_chandelier hotel_chandelier",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_iron": "2",
+                    "coal": "2",
+                    "glass": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_torch": {
+        "id": "hotel_torch",
+        "name": "Luxurousity Lamp",
+        "icon": "hotel_torch",
+        "namesearch": "luxurousity lamp hotel_torch hotel_torch",
+        "recipes": [
+            {
+                "materials": {
+                    "rod_iron": "1",
+                    "coal": "1",
+                    "glass": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_lamp_standing": {
+        "id": "hotel_lamp_standing",
+        "name": "Elongracing Luxuousity Lamp",
+        "icon": "hotel_lamp_standing",
+        "namesearch": "elongracing luxuousity lamp hotel_lamp_standing hotel_lamp_standing",
+        "recipes": [
+            {
+                "materials": {
+                    "rod_iron": "2",
+                    "coal": "1",
+                    "glass": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_couch": {
+        "id": "hotel_couch",
+        "name": "Cushceptional Couch",
+        "icon": "hotel_couch",
+        "namesearch": "cushceptional couch hotel_couch hotel_couch",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "2",
+                    "leather": "2",
+                    "dye_red": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_couch_ottoman": {
+        "id": "hotel_couch_ottoman",
+        "name": "Ostenduring Ottoman",
+        "icon": "hotel_couch_ottoman",
+        "namesearch": "ostenduring ottoman hotel_couch_ottoman hotel_couch_ottoman",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "1",
+                    "leather": "1",
+                    "dye_red": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_couch_corner": {
+        "id": "hotel_couch_corner",
+        "name": "Curvaciously Cushceptional Couch",
+        "icon": "hotel_couch_corner",
+        "namesearch": "curvaciously cushceptional couch hotel_couch_corner hotel_couch_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "2",
+                    "leather": "2",
+                    "dye_red": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_bed": {
+        "id": "hotel_bed",
+        "name": "Majestifying Mattress",
+        "icon": "hotel_bed",
+        "namesearch": "majestifying mattress hotel_bed hotel_bed",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "leaves_shredded": "1",
+                    "slab_wood": "2",
+                    "slab_iron": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_flower": {
+        "id": "hotel_flower",
+        "name": "Beautacular Bouquet",
+        "icon": "hotel_flower",
+        "namesearch": "beautacular bouquet hotel_flower hotel_flower",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "glass": "1",
+                    "flower_yellow": "1"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_jabot": {
+        "id": "hotel_jabot",
+        "name": "Jaunstounding Jabot",
+        "icon": "hotel_jabot",
+        "namesearch": "jaunstounding jabot hotel_jabot hotel_jabot",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "leather": "1",
+                    "wood_oak_item": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_curtain": {
+        "id": "hotel_curtain",
+        "name": "Customazing Curtains",
+        "icon": "hotel_curtain",
+        "namesearch": "customazing curtains hotel_curtain hotel_curtain",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "leather": "2"
+                },
+                "count": "4",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_wall": {
+        "id": "hotel_wall",
+        "name": "Wonderfulfilling Wallpaper",
+        "icon": "hotel_wall",
+        "namesearch": "wonderfulfilling wallpaper hotel_wall hotel_wall",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "wood_oak_item": "2"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_wall_base": {
+        "id": "hotel_wall_base",
+        "name": "Wonderfulfilling Wood Wall",
+        "icon": "hotel_wall_base",
+        "namesearch": "wonderfulfilling wood wall hotel_wall_base hotel_wall_base",
+        "recipes": [
+            {
+                "materials": {
+                    "rod_stone": "1",
+                    "wood_oak_item": "2"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_wall_trim": {
+        "id": "hotel_wall_trim",
+        "name": "Wonderfulfilling Wallpaper Trim",
+        "icon": "hotel_wall_trim",
+        "namesearch": "wonderfulfilling wallpaper trim hotel_wall_trim hotel_wall_trim",
+        "recipes": [
+            {
+                "materials": {
+                    "dye_red": "1",
+                    "slab_wood": "1",
+                    "wood_oak_item": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_floor": {
+        "id": "hotel_floor",
+        "name": "Comfavorited Carpet",
+        "icon": "hotel_floor",
+        "namesearch": "comfavorited carpet hotel_floor hotel_floor",
+        "recipes": [
+            {
+                "materials": {
+                    "leaves_shredded": "2",
+                    "rod_stone": "4",
+                    "dye_blue": "1"
+                },
+                "count": "8",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "hotel_door": {
+        "id": "hotel_door",
+        "name": "Decorgeous Door",
+        "icon": "hotel_door",
+        "namesearch": "decorgeous door hotel_door hotel_door",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood": "4",
+                    "iron_bar": "1"
+                },
+                "count": "1",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": []
+    },
+    "slab_wood_red_chinese": {
+        "id": "slab_wood_red_chinese",
+        "name": "Forbidden Red Wood Slab",
+        "icon": "slab_wood_red_chinese",
+        "namesearch": "forbidden red wood slab slab_wood_red_chinese slab_wood_red_chinese",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_wood_red_chinese": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": [
+            "eighth_wood_red_chinese"
+        ]
+    },
+    "eighth_wood_red_chinese": {
+        "id": "eighth_wood_red_chinese",
+        "name": "Forbidden Red Wood Eighth",
+        "icon": "eighth_wood_red_chinese",
+        "namesearch": "forbidden red wood eighth eighth_wood_red_chinese eighth_wood_red_chinese",
+        "recipes": [
+            {
+                "materials": {
+                    "slab_wood_red_chinese": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_wood_red_chinese": {
+        "id": "stairs_wood_red_chinese",
+        "name": "Forbidden Red Wood Stairs",
+        "icon": "stairs_wood_red_chinese",
+        "namesearch": "forbidden red wood stairs stairs_wood_red_chinese stairs_wood_red_chinese",
+        "recipes": [
+            {
+                "materials": {
+                    "wall_wood_red_chinese": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "none"
+            }
+        ],
+        "creates": [
+            "stairs_wood_red_chinese_inner_corner",
+            "stairs_wood_red_chinese_outer_corner"
+        ]
+    },
+    "stairs_wood_red_chinese_inner_corner": {
+        "id": "stairs_wood_red_chinese_inner_corner",
+        "name": "Forbidden Red Wood Stairs Inner Corner",
+        "icon": "stairs_wood_red_chinese_inner_corner",
+        "namesearch": "forbidden red wood stairs inner corner stairs_wood_red_chinese_inner_corner stairs_wood_red_chinese_inner_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_wood_red_chinese": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
+            }
+        ],
+        "creates": []
+    },
+    "stairs_wood_red_chinese_outer_corner": {
+        "id": "stairs_wood_red_chinese_outer_corner",
+        "name": "Forbidden Red Wood Stairs Outer Corner",
+        "icon": "stairs_wood_red_chinese_outer_corner",
+        "namesearch": "forbidden red wood stairs outer corner stairs_wood_red_chinese_outer_corner stairs_wood_red_chinese_outer_corner",
+        "recipes": [
+            {
+                "materials": {
+                    "stairs_wood_red_chinese": "1"
+                },
+                "count": "2",
+                "time": 0,
+                "station": "processor"
             }
         ],
         "creates": []
