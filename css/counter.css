@@ -5,6 +5,17 @@
 	body {
 		font-family: sans-serif;
 		background: #DDD;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		display: grid;
+		grid-template-areas:
+			"header header"
+			"left right";
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 100fr;
 	}
 	
 	h2 {
@@ -14,18 +25,18 @@
 	#heading {
 		padding: 1em;
 		display: block;
+		grid-area: header;
 	}
 
 	#search-result {
-		width: 49%;
-		display: inline-block;
-		vertical-align: top;
+		grid-area: left;
+		overflow-y: auto;
 	}
 	
 	#counter-interface {
-		width: 49%;
-		display: inline-block;
-		vertical-align: top;
+		grid-area: right;
+		overflow-y: auto;
+		padding-left: 5px;
 	}
 	
 	label,
@@ -89,9 +100,9 @@
 		width: 75%;
 		left: 50%;
 		top: 50%;
-		transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%) translateZ(0);
 		background: #EEE;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 	
 	.icon {
@@ -137,3 +148,22 @@
 	.entry label {
 		background: transparent;
 	}
+
+	.recipe-box {
+		border: 1px solid black;
+		padding: 5px;
+		margin: 5px;
+		background: #FFA;
+	}
+	
+	.recipe-box .boxed {
+		border: 1px solid black;
+		padding: 2px;
+		margin: 2px;
+		background: #AFA;
+	}
+	
+	#details-content div {
+		margin: 2px;
+	}
+	

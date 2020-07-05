@@ -45,13 +45,25 @@ var utils = {
 		});
 		return arr;
 	},
+	
+	el: function(tag, html) {
+		var res = document.createElement(tag);
+		res.innerHTML = html || "";
+		return res;
+	},
 };
 
 var counter = {
 	iconside: 64,
 	
 	matPrecedence: [
-		"stone_item", "wood_oak_item", "leaves_oak_item", "stairs_medieval", "stairs_haunted", "chizzard_gizzard",
+		"water_item",
+		"stone_item",
+		"wood_oak_item",
+		"leaves_oak_item",
+		"stairs_medieval",
+		"stairs_haunted",
+		"chizzard_gizzard",
 	],
 	
 	prepare: {},
@@ -62,6 +74,7 @@ var counter = {
 		counter.tieWorking();
 		counter.attachInfo();
 		counter.attachSearch();
+		counter.prepareSorting();
 		counter.processSearch();
 	},
 	
@@ -90,14 +103,15 @@ var counter = {
 	
 	clearTime: function() {
 		counter.stations = {
-			forge: {},
-			processor: {},
+			Furnace: {},
+			Processor: {},
+			Culinary: {},
 		};
 		counter.displayTime();
 	},
 	
 	addTime: function(station, time, runs) {
-		if(station === "none") {
+		if(["Backpack", "Culinary"].indexOf(station) >= 0) {
 			return;
 		}
 		if(!time) {
@@ -150,22 +164,40 @@ var counter = {
 		counter.processDelayedSearchTimeout = setTimeout(counter.processSearch, 200);
 	},
 	
+	prepareSorting: function() {
+		var values = Object.values(crafts);
+		values.sort(function(a, b) {
+			if(a.name < b.name) {
+				return -1;
+			}
+			if(a.name > b.name) {
+				return 1;
+			}
+			return 0;
+		});
+		counter.sorted = [];
+		for(var i = 0; i < values.length; ++i) {
+			counter.sorted.push(values[i].id);
+		}
+	},
+	
 	processSearch: function() {
 		counter.searchResult.innerHTML = "";
 		var search = counter.searchInput.value.toLowerCase().replace(/^\s+(.+)\s+$/g, "$1");
 		var notice = document.querySelector("#search-notice");
 		var added = 0;
-		for(var id in items) {
-			var item = items[id];
-			if(search.length > 1 && item.namesearch.indexOf(search) !== -1) {
-				counter.addResult(items[id]);
+		for(var i = 0; i < counter.sorted.length; ++i) {
+			var craft = crafts[counter.sorted[i]];
+			if(search.length > 1 && craft.namesearch.indexOf(search) !== -1) {
+				counter.addResult(craft);
 				++added;
 			}
 		}
 		if(!added) {
 			notice.innerHTML = "No matches found or no search query";
-			for(var id in items) {
-				counter.addResult(items[id]);
+			for(var i = 0; i < counter.sorted.length; ++i) {
+				var craft = crafts[counter.sorted[i]];
+				counter.addResult(craft);
 				++added;
 			}
 		} else {
@@ -174,26 +206,31 @@ var counter = {
 		notice.innerHTML += " - shown items: " + added;
 	},
 	
-	addResult: function(item) {
+	addResult: function(craft) {
 		var node = document.createElement("div");
 		node.setAttribute("class", "entry rounded shadow");
-		var icon = counter.createIcon(item);
-		icon.title += " - Click to add to the list";
+		var icon = counter.createIcon(craft, null, "Click to add to the list");
+		icon.style.cursor = "copy";
 		node.title = icon.title;
 		node.appendChild(icon);
-		node.dataset.itemid = item.id;
+		node.dataset.itemid = craft.id;
 		counter.searchResult.appendChild(node);
 		node.addEventListener("click", counter.addToChosenList);
 	},
 	
-	createIcon: function(item, iconside) {
+	createIcon: function(craft, iconside, postfix) {
 		var icon = document.createElement("div");
 		icon.classList.add("icon");
 		icon.classList.add("rounded");
-		var sprite = utils.findSpriteByName(item.icon);
-		icon.title = item.name + " ["  + item.id + ", " + item.icon + "]";
+		var sprite = utils.findSpriteByName(craft.icon);
+		if(postfix == null) {
+			postfix = "\n\nClick to see full recipe and usages";
+		} else if(postfix != "") {
+			postfix = "\n\n" + postfix;
+		}
+		icon.title = craft.name + "\n\nIcon name: " + craft.icon + "\nInternal: " + craft.id + postfix;
 		if(!sprite) {
-			icon.innerHTML = "<small>" + item.name + "</small>";
+			icon.innerHTML = "<small>" + craft.name + "</small>";
 			return icon;
 		}
 		if(!iconside) {
@@ -203,12 +240,8 @@ var counter = {
 		icon.style.height = iconside + "px";
 		var ratio = iconside / 128;
 		var x = sprite.x * ratio;
-		var	y = (4096 - sprite.y - sprite.h) * ratio;
+		var	y = sprite.y * ratio;
 		icon.style.backgroundSize = 4096 * ratio + "px auto";
-		if(sprite.s === "01") {
-			icon.style.backgroundSize = 4096 * ratio + "px auto";
-			y = (2048 - sprite.y - sprite.h) * ratio;
-		}
 		var internal = sprite.i;
 		var visible = sprite.v
 		icon.style.backgroundImage = 'url(img/icons_' + sprite.s + '.jpg)';
@@ -216,31 +249,20 @@ var counter = {
 		return icon;
 	},
 	
-	describeRecipe: function(recipe) {
-		if(!recipe) {
-			return "no recipe";
-		}
-		var mats = [];
-		for(var mat in recipe.materials) {
-			mats.push(mat + " X" + recipe.materials[mat]);
-		}
-		return "X" + recipe.count + ": " + mats.join(", ");
-	},
-	
 	getRecipe: function(id) {
-		var item = items[id];
-		var len = item.recipes.length; 
+		var craft = crafts[id];
+		var len = craft.recipes.length; 
 		if(!len) {
 			return false;
 		};
 		
 		if(len == 1) {
-			return item.recipes[0];
+			return craft.recipes[0];
 		}
 		
 		var result = false;
-		for(var r in item.recipes) {
-			var recipe = item.recipes[r]
+		for(var r in craft.recipes) {
+			var recipe = craft.recipes[r]
 			if(!result) {
 				result = recipe;
 				continue;
@@ -249,11 +271,13 @@ var counter = {
 				result = recipe;
 				continue;
 			}
-			var mats = [];
-			for(var mat in recipe.materials) {
-				if(counter.matPrecedence.includes(mat)) {
-					result = recipe;
-					break;
+			for(var i in recipe.materials) {
+				var mat = recipe.materials[i];
+				for(var j in mat.valid_items) {
+					if(counter.matPrecedence.includes(mat.valid_items[j])) {
+						result = recipe;
+						break;
+					}
 				}
 			}
 		}
@@ -263,34 +287,141 @@ var counter = {
 	addToChosenList: function() {
 		var chosen = this;
 		var id = chosen.dataset.itemid;
-		var item = items[id];
+		var craft = crafts[id];
 		if(counter.chosenList[id]) {
-			alert(item.name + " already added to the list");
+			alert(craft.name + " already added to the list");
 			return;
 		}
 		var node = document.createElement("div");
 		node.setAttribute("class", "entry rounded shadow");
-		var icon = counter.createIcon(item);
+		var icon = counter.createIcon(craft);
 		node.appendChild(icon);
-		node.dataset.itemid = item.id;
+		node.dataset.itemid = craft.id;
 		counter.chosenListContainer.appendChild(node);
 		var deleteButton = document.createElement("button");
 		deleteButton.title = "remove from list";
 		deleteButton.innerHTML = "X";
 		deleteButton.classList.add("delete-button");
 		deleteButton.addEventListener("click", function() {
-			counter.removeFromChosenList(node, item);
+			counter.removeFromChosenList(node, craft);
 		});
 		var needed = document.createElement("input");
 		needed.setAttribute("type", "number");
 		needed.setAttribute("min", "1");
 		needed.value = 1;
-		var neededLabel = counter.labelize(item.name + "<br>Need", needed);
+		var neededLabel = counter.labelize(craft.name + "<br>Need", needed);
 		needed.addEventListener("input", counter.computePreparationDelayed);
 		node.appendChild(neededLabel);
 		node.appendChild(deleteButton);
 		counter.chosenList[id] = node;
 		counter.computePreparation();
+		counter.attachIconInfo(icon, craft);
+	},
+	
+	attachIconInfo: function(icon, craft) {
+		icon.style.cursor = "help"
+		icon.addEventListener("click", function() {
+			counter.displayDetails(craft);
+		});
+	},
+	
+	createRecipeBox: function(recipe, craft) {
+		var container = document.createElement("div");
+		container.classList.add("recipe-box");
+		
+		var result = utils.el("div", "<strong>Result: </strong>");
+		
+		var icon = counter.createIcon(craft, counter.iconside / 2, "");
+		result.appendChild(icon);
+		
+		result.appendChild(document.createTextNode(" " + craft.name + " X " + recipe.count));
+		container.appendChild(result);
+		
+		var station = utils.el("div",
+			"<strong>Where: </strong>" 
+			+ recipe.station 
+			+ (recipe.recipe_category ? " (" + recipe.recipe_category + ")" : "")
+			+ (["Backpack", "Culinary"].indexOf(recipe.station) < 0 ? " (" + recipe.time + "s)" : "")
+		);
+		container.appendChild(station);
+		container.appendChild(utils.el("div", "<strong>Ingredients: </strong>"));
+		
+		for(var m = 0; m < recipe.materials.length; ++m) {
+			var mat_cont = utils.el("div");
+			mat_cont.classList.add("boxed");
+			var mat = recipe.materials[m];
+			var suffix = " ";
+			if(mat.valid_items.length > 1) {
+				suffix = "any of ";
+			}
+			mat_cont.appendChild(document.createTextNode(mat.count + " X " + suffix));
+			for(var v = 0; v < mat.valid_items.length; ++v) {
+				var id = mat.valid_items[v];
+				var c = crafts[id]
+				var icon = counter.createIcon(c, counter.iconside / 2);
+				counter.attachIconInfo(icon, c);
+				mat_cont.appendChild(icon);
+				var trail = "";
+				if(v < mat.valid_items.length - 1) {
+					trail = ", "
+				}
+				mat_cont.appendChild(document.createTextNode(" " + c.name + trail));
+			}
+			container.appendChild(mat_cont);
+		}
+		
+		return container;	
+	},
+	
+	displayDetails: function(craft) {
+		var cover = document.querySelector("#info-cover");
+		var container = document.querySelector("#details-content");
+		container.innerHTML = "";
+		
+		var icon = counter.createIcon(craft);
+		
+		var title = document.createElement("h2");
+		title.innerText = craft.name;
+		
+		container.appendChild(counter.createIcon(craft, null, ""));
+		
+		container.appendChild(title);
+		
+		if(!craft.recipes || !craft.recipes.length) {
+			var s = document.createElement("strong");
+			s.innerHTML = "<hr>This item has no recipes.";
+			container.appendChild(s);
+		} else {
+			var s = document.createElement("strong");
+			s.innerHTML = "<hr>Recipes:";
+			container.appendChild(s);
+			for(var i = 0; i < craft.recipes.length; ++i) {
+				var table = counter.createRecipeBox(craft.recipes[i], craft);
+				container.append(table);
+			}
+		}
+		
+		if(!craft.creates || !craft.creates.length) {
+			var s = document.createElement("strong");
+			s.innerHTML = "<hr>This item is not used to create any other item.";
+			container.appendChild(s);
+		} else {
+			var s = document.createElement("strong");
+			s.innerHTML = "<hr>Used to create the following items:";
+			container.appendChild(s);
+			for(var i = 0; i < craft.creates.length; ++i) {
+				var c = crafts[craft.creates[i]];
+				var icon = counter.createIcon(c, counter.iconside / 2);
+				counter.attachIconInfo(icon, c)
+				var text = document.createElement("div");
+				text.appendChild(icon);
+				text.appendChild(document.createTextNode(" " + c.name))
+				container.appendChild(text);
+			}
+		}
+	
+		container.style.display = "block";
+		cover.style.display = "block";
 	},
   
 	removeFromChosenList: function(node) {
@@ -349,13 +480,14 @@ var counter = {
 		}
 		var node = document.createElement("div");
 		node.setAttribute("class", "entry rounded shadow collapsed");
-		var item = items[prep.id];
-		var icon = counter.createIcon(item);
+		var craft = crafts[prep.id];
+		var icon = counter.createIcon(craft);
+		counter.attachIconInfo(icon, craft);
 		var possessed = document.createElement("input");
 		possessed.type = "number";
 		possessed.min = 0;
 		possessed.value = prep.possessed;
-		var labelPossessed = counter.labelize(item.name + "<br>Possessed", possessed);
+		var labelPossessed = counter.labelize(craft.name + "<br>Possessed", possessed);
 		node.appendChild(icon);
 		node.appendChild(labelPossessed);
 		possessed.addEventListener("input", function() {
@@ -380,11 +512,14 @@ var counter = {
 				node.classList.remove("collapsed");
 				node.classList.add("expanded");
 				switch(true) {
-					case prep.recipe.station == "processor":
+					case prep.recipe.station == "Processor":
 						verb = "Process";
 						break;
-					case prep.recipe.station == "forge":
+					case prep.recipe.station == "Furnace":
 						verb = "Forge";
+						break;
+					case prep.recipe.station == "Culinary":
+						verb = "Cook (" + prep.recipe.recipe_category + ")";
 						break;
 					default:
 						verb = "Craft";
@@ -393,17 +528,23 @@ var counter = {
 				if(obtain) {
 					var runs = Math.ceil(obtain / prep.recipe.count);
 					var mult = prep.recipe.count;
-					for(var matid in prep.recipe.materials) {
-						var matquant = parseInt(prep.recipe.materials[matid]);
+					for(var i in prep.recipe.materials) {
+						var mat = prep.recipe.materials[i]
+						var matid = mat.valid_items[0];
+						var matquant = parseInt(mat.count);
 						var span = document.createElement("span");
 						span.innerHTML = "X" + (matquant * runs) + " ";
-						total.appendChild(counter.createIcon(items[matid], 32));
+						var icon = counter.createIcon(crafts[matid], counter.iconside / 2);
+						counter.attachIconInfo(icon, crafts[matid]);
+						total.appendChild(icon);
 						total.appendChild(span);
 					}
 					total.innerHTML += " &rArr; ";
 					var span = document.createElement("span");
 					span.innerHTML = "X" + (runs * mult);
-					total.appendChild(counter.createIcon(item, 32));
+					var icon = counter.createIcon(craft, counter.iconside / 2);
+					counter.attachIconInfo(icon, craft);
+					total.appendChild(icon);
 					total.appendChild(span);
 					counter.addTime(prep.recipe.station, prep.recipe.time, runs);
 				}
@@ -433,13 +574,13 @@ var counter = {
 	},
   
 	processPending: function(id, amount) {
-		var item = items[id];
+		var craft = crafts[id];
 		var recipe = counter.getRecipe(id);
 		if(!counter.prepare[id]) {
 			counter.prepare[id] = {
 				id: id,
 				obtain: 0,
-				name: item.name,
+				name: craft.name,
 				use: 0,
 				possessed: 0,
 				expanded: false,
@@ -464,8 +605,11 @@ var counter = {
 			return;
 		}
 		prep.obtain += runs * count;
-		for(var mat in recipe.materials) {
-			counter.pending.push([mat, parseInt(recipe.materials[mat]) * runs]);
+		for(var i in recipe.materials) {
+			var mat = recipe.materials[i];
+			var valid = mat.valid_items[0];
+			var count = parseInt(mat.count);
+			counter.pending.push([valid, count * runs]);
 		}
 	},
 	  
@@ -477,6 +621,7 @@ var counter = {
 		document.querySelector("#info-cover").addEventListener("click", function() {
 			document.querySelector("#info-cover").style.display = "none";
 			document.querySelector("#info-content").style.display = "none";
+			document.querySelector("#details-content").style.display = "none";
 		});
 	},
 };
