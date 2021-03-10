@@ -1,9 +1,4126 @@
 var crafts = {
+    "sandwich": {
+        "id": "sandwich",
+        "name": "Sandwich",
+        "icon": "sandwich_veggie",
+        "namesearch": "sandwich_veggie sandwich",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread",
+                            "bread_wholesome",
+                            "bread_corrupted",
+                            "bread_tar",
+                            "bread_blazing",
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_jerky": {
+        "id": "sandwich_jerky",
+        "name": "Jerky Sandwich",
+        "icon": "sandwich_jerky",
+        "namesearch": "jerky sandwich_jerky sandwich",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_corrupted": {
+        "id": "sandwich_corrupted",
+        "name": "Corrupted Sandwich",
+        "icon": "sandwich_corrupt",
+        "namesearch": "corrupted sandwich_corrupt sandwich_corrupted sandwich",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_corrupted"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_corrupted"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_corrupted"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_corrupted"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_corrupted"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_corrupted"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_turnip": {
+        "id": "sandwich_turnip",
+        "name": "Turnip Sandwich",
+        "icon": "sandwich_turnip",
+        "namesearch": "sandwich_turnip sandwich turnip",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "turnip"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_mushroom": {
+        "id": "sandwich_mushroom",
+        "name": "Mushroom Sandwich",
+        "icon": "sandwich_mushroom",
+        "namesearch": "sandwich_mushroom mushroom sandwich",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_brown"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_glowing"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_red"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_brown"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_glowing"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_red"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_brown"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_glowing"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_red"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_brown"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_glowing"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_red"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_brown"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_glowing"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_red"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_brown"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_glowing"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_red"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_melon": {
+        "id": "sandwich_melon",
+        "name": "Melon Sandwich",
+        "icon": "sandwich_melon",
+        "namesearch": "melon sandwich_melon sandwich",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_blazing": {
+        "id": "sandwich_blazing",
+        "name": "Blazing Sandwich",
+        "icon": "sandwich_blazing",
+        "namesearch": "sandwich_blazing blazing sandwich",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_blazing"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_blazing"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_blazing"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_blazing"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_blazing"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_blazing"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_wholesome": {
+        "id": "sandwich_wholesome",
+        "name": "Wholesome Sandwich",
+        "icon": "sandwich_wholesome",
+        "namesearch": "wholesome sandwich_wholesome sandwich",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_wholesome"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_wholesome"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_wholesome"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_wholesome"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_wholesome"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_wholesome"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_bog": {
+        "id": "sandwich_bog",
+        "name": "Bog Sandwich",
+        "icon": "sandwich_bog",
+        "namesearch": "bog sandwich sandwich_bog",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_egg": {
+        "id": "sandwich_egg",
+        "name": "Egg Sandwich",
+        "icon": "sandwich_egg",
+        "namesearch": "sandwich egg sandwich_egg",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_frigid": {
+        "id": "sandwich_frigid",
+        "name": "Frigid Sandwich",
+        "icon": "sandwich_frigid",
+        "namesearch": "frigid sandwich_frigid sandwich",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_tar": {
+        "id": "sandwich_tar",
+        "name": "Tar Sandwich",
+        "icon": "sandwich_tar",
+        "namesearch": "tar sandwich sandwich_tar",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_tar"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_tar"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_tar"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_tar"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_tar"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread_tar"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "sandwich_cactus": {
+        "id": "sandwich_cactus",
+        "name": "Spiky Sandwich",
+        "icon": "sandwich_spiny",
+        "namesearch": "sandwich spiky sandwich_spiny sandwich_cactus",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus01"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip",
+                            "autumn_leafi_leaf",
+                            "leafy_leaf",
+                            "baby_leafi_leaf",
+                            "dried_leafi_leaf",
+                            "mossy_leafi_leaf"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "sandwich"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus01"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus01"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus01"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus01"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus01"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_wreath": {
+        "id": "holiday_wreath",
+        "name": "Holiday Wreath",
+        "icon": "holiday_wreath",
+        "namesearch": "wreath holiday_wreath holiday",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "dye_red"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "leather"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "leaves_oak_item",
+                            "leaves_autumnwood_yellow",
+                            "leaves_autumnwood_red",
+                            "leaves_autumnwood_brown",
+                            "leaves_sequoia_item",
+                            "leaves_aspen_item",
+                            "leaves_palm",
+                            "leaves_jungle",
+                            "leaves_willow",
+                            "leaves_savannah",
+                            "leaves_sequoia_snow_capped"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
+    "led_holiday_tree": {
+        "id": "led_holiday_tree",
+        "name": "LED Tree Block",
+        "icon": "led_holiday_tree",
+        "namesearch": "block led tree led_holiday_tree",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "glass"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "leaves_oak_item",
+                            "leaves_autumnwood_yellow",
+                            "leaves_autumnwood_red",
+                            "leaves_autumnwood_brown",
+                            "leaves_sequoia_item",
+                            "leaves_aspen_item",
+                            "leaves_palm",
+                            "leaves_jungle",
+                            "leaves_willow",
+                            "leaves_savannah",
+                            "leaves_sequoia_snow_capped"
+                        ],
+                        "count": 8
+                    },
+                    {
+                        "valid_items": [
+                            "arcstone"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 8,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
+    "snow_globe_leafi": {
+        "id": "snow_globe_leafi",
+        "name": "Leafi Snow Globe",
+        "icon": "snow_globe_leafi",
+        "namesearch": "globe snow_globe_leafi snow leafi",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "glass"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "wood_oak_item",
+                            "wood_sequoia_item",
+                            "wood_aspen_item",
+                            "log",
+                            "wood_palm",
+                            "wood_jungle",
+                            "wood_willow",
+                            "wood_autumn",
+                            "log_willow",
+                            "wood_savannah",
+                            "drift_wood"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "snow_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "leafy_leaf"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
+    "snow_globe_frosted": {
+        "id": "snow_globe_frosted",
+        "name": "Magic Snow Globe",
+        "icon": "snow_globe_frosted",
+        "namesearch": "magic snow_globe_frosted snow globe",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "arcstone"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "wood_oak_item",
+                            "wood_sequoia_item",
+                            "wood_aspen_item",
+                            "log",
+                            "wood_palm",
+                            "wood_jungle",
+                            "wood_willow",
+                            "wood_autumn",
+                            "log_willow",
+                            "wood_savannah",
+                            "drift_wood"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "snow_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "leafy_leaf"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 1,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_ornament_red": {
+        "id": "holiday_ornament_red",
+        "name": "Red Ornament",
+        "icon": "holiday_ornament_red",
+        "namesearch": "ornament red holiday_ornament_red",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "glass"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "dye_red"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_garland": {
+        "id": "holiday_garland",
+        "name": "Holiday Garland",
+        "icon": "holiday_garland",
+        "namesearch": "garland holiday holiday_garland",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "dye_red"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "leather"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "leaves_oak_item",
+                            "leaves_autumnwood_yellow",
+                            "leaves_autumnwood_red",
+                            "leaves_autumnwood_brown",
+                            "leaves_sequoia_item",
+                            "leaves_aspen_item",
+                            "leaves_palm",
+                            "leaves_jungle",
+                            "leaves_willow",
+                            "leaves_savannah",
+                            "leaves_sequoia_snow_capped"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 8,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
+    "pie": {
+        "id": "pie",
+        "name": "Pie",
+        "icon": "pie",
+        "namesearch": "pie",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item",
+                            "lava_item",
+                            "water_mineral_item",
+                            "tar_item",
+                            "water_corrupted_item",
+                            "water_bog_item",
+                            "molasses"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            }
+        ],
+        "creates": []
+    },
+    "pie_jerky": {
+        "id": "pie_jerky",
+        "name": "Chizzard Pot Pie",
+        "icon": "pie_jerky",
+        "namesearch": "chizzard pie pie_jerky pot",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item",
+                            "lava_item",
+                            "water_mineral_item",
+                            "tar_item",
+                            "water_corrupted_item",
+                            "water_bog_item",
+                            "molasses"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            }
+        ],
+        "creates": []
+    },
+    "pie_melon": {
+        "id": "pie_melon",
+        "name": "Melon Pie",
+        "icon": "pie_melon",
+        "namesearch": "melon pie_melon pie",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item",
+                            "lava_item",
+                            "water_mineral_item",
+                            "tar_item",
+                            "water_corrupted_item",
+                            "water_bog_item",
+                            "molasses"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "horned_melon"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            }
+        ],
+        "creates": []
+    },
+    "pie_blazing": {
+        "id": "pie_blazing",
+        "name": "Blazing Pie",
+        "icon": "pie_blazing",
+        "namesearch": "pie blazing pie_blazing",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "lava_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            }
+        ],
+        "creates": []
+    },
+    "pie_frigid": {
+        "id": "pie_frigid",
+        "name": "Frigid Pie",
+        "icon": "pie_frigid",
+        "namesearch": "frigid pie_frigid pie",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item",
+                            "lava_item",
+                            "water_mineral_item",
+                            "tar_item",
+                            "water_corrupted_item",
+                            "water_bog_item",
+                            "molasses"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            }
+        ],
+        "creates": []
+    },
+    "pie_wholesome": {
+        "id": "pie_wholesome",
+        "name": "Wholesome Pie",
+        "icon": "pie_wholesome",
+        "namesearch": "wholesome pie pie_wholesome",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_mineral_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            }
+        ],
+        "creates": []
+    },
+    "pie_corrupted": {
+        "id": "pie_corrupted",
+        "name": "Corrupted Pie",
+        "icon": "pie_corrupted",
+        "namesearch": "pie_corrupted corrupted pie",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_corrupted_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "chizzard_gizzard",
+                            "blizzard_chizzard_gizzard",
+                            "filet_o_karrotfish",
+                            "pork_chop",
+                            "poultry_parts",
+                            "plant_bamboo",
+                            "plant_cactus01",
+                            "plant_cactus02",
+                            "plant_succulent",
+                            "plant_pilea",
+                            "squitchy_jerky"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            }
+        ],
+        "creates": []
+    },
+    "pie_mushroom": {
+        "id": "pie_mushroom",
+        "name": "Mushroom Pot Pie",
+        "icon": "pie_mushroom",
+        "namesearch": "pie_mushroom pot mushroom pie",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_red"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_glowing"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "mushroom_brown"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            }
+        ],
+        "creates": []
+    },
+    "pie_cactus": {
+        "id": "pie_cactus",
+        "name": "Spiky Pie",
+        "icon": "pie_spiny",
+        "namesearch": "pie_cactus pie_spiny pie spiky",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus01"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            }
+        ],
+        "creates": []
+    },
+    "food_cake_shrew": {
+        "id": "food_cake_shrew",
+        "name": "Poisonous Pastry",
+        "icon": "food_cake_shrew",
+        "namesearch": "food_cake_shrew pastry poisonous",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wheat"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "water_item"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "plant_succulent"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "pie"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread",
+                            "bread_wholesome",
+                            "bread_corrupted",
+                            "bread_tar",
+                            "bread_blazing",
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            }
+        ],
+        "creates": []
+    },
+    "holiday_wall_brick": {
+        "id": "holiday_wall_brick",
+        "name": "Red Brick Wall",
+        "icon": "holiday_wall_brick",
+        "namesearch": "wall brick red holiday_wall_brick",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "dye_red"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "mud_item"
+                        ],
+                        "count": 4
+                    }
+                ],
+                "count": 8,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
     "holiday_wall_brick_white": {
         "id": "holiday_wall_brick_white",
         "name": "White Brick Wall",
         "icon": "holiday_wall_brick_white",
-        "namesearch": "wall brick white holiday_wall_brick_white",
+        "namesearch": "wall white brick holiday_wall_brick_white",
         "recipes": [
             {
                 "materials": [
@@ -31,7 +4148,7 @@ var crafts = {
         "id": "holiday_bed_candycane",
         "name": "Candycane Bed",
         "icon": "holiday_bed_candycane",
-        "namesearch": "bed candycane holiday_bed_candycane",
+        "namesearch": "candycane bed holiday_bed_candycane",
         "recipes": [
             {
                 "materials": [
@@ -77,7 +4194,7 @@ var crafts = {
         "id": "holiday_bed_plaid",
         "name": "Plaid Bed",
         "icon": "holiday_bed_plaid",
-        "namesearch": "holiday_bed_plaid bed plaid",
+        "namesearch": "plaid bed holiday_bed_plaid",
         "recipes": [
             {
                 "materials": [
@@ -123,7 +4240,7 @@ var crafts = {
         "id": "stairs_diamond",
         "name": "Diamond Stairs",
         "icon": "stairs_diamond",
-        "namesearch": "stairs diamond stairs_diamond",
+        "namesearch": "stairs stairs_diamond diamond",
         "recipes": [
             {
                 "materials": [
@@ -152,15 +4269,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_diamond_inner_corner",
-            "stairs_diamond_outer_corner"
+            "stairs_diamond_outer_corner",
+            "stairs_diamond_inner_corner"
         ]
     },
     "holiday_bed_giftwrap": {
         "id": "holiday_bed_giftwrap",
         "name": "Giftwrapped Bed",
         "icon": "holiday_bed_giftwrap",
-        "namesearch": "giftwrapped bed holiday_bed_giftwrap",
+        "namesearch": "holiday_bed_giftwrap giftwrapped bed",
         "recipes": [
             {
                 "materials": [
@@ -235,8 +4352,8 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_lumite_inner_corner",
-            "stairs_lumite_outer_corner"
+            "stairs_lumite_outer_corner",
+            "stairs_lumite_inner_corner"
         ]
     },
     "holiday_stained_glass_blue": {
@@ -277,7 +4394,7 @@ var crafts = {
         "id": "roof_lumite",
         "name": "Lumite Roof",
         "icon": "roof_lumite",
-        "namesearch": "lumite roof roof_lumite",
+        "namesearch": "roof_lumite lumite roof",
         "recipes": [
             {
                 "materials": [
@@ -312,15 +4429,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_lumite_inner_corner",
-            "roof_lumite_outer_corner"
+            "roof_lumite_outer_corner",
+            "roof_lumite_inner_corner"
         ]
     },
     "wall_lumite_beveled": {
         "id": "wall_lumite_beveled",
         "name": "Lumite Wall",
         "icon": "wall_lumite_bevel",
-        "namesearch": "wall_lumite_bevel lumite wall_lumite_beveled wall",
+        "namesearch": "wall wall_lumite_beveled wall_lumite_bevel lumite",
         "recipes": [
             {
                 "materials": [
@@ -349,16 +4466,16 @@ var crafts = {
             }
         ],
         "creates": [
+            "slab_lumite_beveled",
             "slope_lumite_beveled",
-            "column_lumite_beveled",
-            "slab_lumite_beveled"
+            "column_lumite_beveled"
         ]
     },
     "holiday_stained_glass_red": {
         "id": "holiday_stained_glass_red",
         "name": "Red Snowflake Glass",
         "icon": "holiday_stained_glass_red",
-        "namesearch": "holiday_stained_glass_red glass snowflake red",
+        "namesearch": "glass holiday_stained_glass_red red snowflake",
         "recipes": [
             {
                 "materials": [
@@ -392,7 +4509,7 @@ var crafts = {
         "id": "wall_lumite_dark",
         "name": "Dark Lumite Wall",
         "icon": "wall_lumite_dark",
-        "namesearch": "lumite wall_lumite_dark dark wall",
+        "namesearch": "wall dark lumite wall_lumite_dark",
         "recipes": [
             {
                 "materials": [
@@ -427,8 +4544,8 @@ var crafts = {
             }
         ],
         "creates": [
-            "column_lumite_dark",
             "slope_lumite_dark",
+            "column_lumite_dark",
             "slab_lumite_dark"
         ]
     },
@@ -436,7 +4553,7 @@ var crafts = {
         "id": "wall_lumite_light",
         "name": "Light Lumite Wall",
         "icon": "wall_lumite_light",
-        "namesearch": "lumite light wall wall_lumite_light",
+        "namesearch": "light wall_lumite_light lumite wall",
         "recipes": [
             {
                 "materials": [
@@ -472,15 +4589,15 @@ var crafts = {
         ],
         "creates": [
             "slope_lumite_light",
-            "slab_lumite_light",
-            "column_lumite_light"
+            "column_lumite_light",
+            "slab_lumite_light"
         ]
     },
     "holiday_stained_glass_green": {
         "id": "holiday_stained_glass_green",
         "name": "Green Snowflake Glass",
         "icon": "holiday_stained_glass_green",
-        "namesearch": "holiday_stained_glass_green glass green snowflake",
+        "namesearch": "glass holiday_stained_glass_green snowflake green",
         "recipes": [
             {
                 "materials": [
@@ -548,7 +4665,7 @@ var crafts = {
         "id": "chair_obsidian",
         "name": "Obsidian Chair",
         "icon": "chair_obsidian",
-        "namesearch": "obsidian chair_obsidian chair",
+        "namesearch": "chair_obsidian obsidian chair",
         "recipes": [
             {
                 "materials": [
@@ -582,7 +4699,7 @@ var crafts = {
         "id": "holiday_stained_glass_white",
         "name": "White Snowflake Glass",
         "icon": "holiday_stained_glass_white",
-        "namesearch": "glass white snowflake holiday_stained_glass_white",
+        "namesearch": "glass holiday_stained_glass_white white snowflake",
         "recipes": [
             {
                 "materials": [
@@ -616,7 +4733,7 @@ var crafts = {
         "id": "fence_obsidian",
         "name": "Obsidian Fence",
         "icon": "fence_obsidian",
-        "namesearch": "fence obsidian fence_obsidian",
+        "namesearch": "fence_obsidian fence obsidian",
         "recipes": [
             {
                 "materials": [
@@ -656,7 +4773,7 @@ var crafts = {
         "id": "gate_obsidian",
         "name": "Obsidian Gate",
         "icon": "gate_obsidian",
-        "namesearch": "obsidian gate_obsidian gate",
+        "namesearch": "obsidian gate gate_obsidian",
         "recipes": [
             {
                 "materials": [
@@ -696,7 +4813,7 @@ var crafts = {
         "id": "table_wood_white",
         "name": "White Wood Table",
         "icon": "table_wood_white",
-        "namesearch": "wood white table table_wood_white",
+        "namesearch": "table white wood table_wood_white",
         "recipes": [
             {
                 "materials": [
@@ -736,7 +4853,7 @@ var crafts = {
         "id": "table_diamond",
         "name": "Diamond table",
         "icon": "table_diamond",
-        "namesearch": "table_diamond diamond table",
+        "namesearch": "table table_diamond diamond",
         "recipes": [
             {
                 "materials": [
@@ -770,7 +4887,7 @@ var crafts = {
         "id": "door_wood_white",
         "name": "White Wood Door",
         "icon": "door_wood_white",
-        "namesearch": "door door_wood_white wood white",
+        "namesearch": "white wood door door_wood_white",
         "recipes": [
             {
                 "materials": [
@@ -804,7 +4921,7 @@ var crafts = {
         "id": "table_lumite",
         "name": "Lumite Table",
         "icon": "table_lumite",
-        "namesearch": "lumite table table_lumite",
+        "namesearch": "table lumite table_lumite",
         "recipes": [
             {
                 "materials": [
@@ -838,7 +4955,7 @@ var crafts = {
         "id": "chair_wood_white",
         "name": "White Wood Chair",
         "icon": "chair_wood_white",
-        "namesearch": "chair_wood_white wood white chair",
+        "namesearch": "white wood chair chair_wood_white",
         "recipes": [
             {
                 "materials": [
@@ -872,7 +4989,7 @@ var crafts = {
         "id": "door_lumite",
         "name": "Lumite Door",
         "icon": "door_lumite",
-        "namesearch": "door_lumite lumite door",
+        "namesearch": "door lumite door_lumite",
         "recipes": [
             {
                 "materials": [
@@ -912,7 +5029,7 @@ var crafts = {
         "id": "holiday_shelf_wood_white",
         "name": "Holiday Mantle",
         "icon": "holiday_shelf_wood_white",
-        "namesearch": "holiday_shelf_wood_white holiday mantle",
+        "namesearch": "mantle holiday holiday_shelf_wood_white",
         "recipes": [
             {
                 "materials": [
@@ -952,7 +5069,7 @@ var crafts = {
         "id": "wall_obsidian_checkered",
         "name": "Checkered Obsidian Wall",
         "icon": "wall_obsidian_decorative_02",
-        "namesearch": "wall_obsidian_decorative_02 checkered obsidian wall wall_obsidian_checkered",
+        "namesearch": "obsidian wall_obsidian_checkered wall_obsidian_decorative_02 wall checkered",
         "recipes": [
             {
                 "materials": [
@@ -986,7 +5103,7 @@ var crafts = {
         "id": "snow_globe_pigsy",
         "name": "Pigsy Snow Globe",
         "icon": "snow_globe_pigsy",
-        "namesearch": "snow snow_globe_pigsy pigsy globe",
+        "namesearch": "snow globe snow_globe_pigsy pigsy",
         "recipes": [
             {
                 "materials": [
@@ -1036,7 +5153,7 @@ var crafts = {
         "id": "wall_obsidian_square",
         "name": "Square Obsidian Wall",
         "icon": "wall_obsidian_decorative_01",
-        "namesearch": "square wall_obsidian_square wall_obsidian_decorative_01 obsidian wall",
+        "namesearch": "obsidian square wall wall_obsidian_square wall_obsidian_decorative_01",
         "recipes": [
             {
                 "materials": [
@@ -1070,7 +5187,7 @@ var crafts = {
         "id": "snow_globe_trog",
         "name": "Trog Snow Globe",
         "icon": "snow_globe_trog",
-        "namesearch": "snow snow_globe_trog trog globe",
+        "namesearch": "snow_globe_trog globe snow trog",
         "recipes": [
             {
                 "materials": [
@@ -1120,7 +5237,7 @@ var crafts = {
         "id": "wall_obsidian_rhombus",
         "name": "Rhombus Obsidian Wall",
         "icon": "wall_obsidian_decorative_03",
-        "namesearch": "wall_obsidian_rhombus rhombus wall_obsidian_decorative_03 obsidian wall",
+        "namesearch": "obsidian wall wall_obsidian_decorative_03 rhombus wall_obsidian_rhombus",
         "recipes": [
             {
                 "materials": [
@@ -1154,7 +5271,7 @@ var crafts = {
         "id": "snow_globe_reaudolph",
         "name": "Reaudolph Snow Globe",
         "icon": "snow_globe_reaudolph",
-        "namesearch": "snow snow_globe_reaudolph reaudolph globe",
+        "namesearch": "snow_globe_reaudolph globe snow reaudolph",
         "recipes": [
             {
                 "materials": [
@@ -1204,7 +5321,7 @@ var crafts = {
         "id": "wall_furnace_aztec",
         "name": "Aztec Furnace Wall",
         "icon": "wall_furnace_decorative_02",
-        "namesearch": "aztec wall_furnace_aztec furnace wall wall_furnace_decorative_02",
+        "namesearch": "wall wall_furnace_decorative_02 aztec furnace wall_furnace_aztec",
         "recipes": [
             {
                 "materials": [
@@ -1244,7 +5361,7 @@ var crafts = {
         "id": "wall_wood_white",
         "name": "White Wood Wall",
         "icon": "wall_wood_white",
-        "namesearch": "wall wood white wall_wood_white",
+        "namesearch": "wall white wood wall_wood_white",
         "recipes": [
             {
                 "materials": [
@@ -1282,7 +5399,7 @@ var crafts = {
         "id": "wall_furnace_grate",
         "name": "Grated Furnace wall",
         "icon": "wall_furnace_decorative_03",
-        "namesearch": "wall_furnace_grate wall_furnace_decorative_03 grated furnace wall",
+        "namesearch": "wall_furnace_grate grated wall wall_furnace_decorative_03 furnace",
         "recipes": [
             {
                 "materials": [
@@ -1322,7 +5439,7 @@ var crafts = {
         "id": "floor_wood_white",
         "name": "White Wood Floor",
         "icon": "floor_wood_white",
-        "namesearch": "floor wood white floor_wood_white",
+        "namesearch": "floor_wood_white wood white floor",
         "recipes": [
             {
                 "materials": [
@@ -1356,7 +5473,7 @@ var crafts = {
         "id": "wall_furnace_cross",
         "name": "Crossed Furnace Wall",
         "icon": "wall_furnace_decorative_01",
-        "namesearch": "crossed wall_furnace_decorative_01 wall_furnace_cross furnace wall",
+        "namesearch": "wall_furnace_cross wall crossed wall_furnace_decorative_01 furnace",
         "recipes": [
             {
                 "materials": [
@@ -1396,7 +5513,7 @@ var crafts = {
         "id": "holiday_carpet_beige",
         "name": "Beige Holiday Carpet",
         "icon": "holiday_carpet_beige",
-        "namesearch": "carpet holiday beige holiday_carpet_beige",
+        "namesearch": "holiday_carpet_beige beige carpet holiday",
         "recipes": [
             {
                 "materials": [
@@ -1430,7 +5547,7 @@ var crafts = {
         "id": "wall_diamond_octagon",
         "name": "Octagon Diamond Wall",
         "icon": "wall_diamond_decorative_01",
-        "namesearch": "wall_diamond_decorative_01 diamond octagon wall_diamond_octagon wall",
+        "namesearch": "wall_diamond_octagon wall wall_diamond_decorative_01 octagon diamond",
         "recipes": [
             {
                 "materials": [
@@ -1464,7 +5581,7 @@ var crafts = {
         "id": "holiday_carpet_dark_beige",
         "name": "Dark Beige Holiday Carpet",
         "icon": "holiday_carpet_dark_beige",
-        "namesearch": "carpet holiday beige holiday_carpet_dark_beige dark",
+        "namesearch": "holiday holiday_carpet_dark_beige dark beige carpet",
         "recipes": [
             {
                 "materials": [
@@ -1498,7 +5615,7 @@ var crafts = {
         "id": "wall_diamond_square",
         "name": "Square Diamond Wall",
         "icon": "wall_diamond_decorative_03",
-        "namesearch": "diamond square wall_diamond_decorative_03 wall_diamond_square wall",
+        "namesearch": "wall_diamond_decorative_03 square wall wall_diamond_square diamond",
         "recipes": [
             {
                 "materials": [
@@ -1532,7 +5649,7 @@ var crafts = {
         "id": "holiday_carpet_grey",
         "name": "Grey Holiday Carpet",
         "icon": "holiday_carpet_grey",
-        "namesearch": "carpet holiday holiday_carpet_grey grey",
+        "namesearch": "grey holiday_carpet_grey carpet holiday",
         "recipes": [
             {
                 "materials": [
@@ -1566,7 +5683,7 @@ var crafts = {
         "id": "wall_diamond_star",
         "name": "Star Diamond Wall",
         "icon": "wall_diamond_decorative_02",
-        "namesearch": "diamond wall_diamond_decorative_02 wall_diamond_star wall star",
+        "namesearch": "wall_diamond_star wall wall_diamond_decorative_02 diamond star",
         "recipes": [
             {
                 "materials": [
@@ -1600,7 +5717,7 @@ var crafts = {
         "id": "holiday_carpet_dark_grey",
         "name": "Dark Grey Holiday Carpet",
         "icon": "holiday_carpet_dark_grey",
-        "namesearch": "carpet holiday dark holiday_carpet_dark_grey grey",
+        "namesearch": "grey holiday dark carpet holiday_carpet_dark_grey",
         "recipes": [
             {
                 "materials": [
@@ -1634,7 +5751,7 @@ var crafts = {
         "id": "sword_gold",
         "name": "Legendary Golden Sword",
         "icon": "sword_gold",
-        "namesearch": "sword_gold legendary golden sword",
+        "namesearch": "sword sword_gold golden legendary",
         "recipes": [
             {
                 "materials": [
@@ -1680,7 +5797,7 @@ var crafts = {
         "id": "holiday_fireplace",
         "name": "Red Brick Fireplace",
         "icon": "holiday_fireplace",
-        "namesearch": "brick holiday_fireplace fireplace red",
+        "namesearch": "brick holiday_fireplace red fireplace",
         "recipes": [
             {
                 "materials": [
@@ -1708,7 +5825,7 @@ var crafts = {
         "id": "potion_gold",
         "name": "Golden Potion",
         "icon": "potion_gold",
-        "namesearch": "potion_gold golden potion",
+        "namesearch": "potion_gold potion golden",
         "recipes": [
             {
                 "materials": [
@@ -1750,7 +5867,7 @@ var crafts = {
         "id": "holiday_fireplace_white",
         "name": "White Brick Fireplace",
         "icon": "holiday_fireplace_white",
-        "namesearch": "holiday_fireplace_white white fireplace brick",
+        "namesearch": "brick white holiday_fireplace_white fireplace",
         "recipes": [
             {
                 "materials": [
@@ -1778,7 +5895,7 @@ var crafts = {
         "id": "holiday_giftwrap_blue",
         "name": "Blue Giftwrap Block",
         "icon": "holiday_giftwrap_blue",
-        "namesearch": "giftwrap block holiday_giftwrap_blue blue",
+        "namesearch": "holiday_giftwrap_blue giftwrap blue block",
         "recipes": [
             {
                 "materials": [
@@ -1812,7 +5929,7 @@ var crafts = {
         "id": "wall_gold",
         "name": "Golden Wall",
         "icon": "wall_gold_decorative_01",
-        "namesearch": "wall wall_gold_decorative_01 wall_gold golden",
+        "namesearch": "wall_gold golden wall_gold_decorative_01 wall",
         "recipes": [
             {
                 "materials": [
@@ -1846,7 +5963,7 @@ var crafts = {
         "id": "holiday_giftwrap_candycane",
         "name": "Candycane Giftwrap Block",
         "icon": "holiday_giftwrap_candycane",
-        "namesearch": "giftwrap block candycane holiday_giftwrap_candycane",
+        "namesearch": "giftwrap candycane block holiday_giftwrap_candycane",
         "recipes": [
             {
                 "materials": [
@@ -1880,7 +5997,7 @@ var crafts = {
         "id": "wall_gold_banded",
         "name": "Banded Golden Wall",
         "icon": "wall_gold_decorative_02",
-        "namesearch": "golden wall_gold_decorative_02 banded wall_gold_banded wall",
+        "namesearch": "wall_gold_decorative_02 wall banded golden wall_gold_banded",
         "recipes": [
             {
                 "materials": [
@@ -1920,7 +6037,7 @@ var crafts = {
         "id": "holiday_giftwrap_green",
         "name": "Green Giftwrap Block",
         "icon": "holiday_giftwrap_green",
-        "namesearch": "green holiday_giftwrap_green giftwrap block",
+        "namesearch": "giftwrap block holiday_giftwrap_green green",
         "recipes": [
             {
                 "materials": [
@@ -1954,7 +6071,7 @@ var crafts = {
         "id": "wall_gold_studded",
         "name": "Studded Golden Wall",
         "icon": "wall_gold_decorative_03",
-        "namesearch": "wall_gold_decorative_03 golden wall_gold_studded wall studded",
+        "namesearch": "wall studded wall_gold_decorative_03 golden wall_gold_studded",
         "recipes": [
             {
                 "materials": [
@@ -1994,7 +6111,7 @@ var crafts = {
         "id": "holiday_giftwrap_red",
         "name": "Red Giftwrap Block",
         "icon": "holiday_giftwrap_red",
-        "namesearch": "holiday_giftwrap_red giftwrap block red",
+        "namesearch": "holiday_giftwrap_red giftwrap red block",
         "recipes": [
             {
                 "materials": [
@@ -2028,7 +6145,7 @@ var crafts = {
         "id": "wall_lumite_shattered",
         "name": "Shattered Lumite Wall",
         "icon": "wall_lumite_decorative_02",
-        "namesearch": "lumite wall_lumite_shattered wall_lumite_decorative_02 wall shattered",
+        "namesearch": "wall_lumite_decorative_02 shattered wall lumite wall_lumite_shattered",
         "recipes": [
             {
                 "materials": [
@@ -2062,7 +6179,7 @@ var crafts = {
         "id": "holiday_window",
         "name": "Holiday Window",
         "icon": "holiday_window",
-        "namesearch": "holiday_window holiday window",
+        "namesearch": "window holiday_window holiday",
         "recipes": [
             {
                 "materials": [
@@ -2090,7 +6207,7 @@ var crafts = {
         "id": "wall_lumite_shattered_dark",
         "name": "Shattered Dark Lumite Wall",
         "icon": "wall_lumite_decorative_01",
-        "namesearch": "lumite wall_lumite_shattered_dark wall_lumite_decorative_01 wall dark shattered",
+        "namesearch": "shattered wall dark wall_lumite_decorative_01 wall_lumite_shattered_dark lumite",
         "recipes": [
             {
                 "materials": [
@@ -2130,7 +6247,7 @@ var crafts = {
         "id": "spore_mushroom_red",
         "name": "Red Mushroom Spores",
         "icon": "spore_mushroom_red",
-        "namesearch": "mushroom spore_mushroom_red spores red",
+        "namesearch": "spores spore_mushroom_red red mushroom",
         "recipes": [
             {
                 "materials": [
@@ -2152,7 +6269,7 @@ var crafts = {
         "id": "wall_lumite_shattered_light",
         "name": "Shattered Light Lumite Wall",
         "icon": "wall_lumite_decorative_03",
-        "namesearch": "lumite light wall_lumite_shattered_light wall_lumite_decorative_03 wall shattered",
+        "namesearch": "wall_lumite_shattered_light shattered wall light wall_lumite_decorative_03 lumite",
         "recipes": [
             {
                 "materials": [
@@ -2192,7 +6309,7 @@ var crafts = {
         "id": "spore_mushroom_brown",
         "name": "Brown Mushroom Spores",
         "icon": "spore_mushroom_brown",
-        "namesearch": "brown spore_mushroom_brown mushroom spores",
+        "namesearch": "spore_mushroom_brown spores brown mushroom",
         "recipes": [
             {
                 "materials": [
@@ -2214,7 +6331,7 @@ var crafts = {
         "id": "torch_holiday_yellow",
         "name": "Yellow Holiday Light",
         "icon": "torch_holiday_yellow",
-        "namesearch": "torch_holiday_yellow yellow holiday light",
+        "namesearch": "torch_holiday_yellow light holiday yellow",
         "recipes": [
             {
                 "materials": [
@@ -2254,7 +6371,7 @@ var crafts = {
         "id": "torch_holiday_blue",
         "name": "Blue Holiday Light",
         "icon": "torch_holiday_blue",
-        "namesearch": "light holiday blue torch_holiday_blue",
+        "namesearch": "torch_holiday_blue light blue holiday",
         "recipes": [
             {
                 "materials": [
@@ -2294,7 +6411,7 @@ var crafts = {
         "id": "captureblueprint_15_item",
         "name": "Small Capture Block",
         "icon": "arc_blueprint_capture_device_small",
-        "namesearch": "arc_blueprint_capture_device_small capture block captureblueprint_15_item small",
+        "namesearch": "capture block arc_blueprint_capture_device_small captureblueprint_15_item small",
         "recipes": [
             {
                 "materials": [
@@ -2322,7 +6439,7 @@ var crafts = {
         "id": "torch_holiday_red",
         "name": "Red Holiday Light",
         "icon": "torch_holiday_red",
-        "namesearch": "light holiday torch_holiday_red red",
+        "namesearch": "light red holiday torch_holiday_red",
         "recipes": [
             {
                 "materials": [
@@ -2362,7 +6479,7 @@ var crafts = {
         "id": "captureblueprint_31_item",
         "name": "Medium Capture Block",
         "icon": "arc_blueprint_capture_device_medium",
-        "namesearch": "captureblueprint_31_item medium capture block arc_blueprint_capture_device_medium",
+        "namesearch": "capture block captureblueprint_31_item medium arc_blueprint_capture_device_medium",
         "recipes": [
             {
                 "materials": [
@@ -2390,7 +6507,7 @@ var crafts = {
         "id": "torch_holiday_green",
         "name": "Green Holiday Light",
         "icon": "torch_holiday_green",
-        "namesearch": "green torch_holiday_green holiday light",
+        "namesearch": "green light holiday torch_holiday_green",
         "recipes": [
             {
                 "materials": [
@@ -2436,7 +6553,7 @@ var crafts = {
         "id": "captureblueprint_63_item",
         "name": "Large Capture Block",
         "icon": "arc_blueprint_capture_device_large",
-        "namesearch": "arc_blueprint_capture_device_large capture block large captureblueprint_63_item",
+        "namesearch": "capture block arc_blueprint_capture_device_large captureblueprint_63_item large",
         "recipes": [
             {
                 "materials": [
@@ -2464,7 +6581,7 @@ var crafts = {
         "id": "spore_mushroom_glowing",
         "name": "Glowing Mushroom Spores",
         "icon": "spore_mushroom_glowing",
-        "namesearch": "spore_mushroom_glowing mushroom glowing spores",
+        "namesearch": "spores spore_mushroom_glowing mushroom glowing",
         "recipes": [
             {
                 "materials": [
@@ -2486,7 +6603,7 @@ var crafts = {
         "id": "wall_gingerbread",
         "name": "Gingerbread Wall",
         "icon": "wall_gingerbread_01",
-        "namesearch": "wall wall_gingerbread wall_gingerbread_01 gingerbread",
+        "namesearch": "wall gingerbread wall_gingerbread_01 wall_gingerbread",
         "recipes": [
             {
                 "materials": [
@@ -2504,16 +6621,16 @@ var crafts = {
         ],
         "creates": [
             "slope_gingerbread_basic",
-            "column_gingerbread_basic",
+            "stairs_gingerbread_basic",
             "slab_gingerbread_basic",
-            "stairs_gingerbread_basic"
+            "column_gingerbread_basic"
         ]
     },
     "plum_blossom": {
         "id": "plum_blossom",
         "name": "Plum Blossom",
         "icon": "plum_blossom",
-        "namesearch": "plum blossom plum_blossom",
+        "namesearch": "blossom plum_blossom plum",
         "recipes": [
             {
                 "materials": [
@@ -2549,7 +6666,7 @@ var crafts = {
         "id": "wall_gingerbread_brick",
         "name": "Brick Gingerbread Wall",
         "icon": "wall_gingerbread_02",
-        "namesearch": "wall_gingerbread_02 brick gingerbread wall_gingerbread_brick wall",
+        "namesearch": "wall brick wall_gingerbread_brick gingerbread wall_gingerbread_02",
         "recipes": [
             {
                 "materials": [
@@ -2577,7 +6694,7 @@ var crafts = {
         "id": "lantern_chinese_pigsy",
         "name": "Year of the Pig Lantern",
         "icon": "lantern_chinese_pig",
-        "namesearch": "year pig the lantern_chinese_pig lantern_chinese_pigsy lantern of",
+        "namesearch": "lantern the of lantern_chinese_pigsy year lantern_chinese_pig pig",
         "recipes": [
             {
                 "materials": [
@@ -2621,7 +6738,7 @@ var crafts = {
         "id": "wall_gingerbread_tile",
         "name": "Tiled Gingerbread Wall",
         "icon": "wall_gingerbread_03",
-        "namesearch": "wall_gingerbread_03 gingerbread wall_gingerbread_tile tiled wall",
+        "namesearch": "wall_gingerbread_03 wall wall_gingerbread_tile gingerbread tiled",
         "recipes": [
             {
                 "materials": [
@@ -2655,7 +6772,7 @@ var crafts = {
         "id": "hotel_dresser",
         "name": "Deluxrative Dresser",
         "icon": "hotel_dresser",
-        "namesearch": "deluxrative hotel_dresser dresser",
+        "namesearch": "hotel_dresser dresser deluxrative",
         "recipes": [
             {
                 "materials": [
@@ -2699,7 +6816,7 @@ var crafts = {
         "id": "wall_gingerbread_swirl",
         "name": "Swirl Gingerbread Wall",
         "icon": "wall_gingerbread_04",
-        "namesearch": "wall_gingerbread_swirl swirl gingerbread wall_gingerbread_04 wall",
+        "namesearch": "wall_gingerbread_04 wall gingerbread swirl wall_gingerbread_swirl",
         "recipes": [
             {
                 "materials": [
@@ -2733,7 +6850,7 @@ var crafts = {
         "id": "hotel_cabinets",
         "name": "Cabernatious Cabinets",
         "icon": "hotel_cabinets",
-        "namesearch": "cabinets cabernatious hotel_cabinets",
+        "namesearch": "hotel_cabinets cabernatious cabinets",
         "recipes": [
             {
                 "materials": [
@@ -2777,7 +6894,7 @@ var crafts = {
         "id": "roof_gingerbread",
         "name": "Gingerbread Roof",
         "icon": "roof_gingerbread",
-        "namesearch": "roof_gingerbread roof gingerbread",
+        "namesearch": "gingerbread roof_gingerbread roof",
         "recipes": [
             {
                 "materials": [
@@ -2848,7 +6965,7 @@ var crafts = {
         "id": "wall_candycane",
         "name": "Candy Cane Wall",
         "icon": "wall_candycane",
-        "namesearch": "candy wall_candycane cane wall",
+        "namesearch": "cane wall_candycane wall candy",
         "recipes": [
             {
                 "materials": [
@@ -2878,39 +6995,11 @@ var crafts = {
         ],
         "creates": []
     },
-    "holiday_wall_brick": {
-        "id": "holiday_wall_brick",
-        "name": "Red Brick Wall",
-        "icon": "holiday_wall_brick",
-        "namesearch": "wall brick red holiday_wall_brick",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "dye_red"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "mud_item"
-                        ],
-                        "count": 4
-                    }
-                ],
-                "count": 8,
-                "time": 0,
-                "station": "Backpack"
-            }
-        ],
-        "creates": []
-    },
     "hotel_chandelier": {
         "id": "hotel_chandelier",
         "name": "Charmacious Chandelier",
         "icon": "hotel_chandelier",
-        "namesearch": "hotel_chandelier charmacious chandelier",
+        "namesearch": "charmacious hotel_chandelier chandelier",
         "recipes": [
             {
                 "materials": [
@@ -2944,7 +7033,7 @@ var crafts = {
         "id": "gift_box_red",
         "name": "Red Gift Box",
         "icon": "gift_box_red",
-        "namesearch": "gift gift_box_red box red",
+        "namesearch": "box red gift_box_red gift",
         "recipes": [
             {
                 "materials": [
@@ -2984,7 +7073,7 @@ var crafts = {
         "id": "hotel_torch",
         "name": "Luxurousity Lamp",
         "icon": "hotel_torch",
-        "namesearch": "lamp luxurousity hotel_torch",
+        "namesearch": "hotel_torch luxurousity lamp",
         "recipes": [
             {
                 "materials": [
@@ -3018,7 +7107,7 @@ var crafts = {
         "id": "gift_box_green",
         "name": "Green Gift Box",
         "icon": "gift_box_green",
-        "namesearch": "green gift box gift_box_green",
+        "namesearch": "box gift_box_green gift green",
         "recipes": [
             {
                 "materials": [
@@ -3064,7 +7153,7 @@ var crafts = {
         "id": "hotel_lamp_standing",
         "name": "Elongracing Luxurousity Lamp",
         "icon": "hotel_lamp_standing",
-        "namesearch": "hotel_lamp_standing lamp luxurousity elongracing",
+        "namesearch": "hotel_lamp_standing luxurousity elongracing lamp",
         "recipes": [
             {
                 "materials": [
@@ -3098,7 +7187,7 @@ var crafts = {
         "id": "gift_box_blue",
         "name": "Blue Gift Box",
         "icon": "gift_box_blue",
-        "namesearch": "gift blue box gift_box_blue",
+        "namesearch": "box gift_box_blue blue gift",
         "recipes": [
             {
                 "materials": [
@@ -3172,7 +7261,7 @@ var crafts = {
         "id": "window_gingerbread",
         "name": "Gingerbread Window",
         "icon": "window_candy",
-        "namesearch": "window_gingerbread window_candy window gingerbread",
+        "namesearch": "window gingerbread window_gingerbread window_candy",
         "recipes": [
             {
                 "materials": [
@@ -3212,7 +7301,7 @@ var crafts = {
         "id": "hotel_couch_ottoman",
         "name": "Ostenduring Ottoman",
         "icon": "hotel_couch_ottoman",
-        "namesearch": "hotel_couch_ottoman ostenduring ottoman",
+        "namesearch": "ottoman hotel_couch_ottoman ostenduring",
         "recipes": [
             {
                 "materials": [
@@ -3246,7 +7335,7 @@ var crafts = {
         "id": "wall_mayan",
         "name": "Hidden Temple Wall",
         "icon": "wall_mayan_medio",
-        "namesearch": "temple wall_mayan_medio hidden wall_mayan wall",
+        "namesearch": "wall temple wall_mayan hidden wall_mayan_medio",
         "recipes": [
             {
                 "materials": [
@@ -3280,7 +7369,7 @@ var crafts = {
         "id": "hotel_couch_corner",
         "name": "Curvaciously Cushceptional Couch",
         "icon": "hotel_couch_corner",
-        "namesearch": "curvaciously cushceptional hotel_couch_corner couch",
+        "namesearch": "couch cushceptional hotel_couch_corner curvaciously",
         "recipes": [
             {
                 "materials": [
@@ -3314,7 +7403,7 @@ var crafts = {
         "id": "wall_mayan_trim",
         "name": "Hidden Temple Trim",
         "icon": "wall_mayan_mesa",
-        "namesearch": "wall_mayan_trim trim wall_mayan_mesa temple hidden",
+        "namesearch": "temple wall_mayan_mesa wall_mayan_trim trim hidden",
         "recipes": [
             {
                 "materials": [
@@ -3348,7 +7437,7 @@ var crafts = {
         "id": "hotel_bed",
         "name": "Majestifying Mattress",
         "icon": "hotel_bed",
-        "namesearch": "hotel_bed mattress majestifying",
+        "namesearch": "majestifying mattress hotel_bed",
         "recipes": [
             {
                 "materials": [
@@ -3388,7 +7477,7 @@ var crafts = {
         "id": "wall_mayan_accent",
         "name": "Hidden Temple Accent",
         "icon": "wall_mayan_cruz",
-        "namesearch": "temple accent hidden wall_mayan_cruz wall_mayan_accent",
+        "namesearch": "accent temple wall_mayan_cruz hidden wall_mayan_accent",
         "recipes": [
             {
                 "materials": [
@@ -3428,7 +7517,7 @@ var crafts = {
         "id": "hotel_flower",
         "name": "Beautacular Bouquet",
         "icon": "hotel_flower",
-        "namesearch": "hotel_flower beautacular bouquet",
+        "namesearch": "bouquet hotel_flower beautacular",
         "recipes": [
             {
                 "materials": [
@@ -3470,7 +7559,7 @@ var crafts = {
         "id": "wall_mayan_glyph",
         "name": "Hidden Temple Glyph Wall",
         "icon": "wall_mayan_pared",
-        "namesearch": "wall_mayan_pared wall_mayan_glyph temple hidden wall glyph",
+        "namesearch": "wall temple glyph wall_mayan_pared hidden wall_mayan_glyph",
         "recipes": [
             {
                 "materials": [
@@ -3510,7 +7599,7 @@ var crafts = {
         "id": "hotel_jabot",
         "name": "Jaunstounding Jabot",
         "icon": "hotel_jabot",
-        "namesearch": "hotel_jabot jabot jaunstounding",
+        "namesearch": "jabot jaunstounding hotel_jabot",
         "recipes": [
             {
                 "materials": [
@@ -3554,7 +7643,7 @@ var crafts = {
         "id": "wall_mayan_trim_turquoise",
         "name": "Hidden Temple Turquoise Trim",
         "icon": "wall_mayan_vega",
-        "namesearch": "trim turquoise temple wall_mayan_vega wall_mayan_trim_turquoise hidden",
+        "namesearch": "turquoise temple wall_mayan_vega trim hidden wall_mayan_trim_turquoise",
         "recipes": [
             {
                 "materials": [
@@ -3594,7 +7683,7 @@ var crafts = {
         "id": "hotel_curtain",
         "name": "Customazing Curtains",
         "icon": "hotel_curtain",
-        "namesearch": "hotel_curtain curtains customazing",
+        "namesearch": "customazing hotel_curtain curtains",
         "recipes": [
             {
                 "materials": [
@@ -3622,7 +7711,7 @@ var crafts = {
         "id": "wall_mayan_accent_serpent",
         "name": "Hidden Temple Serpent Accent",
         "icon": "wall_mayan_cima",
-        "namesearch": "temple hidden serpent accent wall_mayan_accent_serpent wall_mayan_cima",
+        "namesearch": "wall_mayan_accent_serpent wall_mayan_cima accent temple hidden serpent",
         "recipes": [
             {
                 "materials": [
@@ -3662,7 +7751,7 @@ var crafts = {
         "id": "hotel_wall",
         "name": "Wonderfulfilling Wallpaper",
         "icon": "hotel_wall",
-        "namesearch": "wallpaper hotel_wall wonderfulfilling",
+        "namesearch": "hotel_wall wallpaper wonderfulfilling",
         "recipes": [
             {
                 "materials": [
@@ -3743,7 +7832,7 @@ var crafts = {
         "id": "hotel_wall_base",
         "name": "Wonderfulfilling Wood Wall",
         "icon": "hotel_wall_base",
-        "namesearch": "wonderfulfilling wood hotel_wall_base wall",
+        "namesearch": "wall wood hotel_wall_base wonderfulfilling",
         "recipes": [
             {
                 "materials": [
@@ -3781,7 +7870,7 @@ var crafts = {
         "id": "stairs_mayan",
         "name": "Hidden Temple Stairs",
         "icon": "stairs_mayan",
-        "namesearch": "stairs_mayan temple hidden stairs",
+        "namesearch": "hidden stairs_mayan temple stairs",
         "recipes": [
             {
                 "materials": [
@@ -3824,7 +7913,7 @@ var crafts = {
         "id": "hotel_wall_trim",
         "name": "Wonderfulfilling Wallpaper Trim",
         "icon": "hotel_wall_trim",
-        "namesearch": "hotel_wall_trim wonderfulfilling trim wallpaper",
+        "namesearch": "wallpaper trim wonderfulfilling hotel_wall_trim",
         "recipes": [
             {
                 "materials": [
@@ -3868,7 +7957,7 @@ var crafts = {
         "id": "door_mayan",
         "name": "Hidden Temple Door",
         "icon": "door_mayan",
-        "namesearch": "hidden temple door_mayan door",
+        "namesearch": "door_mayan hidden temple door",
         "recipes": [
             {
                 "materials": [
@@ -3908,7 +7997,7 @@ var crafts = {
         "id": "hotel_floor",
         "name": "Comfavorited Carpet",
         "icon": "hotel_floor",
-        "namesearch": "carpet hotel_floor comfavorited",
+        "namesearch": "comfavorited carpet hotel_floor",
         "recipes": [
             {
                 "materials": [
@@ -3982,7 +8071,7 @@ var crafts = {
         "id": "hotel_door",
         "name": "Decorgeous Door",
         "icon": "hotel_door",
-        "namesearch": "decorgeous door hotel_door",
+        "namesearch": "hotel_door door decorgeous",
         "recipes": [
             {
                 "materials": [
@@ -4010,7 +8099,7 @@ var crafts = {
         "id": "throne_mayan",
         "name": "Hidden Temple Throne",
         "icon": "throne_mayan",
-        "namesearch": "throne_mayan temple hidden throne",
+        "namesearch": "throne hidden temple throne_mayan",
         "recipes": [
             {
                 "materials": [
@@ -4050,7 +8139,7 @@ var crafts = {
         "id": "slab_wood_red_chinese",
         "name": "Forbidden Red Wood Slab",
         "icon": "slab_wood_red_chinese",
-        "namesearch": "slab_wood_red_chinese forbidden red slab wood",
+        "namesearch": "slab_wood_red_chinese red forbidden slab wood",
         "recipes": [
             {
                 "materials": [
@@ -4074,7 +8163,7 @@ var crafts = {
         "id": "table_mayan",
         "name": "Hidden Temple Table",
         "icon": "table_mayan",
-        "namesearch": "hidden temple table table_mayan",
+        "namesearch": "table_mayan table temple hidden",
         "recipes": [
             {
                 "materials": [
@@ -4114,7 +8203,7 @@ var crafts = {
         "id": "eighth_wood_red_chinese",
         "name": "Forbidden Red Wood Eighth",
         "icon": "eighth_wood_red_chinese",
-        "namesearch": "forbidden red wood eighth eighth_wood_red_chinese",
+        "namesearch": "red forbidden wood eighth_wood_red_chinese eighth",
         "recipes": [
             {
                 "materials": [
@@ -4136,7 +8225,7 @@ var crafts = {
         "id": "torch_mayan",
         "name": "Hidden Temple Torch",
         "icon": "torch_mayan",
-        "namesearch": "hidden temple torch_mayan torch",
+        "namesearch": "hidden torch temple torch_mayan",
         "recipes": [
             {
                 "materials": [
@@ -4176,7 +8265,7 @@ var crafts = {
         "id": "stairs_wood_red_chinese",
         "name": "Forbidden Red Wood Stairs",
         "icon": "stairs_wood_red_chinese",
-        "namesearch": "forbidden red stairs_wood_red_chinese wood stairs",
+        "namesearch": "red forbidden wood stairs_wood_red_chinese stairs",
         "recipes": [
             {
                 "materials": [
@@ -4201,7 +8290,7 @@ var crafts = {
         "id": "altar_mayan",
         "name": "Mayan Altar",
         "icon": "mayan_altar",
-        "namesearch": "mayan_altar altar altar_mayan mayan",
+        "namesearch": "altar_mayan mayan_altar mayan altar",
         "recipes": [
             {
                 "materials": [
@@ -4241,7 +8330,7 @@ var crafts = {
         "id": "stairs_wood_red_chinese_inner_corner",
         "name": "Forbidden Red Wood Stairs Inner Corner",
         "icon": "stairs_wood_red_chinese_inner_corner",
-        "namesearch": "forbidden stairs_wood_red_chinese_inner_corner red corner inner wood stairs",
+        "namesearch": "red forbidden stairs_wood_red_chinese_inner_corner inner wood corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -4263,7 +8352,7 @@ var crafts = {
         "id": "goblet_mayan",
         "name": "Hidden Temple Goblet",
         "icon": "goblet_mayan",
-        "namesearch": "hidden temple goblet goblet_mayan",
+        "namesearch": "goblet_mayan hidden temple goblet",
         "recipes": [
             {
                 "materials": [
@@ -4303,7 +8392,7 @@ var crafts = {
         "id": "stairs_wood_red_chinese_outer_corner",
         "name": "Forbidden Red Wood Stairs Outer Corner",
         "icon": "stairs_wood_red_chinese_outer_corner",
-        "namesearch": "outer forbidden red corner stairs_wood_red_chinese_outer_corner wood stairs",
+        "namesearch": "red forbidden wood corner outer stairs_wood_red_chinese_outer_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -4325,7 +8414,7 @@ var crafts = {
         "id": "chest_mayan",
         "name": "Mayan Chest",
         "icon": "mayan_chest",
-        "namesearch": "chest_mayan chest mayan_chest mayan",
+        "namesearch": "chest_mayan mayan_chest mayan chest",
         "recipes": [
             {
                 "materials": [
@@ -4388,22 +8477,22 @@ var crafts = {
             }
         ],
         "creates": [
-            "logic_rng",
-            "potion_skull_poison",
-            "holiday_wall_brick_white",
-            "adobe_brick",
-            "potion_jimmy",
             "holiday_fireplace_white",
-            "holiday_fireplace",
             "planter_terracotta",
-            "holiday_wall_brick"
+            "potion_jimmy",
+            "logic_rng",
+            "holiday_wall_brick",
+            "adobe_brick",
+            "potion_skull_poison",
+            "holiday_fireplace",
+            "holiday_wall_brick_white"
         ]
     },
     "sword_mayan": {
         "id": "sword_mayan",
         "name": "Hidden Temple Sword",
         "icon": "sword_mayan",
-        "namesearch": "hidden temple sword_mayan sword",
+        "namesearch": "sword hidden sword_mayan temple",
         "recipes": [
             {
                 "materials": [
@@ -4443,7 +8532,7 @@ var crafts = {
         "id": "bench_haunted",
         "name": "Spooky Bench",
         "icon": "chair_haunted",
-        "namesearch": "spooky chair_haunted bench bench_haunted",
+        "namesearch": "spooky bench_haunted chair_haunted bench",
         "recipes": [
             {
                 "materials": [
@@ -4511,7 +8600,7 @@ var crafts = {
         "id": "candles_haunted",
         "name": "Spooky Candles",
         "icon": "candles_haunted",
-        "namesearch": "candles_haunted spooky candles",
+        "namesearch": "spooky candles candles_haunted",
         "recipes": [
             {
                 "materials": [
@@ -4539,7 +8628,7 @@ var crafts = {
         "id": "arc_cipher",
         "name": "Wiring Tool",
         "icon": "arc_wiring_tool",
-        "namesearch": "arc_wiring_tool arc_cipher tool wiring",
+        "namesearch": "wiring arc_wiring_tool arc_cipher tool",
         "recipes": [
             {
                 "materials": [
@@ -4629,7 +8718,7 @@ var crafts = {
         "id": "switch_item",
         "name": "Switch",
         "icon": "arc_switch",
-        "namesearch": "switch_item switch arc_switch",
+        "namesearch": "arc_switch switch switch_item",
         "recipes": [
             {
                 "materials": [
@@ -4663,7 +8752,7 @@ var crafts = {
         "id": "planter_haunted",
         "name": "Spooky Pedestal",
         "icon": "pedestal_haunted",
-        "namesearch": "planter_haunted spooky pedestal_haunted pedestal",
+        "namesearch": "spooky planter_haunted pedestal pedestal_haunted",
         "recipes": [
             {
                 "materials": [
@@ -4685,7 +8774,7 @@ var crafts = {
         "id": "pressure_plate_item",
         "name": "Pressure Plate",
         "icon": "arc_pressure_plate",
-        "namesearch": "plate pressure pressure_plate_item arc_pressure_plate",
+        "namesearch": "pressure_plate_item pressure arc_pressure_plate plate",
         "recipes": [
             {
                 "materials": [
@@ -4719,7 +8808,7 @@ var crafts = {
         "id": "skull_haunted",
         "name": "Spooky Skull",
         "icon": "skull_haunted",
-        "namesearch": "spooky skull_haunted skull",
+        "namesearch": "skull_haunted spooky skull",
         "recipes": [
             {
                 "materials": [
@@ -4741,7 +8830,7 @@ var crafts = {
         "id": "number_pad_item",
         "name": "Number Pad",
         "icon": "arc_number_pad",
-        "namesearch": "number number_pad_item pad arc_number_pad",
+        "namesearch": "number_pad_item pad arc_number_pad number",
         "recipes": [
             {
                 "materials": [
@@ -4775,7 +8864,7 @@ var crafts = {
         "id": "invert_block_item",
         "name": "Inverter Gate",
         "icon": "arc_invert_block",
-        "namesearch": "arc_invert_block invert_block_item inverter gate",
+        "namesearch": "arc_invert_block inverter gate invert_block_item",
         "recipes": [
             {
                 "materials": [
@@ -4815,7 +8904,7 @@ var crafts = {
         "id": "delay_block_item",
         "name": "Delay Gate",
         "icon": "arc_delay_block",
-        "namesearch": "delay_block_item arc_delay_block gate delay",
+        "namesearch": "delay_block_item delay gate arc_delay_block",
         "recipes": [
             {
                 "materials": [
@@ -4855,7 +8944,7 @@ var crafts = {
         "id": "logic_gate_item",
         "name": "Logic Gate",
         "icon": "arc_logic_block_bool",
-        "namesearch": "arc_logic_block_bool logic_gate_item logic gate",
+        "namesearch": "arc_logic_block_bool logic_gate_item gate logic",
         "recipes": [
             {
                 "materials": [
@@ -4895,7 +8984,7 @@ var crafts = {
         "id": "led_block_item",
         "name": "LED",
         "icon": "led_block",
-        "namesearch": "led led_block_item led_block",
+        "namesearch": "led_block_item led led_block",
         "recipes": [
             {
                 "materials": [
@@ -4929,7 +9018,7 @@ var crafts = {
         "id": "number_comparison_item",
         "name": "Number Comparison Gate",
         "icon": "arc_logic_block_int",
-        "namesearch": "number_comparison_item number arc_logic_block_int comparison gate",
+        "namesearch": "comparison number number_comparison_item gate arc_logic_block_int",
         "recipes": [
             {
                 "materials": [
@@ -4963,7 +9052,7 @@ var crafts = {
         "id": "flipflop_block_item",
         "name": "Flip-flop Gate",
         "icon": "arc_flipflop_block_block",
-        "namesearch": "flip-flop flipflop_block_item arc_flipflop_block_block gate",
+        "namesearch": "arc_flipflop_block_block flip-flop gate flipflop_block_item",
         "recipes": [
             {
                 "materials": [
@@ -4991,7 +9080,7 @@ var crafts = {
         "id": "plaque_wood",
         "name": "Wood Plaque",
         "icon": "wall_plaque_wood",
-        "namesearch": "plaque wood plaque_wood wall_plaque_wood",
+        "namesearch": "plaque plaque_wood wood wall_plaque_wood",
         "recipes": [
             {
                 "materials": [
@@ -5025,7 +9114,7 @@ var crafts = {
         "id": "sign_stone_hanging",
         "name": "Hanging Stone Sign",
         "icon": "sign_stone_hanging",
-        "namesearch": "sign hanging sign_stone_hanging stone",
+        "namesearch": "sign stone sign_stone_hanging hanging",
         "recipes": [
             {
                 "materials": [
@@ -5065,7 +9154,7 @@ var crafts = {
         "id": "sign_stone",
         "name": "Stone Sign",
         "icon": "sign_stone",
-        "namesearch": "sign_stone stone sign",
+        "namesearch": "sign stone sign_stone",
         "recipes": [
             {
                 "materials": [
@@ -5099,7 +9188,7 @@ var crafts = {
         "id": "plaque_stone",
         "name": "Stone Plaque",
         "icon": "wall_plaque_stone",
-        "namesearch": "plaque_stone plaque wall_plaque_stone stone",
+        "namesearch": "plaque plaque_stone stone wall_plaque_stone",
         "recipes": [
             {
                 "materials": [
@@ -5133,7 +9222,7 @@ var crafts = {
         "id": "leaves_shredded",
         "name": "Shredded Leaves",
         "icon": "block_thatched",
-        "namesearch": "block_thatched leaves_shredded leaves shredded",
+        "namesearch": "leaves leaves_shredded shredded block_thatched",
         "recipes": [
             {
                 "materials": [
@@ -5268,34 +9357,34 @@ var crafts = {
             }
         ],
         "creates": [
-            "pumpkin_haunted",
-            "holiday_carpet_dark_beige",
-            "hotel_floor",
-            "bed",
             "wall_thatched",
-            "holiday_carpet_beige",
-            "bed_yellow",
-            "holiday_giftwrap_green",
-            "hotel_bed",
             "column_leaves_shredded",
-            "holiday_bed_plaid",
+            "carpet_blue",
+            "hotel_floor",
+            "holiday_carpet_dark_beige",
             "carpet_red",
-            "carpet_yellow",
-            "holiday_carpet_grey",
+            "roof_straw_slanted",
             "bed_blue",
             "holiday_carpet_dark_grey",
             "holiday_bed_giftwrap",
+            "holiday_giftwrap_green",
+            "holiday_carpet_beige",
+            "bed_yellow",
+            "hotel_bed",
+            "carpet_yellow",
+            "bed",
+            "holiday_bed_plaid",
+            "holiday_carpet_grey",
             "bed_red",
-            "carpet_blue",
-            "holiday_bed_candycane",
-            "roof_straw_slanted"
+            "pumpkin_haunted",
+            "holiday_bed_candycane"
         ]
     },
     "trap_door_wood": {
         "id": "trap_door_wood",
         "name": "Wood Trap Door",
         "icon": "trap_door_wood",
-        "namesearch": "door wood trap trap_door_wood",
+        "namesearch": "trap_door_wood door wood trap",
         "recipes": [
             {
                 "materials": [
@@ -5329,7 +9418,7 @@ var crafts = {
         "id": "fire_pit_iron",
         "name": "Iron Fire Pit",
         "icon": "fire_pit_metal",
-        "namesearch": "fire_pit_iron fire iron fire_pit_metal pit",
+        "namesearch": "fire fire_pit_metal iron pit fire_pit_iron",
         "recipes": [
             {
                 "materials": [
@@ -5403,7 +9492,7 @@ var crafts = {
         "id": "dye_blue",
         "name": "Blue Pigment",
         "icon": "dye_blue",
-        "namesearch": "dye_blue blue pigment",
+        "namesearch": "dye_blue pigment blue",
         "recipes": [
             {
                 "materials": [
@@ -5420,43 +9509,43 @@ var crafts = {
             }
         ],
         "creates": [
-            "beacon_blue",
-            "hotel_floor",
-            "floor_adobe_blue",
-            "industrial_barrel02",
-            "glass_stained_cat",
-            "wall_adobe_blue",
-            "pipe_retro",
-            "medieval_banner_hanging",
-            "block_goo_purple",
             "light_candy_skull_blue",
-            "haunted_book",
-            "concrete_blue",
-            "holiday_bed_plaid",
-            "medieval_banner_hanging2",
-            "gift_box_blue",
-            "moroccan_decorative_tile_blue",
-            "bed_blue",
-            "wall_moroccan_tile_blue",
-            "gift_box_green",
-            "holiday_stained_glass_blue",
-            "glass_stained_blue",
-            "torch_holiday_blue",
-            "wall_wood_blue",
-            "light_candy_skull",
-            "lamp_blue",
+            "medieval_banner_hanging",
             "carpet_blue",
-            "roof_adobe_slanted_blue",
-            "torch_holiday_green",
+            "haunted_book",
+            "wall_moroccan_tile_blue",
+            "pipe_retro",
+            "gift_box_blue",
             "fireworks_blue_item",
-            "planter_footed"
+            "holiday_stained_glass_blue",
+            "lamp_blue",
+            "hotel_floor",
+            "planter_footed",
+            "torch_holiday_blue",
+            "glass_stained_cat",
+            "beacon_blue",
+            "bed_blue",
+            "roof_adobe_slanted_blue",
+            "gift_box_green",
+            "glass_stained_blue",
+            "wall_adobe_blue",
+            "floor_adobe_blue",
+            "torch_holiday_green",
+            "light_candy_skull",
+            "moroccan_decorative_tile_blue",
+            "wall_wood_blue",
+            "block_goo_purple",
+            "industrial_barrel02",
+            "holiday_bed_plaid",
+            "concrete_blue",
+            "medieval_banner_hanging2"
         ]
     },
     "corrupt_obelisk": {
         "id": "corrupt_obelisk",
         "name": "Corrupt Obelisk",
         "icon": "sign_crystal",
-        "namesearch": "corrupt corrupt_obelisk sign_crystal obelisk",
+        "namesearch": "obelisk sign_crystal corrupt_obelisk corrupt",
         "recipes": [
             {
                 "materials": [
@@ -5502,7 +9591,7 @@ var crafts = {
         "id": "trap_door_stone",
         "name": "Stone Trap Door",
         "icon": "trap_door_stone",
-        "namesearch": "stone door trap trap_door_stone",
+        "namesearch": "trap_door_stone door stone trap",
         "recipes": [
             {
                 "materials": [
@@ -5553,61 +9642,61 @@ var crafts = {
             }
         ],
         "creates": [
-            "pumpkin_haunted",
             "wall_wood_red_chinese",
-            "fence_candycane",
-            "wall_wood_red",
-            "gate_candycane",
-            "light_candy_skull_red",
-            "hotel_flower",
-            "concrete_red",
-            "wall_sci_fi",
+            "flower_poinsettia",
+            "holiday_stained_glass_red",
+            "lamp_red",
+            "fireworks_red_item",
+            "floor_adobe_red",
             "haunted_book",
-            "holiday_wreath",
-            "hotel_bed",
-            "hotel_wall",
-            "hotel_couch_ottoman",
-            "slope_sci_fi",
-            "wall_moroccan_tile_red",
+            "roof_adobe_slanted_red",
+            "wall_candycane",
+            "roof_chinese_red",
             "planter_geometric",
+            "hotel_wall_trim",
+            "holiday_garland",
+            "hotel_couch",
+            "slope_sci_fi",
             "gift_box_red",
             "carpet_red",
-            "glass_stained_red",
-            "lamp_red",
-            "hotel_wall_trim",
-            "fireworks_holiday",
-            "roof_adobe_slanted_red",
-            "window_gingerbread",
-            "wall_candycane",
-            "block_goo_orange",
+            "hotel_couch_corner",
+            "holiday_wall_brick",
+            "light_candy_skull_red",
             "holiday_bed_giftwrap",
-            "beacon_red",
-            "hotel_couch",
-            "floor_adobe_red",
-            "flower_poinsettia",
+            "window_gingerbread",
+            "holiday_fireplace",
             "torch_holiday_red",
+            "wall_wood_red",
+            "wall_moroccan_tile_red",
+            "holiday_wreath",
+            "hotel_flower",
+            "glass_stained_apple",
+            "wall_sci_fi",
+            "hotel_curtain",
+            "light_candy_skull",
+            "hotel_couch_ottoman",
+            "hotel_jabot",
+            "fence_candycane",
+            "wall_adobe_red",
+            "glass_stained_red",
+            "hotel_bed",
+            "fireworks_holiday",
+            "concrete_red",
+            "block_goo_orange",
+            "gate_candycane",
+            "beacon_red",
             "bed_red",
             "holiday_ornament_red",
-            "hotel_jabot",
-            "light_candy_skull",
-            "holiday_stained_glass_red",
-            "hotel_couch_corner",
-            "roof_chinese_red",
-            "glass_stained_apple",
-            "holiday_garland",
-            "holiday_bed_candycane",
-            "wall_adobe_red",
-            "hotel_curtain",
-            "holiday_fireplace",
-            "fireworks_red_item",
-            "holiday_wall_brick"
+            "hotel_wall",
+            "pumpkin_haunted",
+            "holiday_bed_candycane"
         ]
     },
     "trap_door_wood_metal": {
         "id": "trap_door_wood_metal",
         "name": "Rustic Trap Door",
         "icon": "trap_door_wood_iron",
-        "namesearch": "rustic trap_door_wood_iron door trap trap_door_wood_metal",
+        "namesearch": "rustic trap_door_wood_metal trap door trap_door_wood_iron",
         "recipes": [
             {
                 "materials": [
@@ -5641,7 +9730,7 @@ var crafts = {
         "id": "dye_yellow",
         "name": "Yellow Pigment",
         "icon": "dye_yellow",
-        "namesearch": "dye_yellow yellow pigment",
+        "namesearch": "pigment dye_yellow yellow",
         "recipes": [
             {
                 "materials": [
@@ -5658,43 +9747,49 @@ var crafts = {
             }
         ],
         "creates": [
-            "pumpkin_haunted",
-            "hotel_chair",
-            "exclamation_retro",
-            "floor_adobe_yellow",
-            "glass_stained_cat",
-            "glass_stained_yellow",
-            "star_retro",
-            "wall_gold_studded",
             "medieval_banner_hanging",
-            "sword_gold_welcome",
-            "wall_adobe_yellow",
-            "bed_yellow",
-            "fireworks_yellow_item",
-            "medieval_banner_hanging2",
-            "carpet_yellow",
-            "gift_box_green",
-            "beacon_yellow",
-            "wall_gold_banded",
-            "concrete_yellow",
-            "light_candy_skull",
-            "sword_gold",
-            "potion_gold",
-            "torch_holiday_yellow",
-            "lamp_yellow",
-            "torch_holiday_green",
+            "floor_adobe_yellow",
+            "gold_swirl",
             "wall_moroccan_tile_yellow",
-            "wall_gold",
-            "light_candy_skull_yellow",
+            "star_retro",
+            "gold_band",
+            "gold_column",
+            "beacon_yellow",
             "wall_wood_yellow",
-            "roof_adobe_slanted_yellow"
+            "stairs_gold_gilded",
+            "fireworks_yellow_item",
+            "potion_gold",
+            "wall_adobe_yellow",
+            "wall_gold",
+            "gold_wave",
+            "glass_stained_cat",
+            "wall_gold_studded",
+            "gift_box_green",
+            "glass_stained_yellow",
+            "torch_holiday_green",
+            "sword_gold_welcome",
+            "light_candy_skull",
+            "hotel_chair",
+            "roof_adobe_slanted_yellow",
+            "bed_yellow",
+            "light_candy_skull_yellow",
+            "torch_holiday_yellow",
+            "carpet_yellow",
+            "slope_gold",
+            "concrete_yellow",
+            "sword_gold",
+            "wall_gold_banded",
+            "medieval_banner_hanging2",
+            "exclamation_retro",
+            "lamp_yellow",
+            "pumpkin_haunted"
         ]
     },
     "trap_door_mayan": {
         "id": "trap_door_mayan",
         "name": "Hidden Temple Trap Door",
         "icon": "trap_door_mayan",
-        "namesearch": "trap_door_mayan temple hidden door trap",
+        "namesearch": "temple trap door trap_door_mayan hidden",
         "recipes": [
             {
                 "materials": [
@@ -5728,7 +9823,7 @@ var crafts = {
         "id": "bomb_fire",
         "name": "Fire Bomb",
         "icon": "grenade_fire",
-        "namesearch": "grenade_fire fire bomb_fire bomb",
+        "namesearch": "fire bomb grenade_fire bomb_fire",
         "recipes": [
             {
                 "materials": [
@@ -5768,7 +9863,7 @@ var crafts = {
         "id": "door_wood_haunted",
         "name": "Haunted Door",
         "icon": "door_wood_haunted",
-        "namesearch": "door haunted door_wood_haunted",
+        "namesearch": "haunted door_wood_haunted door",
         "recipes": [
             {
                 "materials": [
@@ -5812,7 +9907,7 @@ var crafts = {
         "id": "lantern_chinese_rat",
         "name": "Year of the Rat Lantern",
         "icon": "lantern_chinese_rat",
-        "namesearch": "year the lantern_chinese_rat rat lantern of",
+        "namesearch": "lantern the of lantern_chinese_rat rat year",
         "recipes": [
             {
                 "materials": [
@@ -5856,7 +9951,7 @@ var crafts = {
         "id": "wall_haunted",
         "name": "Haunted Wall",
         "icon": "wall_wallpaper_haunted",
-        "namesearch": "wall_wallpaper_haunted wall haunted wall_haunted",
+        "namesearch": "wall haunted wall_wallpaper_haunted wall_haunted",
         "recipes": [
             {
                 "materials": [
@@ -5934,7 +10029,7 @@ var crafts = {
         "id": "floor_haunted",
         "name": "Haunted Floor",
         "icon": "floor_wood_haunted",
-        "namesearch": "floor floor_wood_haunted haunted floor_haunted",
+        "namesearch": "floor_wood_haunted haunted floor_haunted floor",
         "recipes": [
             {
                 "materials": [
@@ -5968,7 +10063,7 @@ var crafts = {
         "id": "potion_no_breath_loss",
         "name": "Ocean Potion",
         "icon": "potion_breathe",
-        "namesearch": "potion ocean potion_no_breath_loss potion_breathe",
+        "namesearch": "ocean potion potion_no_breath_loss potion_breathe",
         "recipes": [
             {
                 "materials": [
@@ -6008,7 +10103,7 @@ var crafts = {
         "id": "wall_haunted_stone",
         "name": "Haunted Stone Wall",
         "icon": "wall_brick_haunted",
-        "namesearch": "wall_brick_haunted wall_haunted_stone haunted stone wall",
+        "namesearch": "haunted wall_haunted_stone stone wall wall_brick_haunted",
         "recipes": [
             {
                 "materials": [
@@ -6036,7 +10131,7 @@ var crafts = {
         "id": "stairs_haunted",
         "name": "Haunted Stairs",
         "icon": "stairs_haunted",
-        "namesearch": "stairs_haunted haunted stairs",
+        "namesearch": "haunted stairs_haunted stairs",
         "recipes": [
             {
                 "materials": [
@@ -6073,7 +10168,7 @@ var crafts = {
         "id": "trap_door_atlantis",
         "name": "Atlantis Trap Door",
         "icon": "atlantis_door_trap",
-        "namesearch": "atlantis atlantis_door_trap trap_door_atlantis door trap",
+        "namesearch": "trap trap_door_atlantis atlantis_door_trap door atlantis",
         "recipes": [
             {
                 "materials": [
@@ -6113,7 +10208,7 @@ var crafts = {
         "id": "bomb_freeze",
         "name": "Freeze Bomb",
         "icon": "grenade_freeze",
-        "namesearch": "freeze bomb grenade_freeze bomb_freeze",
+        "namesearch": "bomb_freeze bomb freeze grenade_freeze",
         "recipes": [
             {
                 "materials": [
@@ -6153,7 +10248,7 @@ var crafts = {
         "id": "stairs_haunted_carpet",
         "name": "Carpeted Haunted Stairs",
         "icon": "stairs_haunted_carpet",
-        "namesearch": "haunted stairs_haunted_carpet stairs carpeted",
+        "namesearch": "stairs_haunted_carpet haunted stairs carpeted",
         "recipes": [
             {
                 "materials": [
@@ -6190,7 +10285,7 @@ var crafts = {
         "id": "door_atlantis",
         "name": "Atlantis Door",
         "icon": "atlantis_door",
-        "namesearch": "door atlantis door_atlantis atlantis_door",
+        "namesearch": "door_atlantis atlantis door atlantis_door",
         "recipes": [
             {
                 "materials": [
@@ -6265,15 +10360,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_haunted_inner_corner",
-            "roof_haunted_outer_corner"
+            "roof_haunted_outer_corner",
+            "roof_haunted_inner_corner"
         ]
     },
     "lamp_atlantis": {
         "id": "lamp_atlantis",
         "name": "Atlantis Lamp",
         "icon": "lamp_atlantis",
-        "namesearch": "atlantis lamp lamp_atlantis",
+        "namesearch": "lamp_atlantis lamp atlantis",
         "recipes": [
             {
                 "materials": [
@@ -6353,7 +10448,7 @@ var crafts = {
         "id": "chair_atlantis",
         "name": "Atlantis Chair",
         "icon": "chair_atlantis",
-        "namesearch": "chair_atlantis atlantis chair",
+        "namesearch": "chair_atlantis chair atlantis",
         "recipes": [
             {
                 "materials": [
@@ -6393,7 +10488,7 @@ var crafts = {
         "id": "gravestone_haunted_01",
         "name": "Haunted Gravestone",
         "icon": "grave_haunted",
-        "namesearch": "grave_haunted haunted gravestone_haunted_01 gravestone",
+        "namesearch": "grave_haunted gravestone_haunted_01 haunted gravestone",
         "recipes": [
             {
                 "materials": [
@@ -6433,7 +10528,7 @@ var crafts = {
         "id": "altar_atlantis",
         "name": "Atlantis Altar",
         "icon": "atlantis_altar",
-        "namesearch": "atlantis altar_atlantis atlantis_altar altar",
+        "namesearch": "altar atlantis_altar altar_atlantis atlantis",
         "recipes": [
             {
                 "materials": [
@@ -6473,7 +10568,7 @@ var crafts = {
         "id": "bomb_corrupt",
         "name": "Corrupt Bomb",
         "icon": "grenade_poison",
-        "namesearch": "corrupt grenade_poison bomb_corrupt bomb",
+        "namesearch": "grenade_poison bomb corrupt bomb_corrupt",
         "recipes": [
             {
                 "materials": [
@@ -6513,7 +10608,7 @@ var crafts = {
         "id": "gravestone_haunted_02",
         "name": "Spooky Haunted Gravestone",
         "icon": "gravestone_haunted_02",
-        "namesearch": "spooky gravestone_haunted_02 haunted gravestone",
+        "namesearch": "spooky haunted gravestone_haunted_02 gravestone",
         "recipes": [
             {
                 "materials": [
@@ -6553,7 +10648,7 @@ var crafts = {
         "id": "table_atlantis",
         "name": "Atlantis Table",
         "icon": "atlantis_table",
-        "namesearch": "atlantis table table_atlantis atlantis_table",
+        "namesearch": "table_atlantis table atlantis_table atlantis",
         "recipes": [
             {
                 "materials": [
@@ -6593,7 +10688,7 @@ var crafts = {
         "id": "vase_atlantis",
         "name": "Atlantis Vase",
         "icon": "vase_atlantis",
-        "namesearch": "vase_atlantis vase atlantis",
+        "namesearch": "vase vase_atlantis atlantis",
         "recipes": [
             {
                 "materials": [
@@ -6627,7 +10722,7 @@ var crafts = {
         "id": "pumpkin_haunted",
         "name": "Haunted Pumpkin",
         "icon": "pumpkin_haunted",
-        "namesearch": "pumpkin_haunted pumpkin haunted",
+        "namesearch": "pumpkin haunted pumpkin_haunted",
         "recipes": [
             {
                 "materials": [
@@ -6671,7 +10766,7 @@ var crafts = {
         "id": "wall_atlantis",
         "name": "Atlantis Wall",
         "icon": "wall_atlantis_01",
-        "namesearch": "wall_atlantis wall_atlantis_01 atlantis wall",
+        "namesearch": "wall_atlantis atlantis wall wall_atlantis_01",
         "recipes": [
             {
                 "materials": [
@@ -6705,7 +10800,7 @@ var crafts = {
         "id": "slab_dirt",
         "name": "Dirt Slab",
         "icon": "slab_dirt",
-        "namesearch": "dirt slab slab_dirt",
+        "namesearch": "slab dirt slab_dirt",
         "recipes": [
             {
                 "materials": [
@@ -6729,7 +10824,7 @@ var crafts = {
         "id": "wall_atlantis_trim",
         "name": "Atlantis Trim Wall",
         "icon": "wall_atlantis_04",
-        "namesearch": "trim wall_atlantis_04 atlantis wall_atlantis_trim wall",
+        "namesearch": "wall wall_atlantis_04 wall_atlantis_trim trim atlantis",
         "recipes": [
             {
                 "materials": [
@@ -6769,7 +10864,7 @@ var crafts = {
         "id": "glue",
         "name": "Melted Wax",
         "icon": "glue",
-        "namesearch": "wax melted glue",
+        "namesearch": "glue wax melted",
         "recipes": [
             {
                 "materials": [
@@ -6786,173 +10881,173 @@ var crafts = {
             }
         ],
         "creates": [
-            "wall_stone_block",
-            "lamp_atlantis",
-            "stairs_stone",
-            "wall_stone_boulder",
-            "wall_roman_limestone_maze",
-            "wall_bungalow",
-            "stairs_bungalow",
-            "wall_stucco",
-            "roof_stone",
-            "wall_stucco_dark",
-            "stairs_limestone",
-            "wall_industrial_plate",
-            "table_stone",
-            "chest_stone",
-            "wall_medieval_spike",
-            "stairs_medieval",
-            "wall_medieval_inset",
-            "wall_stone_cobble_mossy",
-            "stairs_peakstone",
-            "chest_lockable",
-            "floor_wood",
-            "planter_geometric",
-            "wall_mayan_glyph",
-            "wall_copper",
-            "sword_unicorn",
-            "chair_medieval",
-            "medieval_cart",
-            "throne_medieval",
-            "vase_atlantis",
-            "plaque_stone",
-            "door_medieval",
-            "door_wood_rustic",
-            "wall_moroccan_iron",
-            "wall_hardened_lava_stacked",
-            "table_wood_white",
-            "gate_industrial",
-            "concrete_yellow",
-            "chest_atlantis",
-            "bench_haunted",
-            "wall_sand_castle",
-            "table_iron",
-            "pedistal_roman_limestone_grass",
-            "trap_door_wood_metal",
-            "ladder_stone",
-            "torch_medieval",
-            "fire_pit_medieval",
-            "wall_adobe_blue",
-            "fence_obsidian",
-            "fence_industrial",
-            "table_arctek_02",
-            "roof_roman_limestone_halfgable",
-            "wall_adobe_yellow",
-            "fire_pit_iron",
-            "gate_spooky",
-            "shelf_wood",
-            "planter_elevated",
-            "stairs_adobeclay_yellow",
-            "wall_igneous",
-            "wall_medieval_bricks",
-            "path_stone_decorative",
-            "industrial_barricade",
-            "stairs_glass",
-            "sign_stone",
-            "stairs_industrial",
-            "bed_red",
-            "stairs_obsidian",
-            "floor_haunted",
-            "medieval_basket",
-            "mirror_haunted",
-            "ladder_industrial",
-            "floor_hardened_lava",
-            "stairs_adobeclay_white",
-            "gate_iron",
-            "roof_tin",
-            "trap_door_mayan",
-            "wall_stucco_ruddy",
-            "wall_adobe_red",
-            "wall_bungalow_support",
-            "wall_roman_limestone_basic",
-            "planter_footed",
-            "chest_medieval",
-            "roof_igneous",
-            "fence_stone",
-            "cup_atlantis",
-            "column_roman_limestone_spiral",
-            "medieval_anvil",
-            "floor_wood_tile",
-            "industrial_cone",
-            "concrete_red",
-            "holiday_giftwrap_candycane",
-            "stairs_bedrock",
-            "bellows_industrial",
-            "wall_mayan_accent",
-            "chair_mayan",
-            "chair_atlantis",
-            "concrete_blue",
-            "fire_pit",
-            "wall_adobe",
-            "floor_industrial",
-            "chair_stone",
-            "fence_iron",
-            "fence_spooky",
-            "chest_arctek_01",
-            "chandelier_medieval",
-            "roof_obsidian",
-            "column_roman_limestone_staight",
-            "trap_door_wood",
-            "wall_shelf_stone",
-            "wall_mayan_trim_turquoise",
-            "lamp_medieval",
-            "holiday_shelf_wood_white",
-            "weapon_rack_stone",
-            "roof_copper",
             "holiday_giftwrap_blue",
-            "trap_door_stone",
-            "stairs_adobeclay_blue",
-            "medieval_bucket",
-            "chair_iron",
-            "planter_pigsy",
-            "wall_stone_cobble",
-            "industrial_barrel01",
-            "planter_terracotta",
-            "floor_wood_decorative",
-            "wall_patina",
             "holiday_giftwrap_red",
-            "chest_industrial",
-            "roof_patina",
-            "door_limestone_bedrock",
-            "industrial_barrel02",
-            "stairs_medieval_rug",
-            "door_mayan",
-            "altar_atlantis",
-            "planter_wood",
-            "wall_mayan_accent_serpent",
-            "wall_mayan",
-            "table_obsidian",
-            "holiday_giftwrap_green",
-            "bed_yellow",
-            "roof_lumite",
-            "gate_obsidian",
-            "bed_blue",
-            "roof_mayan",
-            "wall_igneous_block",
             "torch_mayan",
-            "floor_roman_obsidian",
+            "column_roman_limestone_spiral",
+            "stairs_stone",
+            "door_mayan",
             "roof_medieval",
+            "planter_wood",
+            "wall_stone_cobble_mossy",
+            "industrial_barrel01",
+            "planter_footed",
+            "fence_industrial",
+            "wall_bungalow",
+            "wall_shelf_stone",
+            "chandelier_medieval",
+            "chair_medieval",
+            "shelf_wood",
+            "stairs_bungalow",
+            "column_roman_limestone_staight",
+            "roof_mayan",
             "chair_obsidian",
-            "wall_industrial_grate",
-            "table_atlantis",
-            "wall_roman_limestone_decorative_corners",
-            "wall_hardened_lava_inlay",
-            "wall_mayan_trim",
-            "floor_industrial_non_skid",
-            "wall_roman_limestone_pillar",
-            "wall_roman_bedrock_square",
-            "stairs_adobeclay_red",
-            "industrial_barrel03",
+            "vase_atlantis",
+            "wall_hardened_lava_stacked",
             "flower_pot",
+            "trap_door_stone",
+            "stairs_industrial",
+            "torch_medieval",
+            "sword_unicorn",
+            "chest_industrial",
+            "wall_mayan_trim",
+            "wall_medieval_spike",
+            "bed_red",
+            "stairs_limestone",
+            "chest_medieval",
+            "throne_medieval",
+            "altar_atlantis",
+            "wall_mayan_accent",
+            "roof_obsidian",
+            "chest_atlantis",
+            "planter_pigsy",
             "wall_tin",
-            "floor_stone"
+            "planter_geometric",
+            "roof_stone",
+            "table_arctek_02",
+            "wall_roman_bedrock_square",
+            "wall_stone_block",
+            "bed_blue",
+            "chest_arctek_01",
+            "plaque_stone",
+            "lamp_medieval",
+            "wall_adobe_blue",
+            "fence_stone",
+            "sign_stone",
+            "wall_roman_limestone_decorative_corners",
+            "industrial_cone",
+            "wall_industrial_grate",
+            "stairs_peakstone",
+            "wall_stucco",
+            "ladder_industrial",
+            "gate_spooky",
+            "wall_mayan_trim_turquoise",
+            "medieval_bucket",
+            "fence_obsidian",
+            "industrial_barricade",
+            "industrial_barrel02",
+            "floor_industrial",
+            "concrete_red",
+            "roof_igneous",
+            "wall_bungalow_support",
+            "floor_stone",
+            "trap_door_wood_metal",
+            "cup_atlantis",
+            "stairs_adobeclay_red",
+            "pedistal_roman_limestone_grass",
+            "trap_door_mayan",
+            "gate_iron",
+            "wall_stone_boulder",
+            "planter_elevated",
+            "roof_lumite",
+            "wall_patina",
+            "wall_medieval_inset",
+            "wall_copper",
+            "floor_wood",
+            "wall_roman_limestone_maze",
+            "wall_adobe_yellow",
+            "stairs_glass",
+            "table_iron",
+            "table_wood_white",
+            "stairs_bedrock",
+            "stairs_adobeclay_white",
+            "trap_door_wood",
+            "planter_terracotta",
+            "holiday_giftwrap_candycane",
+            "wall_roman_limestone_basic",
+            "door_medieval",
+            "holiday_giftwrap_green",
+            "wall_hardened_lava_inlay",
+            "table_stone",
+            "floor_hardened_lava",
+            "fence_iron",
+            "wall_stucco_ruddy",
+            "chair_mayan",
+            "wall_adobe_red",
+            "table_atlantis",
+            "wall_mayan_glyph",
+            "mirror_haunted",
+            "medieval_basket",
+            "medieval_anvil",
+            "wall_igneous_block",
+            "chair_stone",
+            "stairs_adobeclay_yellow",
+            "wall_adobe",
+            "wall_mayan_accent_serpent",
+            "industrial_barrel03",
+            "fire_pit_medieval",
+            "chair_iron",
+            "floor_haunted",
+            "gate_obsidian",
+            "chair_atlantis",
+            "wall_stucco_dark",
+            "roof_roman_limestone_halfgable",
+            "wall_industrial_plate",
+            "door_limestone_bedrock",
+            "floor_wood_tile",
+            "fire_pit",
+            "wall_medieval_bricks",
+            "gate_industrial",
+            "floor_roman_obsidian",
+            "holiday_shelf_wood_white",
+            "table_obsidian",
+            "stairs_obsidian",
+            "floor_industrial_non_skid",
+            "weapon_rack_stone",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "path_stone_decorative",
+            "wall_igneous",
+            "stairs_adobeclay_blue",
+            "chest_lockable",
+            "lamp_atlantis",
+            "wall_mayan",
+            "fire_pit_iron",
+            "medieval_cart",
+            "bed_yellow",
+            "chest_stone",
+            "wall_moroccan_iron",
+            "wall_roman_limestone_pillar",
+            "wall_sand_castle",
+            "fence_spooky",
+            "roof_patina",
+            "floor_wood_decorative",
+            "ladder_stone",
+            "roof_tin",
+            "door_wood_rustic",
+            "wall_stone_cobble",
+            "concrete_blue",
+            "concrete_yellow",
+            "roof_copper",
+            "bench_haunted",
+            "bellows_industrial"
         ]
     },
     "slope_dirt": {
         "id": "slope_dirt",
         "name": "Dirt Slope",
         "icon": "roof_dirt",
-        "namesearch": "dirt slope roof_dirt slope_dirt",
+        "namesearch": "roof_dirt dirt slope_dirt slope",
         "recipes": [
             {
                 "materials": [
@@ -6977,7 +11072,7 @@ var crafts = {
         "id": "wall_atlantis_accent",
         "name": "Atlantis Accent Wall",
         "icon": "wall_atlantis_09",
-        "namesearch": "wall_atlantis_accent atlantis wall_atlantis_09 accent wall",
+        "namesearch": "wall accent wall_atlantis_accent wall_atlantis_09 atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7041,7 +11136,7 @@ var crafts = {
         "id": "stairs_dirt",
         "name": "Dirt Stairs",
         "icon": "stairs_dirt",
-        "namesearch": "dirt stairs stairs_dirt",
+        "namesearch": "stairs_dirt dirt stairs",
         "recipes": [
             {
                 "materials": [
@@ -7058,15 +11153,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_dirt_outer_corner",
-            "stairs_dirt_inner_corner"
+            "stairs_dirt_inner_corner",
+            "stairs_dirt_outer_corner"
         ]
     },
     "wall_atlantis_trim_symbol": {
         "id": "wall_atlantis_trim_symbol",
         "name": "Atlantis Symbol Trim Wall",
         "icon": "wall_atlantis_02",
-        "namesearch": "wall_atlantis_02 trim wall_atlantis_trim_symbol atlantis symbol wall",
+        "namesearch": "wall_atlantis_trim_symbol wall symbol wall_atlantis_02 trim atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7130,7 +11225,7 @@ var crafts = {
         "id": "bomb_uncorrupt",
         "name": "Purification Bomb",
         "icon": "grenade_uncorrupt",
-        "namesearch": "purification grenade_uncorrupt bomb_uncorrupt bomb",
+        "namesearch": "grenade_uncorrupt bomb bomb_uncorrupt purification",
         "recipes": [
             {
                 "materials": [
@@ -7170,7 +11265,7 @@ var crafts = {
         "id": "wall_atlantis_sunken",
         "name": "Atlantis Sunken Wall",
         "icon": "wall_atlantis_05",
-        "namesearch": "atlantis wall_atlantis_sunken wall_atlantis_05 wall sunken",
+        "namesearch": "sunken wall wall_atlantis_sunken wall_atlantis_05 atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7227,15 +11322,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_grass_inner_corner",
-            "slope_grass_outer_corner"
+            "slope_grass_outer_corner",
+            "slope_grass_inner_corner"
         ]
     },
     "wall_atlantis_accent_trident": {
         "id": "wall_atlantis_accent_trident",
         "name": "Atlantis Trident Accent Wall",
         "icon": "wall_atlantis_08",
-        "namesearch": "wall_atlantis_08 trident atlantis accent wall wall_atlantis_accent_trident",
+        "namesearch": "trident wall_atlantis_accent_trident wall accent wall_atlantis_08 atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7275,7 +11370,7 @@ var crafts = {
         "id": "stairs_grass",
         "name": "Grass Stairs",
         "icon": "stairs_grass",
-        "namesearch": "stairs_grass grass stairs",
+        "namesearch": "grass stairs_grass stairs",
         "recipes": [
             {
                 "materials": [
@@ -7301,7 +11396,7 @@ var crafts = {
         "id": "tnt_tier2_item",
         "name": "Advanced TNT",
         "icon": "tnt_medium",
-        "namesearch": "tnt_tier2_item tnt_medium tnt advanced",
+        "namesearch": "tnt_medium advanced tnt_tier2_item tnt",
         "recipes": [
             {
                 "materials": [
@@ -7335,7 +11430,7 @@ var crafts = {
         "id": "wall_atlantis_wave",
         "name": "Atlantis Wave Wall",
         "icon": "wall_atlantis_06",
-        "namesearch": "wall_atlantis_wave atlantis wave wall_atlantis_06 wall",
+        "namesearch": "wave wall wall_atlantis_wave wall_atlantis_06 atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7375,7 +11470,7 @@ var crafts = {
         "id": "slab_glass",
         "name": "Glass Slab",
         "icon": "slab_glass",
-        "namesearch": "slab_glass glass slab",
+        "namesearch": "glass slab slab_glass",
         "recipes": [
             {
                 "materials": [
@@ -7392,11 +11487,11 @@ var crafts = {
             }
         ],
         "creates": [
-            "kitchen_range",
-            "stairs_glass",
             "industrial_barrel02",
+            "industrial_barrel01",
             "industrial_cone",
-            "industrial_barrel01"
+            "stairs_glass",
+            "kitchen_range"
         ]
     },
     "tnt_tier3_item": {
@@ -7437,7 +11532,7 @@ var crafts = {
         "id": "stairs_atlantis",
         "name": "Atlantis Stairs",
         "icon": "wall_atlantis_03",
-        "namesearch": "atlantis wall_atlantis_03 stairs_atlantis stairs",
+        "namesearch": "wall_atlantis_03 stairs_atlantis stairs atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7472,15 +11567,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_atlantis_inner_corner",
-            "stairs_atlantis_outer_corner"
+            "stairs_atlantis_outer_corner",
+            "stairs_atlantis_inner_corner"
         ]
     },
     "slope_glass": {
         "id": "slope_glass",
         "name": "Glass Slope",
         "icon": "roof_glass",
-        "namesearch": "slope glass slope_glass roof_glass",
+        "namesearch": "glass slope_glass roof_glass slope",
         "recipes": [
             {
                 "materials": [
@@ -7497,15 +11592,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_glass_inner_corner",
-            "slope_glass_outer_corner"
+            "slope_glass_outer_corner",
+            "slope_glass_inner_corner"
         ]
     },
     "tnt_tier1_large_item": {
         "id": "tnt_tier1_large_item",
         "name": "Strong TNT",
         "icon": "tnt_small_upgrade",
-        "namesearch": "tnt tnt_tier1_large_item tnt_small_upgrade strong",
+        "namesearch": "tnt_tier1_large_item tnt_small_upgrade strong tnt",
         "recipes": [
             {
                 "materials": [
@@ -7539,7 +11634,7 @@ var crafts = {
         "id": "stairs_atlantis_inner_corner",
         "name": "Atlantis Stairs Inner Corner",
         "icon": "wall_atlantis_03_inner",
-        "namesearch": "atlantis corner inner stairs_atlantis_inner_corner wall_atlantis_03_inner stairs",
+        "namesearch": "wall_atlantis_03_inner inner corner stairs_atlantis_inner_corner stairs atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7561,7 +11656,7 @@ var crafts = {
         "id": "stairs_glass",
         "name": "Glass Stairs",
         "icon": "stairs_glass",
-        "namesearch": "stairs glass stairs_glass",
+        "namesearch": "glass stairs_glass stairs",
         "recipes": [
             {
                 "materials": [
@@ -7598,7 +11693,7 @@ var crafts = {
         "id": "potion_basic",
         "name": "Basic Health Potion",
         "icon": "potion_basic",
-        "namesearch": "health potion_basic basic potion",
+        "namesearch": "potion_basic basic potion health",
         "recipes": [
             {
                 "materials": [
@@ -7636,7 +11731,7 @@ var crafts = {
         "id": "stairs_atlantis_outer_corner",
         "name": "Atlantis Stairs Outer Corner",
         "icon": "wall_atlantis_03_outer",
-        "namesearch": "stairs_atlantis_outer_corner wall_atlantis_03_outer outer atlantis corner stairs",
+        "namesearch": "stairs stairs_atlantis_outer_corner corner wall_atlantis_03_outer outer atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7658,7 +11753,7 @@ var crafts = {
         "id": "slab_limestone",
         "name": "Limestone Slab",
         "icon": "slab_limestone",
-        "namesearch": "slab_limestone slab limestone",
+        "namesearch": "limestone slab slab_limestone",
         "recipes": [
             {
                 "materials": [
@@ -7682,7 +11777,7 @@ var crafts = {
         "id": "cup_atlantis",
         "name": "Atlantis Cup",
         "icon": "cup_atlantis",
-        "namesearch": "cup atlantis cup_atlantis",
+        "namesearch": "cup cup_atlantis atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7716,7 +11811,7 @@ var crafts = {
         "id": "slope_limestone",
         "name": "Limestone Slope",
         "icon": "roof_limestone",
-        "namesearch": "slope limestone roof_limestone slope_limestone",
+        "namesearch": "slope_limestone roof_limestone limestone slope",
         "recipes": [
             {
                 "materials": [
@@ -7741,7 +11836,7 @@ var crafts = {
         "id": "roof_atlantis",
         "name": "Atlantis Roof",
         "icon": "wall_atlantis_07",
-        "namesearch": "wall_atlantis_07 atlantis roof_atlantis roof",
+        "namesearch": "atlantis roof_atlantis roof wall_atlantis_07",
         "recipes": [
             {
                 "materials": [
@@ -7770,8 +11865,8 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_atlantis_outer_corner",
-            "roof_atlantis_inner_corner"
+            "roof_atlantis_inner_corner",
+            "roof_atlantis_outer_corner"
         ]
     },
     "stairs_limestone": {
@@ -7807,15 +11902,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_limestone_inner_corner",
-            "stairs_limestone_outer_corner"
+            "stairs_limestone_outer_corner",
+            "stairs_limestone_inner_corner"
         ]
     },
     "roof_atlantis_inner_corner": {
         "id": "roof_atlantis_inner_corner",
         "name": "Atlantis Roof Inner Corner",
         "icon": "wall_atlantis_07_inner",
-        "namesearch": "wall_atlantis_07_inner atlantis corner inner roof_atlantis_inner_corner roof",
+        "namesearch": "wall_atlantis_07_inner roof roof_atlantis_inner_corner inner corner atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7837,7 +11932,7 @@ var crafts = {
         "id": "potion_small",
         "name": "Advanced Health Potion",
         "icon": "potion_small",
-        "namesearch": "potion_small health potion advanced",
+        "namesearch": "advanced potion_small potion health",
         "recipes": [
             {
                 "materials": [
@@ -7901,7 +11996,7 @@ var crafts = {
         "id": "roof_atlantis_outer_corner",
         "name": "Atlantis Roof Outer Corner",
         "icon": "wall_atlantis_07_outer",
-        "namesearch": "wall_atlantis_07_outer roof_atlantis_outer_corner outer atlantis corner roof",
+        "namesearch": "roof wall_atlantis_07_outer roof_atlantis_outer_corner corner outer atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7923,7 +12018,7 @@ var crafts = {
         "id": "slope_peakstone",
         "name": "Peakstone Slope",
         "icon": "roof_peakstone",
-        "namesearch": "slope_peakstone roof_peakstone slope peakstone",
+        "namesearch": "slope peakstone slope_peakstone roof_peakstone",
         "recipes": [
             {
                 "materials": [
@@ -7940,15 +12035,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_peakstone_outer_corner",
-            "slope_peakstone_inner_corner"
+            "slope_peakstone_inner_corner",
+            "slope_peakstone_outer_corner"
         ]
     },
     "wall_atlantis_tile": {
         "id": "wall_atlantis_tile",
         "name": "Atlantis Tile Wall",
         "icon": "wall_atlantis_03_full",
-        "namesearch": "tile wall_atlantis_tile atlantis wall_atlantis_03_full wall",
+        "namesearch": "tile wall wall_atlantis_03_full wall_atlantis_tile atlantis",
         "recipes": [
             {
                 "materials": [
@@ -7988,7 +12083,7 @@ var crafts = {
         "id": "stairs_peakstone",
         "name": "Peakstone Stairs",
         "icon": "stairs_peakstone",
-        "namesearch": "stairs_peakstone stairs peakstone",
+        "namesearch": "stairs_peakstone peakstone stairs",
         "recipes": [
             {
                 "materials": [
@@ -8025,7 +12120,7 @@ var crafts = {
         "id": "stone_retro",
         "name": "Retro Stone",
         "icon": "stone_retro",
-        "namesearch": "stone retro stone_retro",
+        "namesearch": "stone_retro stone retro",
         "recipes": [
             {
                 "materials": [
@@ -8059,7 +12154,7 @@ var crafts = {
         "id": "slab_bedrock",
         "name": "Bedrock Slab",
         "icon": "slab_bedrock",
-        "namesearch": "bedrock slab slab_bedrock",
+        "namesearch": "slab_bedrock slab bedrock",
         "recipes": [
             {
                 "materials": [
@@ -8083,7 +12178,7 @@ var crafts = {
         "id": "sand_retro",
         "name": "Retro Sand",
         "icon": "sand_retro",
-        "namesearch": "sand sand_retro retro",
+        "namesearch": "sand retro sand_retro",
         "recipes": [
             {
                 "materials": [
@@ -8117,7 +12212,7 @@ var crafts = {
         "id": "slope_bedrock",
         "name": "Bedrock Slope",
         "icon": "roof_bedrock",
-        "namesearch": "roof_bedrock slope_bedrock bedrock slope",
+        "namesearch": "slope_bedrock roof_bedrock bedrock slope",
         "recipes": [
             {
                 "materials": [
@@ -8142,7 +12237,7 @@ var crafts = {
         "id": "fan_item",
         "name": "Fan",
         "icon": "fan_block",
-        "namesearch": "fan_item fan fan_block",
+        "namesearch": "fan fan_item fan_block",
         "recipes": [
             {
                 "materials": [
@@ -8176,7 +12271,7 @@ var crafts = {
         "id": "leaves_retro",
         "name": "Retro Leaves",
         "icon": "leaves_retro",
-        "namesearch": "retro leaves leaves_retro",
+        "namesearch": "leaves leaves_retro retro",
         "recipes": [
             {
                 "materials": [
@@ -8249,15 +12344,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_bedrock_outer_corner",
-            "stairs_bedrock_inner_corner"
+            "stairs_bedrock_inner_corner",
+            "stairs_bedrock_outer_corner"
         ]
     },
     "grass_retro": {
         "id": "grass_retro",
         "name": "Retro Grass",
         "icon": "grass_retro",
-        "namesearch": "grass retro grass_retro",
+        "namesearch": "grass grass_retro retro",
         "recipes": [
             {
                 "materials": [
@@ -8325,7 +12420,7 @@ var crafts = {
         "id": "slab_adobeclay_blue",
         "name": "Blue Adobe Slab",
         "icon": "slab_adobeclay_blue",
-        "namesearch": "slab blue adobe slab_adobeclay_blue",
+        "namesearch": "slab_adobeclay_blue slab blue adobe",
         "recipes": [
             {
                 "materials": [
@@ -8349,7 +12444,7 @@ var crafts = {
         "id": "exclamation_retro",
         "name": "Retro Exclamation Block!",
         "icon": "exclamation_retro",
-        "namesearch": "exclamation_retro block! retro exclamation",
+        "namesearch": "block! exclamation_retro exclamation retro",
         "recipes": [
             {
                 "materials": [
@@ -8423,7 +12518,7 @@ var crafts = {
         "id": "slope_adobeclay_blue",
         "name": "Blue Adobe Slope",
         "icon": "roof_adobeclay_blue",
-        "namesearch": "roof_adobeclay_blue blue adobe slope_adobeclay_blue slope",
+        "namesearch": "roof_adobeclay_blue slope_adobeclay_blue blue adobe slope",
         "recipes": [
             {
                 "materials": [
@@ -8482,7 +12577,7 @@ var crafts = {
         "id": "stairs_adobeclay_blue",
         "name": "Blue Adobe Stairs",
         "icon": "stairs_adobeclay_blue",
-        "namesearch": "stairs blue adobe stairs_adobeclay_blue",
+        "namesearch": "blue stairs_adobeclay_blue stairs adobe",
         "recipes": [
             {
                 "materials": [
@@ -8511,8 +12606,8 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_adobeclay_blue_inner_corner",
-            "stairs_adobeclay_blue_outer_corner"
+            "stairs_adobeclay_blue_outer_corner",
+            "stairs_adobeclay_blue_inner_corner"
         ]
     },
     "armguards_diamond": {
@@ -8609,7 +12704,7 @@ var crafts = {
         "id": "slab_adobeclay_red",
         "name": "Red Adobe Slab",
         "icon": "slab_adobeclay_red",
-        "namesearch": "slab_adobeclay_red slab adobe red",
+        "namesearch": "slab slab_adobeclay_red red adobe",
         "recipes": [
             {
                 "materials": [
@@ -8633,7 +12728,7 @@ var crafts = {
         "id": "wall_brick_retro",
         "name": "Retro Brick Wall",
         "icon": "wall_brick_retro",
-        "namesearch": "retro wall wall_brick_retro brick",
+        "namesearch": "wall_brick_retro brick retro wall",
         "recipes": [
             {
                 "materials": [
@@ -8667,7 +12762,7 @@ var crafts = {
         "id": "slope_adobeclay_red",
         "name": "Red Adobe Slope",
         "icon": "roof_adobeclay_red",
-        "namesearch": "roof_adobeclay_red adobe red slope_adobeclay_red slope",
+        "namesearch": "slope_adobeclay_red roof_adobeclay_red red adobe slope",
         "recipes": [
             {
                 "materials": [
@@ -8684,15 +12779,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_adobeclay_red_outer_corner",
-            "slope_adobeclay_red_inner_corner"
+            "slope_adobeclay_red_inner_corner",
+            "slope_adobeclay_red_outer_corner"
         ]
     },
     "stairs_brick_retro": {
         "id": "stairs_brick_retro",
         "name": "Retro Brick Stairs",
         "icon": "stairs_brick_retro",
-        "namesearch": "retro stairs_brick_retro stairs brick",
+        "namesearch": "stairs_brick_retro brick retro stairs",
         "recipes": [
             {
                 "materials": [
@@ -8721,15 +12816,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_brick_retro_inner_corner",
-            "stairs_brick_retro_outer_corner"
+            "stairs_brick_retro_outer_corner",
+            "stairs_brick_retro_inner_corner"
         ]
     },
     "stairs_adobeclay_red": {
         "id": "stairs_adobeclay_red",
         "name": "Red Adobe Stairs",
         "icon": "stairs_adobeclay_red",
-        "namesearch": "stairs stairs_adobeclay_red adobe red",
+        "namesearch": "stairs_adobeclay_red red stairs adobe",
         "recipes": [
             {
                 "materials": [
@@ -8766,7 +12861,7 @@ var crafts = {
         "id": "stairs_brick_retro_inner_corner",
         "name": "Retro Brick Stairs Inner Corner",
         "icon": "stairs_brick_retro_inner_corner",
-        "namesearch": "retro stairs_brick_retro_inner_corner brick corner inner stairs",
+        "namesearch": "stairs brick retro inner corner stairs_brick_retro_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -8834,7 +12929,7 @@ var crafts = {
         "id": "slab_adobeclay_white",
         "name": "Adobe Slab",
         "icon": "slab_adobeclay_white",
-        "namesearch": "slab slab_adobeclay_white adobe",
+        "namesearch": "slab adobe slab_adobeclay_white",
         "recipes": [
             {
                 "materials": [
@@ -8858,7 +12953,7 @@ var crafts = {
         "id": "stairs_brick_retro_outer_corner",
         "name": "Retro Brick Stairs Outer Corner",
         "icon": "stairs_brick_retro_outer_corner",
-        "namesearch": "retro outer brick stairs_brick_retro_outer_corner corner stairs",
+        "namesearch": "brick stairs_brick_retro_outer_corner retro corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -8880,7 +12975,7 @@ var crafts = {
         "id": "slope_adobeclay_white",
         "name": "Adobe Slope",
         "icon": "roof_adobeclay_white",
-        "namesearch": "roof_adobeclay_white slope_adobeclay_white slope adobe",
+        "namesearch": "adobe slope roof_adobeclay_white slope_adobeclay_white",
         "recipes": [
             {
                 "materials": [
@@ -8905,7 +13000,7 @@ var crafts = {
         "id": "bomb_retro",
         "name": "Big Ka-boom",
         "icon": "bomb_retro",
-        "namesearch": "bomb_retro big ka-boom",
+        "namesearch": "big bomb_retro ka-boom",
         "recipes": [
             {
                 "materials": [
@@ -8945,7 +13040,7 @@ var crafts = {
         "id": "armguards_leather",
         "name": "Leather Armguards",
         "icon": "armguards_leather",
-        "namesearch": "armguards_leather leather armguards",
+        "namesearch": "armguards armguards_leather leather",
         "recipes": [
             {
                 "materials": [
@@ -8979,7 +13074,7 @@ var crafts = {
         "id": "stairs_adobeclay_white",
         "name": "Adobe Stairs",
         "icon": "stairs_adobeclay_white",
-        "namesearch": "stairs_adobeclay_white stairs adobe",
+        "namesearch": "stairs_adobeclay_white adobe stairs",
         "recipes": [
             {
                 "materials": [
@@ -9072,7 +13167,7 @@ var crafts = {
         "id": "slab_adobeclay_yellow",
         "name": "Yellow Adobe Slab",
         "icon": "slab_adobeclay_yellow",
-        "namesearch": "yellow slab_adobeclay_yellow slab adobe",
+        "namesearch": "yellow slab adobe slab_adobeclay_yellow",
         "recipes": [
             {
                 "materials": [
@@ -9132,7 +13227,7 @@ var crafts = {
         "id": "slope_adobeclay_yellow",
         "name": "Yellow Adobe Slope",
         "icon": "roof_adobeclay_yellow",
-        "namesearch": "yellow slope_adobeclay_yellow roof_adobeclay_yellow adobe slope",
+        "namesearch": "roof_adobeclay_yellow yellow slope_adobeclay_yellow adobe slope",
         "recipes": [
             {
                 "materials": [
@@ -9149,15 +13244,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_adobeclay_yellow_outer_corner",
-            "slope_adobeclay_yellow_inner_corner"
+            "slope_adobeclay_yellow_inner_corner",
+            "slope_adobeclay_yellow_outer_corner"
         ]
     },
     "pipe_retro": {
         "id": "pipe_retro",
         "name": "Retro Pipe",
         "icon": "pipe_retro",
-        "namesearch": "pipe_retro retro pipe",
+        "namesearch": "pipe pipe_retro retro",
         "recipes": [
             {
                 "materials": [
@@ -9197,7 +13292,7 @@ var crafts = {
         "id": "stairs_adobeclay_yellow",
         "name": "Yellow Adobe Stairs",
         "icon": "stairs_adobeclay_yellow",
-        "namesearch": "yellow stairs_adobeclay_yellow stairs adobe",
+        "namesearch": "stairs_adobeclay_yellow adobe stairs yellow",
         "recipes": [
             {
                 "materials": [
@@ -9226,15 +13321,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_adobeclay_yellow_outer_corner",
-            "stairs_adobeclay_yellow_inner_corner"
+            "stairs_adobeclay_yellow_inner_corner",
+            "stairs_adobeclay_yellow_outer_corner"
         ]
     },
     "armguards_lumite": {
         "id": "armguards_lumite",
         "name": "Lumite Armguards",
         "icon": "armguards_lumite",
-        "namesearch": "armguards_lumite lumite armguards",
+        "namesearch": "lumite armguards armguards_lumite",
         "recipes": [
             {
                 "materials": [
@@ -9320,7 +13415,7 @@ var crafts = {
         "id": "fence_candycane",
         "name": "Candy Cane Fence",
         "icon": "fence_holiday",
-        "namesearch": "fence_holiday fence_candycane fence candy cane",
+        "namesearch": "cane candy fence_holiday fence_candycane fence",
         "recipes": [
             {
                 "materials": [
@@ -9414,7 +13509,7 @@ var crafts = {
         "id": "stairs_gingerbread",
         "name": "Gingerbread Stairs",
         "icon": "stairs_gingerbread",
-        "namesearch": "stairs_gingerbread stairs gingerbread",
+        "namesearch": "gingerbread stairs stairs_gingerbread",
         "recipes": [
             {
                 "materials": [
@@ -9451,7 +13546,7 @@ var crafts = {
         "id": "statue_retro",
         "name": "Stomp Statue",
         "icon": "statue_retro",
-        "namesearch": "statue stomp statue_retro",
+        "namesearch": "stomp statue statue_retro",
         "recipes": [
             {
                 "materials": [
@@ -9525,7 +13620,7 @@ var crafts = {
         "id": "roof_gingerbread_wafer",
         "name": "Wafer Gingerbread Roof",
         "icon": "roof_holiday",
-        "namesearch": "gingerbread roof_gingerbread_wafer wafer roof_holiday roof",
+        "namesearch": "roof gingerbread roof_holiday wafer roof_gingerbread_wafer",
         "recipes": [
             {
                 "materials": [
@@ -9568,7 +13663,7 @@ var crafts = {
         "id": "bomb_defoliage",
         "name": "Un-Plant Bomb",
         "icon": "bomb_defoliage",
-        "namesearch": "bomb_defoliage bomb un-plant",
+        "namesearch": "un-plant bomb_defoliage bomb",
         "recipes": [
             {
                 "materials": [
@@ -9608,7 +13703,7 @@ var crafts = {
         "id": "chimney_gingerbread",
         "name": "Gingerbread Chimney",
         "icon": "chimney_gingerbread",
-        "namesearch": "chimney_gingerbread chimney gingerbread",
+        "namesearch": "chimney_gingerbread gingerbread chimney",
         "recipes": [
             {
                 "materials": [
@@ -9642,7 +13737,7 @@ var crafts = {
         "id": "lava_retro",
         "name": "Retro Hardened Lava",
         "icon": "lava_retro",
-        "namesearch": "retro hardened lava lava_retro",
+        "namesearch": "lava_retro hardened retro lava",
         "recipes": [
             {
                 "materials": [
@@ -9676,7 +13771,7 @@ var crafts = {
         "id": "wall_hardened_lava_brick",
         "name": "Hardened Lava Wall",
         "icon": "wall_hardened_lava_brick",
-        "namesearch": "wall hardened lava wall_hardened_lava_brick",
+        "namesearch": "wall wall_hardened_lava_brick hardened lava",
         "recipes": [
             {
                 "materials": [
@@ -9718,7 +13813,7 @@ var crafts = {
         "id": "door_gingerbread",
         "name": "Gingerbread Door",
         "icon": "door_gingerbread",
-        "namesearch": "door door_gingerbread gingerbread",
+        "namesearch": "gingerbread door_gingerbread door",
         "recipes": [
             {
                 "materials": [
@@ -9758,7 +13853,7 @@ var crafts = {
         "id": "gamer_drink",
         "name": "Rambrew Soda",
         "icon": "gamer_drink",
-        "namesearch": "rambrew soda gamer_drink",
+        "namesearch": "gamer_drink soda rambrew",
         "recipes": [
             {
                 "materials": [
@@ -9792,7 +13887,7 @@ var crafts = {
         "id": "breastplate_diamond",
         "name": "Diamond Breastplate",
         "icon": "breastplate_diamond",
-        "namesearch": "diamond breastplate_diamond breastplate",
+        "namesearch": "breastplate_diamond breastplate diamond",
         "recipes": [
             {
                 "materials": [
@@ -9838,7 +13933,7 @@ var crafts = {
         "id": "gate_candycane",
         "name": "Candy Cane Gate",
         "icon": "gate_candycane",
-        "namesearch": "gate_candycane candy cane gate",
+        "namesearch": "cane gate candy gate_candycane",
         "recipes": [
             {
                 "materials": [
@@ -9878,7 +13973,7 @@ var crafts = {
         "id": "gamer_joystick",
         "name": "Galactic Gamer Joystick",
         "icon": "gamer_joystick",
-        "namesearch": "gamer_joystick gamer galactic joystick",
+        "namesearch": "galactic gamer_joystick gamer joystick",
         "recipes": [
             {
                 "materials": [
@@ -9946,7 +14041,7 @@ var crafts = {
         "id": "gamer_keyboard",
         "name": "Galactic Gamer Keyboard",
         "icon": "gamer_keyboard",
-        "namesearch": "keyboard gamer_keyboard gamer galactic",
+        "namesearch": "keyboard galactic gamer_keyboard gamer",
         "recipes": [
             {
                 "materials": [
@@ -10026,7 +14121,7 @@ var crafts = {
         "id": "tear_item",
         "name": "Adventure Gate",
         "icon": "arc_worldgate",
-        "namesearch": "arc_worldgate tear_item gate adventure",
+        "namesearch": "adventure gate tear_item arc_worldgate",
         "recipes": [
             {
                 "materials": [
@@ -10066,7 +14161,7 @@ var crafts = {
         "id": "gamer_monitor",
         "name": "Galactic Gamer Monitor",
         "icon": "gamer_monitor",
-        "namesearch": "gamer gamer_monitor galactic monitor",
+        "namesearch": "monitor gamer_monitor galactic gamer",
         "recipes": [
             {
                 "materials": [
@@ -10100,7 +14195,7 @@ var crafts = {
         "id": "actuator_item",
         "name": "Block Phaser",
         "icon": "arc_block_phaser",
-        "namesearch": "actuator_item arc_block_phaser phaser block",
+        "namesearch": "block actuator_item phaser arc_block_phaser",
         "recipes": [
             {
                 "materials": [
@@ -10168,7 +14263,7 @@ var crafts = {
         "id": "bathroom_bathtub",
         "name": "Better Home Bathtub",
         "icon": "bathroom_bathtub",
-        "namesearch": "bathtub home better bathroom_bathtub",
+        "namesearch": "bathroom_bathtub home bathtub better",
         "recipes": [
             {
                 "materials": [
@@ -10202,7 +14297,7 @@ var crafts = {
         "id": "spawner_mob_item",
         "name": "Mob Spawner",
         "icon": "arc_spawner_mob",
-        "namesearch": "spawner_mob_item arc_spawner_mob mob spawner",
+        "namesearch": "spawner_mob_item arc_spawner_mob spawner mob",
         "recipes": [
             {
                 "materials": [
@@ -10236,7 +14331,7 @@ var crafts = {
         "id": "breastplate_lumite",
         "name": "Lumite Breastplate",
         "icon": "breastplate_lumite",
-        "namesearch": "lumite breastplate breastplate_lumite",
+        "namesearch": "breastplate lumite breastplate_lumite",
         "recipes": [
             {
                 "materials": [
@@ -10282,7 +14377,7 @@ var crafts = {
         "id": "bathroom_sink",
         "name": "Better Home Bathroom Sink",
         "icon": "bathroom_sink",
-        "namesearch": "bathroom_sink home sink better bathroom",
+        "namesearch": "home sink bathroom better bathroom_sink",
         "recipes": [
             {
                 "materials": [
@@ -10316,7 +14411,7 @@ var crafts = {
         "id": "spawner_loot_item",
         "name": "Loot Spawner",
         "icon": "arc_spawner_item",
-        "namesearch": "spawner_loot_item loot spawner arc_spawner_item",
+        "namesearch": "spawner_loot_item loot arc_spawner_item spawner",
         "recipes": [
             {
                 "materials": [
@@ -10344,7 +14439,7 @@ var crafts = {
         "id": "bathroom_soap",
         "name": "Better Home Soap Dispenser",
         "icon": "bathroom_soap",
-        "namesearch": "home better dispenser bathroom_soap soap",
+        "namesearch": "home bathroom_soap soap better dispenser",
         "recipes": [
             {
                 "materials": [
@@ -10378,7 +14473,7 @@ var crafts = {
         "id": "breastplate_obsidian",
         "name": "Obsidian Breastplate",
         "icon": "breastplate_obsidian",
-        "namesearch": "obsidian breastplate_obsidian breastplate",
+        "namesearch": "breastplate_obsidian obsidian breastplate",
         "recipes": [
             {
                 "materials": [
@@ -10452,7 +14547,7 @@ var crafts = {
         "id": "bathroom_toilet_paper_holder",
         "name": "Better Home Toilet Paper Holder",
         "icon": "bathroom_toilet_paper_holder",
-        "namesearch": "holder home bathroom_toilet_paper_holder better paper toilet",
+        "namesearch": "toilet home bathroom_toilet_paper_holder paper better holder",
         "recipes": [
             {
                 "materials": [
@@ -10486,7 +14581,7 @@ var crafts = {
         "id": "helmet_diamond",
         "name": "Diamond Pauldron",
         "icon": "shoulder_diamond",
-        "namesearch": "pauldron shoulder_diamond helmet_diamond diamond",
+        "namesearch": "diamond pauldron shoulder_diamond helmet_diamond",
         "recipes": [
             {
                 "materials": [
@@ -10532,7 +14627,7 @@ var crafts = {
         "id": "arc_text_projector_item",
         "name": "Arc Sign",
         "icon": "arc_sign",
-        "namesearch": "sign arc_sign arc_text_projector_item arc",
+        "namesearch": "arc_sign arc sign arc_text_projector_item",
         "recipes": [
             {
                 "materials": [
@@ -10572,7 +14667,7 @@ var crafts = {
         "id": "bathroom_toilet",
         "name": "Better Home Toilet",
         "icon": "bathroom_toilet",
-        "namesearch": "home toilet better bathroom_toilet",
+        "namesearch": "toilet home bathroom_toilet better",
         "recipes": [
             {
                 "materials": [
@@ -10612,7 +14707,7 @@ var crafts = {
         "id": "picture_frame_item",
         "name": "Picture Frame",
         "icon": "picture_frame_canvas",
-        "namesearch": "picture_frame_item picture picture_frame_canvas frame",
+        "namesearch": "picture_frame_item frame picture_frame_canvas picture",
         "recipes": [
             {
                 "materials": [
@@ -10646,7 +14741,7 @@ var crafts = {
         "id": "helmet_iron",
         "name": "Iron Pauldron",
         "icon": "shoulder_iron",
-        "namesearch": "pauldron iron helmet_iron shoulder_iron",
+        "namesearch": "shoulder_iron pauldron iron helmet_iron",
         "recipes": [
             {
                 "materials": [
@@ -10692,7 +14787,7 @@ var crafts = {
         "id": "bomb_toilet_paper",
         "name": "Ultra Soft 12-Ply Toilet Paper",
         "icon": "bathroom_toilet_paper",
-        "namesearch": "soft bathroom_toilet_paper ultra bomb_toilet_paper 12-ply paper toilet",
+        "namesearch": "12-ply toilet ultra soft bathroom_toilet_paper paper bomb_toilet_paper",
         "recipes": [
             {
                 "materials": [
@@ -10714,7 +14809,7 @@ var crafts = {
         "id": "picture_frame_arc_item",
         "name": "Arc Picture Frame",
         "icon": "picture_frame_arc",
-        "namesearch": "arc picture_frame_arc picture_frame_arc_item picture frame",
+        "namesearch": "arc picture picture_frame_arc picture_frame_arc_item frame",
         "recipes": [
             {
                 "materials": [
@@ -10748,7 +14843,7 @@ var crafts = {
         "id": "arc_vault",
         "name": "Arc Vault",
         "icon": "chest_arctek_vault",
-        "namesearch": "arc_vault chest_arctek_vault vault arc",
+        "namesearch": "chest_arctek_vault arc_vault arc vault",
         "recipes": [
             {
                 "materials": [
@@ -10790,7 +14885,7 @@ var crafts = {
         "id": "helmet_leather",
         "name": "Leather Pauldron",
         "icon": "shoulder_leather",
-        "namesearch": "helmet_leather shoulder_leather leather pauldron",
+        "namesearch": "helmet_leather leather pauldron shoulder_leather",
         "recipes": [
             {
                 "materials": [
@@ -10843,17 +14938,17 @@ var crafts = {
         "creates": [
             "lamp_gas",
             "gravestone_haunted_01",
-            "bone",
-            "gravestone_haunted_02",
+            "stairs_asphault",
             "asphault_item",
-            "stairs_asphault"
+            "bone",
+            "gravestone_haunted_02"
         ]
     },
     "medieval_stein": {
         "id": "medieval_stein",
         "name": "Medieval Stein",
         "icon": "medieval_stein",
-        "namesearch": "medieval_stein stein medieval",
+        "namesearch": "medieval medieval_stein stein",
         "recipes": [
             {
                 "materials": [
@@ -10892,7 +14987,7 @@ var crafts = {
         "id": "helmet_lumite",
         "name": "Lumite Pauldron",
         "icon": "shoulder_lumite",
-        "namesearch": "helmet_lumite lumite shoulder_lumite pauldron",
+        "namesearch": "pauldron helmet_lumite shoulder_lumite lumite",
         "recipes": [
             {
                 "materials": [
@@ -10938,7 +15033,7 @@ var crafts = {
         "id": "planter_mayan",
         "name": "Grumm's Temple Garden",
         "icon": "planter_mayan",
-        "namesearch": "garden temple planter_mayan grumm's",
+        "namesearch": "planter_mayan garden grumm's temple",
         "recipes": [
             {
                 "materials": [
@@ -10980,7 +15075,7 @@ var crafts = {
         "id": "medieval_bucket",
         "name": "Medieval Bucket",
         "icon": "medieval_bucket",
-        "namesearch": "medieval_bucket bucket medieval",
+        "namesearch": "medieval bucket medieval_bucket",
         "recipes": [
             {
                 "materials": [
@@ -11014,7 +15109,7 @@ var crafts = {
         "id": "wall_medieval_bricks",
         "name": "Medieval Brick Wall",
         "icon": "wall_medieval",
-        "namesearch": "brick wall_medieval wall wall_medieval_bricks medieval",
+        "namesearch": "medieval wall wall_medieval brick wall_medieval_bricks",
         "recipes": [
             {
                 "materials": [
@@ -11048,7 +15143,7 @@ var crafts = {
         "id": "helmet_obsidian",
         "name": "Obsidian Pauldron",
         "icon": "shoulder_obsidian",
-        "namesearch": "shoulder_obsidian obsidian helmet_obsidian pauldron",
+        "namesearch": "helmet_obsidian obsidian pauldron shoulder_obsidian",
         "recipes": [
             {
                 "materials": [
@@ -11088,7 +15183,7 @@ var crafts = {
         "id": "medieval_basket",
         "name": "Medieval Washtub",
         "icon": "medieval_basket",
-        "namesearch": "medieval_basket washtub medieval",
+        "namesearch": "medieval medieval_basket washtub",
         "recipes": [
             {
                 "materials": [
@@ -11122,7 +15217,7 @@ var crafts = {
         "id": "wall_medieval_banner",
         "name": "Medieval Banner Wall",
         "icon": "wall_medieval_banner",
-        "namesearch": "wall_medieval_banner wall banner medieval",
+        "namesearch": "medieval wall_medieval_banner wall banner",
         "recipes": [
             {
                 "materials": [
@@ -11162,7 +15257,7 @@ var crafts = {
         "id": "leggings_diamond",
         "name": "Diamond Leggings",
         "icon": "leggings_diamond",
-        "namesearch": "diamond leggings leggings_diamond",
+        "namesearch": "leggings leggings_diamond diamond",
         "recipes": [
             {
                 "materials": [
@@ -11208,7 +15303,7 @@ var crafts = {
         "id": "medieval_anvil",
         "name": "Medieval Anvil",
         "icon": "medieval_anvil",
-        "namesearch": "medieval_anvil anvil medieval",
+        "namesearch": "medieval medieval_anvil anvil",
         "recipes": [
             {
                 "materials": [
@@ -11242,7 +15337,7 @@ var crafts = {
         "id": "wall_medieval_icon",
         "name": "Medieval Crest Wall",
         "icon": "wall_medieval_iconic",
-        "namesearch": "crest wall_medieval_iconic wall_medieval_icon wall medieval",
+        "namesearch": "wall_medieval_icon wall_medieval_iconic medieval wall crest",
         "recipes": [
             {
                 "materials": [
@@ -11270,7 +15365,7 @@ var crafts = {
         "id": "medieval_haybale",
         "name": "Medieval Hay Bale",
         "icon": "medieval_haybale",
-        "namesearch": "medieval_haybale bale hay medieval",
+        "namesearch": "medieval hay bale medieval_haybale",
         "recipes": [
             {
                 "materials": [
@@ -11299,7 +15394,7 @@ var crafts = {
         "id": "leggings_iron",
         "name": "Iron Leggings",
         "icon": "leggings_iron",
-        "namesearch": "iron leggings leggings_iron",
+        "namesearch": "leggings iron leggings_iron",
         "recipes": [
             {
                 "materials": [
@@ -11345,7 +15440,7 @@ var crafts = {
         "id": "wall_medieval_inset",
         "name": "Medieval Brick Inset Wall",
         "icon": "wall_medieval_inset",
-        "namesearch": "inset brick wall wall_medieval_inset medieval",
+        "namesearch": "medieval wall brick inset wall_medieval_inset",
         "recipes": [
             {
                 "materials": [
@@ -11379,7 +15474,7 @@ var crafts = {
         "id": "medieval_haybale_long",
         "name": "Medieval Double Hay Bale",
         "icon": "medieval_haybale_long",
-        "namesearch": "medieval_haybale_long bale double hay medieval",
+        "namesearch": "hay medieval bale double medieval_haybale_long",
         "recipes": [
             {
                 "materials": [
@@ -11408,7 +15503,7 @@ var crafts = {
         "id": "wall_medieval_spike",
         "name": "Medieval Spike Wall",
         "icon": "wall_medieval_spike",
-        "namesearch": "spike medieval wall wall_medieval_spike",
+        "namesearch": "medieval wall_medieval_spike wall spike",
         "recipes": [
             {
                 "materials": [
@@ -11482,7 +15577,7 @@ var crafts = {
         "id": "medieval_haystack",
         "name": "Medieval Haystack",
         "icon": "medieval_haystack",
-        "namesearch": "medieval_haystack haystack medieval",
+        "namesearch": "medieval_haystack medieval haystack",
         "recipes": [
             {
                 "materials": [
@@ -11511,7 +15606,7 @@ var crafts = {
         "id": "torch_medieval",
         "name": "Medieval Torch",
         "icon": "torch_medieval",
-        "namesearch": "torch torch_medieval medieval",
+        "namesearch": "medieval torch torch_medieval",
         "recipes": [
             {
                 "materials": [
@@ -11545,7 +15640,7 @@ var crafts = {
         "id": "medieval_banner_hanging",
         "name": "Medieval Bosshog Banner",
         "icon": "medieval_banner_hanging",
-        "namesearch": "bosshog medieval_banner_hanging banner medieval",
+        "namesearch": "medieval banner medieval_banner_hanging bosshog",
         "recipes": [
             {
                 "materials": [
@@ -11585,7 +15680,7 @@ var crafts = {
         "id": "leggings_lumite",
         "name": "Lumite Leggings",
         "icon": "leggings_lumite",
-        "namesearch": "lumite leggings_lumite leggings",
+        "namesearch": "leggings lumite leggings_lumite",
         "recipes": [
             {
                 "materials": [
@@ -11631,7 +15726,7 @@ var crafts = {
         "id": "lamp_medieval",
         "name": "Medieval Lamp",
         "icon": "lamp_medieval",
-        "namesearch": "lamp lamp_medieval medieval",
+        "namesearch": "medieval lamp_medieval lamp",
         "recipes": [
             {
                 "materials": [
@@ -11671,7 +15766,7 @@ var crafts = {
         "id": "medieval_banner_hanging2",
         "name": "Medieval Hammer Banner",
         "icon": "medieval_banner_hanging2",
-        "namesearch": "medieval_banner_hanging2 hammer banner medieval",
+        "namesearch": "medieval banner hammer medieval_banner_hanging2",
         "recipes": [
             {
                 "materials": [
@@ -11711,7 +15806,7 @@ var crafts = {
         "id": "leggings_obsidian",
         "name": "Obsidian Leggings",
         "icon": "leggings_obsidian",
-        "namesearch": "obsidian leggings leggings_obsidian",
+        "namesearch": "leggings obsidian leggings_obsidian",
         "recipes": [
             {
                 "materials": [
@@ -11751,7 +15846,7 @@ var crafts = {
         "id": "sword_medieval",
         "name": "Medieval Sword",
         "icon": "sword_medieval",
-        "namesearch": "sword sword_medieval medieval",
+        "namesearch": "medieval sword_medieval sword",
         "recipes": [
             {
                 "materials": [
@@ -11797,7 +15892,7 @@ var crafts = {
         "id": "medieval_cart",
         "name": "Medieval Cart",
         "icon": "medieval_cart",
-        "namesearch": "cart medieval_cart medieval",
+        "namesearch": "medieval_cart medieval cart",
         "recipes": [
             {
                 "materials": [
@@ -11847,7 +15942,7 @@ var crafts = {
         "id": "sword_diamond",
         "name": "Diamond Sword",
         "icon": "sword_diamond",
-        "namesearch": "diamond sword_diamond sword",
+        "namesearch": "sword sword_diamond diamond",
         "recipes": [
             {
                 "materials": [
@@ -11893,7 +15988,7 @@ var crafts = {
         "id": "switch_medieval",
         "name": "Medieval Switch",
         "icon": "switch_medieval",
-        "namesearch": "switch_medieval switch medieval",
+        "namesearch": "medieval switch switch_medieval",
         "recipes": [
             {
                 "materials": [
@@ -11937,7 +16032,7 @@ var crafts = {
         "id": "medieval_banner_post",
         "name": "Medieval Signpost",
         "icon": "medieval_banner_post",
-        "namesearch": "signpost medieval_banner_post medieval",
+        "namesearch": "medieval signpost medieval_banner_post",
         "recipes": [
             {
                 "materials": [
@@ -11971,7 +16066,7 @@ var crafts = {
         "id": "throne_medieval",
         "name": "Medieval Throne",
         "icon": "throne_medieval",
-        "namesearch": "throne throne_medieval medieval",
+        "namesearch": "medieval throne throne_medieval",
         "recipes": [
             {
                 "materials": [
@@ -12021,7 +16116,7 @@ var crafts = {
         "id": "medieval_pint",
         "name": "Medieval Teacup",
         "icon": "medieval_ministein",
-        "namesearch": "teacup medieval_pint medieval medieval_ministein",
+        "namesearch": "medieval teacup medieval_pint medieval_ministein",
         "recipes": [
             {
                 "materials": [
@@ -12060,7 +16155,7 @@ var crafts = {
         "id": "chair_medieval",
         "name": "Medieval Chair",
         "icon": "chair_medieval",
-        "namesearch": "chair chair_medieval medieval",
+        "namesearch": "medieval chair chair_medieval",
         "recipes": [
             {
                 "materials": [
@@ -12110,7 +16205,7 @@ var crafts = {
         "id": "industrial_barricade",
         "name": "Industrial Barrier",
         "icon": "industrial_barricade",
-        "namesearch": "industrial_barricade barrier industrial",
+        "namesearch": "industrial_barricade industrial barrier",
         "recipes": [
             {
                 "materials": [
@@ -12144,7 +16239,7 @@ var crafts = {
         "id": "sword_iron",
         "name": "Iron Sword",
         "icon": "sword_iron",
-        "namesearch": "sword_iron iron sword",
+        "namesearch": "sword iron sword_iron",
         "recipes": [
             {
                 "materials": [
@@ -12190,7 +16285,7 @@ var crafts = {
         "id": "stairs_medieval",
         "name": "Medieval Stairs",
         "icon": "stairs_medieval_02",
-        "namesearch": "stairs_medieval_02 stairs stairs_medieval medieval",
+        "namesearch": "medieval stairs_medieval stairs_medieval_02 stairs",
         "recipes": [
             {
                 "materials": [
@@ -12243,7 +16338,7 @@ var crafts = {
         "id": "industrial_cone",
         "name": "Industrial Safety Cone",
         "icon": "industrial_cone",
-        "namesearch": "cone industrial_cone safety industrial",
+        "namesearch": "industrial_cone safety industrial cone",
         "recipes": [
             {
                 "materials": [
@@ -12277,7 +16372,7 @@ var crafts = {
         "id": "stairs_medieval_rug",
         "name": "Medieval Carpeted Stairs",
         "icon": "stairs_medieval_01",
-        "namesearch": "medieval stairs_medieval_01 stairs_medieval_rug stairs carpeted",
+        "namesearch": "stairs stairs_medieval_rug medieval stairs_medieval_01 carpeted",
         "recipes": [
             {
                 "materials": [
@@ -12330,7 +16425,7 @@ var crafts = {
         "id": "industrial_barrel02",
         "name": "Industrial Modern Barrel",
         "icon": "industrial_barrel02",
-        "namesearch": "barrel modern industrial_barrel02 industrial",
+        "namesearch": "modern industrial_barrel02 industrial barrel",
         "recipes": [
             {
                 "materials": [
@@ -12364,7 +16459,7 @@ var crafts = {
         "id": "sword_lumite",
         "name": "Lumite Sword",
         "icon": "sword_lumite",
-        "namesearch": "lumite sword sword_lumite",
+        "namesearch": "sword sword_lumite lumite",
         "recipes": [
             {
                 "materials": [
@@ -12410,7 +16505,7 @@ var crafts = {
         "id": "roof_medieval",
         "name": "Medieval Roof",
         "icon": "roof_medieval",
-        "namesearch": "medieval roof roof_medieval",
+        "namesearch": "roof_medieval medieval roof",
         "recipes": [
             {
                 "materials": [
@@ -12455,15 +16550,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_medieval_inner_corner",
-            "roof_medieval_outer_corner"
+            "roof_medieval_outer_corner",
+            "roof_medieval_inner_corner"
         ]
     },
     "industrial_barrel03": {
         "id": "industrial_barrel03",
         "name": "Industrial Classic Barrel",
         "icon": "industrial_barrel03",
-        "namesearch": "barrel classic industrial_barrel03 industrial",
+        "namesearch": "classic industrial industrial_barrel03 barrel",
         "recipes": [
             {
                 "materials": [
@@ -12491,7 +16586,7 @@ var crafts = {
         "id": "sword_obsidian",
         "name": "Obsidian Sword",
         "icon": "sword_obsidian",
-        "namesearch": "sword_obsidian obsidian sword",
+        "namesearch": "sword obsidian sword_obsidian",
         "recipes": [
             {
                 "materials": [
@@ -12531,7 +16626,7 @@ var crafts = {
         "id": "door_medieval",
         "name": "Medieval Door",
         "icon": "door_medieval",
-        "namesearch": "door_medieval door medieval",
+        "namesearch": "medieval door_medieval door",
         "recipes": [
             {
                 "materials": [
@@ -12581,7 +16676,7 @@ var crafts = {
         "id": "industrial_barrel01",
         "name": "Industrial Safety Drum",
         "icon": "industrial_barrel01",
-        "namesearch": "industrial_barrel01 drum safety industrial",
+        "namesearch": "safety industrial_barrel01 industrial drum",
         "recipes": [
             {
                 "materials": [
@@ -12615,7 +16710,7 @@ var crafts = {
         "id": "fire_pit_medieval",
         "name": "Medieval Fireplace",
         "icon": "fireplace_medieval",
-        "namesearch": "fire_pit_medieval fireplace fireplace_medieval medieval",
+        "namesearch": "medieval fire_pit_medieval fireplace_medieval fireplace",
         "recipes": [
             {
                 "materials": [
@@ -12655,7 +16750,7 @@ var crafts = {
         "id": "logic_counter",
         "name": "Counter",
         "icon": "logic_counter",
-        "namesearch": "counter logic_counter",
+        "namesearch": "logic_counter counter",
         "recipes": [
             {
                 "materials": [
@@ -12695,7 +16790,7 @@ var crafts = {
         "id": "sword_stone",
         "name": "Stone Sword",
         "icon": "sword_stone",
-        "namesearch": "stone sword_stone sword",
+        "namesearch": "sword_stone sword stone",
         "recipes": [
             {
                 "materials": [
@@ -12735,7 +16830,7 @@ var crafts = {
         "id": "chandelier_medieval",
         "name": "Medieval Chandelier",
         "icon": "chandelier_medieval",
-        "namesearch": "chandelier_medieval chandelier medieval",
+        "namesearch": "medieval chandelier_medieval chandelier",
         "recipes": [
             {
                 "materials": [
@@ -12769,7 +16864,7 @@ var crafts = {
         "id": "numberstorage",
         "name": "Memory Gate",
         "icon": "numberstorage",
-        "namesearch": "numberstorage gate memory",
+        "namesearch": "memory gate numberstorage",
         "recipes": [
             {
                 "materials": [
@@ -12803,7 +16898,7 @@ var crafts = {
         "id": "chest_medieval",
         "name": "Medieval Treasure Chest",
         "icon": "chest_medieval",
-        "namesearch": "chest treasure chest_medieval medieval",
+        "namesearch": "medieval treasure chest_medieval chest",
         "recipes": [
             {
                 "materials": [
@@ -12853,7 +16948,7 @@ var crafts = {
         "id": "logic_rng",
         "name": "Random Number Generator",
         "icon": "logic_rng",
-        "namesearch": "number generator logic_rng random",
+        "namesearch": "generator random number logic_rng",
         "recipes": [
             {
                 "materials": [
@@ -12900,7 +16995,7 @@ var crafts = {
         "id": "roof_straw_slanted_inner_corner",
         "name": "Thatched Roof Inner Corner",
         "icon": "roof_straw_inner_corner",
-        "namesearch": "roof_straw_inner_corner corner thatched inner roof_straw_slanted_inner_corner roof",
+        "namesearch": "roof inner corner roof_straw_slanted_inner_corner thatched roof_straw_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -12922,7 +17017,7 @@ var crafts = {
         "id": "sword_wood",
         "name": "Wood Sword",
         "icon": "sword_wood",
-        "namesearch": "sword_wood wood sword",
+        "namesearch": "sword sword_wood wood",
         "recipes": [
             {
                 "materials": [
@@ -12960,7 +17055,7 @@ var crafts = {
         "id": "roof_straw_slanted_outer_corner",
         "name": "Thatched Roof Outer Corner",
         "icon": "roof_straw_outer_corner",
-        "namesearch": "outer roof_straw_outer_corner corner thatched roof_straw_slanted_outer_corner roof",
+        "namesearch": "roof roof_straw_outer_corner corner thatched outer roof_straw_slanted_outer_corner",
         "recipes": [
             {
                 "materials": [
@@ -12982,7 +17077,7 @@ var crafts = {
         "id": "slab_wood",
         "name": "Wood Slab",
         "icon": "slab_wood",
-        "namesearch": "slab wood slab_wood",
+        "namesearch": "wood slab_wood slab",
         "recipes": [
             {
                 "materials": [
@@ -13129,81 +17224,81 @@ var crafts = {
             }
         ],
         "creates": [
+            "holiday_giftwrap_blue",
             "holiday_giftwrap_red",
-            "hotel_chair",
-            "extractor",
-            "stool_wood",
-            "stairs_bungalow",
-            "table_wood",
+            "plaque_wood",
+            "table_medieval",
+            "gate_iron",
+            "fireworks_red_item",
             "wall_wood_gravel",
+            "roof_adobe_slanted_red",
+            "stairs_canvas",
+            "floor_haunted",
+            "fence_wood",
+            "hotel_wall_trim",
+            "roof_wood_slanted",
+            "table_wood",
+            "planter_wood",
+            "chair_wood",
+            "wall_wood_yellow",
+            "hotel_couch",
+            "stairs_bungalow",
+            "window_bungalow",
+            "fireworks_yellow_item",
+            "floor_wood",
+            "fireworks_blue_item",
             "roof_haunted",
             "coffin_haunted",
-            "floor_wood_tile",
-            "planter_wood",
-            "chest_stone",
-            "holiday_giftwrap_candycane",
-            "door_wood_white",
-            "door_wood_rustic",
-            "holiday_giftwrap_green",
-            "hotel_bed",
-            "hotel_couch_ottoman",
-            "shelf_wood",
-            "fireworks_yellow_item",
-            "roof_adobe_slanted_yellow",
-            "door_bungalow",
-            "floor_wood",
-            "sign_wood",
-            "fireworks_holiday",
-            "hotel_wall_trim",
-            "stick_wood",
-            "roof_adobe_slanted_red",
-            "chair_medieval",
-            "focus_stone",
-            "chair_wood",
-            "medieval_pint",
-            "fence_iron",
             "stairs_haunted",
-            "table_medieval",
-            "sign_stone",
-            "hotel_couch",
-            "bomb_toilet_paper",
-            "door_medieval",
-            "station_furniture",
-            "hotel_door",
-            "trap_door_wood",
-            "table_wood_white",
-            "bathroom_toilet_paper_holder",
-            "kitchen_cabinet",
-            "stairs_wood",
-            "wall_wood_decorative",
-            "window_bungalow",
-            "roof_wood_slanted",
-            "wall_wood_blue",
-            "holiday_shelf_wood_white",
-            "floor_haunted",
-            "kitchen_sink",
-            "fence_wood",
-            "holiday_giftwrap_blue",
             "hotel_couch_corner",
-            "gate_iron",
-            "roof_adobe_slanted_blue",
-            "fireworks_blue_item",
+            "door_wood_white",
+            "kitchen_sink",
+            "floor_wood_tile",
+            "chair_wood_white",
+            "table_wood_white",
+            "chair_medieval",
             "gate_wood",
             "floor_wood_white",
-            "chair_wood_white",
-            "wall_wood_yellow",
+            "roof_adobe_slanted_blue",
+            "shelf_wood",
+            "wall_wood_decorative",
+            "extractor",
+            "holiday_shelf_wood_white",
+            "trap_door_wood",
             "wall_wood_red",
-            "plaque_wood",
-            "fireworks_red_item",
+            "holiday_giftwrap_candycane",
+            "sign_stone",
+            "stick_wood",
+            "medieval_pint",
+            "door_medieval",
+            "holiday_giftwrap_green",
+            "stairs_wood",
+            "hotel_couch_ottoman",
+            "hotel_chair",
+            "bomb_toilet_paper",
+            "fence_iron",
+            "roof_adobe_slanted_yellow",
+            "wall_wood_blue",
+            "chest_stone",
+            "stool_wood",
+            "hotel_door",
+            "fireworks_holiday",
+            "hotel_bed",
             "floor_wood_decorative",
-            "stairs_canvas"
+            "door_wood_rustic",
+            "station_furniture",
+            "bathroom_toilet_paper_holder",
+            "focus_stone",
+            "kitchen_cabinet",
+            "sign_wood",
+            "door_bungalow"
         ]
     },
     "beacon_adjustable": {
         "id": "beacon_adjustable",
         "name": "Arc Beacon",
         "icon": "beacon_adjustable",
-        "namesearch": "arc beacon beacon_adjustable",
+        "namesearch": "beacon_adjustable arc beacon",
         "recipes": [
             {
                 "materials": [
@@ -13243,7 +17338,7 @@ var crafts = {
         "id": "stairs_wood_inner_corner",
         "name": "Wood Stairs Inner Corner",
         "icon": "stairs_wood_inner_corner",
-        "namesearch": "corner stairs_wood_inner_corner inner wood stairs",
+        "namesearch": "inner stairs_wood_inner_corner wood corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -13265,7 +17360,7 @@ var crafts = {
         "id": "planter_elevated",
         "name": "Wood Base Planter",
         "icon": "planter_elevated",
-        "namesearch": "base planter_elevated wood planter",
+        "namesearch": "wood base planter planter_elevated",
         "recipes": [
             {
                 "materials": [
@@ -13307,7 +17402,7 @@ var crafts = {
         "id": "stairs_wood_outer_corner",
         "name": "Wood Stairs Outer Corner",
         "icon": "stairs_wood_outer_corner",
-        "namesearch": "outer corner stairs_wood_outer_corner wood stairs",
+        "namesearch": "wood corner outer stairs_wood_outer_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -13329,7 +17424,7 @@ var crafts = {
         "id": "slab_stone",
         "name": "Stone Slab",
         "icon": "slab_stone",
-        "namesearch": "stone slab_stone slab",
+        "namesearch": "slab_stone slab stone",
         "recipes": [
             {
                 "materials": [
@@ -13372,111 +17467,111 @@ var crafts = {
             }
         ],
         "creates": [
-            "kitchen_range",
-            "wall_stone_block",
+            "captureblueprint_31_item",
+            "focus_obsidian",
+            "number_pad_item",
+            "column_roman_limestone_spiral",
             "stairs_stone",
-            "table_mayan",
-            "roof_stone",
-            "table_stone",
-            "chest_stone",
-            "extractor_advanced",
-            "stairs_medieval",
-            "chest_lockable",
+            "wall_atlantis_sunken",
+            "door_atlantis",
             "gift_box_red",
             "wall_atlantis_trim",
-            "altar_mayan",
+            "wall_shelf_stone",
+            "invert_block_item",
+            "extractor",
+            "window_bars",
+            "logic_gate_item",
             "vase_atlantis",
+            "roof_atlantis",
+            "trap_door_stone",
+            "logic_counter",
+            "chest_arctek_02",
+            "window_stone",
+            "station_furniture",
+            "captureblueprint_15_item",
+            "wall_mayan_trim",
+            "door_stone",
+            "wall_atlantis_tile",
+            "altar_atlantis",
+            "wall_mayan_accent",
+            "roof_stone",
+            "table_arctek_02",
+            "wall_stone_block",
+            "led_block_item",
+            "table_mayan",
+            "frieze_roman_limestone_leaf",
+            "sign_stone_hanging",
+            "table_arctek_03",
+            "kitchen_fridge",
+            "chest_arctek_01",
             "plaque_stone",
+            "fence_stone",
+            "wall_roman_limestone_decorative_corners",
+            "arc_vault",
+            "planter_mayan",
             "path_stone",
-            "bench_haunted",
-            "floor_stone_decorative",
+            "capital_roman_bedrock_laurel",
+            "roof_igneous",
+            "floor_stone",
+            "wall_atlantis_accent",
+            "kitchen_cabinet",
+            "rod_stone",
+            "trap_door_mayan",
             "pedistal_roman_limestone_grass",
             "lantern_arctek_02",
-            "station_culinary",
-            "fire_pit_medieval",
-            "pressure_plate_item",
-            "wall_atlantis_wave",
-            "throne_mayan",
-            "pipe_retro",
-            "table_arctek_02",
-            "roof_roman_limestone_halfgable",
-            "gift_box_blue",
-            "code_block_item",
-            "planter_mayan",
-            "stairs_atlantis",
-            "frieze_roman_limestone_leaf",
-            "kitchen_cabinet",
-            "station_furniture",
-            "table_arctek_01",
-            "switch_item",
-            "door_atlantis",
-            "focus_obsidian",
-            "captureblueprint_63_item",
-            "number_pad_item",
-            "capital_roman_bedrock_laurel",
-            "trap_door_mayan",
-            "rod_stone",
-            "roof_atlantis",
-            "flipflop_block_item",
-            "stairs_mayan",
-            "window_stone",
-            "logic_gate_item",
-            "roof_igneous",
-            "fence_stone",
-            "sign_stone_hanging",
-            "kitchen_fridge",
-            "column_roman_limestone_spiral",
-            "chair_mayan",
-            "wall_mayan_accent",
-            "chair_atlantis",
-            "number_comparison_item",
-            "fire_pit",
-            "captureblueprint_15_item",
-            "logic_counter",
-            "trap_door_atlantis",
-            "chair_stone",
-            "led_block_item",
-            "chest_arctek_01",
-            "wall_atlantis_trim_symbol",
-            "wall_shelf_stone",
-            "window_bars",
-            "weapon_rack_stone",
-            "trap_door_stone",
-            "invert_block_item",
-            "numberstorage",
-            "door_limestone_bedrock",
-            "stairs_medieval_rug",
-            "altar_atlantis",
-            "capital_roman_bedrock_leaf",
-            "star_retro",
-            "wall_mayan_accent_serpent",
-            "gate_obsidian",
-            "chest_arctek_02",
+            "floor_stone_decorative",
             "delay_block_item",
-            "arc_vault",
-            "bed_ice",
-            "gift_box_green",
-            "wall_igneous_block",
-            "extractor",
-            "wall_atlantis_sunken",
-            "floor_stone_decorativecarved",
+            "pressure_plate_item",
+            "flipflop_block_item",
+            "number_comparison_item",
+            "captureblueprint_63_item",
+            "wall_atlantis_wave",
+            "numberstorage",
+            "switch_item",
+            "station_culinary",
+            "table_stone",
+            "chair_mayan",
             "table_atlantis",
-            "wall_roman_limestone_decorative_corners",
-            "table_arctek_03",
-            "captureblueprint_31_item",
-            "wall_mayan_trim",
-            "wall_atlantis_tile",
-            "door_stone",
-            "wall_atlantis_accent",
+            "stairs_mayan",
             "wall_atlantis",
-            "floor_stone"
+            "wall_igneous_block",
+            "chair_stone",
+            "code_block_item",
+            "wall_mayan_accent_serpent",
+            "wall_atlantis_trim_symbol",
+            "fire_pit_medieval",
+            "pipe_retro",
+            "gate_obsidian",
+            "chair_atlantis",
+            "star_retro",
+            "altar_mayan",
+            "kitchen_range",
+            "gift_box_blue",
+            "stairs_atlantis",
+            "roof_roman_limestone_halfgable",
+            "door_limestone_bedrock",
+            "fire_pit",
+            "gift_box_green",
+            "weapon_rack_stone",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "chest_lockable",
+            "trap_door_atlantis",
+            "bed_ice",
+            "table_arctek_01",
+            "chest_stone",
+            "capital_roman_bedrock_leaf",
+            "extractor_advanced",
+            "throne_mayan",
+            "floor_stone_decorativecarved",
+            "bench_haunted"
         ]
     },
     "roof_wood_slanted_inner_corner": {
         "id": "roof_wood_slanted_inner_corner",
         "name": "Wood Roof Inner Corner",
         "icon": "roof_wood_inner_corner",
-        "namesearch": "roof_wood_inner_corner roof_wood_slanted_inner_corner corner inner wood roof",
+        "namesearch": "roof roof_wood_inner_corner roof_wood_slanted_inner_corner inner wood corner",
         "recipes": [
             {
                 "materials": [
@@ -13498,7 +17593,7 @@ var crafts = {
         "id": "planter_footed",
         "name": "Tripod Planter",
         "icon": "planter_footed",
-        "namesearch": "tripod planter_footed planter",
+        "namesearch": "tripod planter planter_footed",
         "recipes": [
             {
                 "materials": [
@@ -13540,7 +17635,7 @@ var crafts = {
         "id": "roof_wood_slanted_outer_corner",
         "name": "Wood Roof Outer Corner",
         "icon": "roof_wood_outer_corner",
-        "namesearch": "outer roof_wood_outer_corner corner wood roof_wood_slanted_outer_corner roof",
+        "namesearch": "roof wood corner roof_wood_slanted_outer_corner roof_wood_outer_corner outer",
         "recipes": [
             {
                 "materials": [
@@ -13562,7 +17657,7 @@ var crafts = {
         "id": "planter_geometric",
         "name": "Geometric Planter",
         "icon": "planter_geometric",
-        "namesearch": "planter_geometric geometric planter",
+        "namesearch": "geometric planter_geometric planter",
         "recipes": [
             {
                 "materials": [
@@ -13604,7 +17699,7 @@ var crafts = {
         "id": "stairs_stone_inner_corner",
         "name": "Stone Stairs Inner Corner",
         "icon": "stairs_stone_inner_corner",
-        "namesearch": "stairs_stone_inner_corner corner inner stone stairs",
+        "namesearch": "stone stairs_stone_inner_corner inner corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -13626,7 +17721,7 @@ var crafts = {
         "id": "planter_pigsy",
         "name": "Lil' Pigsy Planter",
         "icon": "planter_pigsy",
-        "namesearch": "planter pigsy planter_pigsy lil'",
+        "namesearch": "lil' pigsy planter planter_pigsy",
         "recipes": [
             {
                 "materials": [
@@ -13668,7 +17763,7 @@ var crafts = {
         "id": "station_furniture",
         "name": "Forge",
         "icon": "station_forge",
-        "namesearch": "forge station_furniture station_forge",
+        "namesearch": "station_furniture forge station_forge",
         "recipes": [
             {
                 "materials": [
@@ -13702,7 +17797,7 @@ var crafts = {
         "id": "stairs_stone_outer_corner",
         "name": "Stone Stairs Outer Corner",
         "icon": "stairs_stone_outer_corner",
-        "namesearch": "outer stairs_stone_outer_corner corner stone stairs",
+        "namesearch": "stone stairs_stone_outer_corner corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -13724,7 +17819,7 @@ var crafts = {
         "id": "planter_terracotta",
         "name": "Terracotta Planter",
         "icon": "planter_terracotta",
-        "namesearch": "terracotta planter_terracotta planter",
+        "namesearch": "planter_terracotta terracotta planter",
         "recipes": [
             {
                 "materials": [
@@ -13766,7 +17861,7 @@ var crafts = {
         "id": "bomb_force",
         "name": "Force Bomb",
         "icon": "grenade_force",
-        "namesearch": "grenade_force force bomb bomb_force",
+        "namesearch": "force grenade_force bomb_force bomb",
         "recipes": [
             {
                 "materials": [
@@ -13800,7 +17895,7 @@ var crafts = {
         "id": "roof_stone_inner_corner",
         "name": "Stone Roof Inner Corner",
         "icon": "roof_stone_inner_corner",
-        "namesearch": "corner roof_stone_inner_corner stone inner roof",
+        "namesearch": "stone roof inner corner roof_stone_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -13822,7 +17917,7 @@ var crafts = {
         "id": "inventory_sensor",
         "name": "Inventory Sensor",
         "icon": "inventory_sensor",
-        "namesearch": "inventory sensor inventory_sensor",
+        "namesearch": "inventory inventory_sensor sensor",
         "recipes": [
             {
                 "materials": [
@@ -13856,7 +17951,7 @@ var crafts = {
         "id": "chest_lockable",
         "name": "Automated Chest",
         "icon": "chest_lockable",
-        "namesearch": "automated chest chest_lockable",
+        "namesearch": "automated chest_lockable chest",
         "recipes": [
             {
                 "materials": [
@@ -13896,7 +17991,7 @@ var crafts = {
         "id": "roof_stone_outer_corner",
         "name": "Stone Roof Outer Corner",
         "icon": "roof_stone_outer_corner",
-        "namesearch": "outer roof_stone_outer_corner corner stone roof",
+        "namesearch": "stone roof roof_stone_outer_corner corner outer",
         "recipes": [
             {
                 "materials": [
@@ -13918,7 +18013,7 @@ var crafts = {
         "id": "seed_plant_bamboo",
         "name": "Wild Bamboo Seed",
         "icon": "seed_bamboo",
-        "namesearch": "bamboo seed_plant_bamboo wild seed_bamboo seed",
+        "namesearch": "seed_bamboo seed_plant_bamboo bamboo wild seed",
         "recipes": [
             {
                 "materials": [
@@ -13940,7 +18035,7 @@ var crafts = {
         "id": "stairs_limestone_inner_corner",
         "name": "Limestone Stairs Inner Corner",
         "icon": "stairs_limestone_inner_corner",
-        "namesearch": "stairs_limestone_inner_corner corner inner stairs limestone",
+        "namesearch": "inner corner limestone stairs stairs_limestone_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -13962,7 +18057,7 @@ var crafts = {
         "id": "station_sawyer",
         "name": "Processor",
         "icon": "station_sawmill",
-        "namesearch": "station_sawmill station_sawyer processor",
+        "namesearch": "station_sawyer station_sawmill processor",
         "recipes": [
             {
                 "materials": [
@@ -14006,7 +18101,7 @@ var crafts = {
         "id": "stairs_limestone_outer_corner",
         "name": "Limestone Stairs Outer Corner",
         "icon": "stairs_limestone_outer_corner",
-        "namesearch": "outer stairs_limestone_outer_corner corner stairs limestone",
+        "namesearch": "stairs_limestone_outer_corner corner limestone outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -14028,7 +18123,7 @@ var crafts = {
         "id": "seed_plant_cactus01",
         "name": "Big Pokey Cactus Seed",
         "icon": "seed_cactus01",
-        "namesearch": "pokey cactus seed_plant_cactus01 seed_cactus01 big seed",
+        "namesearch": "big seed_cactus01 cactus seed_plant_cactus01 pokey seed",
         "recipes": [
             {
                 "materials": [
@@ -14050,7 +18145,7 @@ var crafts = {
         "id": "bomb_flare",
         "name": "Flare",
         "icon": "arc_flare",
-        "namesearch": "arc_flare bomb_flare flare",
+        "namesearch": "bomb_flare arc_flare flare",
         "recipes": [
             {
                 "materials": [
@@ -14084,7 +18179,7 @@ var crafts = {
         "id": "slope_limestone_inner_corner",
         "name": "Limestone Slope Inner Corner",
         "icon": "roof_limestone_inner_corner",
-        "namesearch": "corner roof_limestone_inner_corner inner slope_limestone_inner_corner slope limestone",
+        "namesearch": "slope_limestone_inner_corner inner roof_limestone_inner_corner corner limestone slope",
         "recipes": [
             {
                 "materials": [
@@ -14106,7 +18201,7 @@ var crafts = {
         "id": "seed_plant_cactus02",
         "name": "Prickly Pal Cactus Seed",
         "icon": "seed_cactus02",
-        "namesearch": "prickly cactus pal seed_cactus02 seed_plant_cactus02 seed",
+        "namesearch": "seed_plant_cactus02 seed_cactus02 cactus pal prickly seed",
         "recipes": [
             {
                 "materials": [
@@ -14128,7 +18223,7 @@ var crafts = {
         "id": "adobe_brick",
         "name": "Adobe Bricks",
         "icon": "wall_adobebricks",
-        "namesearch": "wall_adobebricks bricks adobe_brick adobe",
+        "namesearch": "bricks wall_adobebricks adobe_brick adobe",
         "recipes": [
             {
                 "materials": [
@@ -14145,44 +18240,44 @@ var crafts = {
             }
         ],
         "creates": [
-            "statue_candy_skull",
-            "stairs_brick_retro",
-            "floor_adobe_blue",
             "floor_adobe_yellow",
-            "wall_sci_fi_exterior01",
-            "moroccan_decorative_tile_white",
-            "wall_adobe_blue",
-            "slope_sci_fi_pipe",
-            "wall_adobe_yellow",
-            "wall_moroccan_tile_red",
-            "planter_geometric",
-            "planter_elevated",
-            "wall_adobe",
-            "roof_adobe_slanted_red",
-            "moroccan_decorative_tile_blue",
-            "wall_moroccan_tile_blue",
-            "moroccan_decorative_tile_gem",
-            "slope_sci_fi_exterior",
-            "planter_footed",
             "floor_adobe_red",
-            "stairs_sci_fi",
-            "floor_sci_fi_grate",
-            "roof_adobe_slanted_blue",
-            "wall_moroccan_tile_yellow",
+            "roof_adobe_slanted_red",
+            "planter_elevated",
             "planter_pigsy",
-            "ladder_sci_fi",
-            "wall_adobe_red",
+            "wall_moroccan_tile_blue",
+            "wall_moroccan_tile_yellow",
+            "planter_geometric",
+            "planter_footed",
+            "stairs_sci_fi",
+            "wall_adobe_yellow",
+            "slope_sci_fi_pipe",
+            "stairs_brick_retro",
+            "roof_adobe_slanted_blue",
+            "wall_moroccan_tile_red",
+            "moroccan_decorative_tile_gem",
             "planter_terracotta",
+            "wall_adobe_blue",
+            "floor_adobe_blue",
             "flower_pot",
+            "moroccan_decorative_tile_blue",
+            "roof_adobe_slanted_yellow",
+            "wall_adobe_red",
+            "moroccan_decorative_tile_white",
+            "statue_candy_skull",
+            "wall_sci_fi_exterior01",
             "wall_brick_retro",
-            "roof_adobe_slanted_yellow"
+            "floor_sci_fi_grate",
+            "ladder_sci_fi",
+            "wall_adobe",
+            "slope_sci_fi_exterior"
         ]
     },
     "slope_limestone_outer_corner": {
         "id": "slope_limestone_outer_corner",
         "name": "Limestone Slope Outer Corner",
         "icon": "roof_limestone_outer_corner",
-        "namesearch": "outer slope_limestone_outer_corner roof_limestone_outer_corner corner slope limestone",
+        "namesearch": "slope_limestone_outer_corner roof_limestone_outer_corner corner limestone outer slope",
         "recipes": [
             {
                 "materials": [
@@ -14204,7 +18299,7 @@ var crafts = {
         "id": "seed_plant_pilea",
         "name": "Mirror Grass Seed",
         "icon": "seed_pilea",
-        "namesearch": "seed_pilea grass seed_plant_pilea mirror seed",
+        "namesearch": "seed_pilea grass seed_plant_pilea seed mirror",
         "recipes": [
             {
                 "materials": [
@@ -14266,7 +18361,7 @@ var crafts = {
         "id": "roof_roman_limestone_halfgable_inner_corner",
         "name": "Limestone Roof Inner Corner",
         "icon": "roof_roman_limestone_halfgable_inner_corner",
-        "namesearch": "roof_roman_limestone_halfgable_inner_corner corner inner roof limestone",
+        "namesearch": "roof_roman_limestone_halfgable_inner_corner roof inner corner limestone",
         "recipes": [
             {
                 "materials": [
@@ -14288,7 +18383,7 @@ var crafts = {
         "id": "seed_plant_succulent",
         "name": "Desert Succulent Seed",
         "icon": "seed_succulent",
-        "namesearch": "seed_succulent desert seed_plant_succulent succulent seed",
+        "namesearch": "desert seed_succulent succulent seed seed_plant_succulent",
         "recipes": [
             {
                 "materials": [
@@ -14310,7 +18405,7 @@ var crafts = {
         "id": "automation_portal",
         "name": "Arc Portal",
         "icon": "automation_portal",
-        "namesearch": "portal arc automation_portal",
+        "namesearch": "automation_portal arc portal",
         "recipes": [
             {
                 "materials": [
@@ -14350,7 +18445,7 @@ var crafts = {
         "id": "roof_roman_limestone_halfgable_outer_corner",
         "name": "Limestone Roof Outer Corner",
         "icon": "roof_roman_limestone_halfgable_outer_corner",
-        "namesearch": "outer roof_roman_limestone_halfgable_outer_corner corner roof limestone",
+        "namesearch": "roof_roman_limestone_halfgable_outer_corner roof corner limestone outer",
         "recipes": [
             {
                 "materials": [
@@ -14372,7 +18467,7 @@ var crafts = {
         "id": "code_block_item",
         "name": "Math Gate",
         "icon": "code_block",
-        "namesearch": "code_block_item code_block math gate",
+        "namesearch": "math code_block_item gate code_block",
         "recipes": [
             {
                 "materials": [
@@ -14412,7 +18507,7 @@ var crafts = {
         "id": "stairs_obsidian_inner_corner",
         "name": "Obsidian Stairs Inner Corner",
         "icon": "stairs_obsidian_inner_corner",
-        "namesearch": "stairs_obsidian_inner_corner corner inner obsidian stairs",
+        "namesearch": "obsidian inner corner stairs_obsidian_inner_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -14434,7 +18529,7 @@ var crafts = {
         "id": "wall_subway_tile",
         "name": "Subway Tile Wall",
         "icon": "wall_subway_tile",
-        "namesearch": "wall_subway_tile wall tile subway",
+        "namesearch": "wall tile wall_subway_tile subway",
         "recipes": [
             {
                 "materials": [
@@ -14474,7 +18569,7 @@ var crafts = {
         "id": "stairs_obsidian_outer_corner",
         "name": "Obsidian Stairs Outer Corner",
         "icon": "stairs_obsidian_outer_corner",
-        "namesearch": "outer stairs_obsidian_outer_corner corner obsidian stairs",
+        "namesearch": "obsidian corner stairs_obsidian_outer_corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -14496,7 +18591,7 @@ var crafts = {
         "id": "diamond",
         "name": "Diamond",
         "icon": "diamond_bar",
-        "namesearch": "diamond diamond_bar",
+        "namesearch": "diamond_bar diamond",
         "recipes": [
             {
                 "materials": [
@@ -14513,24 +18608,24 @@ var crafts = {
             }
         ],
         "creates": [
-            "glass_diamond",
-            "armguards_diamond",
-            "door_diamond",
-            "rod_diamond",
             "breastplate_diamond",
             "slab_diamond",
-            "excavator_advanced",
-            "helmet_diamond",
-            "sword_diamond",
+            "armguards_diamond",
+            "rod_diamond",
             "focus_diamond",
-            "leggings_diamond"
+            "glass_diamond",
+            "excavator_advanced",
+            "leggings_diamond",
+            "sword_diamond",
+            "door_diamond",
+            "helmet_diamond"
         ]
     },
     "floor_linoleum_tile": {
         "id": "floor_linoleum_tile",
         "name": "Ornate Patterned Tile Floor",
         "icon": "floor_linoleum_tile",
-        "namesearch": "floor ornate floor_linoleum_tile patterned tile",
+        "namesearch": "tile floor patterned ornate floor_linoleum_tile",
         "recipes": [
             {
                 "materials": [
@@ -14570,7 +18665,7 @@ var crafts = {
         "id": "roof_obsidian_inner_corner",
         "name": "Obsidian Roof Inner Corner",
         "icon": "roof_obsidian_inner_corner",
-        "namesearch": "corner roof_obsidian_inner_corner inner obsidian roof",
+        "namesearch": "obsidian roof inner roof_obsidian_inner_corner corner",
         "recipes": [
             {
                 "materials": [
@@ -14609,83 +18704,83 @@ var crafts = {
             }
         ],
         "creates": [
-            "window_stone",
-            "beacon_blue",
-            "lamp_wood",
-            "snow_globe_pigsy",
-            "slab_glass",
-            "light_candy_skull_red",
-            "glass_moroccan",
-            "led_holiday_tree",
-            "glass_stained_cat",
-            "glass_stained_yellow",
-            "hotel_flower",
-            "slope_glass",
-            "window_industrial",
-            "lamp_haunted",
-            "light_candy_skull_blue",
-            "torch_industrial_02",
-            "window_stucco",
-            "window_stucco_ruddy",
-            "window_wood",
             "switch_sci_fi",
-            "led_sci_fi",
-            "beacon_adjustable",
-            "holiday_stained_glass_white",
-            "glass_stained_red",
-            "lamp_red",
-            "picture_frame_arc_item",
-            "torch_sci_fi",
-            "led_block_item",
-            "door_sci_fi",
-            "holiday_stained_glass_green",
-            "window_gingerbread",
-            "holiday_stained_glass_blue",
-            "beacon_red",
-            "lamp_gas",
-            "gamer_monitor",
-            "pressure_plate_industrial",
-            "lantern_arctek_01",
-            "glass_stained_blue",
-            "lamp_industrial",
-            "kitchen_percolator",
-            "torch_holiday_blue",
-            "torch_holiday_red",
-            "bed_sci_fi",
-            "hotel_lamp_standing",
-            "holiday_ornament_red",
-            "mirror_haunted",
-            "snow_globe_leafi",
-            "light_candy_skull",
-            "torch_holiday_yellow",
+            "light_candy_skull_blue",
             "holiday_stained_glass_red",
+            "holiday_stained_glass_green",
+            "lamp_red",
             "snow_globe_reaudolph",
-            "lamp_yellow",
-            "lamp_blue",
-            "window_sci_fi",
-            "glass_stained_apple",
-            "hotel_chandelier",
             "bomb_flare",
-            "torch_holiday_green",
-            "bomb_halloween_flare",
-            "beacon_white",
-            "lantern_arctek_02",
-            "light_candy_skull_yellow",
-            "window_stucco_dark",
-            "wall_subway_tile",
+            "gamer_monitor",
+            "window_wood",
             "holiday_window",
-            "snow_globe_trog",
-            "bathroom_soap",
+            "door_sci_fi",
             "beacon_yellow",
+            "lamp_wood",
+            "glass_moroccan",
+            "led_block_item",
+            "holiday_stained_glass_white",
+            "holiday_stained_glass_blue",
+            "pressure_plate_industrial",
+            "lamp_blue",
+            "window_stucco",
+            "lamp_industrial",
+            "torch_holiday_blue",
+            "bathroom_soap",
+            "lamp_haunted",
+            "glass_stained_cat",
+            "beacon_blue",
+            "light_candy_skull_red",
+            "bed_sci_fi",
+            "window_gingerbread",
+            "kitchen_percolator",
+            "torch_holiday_red",
+            "slab_glass",
+            "snow_globe_trog",
+            "beacon_adjustable",
+            "glass_stained_blue",
+            "hotel_flower",
+            "snow_globe_pigsy",
+            "glass_stained_yellow",
+            "glass_stained_apple",
+            "lantern_arctek_01",
+            "led_holiday_tree",
+            "window_stucco_dark",
+            "torch_sci_fi",
+            "light_candy_skull",
+            "lantern_arctek_02",
+            "window_sci_fi",
+            "hotel_lamp_standing",
+            "torch_industrial_02",
+            "hotel_chandelier",
+            "wall_subway_tile",
+            "glass_stained_red",
+            "light_candy_skull_yellow",
+            "beacon_white",
+            "torch_holiday_yellow",
+            "mirror_haunted",
+            "bomb_halloween_flare",
+            "window_stone",
+            "lamp_gas",
             "torch_industrial_01",
-            "hotel_torch"
+            "window_stucco_ruddy",
+            "snow_globe_leafi",
+            "beacon_red",
+            "hotel_torch",
+            "holiday_ornament_red",
+            "torch_holiday_green",
+            "picture_frame_arc_item",
+            "slope_glass",
+            "lamp_yellow",
+            "led_sci_fi",
+            "window_industrial"
         ]
     },
     "kitchen_sink": {
         "id": "kitchen_sink",
         "name": "Better Home Kitchen Sink",
         "icon": "kitchen_sink",
-        "namesearch": "home sink better kitchen kitchen_sink",
+        "namesearch": "kitchen home sink better kitchen_sink",
         "recipes": [
             {
                 "materials": [
@@ -14725,7 +18820,7 @@ var crafts = {
         "id": "roof_obsidian_outer_corner",
         "name": "Obsidian Roof Outer Corner",
         "icon": "roof_obsidian_outer_corner",
-        "namesearch": "outer corner roof_obsidian_outer_corner obsidian roof",
+        "namesearch": "obsidian roof corner roof_obsidian_outer_corner outer",
         "recipes": [
             {
                 "materials": [
@@ -14747,7 +18842,7 @@ var crafts = {
         "id": "stick_wood",
         "name": "Wood Rod",
         "icon": "stick_wood",
-        "namesearch": "stick_wood wood rod",
+        "namesearch": "rod stick_wood wood",
         "recipes": [
             {
                 "materials": [
@@ -14920,73 +19015,74 @@ var crafts = {
             }
         ],
         "creates": [
+            "plaque_wood",
+            "table_medieval",
+            "medieval_banner_hanging",
+            "window_wood_barred",
             "roof_chinese_jade",
-            "bamboo",
-            "lattice_chinese",
-            "stool_wood",
-            "lamp_wood",
-            "wall_bungalow",
-            "fence_stone",
-            "table_wood",
-            "roof_stone",
             "wall_bungalow_accent_fur",
+            "planter_elevated",
+            "lantern_chinese_ox",
+            "window_wood",
+            "window_chinese",
+            "holiday_window",
+            "lantern_chinese_pigsy",
+            "fence_wood",
+            "roof_stone",
+            "roof_wood_slanted",
+            "table_wood",
+            "chair_wood",
+            "roof_chinese_red",
+            "lattice_chinese",
+            "plum_blossom",
+            "lamp_wood",
+            "floor_wood",
             "roof_haunted",
             "coffin_haunted",
-            "floor_wood_tile",
-            "bed",
-            "roof_bungalow",
-            "medieval_banner_hanging",
-            "ladder_wood",
-            "bed_yellow",
-            "floor_wood",
-            "holiday_bed_plaid",
-            "planter_elevated",
-            "window_wood",
-            "lantern_chinese_dog",
-            "sign_wood",
-            "window_wood_barred",
-            "picture_frame_item",
-            "chair_medieval",
-            "wall_bungalow_accent",
-            "bed_blue",
-            "chair_wood",
-            "medieval_cart",
-            "fence_iron",
-            "table_medieval",
-            "holiday_bed_giftwrap",
-            "stairs_gingerbread_basic",
-            "table_wood_white",
-            "wall_wood_decorative",
-            "bed_red",
-            "roof_wood_slanted",
-            "lantern_chinese_pigsy",
-            "medieval_basket",
-            "weapon_rack_stone",
-            "lantern_chinese_rat",
             "sword_stone",
-            "fence_wood",
-            "roof_chinese_red",
-            "medieval_bucket",
-            "plum_blossom",
+            "wall_bungalow",
+            "floor_wood_tile",
+            "lantern_chinese_dog",
+            "bed_blue",
+            "chair_wood_white",
+            "table_wood_white",
+            "chair_medieval",
             "gate_wood",
             "floor_wood_white",
-            "holiday_bed_candycane",
-            "chair_wood_white",
-            "holiday_window",
-            "wall_bungalow_support",
+            "holiday_bed_giftwrap",
+            "wall_wood_decorative",
+            "picture_frame_item",
+            "fence_stone",
+            "weapon_rack_stone",
+            "lantern_chinese_rat",
             "camp_fire",
+            "wall_bungalow_accent",
+            "stairs_gingerbread_basic",
             "medieval_banner_post",
+            "fence_iron",
+            "medieval_cart",
+            "bed_yellow",
+            "stool_wood",
+            "medieval_bucket",
+            "floor_wood_decorative",
+            "wall_bungalow_support",
+            "bed",
+            "holiday_bed_plaid",
+            "medieval_basket",
+            "ladder_wood",
+            "bamboo",
+            "roof_bungalow",
             "torch_coal",
-            "window_chinese",
-            "plaque_wood",
-            "floor_wood_decorative"
+            "bed_red",
+            "sign_wood",
+            "holiday_bed_candycane"
         ]
     },
     "kitchen_cabinet": {
         "id": "kitchen_cabinet",
         "name": "Better Home Cabinet",
         "icon": "kitchen_cabinet",
-        "namesearch": "kitchen_cabinet home cabinet better",
+        "namesearch": "home kitchen_cabinet cabinet better",
         "recipes": [
             {
                 "materials": [
@@ -15026,7 +19122,7 @@ var crafts = {
         "id": "stairs_iron_inner_corner",
         "name": "Iron Stairs Inner Corner",
         "icon": "stairs_iron_inner_corner",
-        "namesearch": "iron corner stairs_iron_inner_corner inner stairs",
+        "namesearch": "iron inner corner stairs_iron_inner_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -15048,7 +19144,7 @@ var crafts = {
         "id": "glass_stained_blue",
         "name": "Blue Stained Glass",
         "icon": "glass_stained_blue",
-        "namesearch": "stained glass_stained_blue glass blue",
+        "namesearch": "stained glass glass_stained_blue blue",
         "recipes": [
             {
                 "materials": [
@@ -15076,7 +19172,7 @@ var crafts = {
         "id": "kitchen_fridge",
         "name": "Better Home Refrigerator",
         "icon": "kitchen_fridge",
-        "namesearch": "home kitchen_fridge better refrigerator",
+        "namesearch": "refrigerator kitchen_fridge home better",
         "recipes": [
             {
                 "materials": [
@@ -15116,7 +19212,7 @@ var crafts = {
         "id": "stairs_iron_outer_corner",
         "name": "Iron Stairs Outer Corner",
         "icon": "stairs_iron_outer_corner",
-        "namesearch": "outer stairs_iron_outer_corner iron corner stairs",
+        "namesearch": "iron corner outer stairs_iron_outer_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -15138,7 +19234,7 @@ var crafts = {
         "id": "glass_stained_red",
         "name": "Red Stained Glass",
         "icon": "glass_stained_red",
-        "namesearch": "stained glass glass_stained_red red",
+        "namesearch": "stained glass red glass_stained_red",
         "recipes": [
             {
                 "materials": [
@@ -15162,11 +19258,76 @@ var crafts = {
         ],
         "creates": []
     },
+    "food_rotisserie_chizzard": {
+        "id": "food_rotisserie_chizzard",
+        "name": "Exquisite Roast Bird",
+        "icon": "food_rotisserie_chizzard",
+        "namesearch": "food_rotisserie_chizzard exquisite roast bird",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread",
+                            "bread_wholesome",
+                            "bread_corrupted",
+                            "bread_tar",
+                            "bread_blazing",
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "poultry_parts"
+                        ],
+                        "count": 4
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "meal"
+            }
+        ],
+        "creates": []
+    },
     "roof_iron_inner_corner": {
         "id": "roof_iron_inner_corner",
         "name": "Iron Roof Inner Corner",
         "icon": "roof_iron_inner_corner",
-        "namesearch": "iron corner inner roof_iron_inner_corner roof",
+        "namesearch": "roof iron inner corner roof_iron_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -15188,7 +19349,7 @@ var crafts = {
         "id": "glass_stained_yellow",
         "name": "Yellow Stained Glass",
         "icon": "glass_stained_yellow",
-        "namesearch": "stained yellow glass_stained_yellow glass",
+        "namesearch": "stained glass glass_stained_yellow yellow",
         "recipes": [
             {
                 "materials": [
@@ -15216,7 +19377,7 @@ var crafts = {
         "id": "roof_iron_outer_corner",
         "name": "Iron Roof Outer Corner",
         "icon": "roof_iron_outer_corner",
-        "namesearch": "roof_iron_outer_corner outer iron corner roof",
+        "namesearch": "roof iron corner roof_iron_outer_corner outer",
         "recipes": [
             {
                 "materials": [
@@ -15234,11 +19395,76 @@ var crafts = {
         ],
         "creates": []
     },
+    "food_baked_hog": {
+        "id": "food_baked_hog",
+        "name": "Heavenly Baked Hog",
+        "icon": "food_baked_hog",
+        "namesearch": "food_baked_hog heavenly hog baked",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread",
+                            "bread_wholesome",
+                            "bread_corrupted",
+                            "bread_tar",
+                            "bread_blazing",
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "pork_chop"
+                        ],
+                        "count": 4
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "meal"
+            }
+        ],
+        "creates": []
+    },
     "stairs_diamond_inner_corner": {
         "id": "stairs_diamond_inner_corner",
         "name": "Diamond Stairs Inner Corner",
         "icon": "stairs_diamond_inner_corner",
-        "namesearch": "diamond corner stairs_diamond_inner_corner inner stairs",
+        "namesearch": "stairs_diamond_inner_corner inner corner diamond stairs",
         "recipes": [
             {
                 "materials": [
@@ -15260,7 +19486,7 @@ var crafts = {
         "id": "iron_bar",
         "name": "Iron Bar",
         "icon": "iron_bar",
-        "namesearch": "bar iron_bar iron",
+        "namesearch": "iron bar iron_bar",
         "recipes": [
             {
                 "materials": [
@@ -15277,44 +19503,129 @@ var crafts = {
             }
         ],
         "creates": [
+            "sword_iron",
+            "gold_swirl",
+            "wall_tin",
+            "gold_band",
+            "gold_column",
+            "rod_iron",
             "wall_patina",
-            "torch_medieval",
-            "sign_stone_hanging",
-            "coffin_haunted",
-            "medieval_anvil",
-            "wall_iron_bars",
-            "door_wood_white",
-            "sword_gold_welcome",
-            "gate_spooky",
-            "armguards_iron",
             "wall_copper",
-            "focus_iron",
-            "door_iron_bars",
+            "stairs_gold_gilded",
+            "moroccan_decorative_tile_turqoise",
+            "coffin_haunted",
+            "door_wood_white",
+            "wall_gold",
+            "gold_wave",
             "slab_iron",
+            "leggings_iron",
+            "sign_stone_hanging",
+            "sword_medieval",
+            "helmet_iron",
+            "lamp_medieval",
+            "door_iron_bars",
+            "focus_iron",
+            "wall_iron_bars",
+            "armguards_iron",
+            "wall_moroccan_iron_curl",
+            "sword_gold_welcome",
+            "excavator",
+            "gate_spooky",
             "wall_moroccan_iron",
             "hotel_door",
-            "excavator",
-            "wall_gold_banded",
+            "torch_medieval",
             "breastplate_iron",
-            "lamp_medieval",
-            "wall_moroccan_iron_curl",
-            "moroccan_decorative_tile_turqoise",
-            "leggings_iron",
-            "wall_gold",
+            "slope_gold",
+            "medieval_anvil",
             "iron_bar_tempered",
             "log_wood_ornamental_metal",
-            "sword_medieval",
-            "rod_iron",
-            "wall_tin",
-            "sword_iron",
-            "helmet_iron"
+            "wall_gold_banded"
         ]
+    },
+    "food_egg_skillet": {
+        "id": "food_egg_skillet",
+        "name": "Eggsellent Egg Skillet",
+        "icon": "food_egg_skillet",
+        "namesearch": "skillet eggsellent egg food_egg_skillet",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread",
+                            "bread_wholesome",
+                            "bread_corrupted",
+                            "bread_tar",
+                            "bread_blazing",
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "chizzard_egg"
+                        ],
+                        "count": 4
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "meal"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "blizzard_chizzard_egg"
+                        ],
+                        "count": 4
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "meal"
+            }
+        ],
+        "creates": []
     },
     "stairs_diamond_outer_corner": {
         "id": "stairs_diamond_outer_corner",
         "name": "Diamond Stairs Outer Corner",
         "icon": "stairs_diamond_outer_corner",
-        "namesearch": "diamond stairs_diamond_outer_corner outer corner stairs",
+        "namesearch": "stairs corner diamond stairs_diamond_outer_corner outer",
         "recipes": [
             {
                 "materials": [
@@ -15353,19 +19664,19 @@ var crafts = {
             }
         ],
         "creates": [
-            "sword_gold",
-            "armguards_diamond",
             "breastplate_diamond",
+            "armguards_diamond",
             "medieval_anvil",
-            "helmet_diamond",
-            "leggings_diamond"
+            "sword_gold",
+            "leggings_diamond",
+            "helmet_diamond"
         ]
     },
     "roof_diamond_inner_corner": {
         "id": "roof_diamond_inner_corner",
         "name": "Diamond Roof Inner Corner",
         "icon": "roof_diamond_inner_corner",
-        "namesearch": "roof_diamond_inner_corner diamond corner inner roof",
+        "namesearch": "roof roof_diamond_inner_corner inner corner diamond",
         "recipes": [
             {
                 "materials": [
@@ -15383,11 +19694,76 @@ var crafts = {
         ],
         "creates": []
     },
+    "food_sushi_karrotfish": {
+        "id": "food_sushi_karrotfish",
+        "name": "Scrumptious Sushi Spread",
+        "icon": "food_sushi_karrotfish",
+        "namesearch": "spread scrumptious sushi food_sushi_karrotfish",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "bread",
+                            "bread_wholesome",
+                            "bread_corrupted",
+                            "bread_tar",
+                            "bread_blazing",
+                            "bread_bog"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "turnip"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "lettuce",
+                            "mushroom_red",
+                            "horned_melon",
+                            "turnip",
+                            "mushroom_brown",
+                            "mushroom_glowing",
+                            "squitchy_jerky",
+                            "chizzard_egg",
+                            "blizzard_chizzard_egg",
+                            "plant_cactus01",
+                            "plant_cactus02"
+                        ],
+                        "count": 3
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "food"
+            },
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "filet_o_karrotfish"
+                        ],
+                        "count": 4
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Culinary",
+                "recipe_category": "meal"
+            }
+        ],
+        "creates": []
+    },
     "lumite": {
         "id": "lumite",
         "name": "Lumite",
         "icon": "lumite_bar",
-        "namesearch": "lumite lumite_bar",
+        "namesearch": "lumite_bar lumite",
         "recipes": [
             {
                 "materials": [
@@ -15404,32 +19780,32 @@ var crafts = {
             }
         ],
         "creates": [
-            "fan_item",
-            "wall_lumite_beveled",
-            "armguards_lumite",
-            "corrupt_obelisk",
-            "wall_lumite_light",
             "excavator_super",
-            "sword_unicorn",
-            "bomb_corrupt",
-            "breastplate_lumite",
-            "helmet_lumite",
-            "poi_item",
-            "rod_lumite",
-            "slab_lumite",
             "sword_lumite",
             "focus_lumite",
-            "sword_gold",
-            "door_lumite",
             "wall_lumite_dark",
-            "leggings_lumite"
+            "leggings_lumite",
+            "rod_lumite",
+            "fan_item",
+            "door_lumite",
+            "wall_lumite_beveled",
+            "corrupt_obelisk",
+            "slab_lumite",
+            "bomb_corrupt",
+            "wall_lumite_light",
+            "breastplate_lumite",
+            "armguards_lumite",
+            "sword_unicorn",
+            "sword_gold",
+            "helmet_lumite",
+            "poi_item"
         ]
     },
     "roof_diamond_outer_corner": {
         "id": "roof_diamond_outer_corner",
         "name": "Diamond Roof Outer Corner",
         "icon": "roof_diamond_outer_corner",
-        "namesearch": "diamond roof_diamond_outer_corner outer corner roof",
+        "namesearch": "roof_diamond_outer_corner roof corner diamond outer",
         "recipes": [
             {
                 "materials": [
@@ -15451,7 +19827,7 @@ var crafts = {
         "id": "stairs_lumite_inner_corner",
         "name": "Lumite Stairs Inner Corner",
         "icon": "stairs_lumite_inner_corner",
-        "namesearch": "lumite corner stairs_lumite_inner_corner inner stairs",
+        "namesearch": "inner stairs_lumite_inner_corner corner lumite stairs",
         "recipes": [
             {
                 "materials": [
@@ -15473,7 +19849,7 @@ var crafts = {
         "id": "kitchen_range",
         "name": "Better Home Range",
         "icon": "kitchen_range",
-        "namesearch": "home kitchen_range range better",
+        "namesearch": "range home kitchen_range better",
         "recipes": [
             {
                 "materials": [
@@ -15513,7 +19889,7 @@ var crafts = {
         "id": "stairs_lumite_outer_corner",
         "name": "Lumite Stairs Outer Corner",
         "icon": "stairs_lumite_outer_corner",
-        "namesearch": "lumite outer corner stairs_lumite_outer_corner stairs",
+        "namesearch": "corner outer stairs_lumite_outer_corner lumite stairs",
         "recipes": [
             {
                 "materials": [
@@ -15535,7 +19911,7 @@ var crafts = {
         "id": "kitchen_toaster",
         "name": "Better Home Pop-Up Toaster",
         "icon": "kitchen_toaster",
-        "namesearch": "home better kitchen_toaster pop-up toaster",
+        "namesearch": "home toaster better kitchen_toaster pop-up",
         "recipes": [
             {
                 "materials": [
@@ -15575,7 +19951,7 @@ var crafts = {
         "id": "roof_lumite_inner_corner",
         "name": "Lumite Roof Inner Corner",
         "icon": "roof_lumite_inner_corner",
-        "namesearch": "lumite roof_lumite_inner_corner corner inner roof",
+        "namesearch": "roof inner corner lumite roof_lumite_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -15597,7 +19973,7 @@ var crafts = {
         "id": "kitchen_percolator",
         "name": "Better Home Coffee Maker",
         "icon": "kitchen_percolator",
-        "namesearch": "home better kitchen_percolator coffee maker",
+        "namesearch": "home maker coffee better kitchen_percolator",
         "recipes": [
             {
                 "materials": [
@@ -15637,7 +20013,7 @@ var crafts = {
         "id": "resist_fire_basic",
         "name": "Fire Resistance Potion",
         "icon": "potion_shield_fire",
-        "namesearch": "potion_shield_fire potion fire resistance resist_fire_basic",
+        "namesearch": "fire resist_fire_basic potion resistance potion_shield_fire",
         "recipes": [
             {
                 "materials": [
@@ -15677,7 +20053,7 @@ var crafts = {
         "id": "roof_lumite_outer_corner",
         "name": "Lumite Roof Outer Corner",
         "icon": "roof_lumite_outer_corner",
-        "namesearch": "lumite outer roof_lumite_outer_corner corner roof",
+        "namesearch": "roof_lumite_outer_corner roof corner lumite outer",
         "recipes": [
             {
                 "materials": [
@@ -15699,7 +20075,7 @@ var crafts = {
         "id": "stairs_mayan_inner_corner",
         "name": "Mayan Stairs Inner Corner",
         "icon": "stairs_mayan_inner_corner",
-        "namesearch": "corner inner stairs_mayan_inner_corner stairs mayan",
+        "namesearch": "stairs_mayan_inner_corner mayan inner corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -15721,7 +20097,7 @@ var crafts = {
         "id": "resist_freeze_basic",
         "name": "Freeze Resistance Potion",
         "icon": "potion_shield_freeze",
-        "namesearch": "potion freeze resistance potion_shield_freeze resist_freeze_basic",
+        "namesearch": "freeze potion_shield_freeze potion resist_freeze_basic resistance",
         "recipes": [
             {
                 "materials": [
@@ -15761,7 +20137,7 @@ var crafts = {
         "id": "stairs_mayan_outer_corner",
         "name": "Mayan Stairs Outer Corner",
         "icon": "stairs_mayan_outer_corner",
-        "namesearch": "outer corner stairs_mayan_outer_corner stairs mayan",
+        "namesearch": "mayan corner outer stairs_mayan_outer_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -15783,7 +20159,7 @@ var crafts = {
         "id": "roof_mayan_inner_corner",
         "name": "Mayan Roof Inner Corner",
         "icon": "roof_mayan_inner_corner",
-        "namesearch": "corner roof_mayan_inner_corner inner roof mayan",
+        "namesearch": "roof_mayan_inner_corner roof mayan inner corner",
         "recipes": [
             {
                 "materials": [
@@ -15805,7 +20181,7 @@ var crafts = {
         "id": "resist_corruption_basic",
         "name": "Corruption Resistance Potion",
         "icon": "potion_shield_corruption",
-        "namesearch": "potion potion_shield_corruption corruption resistance resist_corruption_basic",
+        "namesearch": "corruption potion resist_corruption_basic resistance potion_shield_corruption",
         "recipes": [
             {
                 "materials": [
@@ -15845,7 +20221,7 @@ var crafts = {
         "id": "roof_mayan_outer_corner",
         "name": "Mayan Roof Outer Corner",
         "icon": "roof_mayan_outer_corner",
-        "namesearch": "roof_mayan_outer_corner outer corner roof mayan",
+        "namesearch": "roof roof_mayan_outer_corner mayan corner outer",
         "recipes": [
             {
                 "materials": [
@@ -15867,7 +20243,7 @@ var crafts = {
         "id": "obsidian",
         "name": "Obsidian",
         "icon": "obsidian_bar",
-        "namesearch": "obsidian obsidian_bar",
+        "namesearch": "obsidian_bar obsidian",
         "recipes": [
             {
                 "materials": [
@@ -15884,26 +20260,26 @@ var crafts = {
             }
         ],
         "creates": [
-            "arc_plow",
-            "kitchen_range",
-            "slab_obsidian",
             "breastplate_obsidian",
-            "arc_washer",
-            "door_obsidian",
-            "helmet_obsidian",
-            "sword_obsidian",
             "armguards_obsidian",
-            "focus_obsidian",
+            "sword_obsidian",
             "rod_obsidian",
+            "slab_obsidian",
+            "focus_obsidian",
+            "helmet_obsidian",
             "leggings_obsidian",
-            "station_culinary"
+            "door_obsidian",
+            "station_culinary",
+            "kitchen_range",
+            "arc_plow",
+            "arc_washer"
         ]
     },
     "stairs_medieval_inner_corner": {
         "id": "stairs_medieval_inner_corner",
         "name": "Medieval Stairs Inner Corner",
         "icon": "stairs_medieval_inner_corner",
-        "namesearch": "stairs_medieval_inner_corner corner inner stairs medieval",
+        "namesearch": "medieval inner corner stairs_medieval_inner_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -15968,95 +20344,95 @@ var crafts = {
             }
         ],
         "creates": [
-            "glass_tourmaline_watermelon",
             "table_industrial",
-            "wall_medieval_spike",
-            "sword_crowbar",
-            "wall_moroccan_tile_red",
-            "wall_furnace_aztec",
-            "number_pad_industrial",
-            "medieval_cart",
-            "throne_medieval",
-            "wall_hardened_lava_stacked",
-            "gate_industrial",
-            "bathroom_bathtub",
-            "glass_diamond",
-            "excavator_advanced",
-            "glass_tourmaline_green",
-            "sword_medieval",
-            "bathroom_soap",
-            "table_iron",
-            "trap_door_wood_metal",
-            "medieval_haybale_long",
-            "wall_iron_bars",
-            "fence_industrial",
-            "window_industrial",
-            "bathroom_sink",
-            "gate_spooky",
-            "wall_furnace_cross",
-            "chimney_industrial_top",
-            "wall_obsidian_square",
-            "medieval_stein",
-            "wall_igneous",
-            "medieval_haybale",
-            "medieval_pint",
-            "stairs_diamond",
-            "wall_moroccan_tile_blue",
-            "kitchen_cabinet",
-            "stairs_industrial",
-            "chain_medieval",
-            "vent_industrial",
-            "roof_diamond",
-            "switch_industrial_toggle",
-            "medieval_basket",
-            "mirror_haunted",
-            "kitchen_sink",
-            "ladder_industrial",
-            "floor_hardened_lava",
-            "sword_gold",
-            "chimney_industrial",
-            "wall_obsidian_rhombus",
-            "gate_iron",
-            "wall_moroccan_tile_yellow",
-            "torch_industrial_01",
-            "roof_igneous",
-            "glass_moroccan",
-            "bellows_industrial",
-            "torch_industrial_02",
-            "fence_iron",
-            "fence_spooky",
-            "bathroom_toilet_paper_holder",
-            "window_bars",
-            "lamp_medieval",
-            "door_industrial",
-            "medieval_bucket",
-            "chair_iron",
-            "lattice_stone",
-            "medieval_banner_post",
-            "wall_hardened_lava_brick",
-            "hotel_torch",
-            "healing_beacon",
-            "door_ice",
-            "fan_industrial",
-            "switch_industrial_lever",
             "wall_obsidian_checkered",
+            "sword_diamond",
+            "fence_industrial",
+            "number_pad_industrial",
+            "kitchen_sink",
+            "chimney_industrial_top",
+            "door_industrial",
+            "chimney_industrial",
+            "window_bars",
+            "wall_hardened_lava_stacked",
+            "bathroom_sink",
+            "stairs_industrial",
+            "wall_obsidian_rhombus",
+            "hotel_torch",
+            "sword_gold",
+            "wall_medieval_spike",
             "medieval_banner_hanging2",
-            "bathroom_toilet",
-            "door_iron_bars",
-            "wall_igneous_block",
-            "roof_iron",
-            "hotel_lamp_standing",
+            "glass_tourmaline_watermelon",
+            "throne_medieval",
+            "window_industrial",
+            "wall_furnace_aztec",
+            "glass_tourmaline_green",
+            "vent_industrial",
+            "bathroom_bathtub",
+            "wall_moroccan_tile_red",
+            "lamp_medieval",
+            "wall_furnace_cross",
+            "wall_obsidian_square",
+            "medieval_pint",
+            "glass_diamond",
             "wall_industrial_grate",
+            "roof_diamond",
+            "wall_hardened_lava_brick",
+            "ladder_industrial",
+            "gate_spooky",
+            "torch_industrial_02",
+            "medieval_bucket",
+            "roof_igneous",
+            "sword_crowbar",
+            "bathroom_toilet_paper_holder",
+            "trap_door_wood_metal",
+            "fan_industrial",
+            "kitchen_cabinet",
+            "gate_iron",
+            "switch_industrial_toggle",
+            "wall_moroccan_tile_yellow",
+            "medieval_haybale",
+            "table_iron",
+            "roof_iron",
+            "bathroom_toilet",
+            "sword_medieval",
+            "medieval_stein",
+            "wall_iron_bars",
             "wall_hardened_lava_inlay",
+            "floor_hardened_lava",
+            "fence_iron",
+            "hotel_lamp_standing",
+            "healing_beacon",
+            "mirror_haunted",
+            "torch_industrial_01",
+            "medieval_basket",
+            "wall_igneous_block",
+            "medieval_haybale_long",
+            "wall_moroccan_tile_blue",
+            "chain_medieval",
+            "chair_iron",
+            "switch_industrial_lever",
+            "lattice_stone",
+            "glass_moroccan",
+            "door_ice",
             "wall_furnace_grate",
-            "sword_diamond"
+            "bathroom_soap",
+            "gate_industrial",
+            "door_iron_bars",
+            "wall_igneous",
+            "medieval_banner_post",
+            "excavator_advanced",
+            "medieval_cart",
+            "stairs_diamond",
+            "fence_spooky",
+            "bellows_industrial"
         ]
     },
     "stairs_medieval_outer_corner": {
         "id": "stairs_medieval_outer_corner",
         "name": "Medieval Stairs Outer Corner",
         "icon": "stairs_medieval_outer_corner",
-        "namesearch": "outer corner stairs_medieval_outer_corner stairs medieval",
+        "namesearch": "medieval stairs_medieval_outer_corner corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -16091,7 +20467,7 @@ var crafts = {
         "id": "slab_iron",
         "name": "Iron Slab",
         "icon": "slab_iron",
-        "namesearch": "slab slab_iron iron",
+        "namesearch": "iron slab_iron slab",
         "recipes": [
             {
                 "materials": [
@@ -16108,55 +20484,55 @@ var crafts = {
             }
         ],
         "creates": [
-            "extractor_super",
+            "gate_iron",
             "table_industrial",
-            "chest_industrial",
-            "roof_patina",
-            "exclamation_retro",
-            "fan_industrial",
-            "stairs_iron",
-            "wall_industrial_plate",
-            "kitchen_toaster",
-            "industrial_cone",
-            "wall_medieval_spike",
-            "wall_gold_studded",
-            "sword_crowbar",
-            "hotel_bed",
-            "fire_pit_iron",
-            "wall_furnace_cross",
-            "wall_furnace_aztec",
-            "throne_medieval",
-            "chandelier_medieval",
+            "industrial_barrel03",
             "spawner_mob_item",
-            "stairs_industrial",
-            "roof_iron",
-            "bathroom_toilet_paper_holder",
+            "kitchen_toaster",
+            "chair_iron",
+            "rod_iron",
+            "wall_furnace_grate",
             "pressure_plate_industrial",
-            "lamp_industrial",
-            "focus_diamond",
-            "gear_industrial",
-            "roof_copper",
+            "industrial_barrel01",
+            "wall_industrial_plate",
+            "table_iron",
+            "roof_iron",
+            "chandelier_medieval",
+            "stairs_iron",
+            "wall_gold_studded",
             "door_industrial",
             "chimney_industrial",
             "floor_industrial_non_skid",
-            "gate_iron",
-            "wall_furnace_grate",
-            "roof_tin",
+            "wall_furnace_cross",
+            "gear_industrial",
+            "industrial_cone",
+            "fire_pit_iron",
+            "extractor_super",
+            "stairs_industrial",
             "hotel_chandelier",
-            "chair_iron",
-            "industrial_barrel03",
+            "hotel_bed",
+            "roof_patina",
+            "sword_crowbar",
+            "roof_tin",
+            "bathroom_toilet_paper_holder",
+            "trap_door_wood_metal",
+            "focus_diamond",
+            "chest_industrial",
+            "fan_industrial",
             "spawner_loot_item",
-            "table_iron",
-            "rod_iron",
-            "industrial_barrel01",
-            "trap_door_wood_metal"
+            "wall_medieval_spike",
+            "roof_copper",
+            "exclamation_retro",
+            "lamp_industrial",
+            "throne_medieval",
+            "wall_furnace_aztec"
         ]
     },
     "roof_medieval_inner_corner": {
         "id": "roof_medieval_inner_corner",
         "name": "Medieval Roof Inner Corner",
         "icon": "roof_medieval_inner_corner",
-        "namesearch": "roof_medieval_inner_corner corner inner roof medieval",
+        "namesearch": "roof medieval inner corner roof_medieval_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -16178,7 +20554,7 @@ var crafts = {
         "id": "roof_medieval_outer_corner",
         "name": "Medieval Roof Outer Corner",
         "icon": "roof_medieval_outer_corner",
-        "namesearch": "outer roof_medieval_outer_corner corner roof medieval",
+        "namesearch": "roof medieval roof_medieval_outer_corner corner outer",
         "recipes": [
             {
                 "materials": [
@@ -16240,7 +20616,7 @@ var crafts = {
         "id": "roof_adobe_slanted_blue_inner_corner",
         "name": "Blue Adobe Roof Inner Corner",
         "icon": "roof_clay_blue_inner_corner",
-        "namesearch": "roof_adobe_slanted_blue_inner_corner roof_clay_blue_inner_corner blue adobe corner inner roof",
+        "namesearch": "roof blue roof_clay_blue_inner_corner inner corner roof_adobe_slanted_blue_inner_corner adobe",
         "recipes": [
             {
                 "materials": [
@@ -16262,7 +20638,7 @@ var crafts = {
         "id": "bed_blue",
         "name": "Blue Bed",
         "icon": "bed_wood_blue",
-        "namesearch": "bed bed_wood_blue bed_blue blue",
+        "namesearch": "bed blue bed_blue bed_wood_blue",
         "recipes": [
             {
                 "materials": [
@@ -16308,7 +20684,7 @@ var crafts = {
         "id": "roof_adobe_slanted_blue_outer_corner",
         "name": "Blue Adobe Roof Outer Corner",
         "icon": "roof_clay_blue_outer_corner",
-        "namesearch": "outer roof_adobe_slanted_blue_outer_corner blue adobe corner roof_clay_blue_outer_corner roof",
+        "namesearch": "roof blue corner roof_clay_blue_outer_corner adobe roof_adobe_slanted_blue_outer_corner outer",
         "recipes": [
             {
                 "materials": [
@@ -16330,7 +20706,7 @@ var crafts = {
         "id": "roof_adobe_slanted_red_inner_corner",
         "name": "Red Adobe Roof Inner Corner",
         "icon": "roof_clay_red_inner_corner",
-        "namesearch": "roof_clay_red_inner_corner red adobe corner roof_adobe_slanted_red_inner_corner inner roof",
+        "namesearch": "red roof inner adobe corner roof_adobe_slanted_red_inner_corner roof_clay_red_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -16352,7 +20728,7 @@ var crafts = {
         "id": "bed_red",
         "name": "Red Bed",
         "icon": "bed_wood_red",
-        "namesearch": "bed bed_red bed_wood_red red",
+        "namesearch": "bed red bed_red bed_wood_red",
         "recipes": [
             {
                 "materials": [
@@ -16398,7 +20774,7 @@ var crafts = {
         "id": "roof_adobe_slanted_red_outer_corner",
         "name": "Red Adobe Roof Outer Corner",
         "icon": "roof_clay_red_outer_corner",
-        "namesearch": "roof_adobe_slanted_red_outer_corner outer roof_clay_red_outer_corner adobe red corner roof",
+        "namesearch": "red roof corner roof_adobe_slanted_red_outer_corner adobe roof_clay_red_outer_corner outer",
         "recipes": [
             {
                 "materials": [
@@ -16466,7 +20842,7 @@ var crafts = {
         "id": "roof_adobe_slanted_yellow_inner_corner",
         "name": "Yellow Adobe Roof Inner Corner",
         "icon": "roof_clay_yellow_inner_corner",
-        "namesearch": "yellow roof_adobe_slanted_yellow_inner_corner adobe corner roof_clay_yellow_inner_corner inner roof",
+        "namesearch": "roof_adobe_slanted_yellow_inner_corner roof roof_clay_yellow_inner_corner yellow inner corner adobe",
         "recipes": [
             {
                 "materials": [
@@ -16525,117 +20901,11 @@ var crafts = {
         ],
         "creates": []
     },
-    "food_sushi_karrotfish": {
-        "id": "food_sushi_karrotfish",
-        "name": "Scrumptious Sushi Spread",
-        "icon": "food_sushi_karrotfish",
-        "namesearch": "sushi food_sushi_karrotfish spread scrumptious",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "filet_o_karrotfish"
-                        ],
-                        "count": 4
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "meal"
-            }
-        ],
-        "creates": []
-    },
-    "food_egg_skillet": {
-        "id": "food_egg_skillet",
-        "name": "Eggsellent Egg Skillet",
-        "icon": "food_egg_skillet",
-        "namesearch": "food_egg_skillet eggsellent skillet egg",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "chizzard_egg"
-                        ],
-                        "count": 4
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "meal"
-            },
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 4
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "meal"
-            }
-        ],
-        "creates": []
-    },
-    "food_baked_hog": {
-        "id": "food_baked_hog",
-        "name": "Heavenly Baked Hog",
-        "icon": "food_baked_hog",
-        "namesearch": "heavenly baked food_baked_hog hog",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "pork_chop"
-                        ],
-                        "count": 4
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "meal"
-            }
-        ],
-        "creates": []
-    },
-    "food_rotisserie_chizzard": {
-        "id": "food_rotisserie_chizzard",
-        "name": "Exquisite Roast Bird",
-        "icon": "food_rotisserie_chizzard",
-        "namesearch": "exquisite food_rotisserie_chizzard roast bird",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "poultry_parts"
-                        ],
-                        "count": 4
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "meal"
-            }
-        ],
-        "creates": []
-    },
     "chair_diamond": {
         "id": "chair_diamond",
         "name": "Diamond Chair",
         "icon": "chair_diamond",
-        "namesearch": "chair_diamond diamond chair",
+        "namesearch": "chair_diamond chair diamond",
         "recipes": [
             {
                 "materials": [
@@ -16669,7 +20939,7 @@ var crafts = {
         "id": "roof_adobe_slanted_yellow_outer_corner",
         "name": "Yellow Adobe Roof Outer Corner",
         "icon": "roof_clay_yellow_outer_corner",
-        "namesearch": "yellow roof_adobe_slanted_yellow_outer_corner outer adobe corner roof_clay_yellow_outer_corner roof",
+        "namesearch": "roof roof_clay_yellow_outer_corner yellow corner roof_adobe_slanted_yellow_outer_corner adobe outer",
         "recipes": [
             {
                 "materials": [
@@ -16725,7 +20995,7 @@ var crafts = {
         "id": "roof_copper_inner_corner",
         "name": "Copper Roof Inner Corner",
         "icon": "roof_copper_inner_corner",
-        "namesearch": "copper roof_copper_inner_corner corner inner roof",
+        "namesearch": "roof copper roof_copper_inner_corner inner corner",
         "recipes": [
             {
                 "materials": [
@@ -16781,7 +21051,7 @@ var crafts = {
         "id": "roof_copper_outer_corner",
         "name": "Copper Roof Outer Corner",
         "icon": "roof_copper_outer_corner",
-        "namesearch": "copper outer roof_copper_outer_corner corner roof",
+        "namesearch": "roof copper corner roof_copper_outer_corner outer",
         "recipes": [
             {
                 "materials": [
@@ -16803,7 +21073,7 @@ var crafts = {
         "id": "roof_patina_inner_corner",
         "name": "Patina Roof Inner Corner",
         "icon": "roof_patina_inner_corner",
-        "namesearch": "roof_patina_inner_corner corner inner patina roof",
+        "namesearch": "roof_patina_inner_corner roof patina inner corner",
         "recipes": [
             {
                 "materials": [
@@ -16825,7 +21095,7 @@ var crafts = {
         "id": "roof_patina_outer_corner",
         "name": "Patina Roof Outer Corner",
         "icon": "roof_patina_outer_corner",
-        "namesearch": "outer corner patina roof roof_patina_outer_corner",
+        "namesearch": "roof patina roof_patina_outer_corner corner outer",
         "recipes": [
             {
                 "materials": [
@@ -16847,7 +21117,7 @@ var crafts = {
         "id": "chair_stone",
         "name": "Stone Chair",
         "icon": "chair_stone",
-        "namesearch": "stone chair_stone chair",
+        "namesearch": "chair_stone stone chair",
         "recipes": [
             {
                 "materials": [
@@ -16881,7 +21151,7 @@ var crafts = {
         "id": "roof_tin_inner_corner",
         "name": "Tin Roof Inner Corner",
         "icon": "roof_tin_inner_corner",
-        "namesearch": "roof_tin_inner_corner corner inner tin roof",
+        "namesearch": "roof tin inner corner roof_tin_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -16903,7 +21173,7 @@ var crafts = {
         "id": "roof_stone",
         "name": "Stone Roof",
         "icon": "roof_stone",
-        "namesearch": "stone roof_stone roof",
+        "namesearch": "stone roof roof_stone",
         "recipes": [
             {
                 "materials": [
@@ -16938,15 +21208,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_stone_inner_corner",
-            "roof_stone_outer_corner"
+            "roof_stone_outer_corner",
+            "roof_stone_inner_corner"
         ]
     },
     "roof_tin_outer_corner": {
         "id": "roof_tin_outer_corner",
         "name": "Tin Roof Outer Corner",
         "icon": "roof_tin_outer_corner",
-        "namesearch": "outer corner roof_tin_outer_corner tin roof",
+        "namesearch": "roof tin roof_tin_outer_corner corner outer",
         "recipes": [
             {
                 "materials": [
@@ -17003,8 +21273,8 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_iron_inner_corner",
-            "roof_iron_outer_corner"
+            "roof_iron_outer_corner",
+            "roof_iron_inner_corner"
         ]
     },
     "potion_jimmy": {
@@ -17046,7 +21316,7 @@ var crafts = {
         "id": "stairs_gingerbread_inner_corner",
         "name": "Gingerbread Stairs Inner Corner",
         "icon": "stairs_gingerbread_inner_corner",
-        "namesearch": "stairs_gingerbread_inner_corner gingerbread corner inner stairs",
+        "namesearch": "inner gingerbread corner stairs_gingerbread_inner_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -17068,7 +21338,7 @@ var crafts = {
         "id": "roof_diamond",
         "name": "Diamond Roof",
         "icon": "roof_diamond",
-        "namesearch": "diamond roof_diamond roof",
+        "namesearch": "roof_diamond roof diamond",
         "recipes": [
             {
                 "materials": [
@@ -17111,7 +21381,7 @@ var crafts = {
         "id": "stairs_gingerbread_outer_corner",
         "name": "Gingerbread Stairs Outer Corner",
         "icon": "stairs_gingerbread_outer_corner",
-        "namesearch": "stairs_gingerbread_outer_corner outer gingerbread corner stairs",
+        "namesearch": "stairs_gingerbread_outer_corner gingerbread corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -17133,7 +21403,7 @@ var crafts = {
         "id": "slab_grass_full",
         "name": "Full Grass Slab",
         "icon": "slab_grass_full",
-        "namesearch": "slab_grass_full full grass slab",
+        "namesearch": "slab_grass_full grass slab full",
         "recipes": [
             {
                 "materials": [
@@ -17157,7 +21427,7 @@ var crafts = {
         "id": "roof_gingerbread_inner_corner",
         "name": "Gingerbread Roof Inner Corner",
         "icon": "roof_gingerbread_inner_corner",
-        "namesearch": "gingerbread corner roof_gingerbread_inner_corner inner roof",
+        "namesearch": "roof inner gingerbread corner roof_gingerbread_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -17179,7 +21449,7 @@ var crafts = {
         "id": "chest_stone",
         "name": "Stone Chest",
         "icon": "chest_stone",
-        "namesearch": "stone chest chest_stone",
+        "namesearch": "chest_stone stone chest",
         "recipes": [
             {
                 "materials": [
@@ -17219,7 +21489,7 @@ var crafts = {
         "id": "roof_gingerbread_outer_corner",
         "name": "Gingerbread Roof Outer Corner",
         "icon": "roof_gingerbread_outer_corner",
-        "namesearch": "roof_gingerbread_outer_corner outer gingerbread corner roof",
+        "namesearch": "roof gingerbread corner roof_gingerbread_outer_corner outer",
         "recipes": [
             {
                 "materials": [
@@ -17241,7 +21511,7 @@ var crafts = {
         "id": "roof_gingerbread_wafer_inner_corner",
         "name": "Gingerbread Wafer Roof Inner Corner",
         "icon": "roof_holiday_inner_corner",
-        "namesearch": "gingerbread corner roof_gingerbread_wafer_inner_corner wafer inner roof_holiday_inner_corner roof",
+        "namesearch": "roof roof_holiday_inner_corner inner gingerbread corner roof_gingerbread_wafer_inner_corner wafer",
         "recipes": [
             {
                 "materials": [
@@ -17263,7 +21533,7 @@ var crafts = {
         "id": "chest_wood",
         "name": "Wood Chest",
         "icon": "chest_wood",
-        "namesearch": "chest wood chest_wood",
+        "namesearch": "wood chest_wood chest",
         "recipes": [
             {
                 "materials": [
@@ -17307,7 +21577,7 @@ var crafts = {
         "id": "roof_gingerbread_wafer_outer_corner",
         "name": "Gingerbread Wafer Roof Outer Corner",
         "icon": "roof_holiday_outer_corner",
-        "namesearch": "outer gingerbread roof_gingerbread_wafer_outer_corner corner wafer roof_holiday_outer_corner roof",
+        "namesearch": "roof_holiday_outer_corner roof roof_gingerbread_wafer_outer_corner gingerbread corner wafer outer",
         "recipes": [
             {
                 "materials": [
@@ -17329,7 +21599,7 @@ var crafts = {
         "id": "door_diamond",
         "name": "Diamond Door",
         "icon": "door_diamond",
-        "namesearch": "door diamond door_diamond",
+        "namesearch": "door_diamond door diamond",
         "recipes": [
             {
                 "materials": [
@@ -17369,7 +21639,7 @@ var crafts = {
         "id": "chain_medieval",
         "name": "Medieval Chain",
         "icon": "chain_medieval",
-        "namesearch": "chain chain_medieval medieval",
+        "namesearch": "medieval chain chain_medieval",
         "recipes": [
             {
                 "materials": [
@@ -17397,7 +21667,7 @@ var crafts = {
         "id": "door_iron_bars",
         "name": "Iron Bar Door",
         "icon": "door_bars_iron",
-        "namesearch": "iron door_bars_iron door_iron_bars bar door",
+        "namesearch": "door_iron_bars door_bars_iron iron door bar",
         "recipes": [
             {
                 "materials": [
@@ -17431,7 +21701,7 @@ var crafts = {
         "id": "table_medieval",
         "name": "Medieval Table",
         "icon": "table_medieval",
-        "namesearch": "table_medieval table medieval",
+        "namesearch": "medieval table_medieval table",
         "recipes": [
             {
                 "materials": [
@@ -17465,7 +21735,7 @@ var crafts = {
         "id": "wall_obsidian_brick",
         "name": "Obsidian Brick Wall",
         "icon": "wall_obsidian_refined_block",
-        "namesearch": "brick wall_obsidian_refined_block obsidian wall wall_obsidian_brick",
+        "namesearch": "obsidian wall wall_obsidian_brick brick wall_obsidian_refined_block",
         "recipes": [
             {
                 "materials": [
@@ -17501,7 +21771,7 @@ var crafts = {
         "id": "roof_igneous_inner_corner",
         "name": "Igneous Roof Inner Corner",
         "icon": "roof_drago_gabled_inner_corner",
-        "namesearch": "roof_drago_gabled_inner_corner igneous corner roof_igneous_inner_corner inner roof",
+        "namesearch": "roof inner igneous corner roof_igneous_inner_corner roof_drago_gabled_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -17523,7 +21793,7 @@ var crafts = {
         "id": "door_obsidian",
         "name": "Obsidian Door",
         "icon": "door_obsidian_iron",
-        "namesearch": "obsidian door door_obsidian door_obsidian_iron",
+        "namesearch": "door_obsidian obsidian door door_obsidian_iron",
         "recipes": [
             {
                 "materials": [
@@ -17563,7 +21833,7 @@ var crafts = {
         "id": "roof_igneous_outer_corner",
         "name": "Igneous Roof Outer Corner",
         "icon": "roof_drago_gabled_outer_corner",
-        "namesearch": "outer roof_drago_gabled_outer_corner igneous corner roof_igneous_outer_corner roof",
+        "namesearch": "roof igneous roof_igneous_outer_corner roof_drago_gabled_outer_corner corner outer",
         "recipes": [
             {
                 "materials": [
@@ -17585,7 +21855,7 @@ var crafts = {
         "id": "door_stone",
         "name": "Stone Door",
         "icon": "door_stone",
-        "namesearch": "door_stone door stone",
+        "namesearch": "door_stone stone door",
         "recipes": [
             {
                 "materials": [
@@ -17625,7 +21895,7 @@ var crafts = {
         "id": "stairs_bungalow_inner_corner",
         "name": "Bungalow Stairs Inner Corner",
         "icon": "stairs_bungalow_inner_corner",
-        "namesearch": "stairs_bungalow_inner_corner bungalow corner inner stairs",
+        "namesearch": "inner bungalow corner stairs_bungalow_inner_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -17647,7 +21917,7 @@ var crafts = {
         "id": "door_wood",
         "name": "Wood Door",
         "icon": "door_wood",
-        "namesearch": "door door_wood wood",
+        "namesearch": "wood door door_wood",
         "recipes": [
             {
                 "materials": [
@@ -17691,7 +21961,7 @@ var crafts = {
         "id": "stairs_bungalow_outer_corner",
         "name": "Bungalow Stairs Outer Corner",
         "icon": "stairs_bungalow_outer_corner",
-        "namesearch": "outer stairs_bungalow_outer_corner bungalow corner stairs",
+        "namesearch": "stairs_bungalow_outer_corner bungalow corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -17713,7 +21983,7 @@ var crafts = {
         "id": "fence_iron",
         "name": "Iron Fence",
         "icon": "fence_metal",
-        "namesearch": "fence fence_metal iron fence_iron",
+        "namesearch": "fence_metal iron fence_iron fence",
         "recipes": [
             {
                 "materials": [
@@ -17753,7 +22023,7 @@ var crafts = {
         "id": "roof_bungalow_inner_corner",
         "name": "Bungalow Roof Inner Corner",
         "icon": "roof_bungalow_inner_corner",
-        "namesearch": "bungalow corner roof_bungalow_inner_corner inner roof",
+        "namesearch": "roof inner bungalow corner roof_bungalow_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -17775,7 +22045,7 @@ var crafts = {
         "id": "fence_stone",
         "name": "Stone Fence",
         "icon": "fence_stone",
-        "namesearch": "fence fence_stone stone",
+        "namesearch": "fence stone fence_stone",
         "recipes": [
             {
                 "materials": [
@@ -17815,7 +22085,7 @@ var crafts = {
         "id": "roof_bungalow_outer_corner",
         "name": "Bungalow Roof Outer Corner",
         "icon": "roof_bungalow_outer_corner",
-        "namesearch": "outer roof_bungalow_outer_corner bungalow corner roof",
+        "namesearch": "roof roof_bungalow_outer_corner bungalow corner outer",
         "recipes": [
             {
                 "materials": [
@@ -17837,7 +22107,7 @@ var crafts = {
         "id": "glass_stained_apple",
         "name": "Apple Stained Glass",
         "icon": "glass_stained_apple",
-        "namesearch": "stained glass apple glass_stained_apple",
+        "namesearch": "stained glass glass_stained_apple apple",
         "recipes": [
             {
                 "materials": [
@@ -17865,7 +22135,7 @@ var crafts = {
         "id": "fence_wood",
         "name": "Wood Fence",
         "icon": "fence_wood",
-        "namesearch": "fence fence_wood wood",
+        "namesearch": "wood fence_wood fence",
         "recipes": [
             {
                 "materials": [
@@ -17899,7 +22169,7 @@ var crafts = {
         "id": "stairs_haunted_inner_corner",
         "name": "Haunted Stairs Inner Corner",
         "icon": "stairs_haunted_inner_corner",
-        "namesearch": "stairs_haunted_inner_corner corner haunted inner stairs",
+        "namesearch": "haunted stairs_haunted_inner_corner inner corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -17934,7 +22204,7 @@ var crafts = {
         "id": "floor_adobe_blue",
         "name": "Blue Adobe Floor",
         "icon": "floor_adobe_blue",
-        "namesearch": "floor floor_adobe_blue blue adobe",
+        "namesearch": "floor_adobe_blue blue floor adobe",
         "recipes": [
             {
                 "materials": [
@@ -17974,7 +22244,7 @@ var crafts = {
         "id": "stairs_haunted_outer_corner",
         "name": "Haunted Stairs Outer Corner",
         "icon": "stairs_haunted_outer_corner",
-        "namesearch": "outer stairs_haunted_outer_corner corner haunted stairs",
+        "namesearch": "haunted stairs_haunted_outer_corner corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -18009,7 +22279,7 @@ var crafts = {
         "id": "glass_stained_cat",
         "name": "Cat Stained Glass",
         "icon": "glass_stained_cat",
-        "namesearch": "stained glass cat glass_stained_cat",
+        "namesearch": "stained glass glass_stained_cat cat",
         "recipes": [
             {
                 "materials": [
@@ -18043,7 +22313,7 @@ var crafts = {
         "id": "floor_adobe_red",
         "name": "Red Adobe Floor",
         "icon": "floor_adobe_red",
-        "namesearch": "floor floor_adobe_red adobe red",
+        "namesearch": "adobe red floor floor_adobe_red",
         "recipes": [
             {
                 "materials": [
@@ -18083,7 +22353,7 @@ var crafts = {
         "id": "roof_haunted_inner_corner",
         "name": "Haunted Roof Inner Corner",
         "icon": "roof_haunted_inner_corner",
-        "namesearch": "haunted roof_haunted_inner_corner corner inner roof",
+        "namesearch": "haunted roof inner corner roof_haunted_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -18105,7 +22375,7 @@ var crafts = {
         "id": "mirror_haunted",
         "name": "Haunted Mirror",
         "icon": "mirror_haunted",
-        "namesearch": "mirror haunted mirror_haunted",
+        "namesearch": "mirror_haunted haunted mirror",
         "recipes": [
             {
                 "materials": [
@@ -18139,7 +22409,7 @@ var crafts = {
         "id": "floor_adobe_yellow",
         "name": "Yellow Adobe Floor",
         "icon": "floor_adobe_yellow",
-        "namesearch": "floor yellow floor_adobe_yellow adobe",
+        "namesearch": "floor adobe floor_adobe_yellow yellow",
         "recipes": [
             {
                 "materials": [
@@ -18179,7 +22449,7 @@ var crafts = {
         "id": "roof_haunted_outer_corner",
         "name": "Haunted Roof Outer Corner",
         "icon": "roof_haunted_outer_corner",
-        "namesearch": "outer roof_haunted_outer_corner haunted corner roof",
+        "namesearch": "haunted roof roof_haunted_outer_corner corner outer",
         "recipes": [
             {
                 "materials": [
@@ -18201,7 +22471,7 @@ var crafts = {
         "id": "floor_stone",
         "name": "Stone Floor",
         "icon": "floor_stone",
-        "namesearch": "floor stone floor_stone",
+        "namesearch": "floor_stone stone floor",
         "recipes": [
             {
                 "materials": [
@@ -18235,7 +22505,7 @@ var crafts = {
         "id": "floor_stone_decorative",
         "name": "Decorative Stone Floor",
         "icon": "floor_stone_decorated",
-        "namesearch": "floor decorative floor_stone_decorative floor_stone_decorated stone",
+        "namesearch": "stone decorative floor floor_stone_decorated floor_stone_decorative",
         "recipes": [
             {
                 "materials": [
@@ -18303,7 +22573,7 @@ var crafts = {
         "id": "floor_wood_decorative",
         "name": "Decorative Wood Floor",
         "icon": "floor_wood_decorative",
-        "namesearch": "decorative wood floor floor_wood_decorative",
+        "namesearch": "floor floor_wood_decorative wood decorative",
         "recipes": [
             {
                 "materials": [
@@ -18343,7 +22613,7 @@ var crafts = {
         "id": "stairs_dirt_inner_corner",
         "name": "Dirt Stairs Inner Corner",
         "icon": "stairs_dirt_inner_corner",
-        "namesearch": "dirt corner inner stairs stairs_dirt_inner_corner",
+        "namesearch": "dirt inner corner stairs_dirt_inner_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -18365,7 +22635,7 @@ var crafts = {
         "id": "fence_spooky",
         "name": "Spooky Fence",
         "icon": "fence_spooky",
-        "namesearch": "fence spooky fence_spooky",
+        "namesearch": "spooky fence fence_spooky",
         "recipes": [
             {
                 "materials": [
@@ -18393,7 +22663,7 @@ var crafts = {
         "id": "floor_wood_tile",
         "name": "Wood Tile Floor",
         "icon": "floor_wood_tile",
-        "namesearch": "floor floor_wood_tile tile wood",
+        "namesearch": "floor_wood_tile wood floor tile",
         "recipes": [
             {
                 "materials": [
@@ -18433,7 +22703,7 @@ var crafts = {
         "id": "stairs_dirt_outer_corner",
         "name": "Dirt Stairs Outer Corner",
         "icon": "stairs_dirt_outer_corner",
-        "namesearch": "outer dirt corner stairs_dirt_outer_corner stairs",
+        "namesearch": "dirt corner outer stairs_dirt_outer_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -18455,7 +22725,7 @@ var crafts = {
         "id": "gate_spooky",
         "name": "Spooky Gate",
         "icon": "gate_spooky",
-        "namesearch": "spooky gate_spooky gate",
+        "namesearch": "spooky gate gate_spooky",
         "recipes": [
             {
                 "materials": [
@@ -18489,7 +22759,7 @@ var crafts = {
         "id": "flower_pot",
         "name": "Flower Pot",
         "icon": "planter_clay",
-        "namesearch": "flower flower_pot pot planter_clay",
+        "namesearch": "flower flower_pot planter_clay pot",
         "recipes": [
             {
                 "materials": [
@@ -18523,7 +22793,7 @@ var crafts = {
         "id": "slope_grass_inner_corner",
         "name": "Grass Slope Inner Corner",
         "icon": "roof_grass_inner_corner",
-        "namesearch": "grass slope_grass_inner_corner corner roof_grass_inner_corner inner slope",
+        "namesearch": "slope_grass_inner_corner grass inner corner roof_grass_inner_corner slope",
         "recipes": [
             {
                 "materials": [
@@ -18579,7 +22849,7 @@ var crafts = {
         "id": "slope_grass_outer_corner",
         "name": "Grass Slope Outer Corner",
         "icon": "roof_grass_outer_corner",
-        "namesearch": "grass outer slope_grass_outer_corner corner roof_grass_outer_corner slope",
+        "namesearch": "grass corner slope_grass_outer_corner roof_grass_outer_corner outer slope",
         "recipes": [
             {
                 "materials": [
@@ -18601,7 +22871,7 @@ var crafts = {
         "id": "potion_skull_poison",
         "name": "Suspicious Skull-Shaped Potion",
         "icon": "potion_skull_poison",
-        "namesearch": "skull-shaped potion suspicious potion_skull_poison",
+        "namesearch": "potion_skull_poison skull-shaped suspicious potion",
         "recipes": [
             {
                 "materials": [
@@ -18641,7 +22911,7 @@ var crafts = {
         "id": "stairs_grass_inner_corner",
         "name": "Grass Stairs Inner Corner",
         "icon": "stairs_grass_inner_corner",
-        "namesearch": "grass stairs_grass_inner_corner corner inner stairs",
+        "namesearch": "grass inner corner stairs_grass_inner_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -18663,7 +22933,7 @@ var crafts = {
         "id": "gate_iron",
         "name": "Iron Gate",
         "icon": "gate_iron",
-        "namesearch": "iron gate_iron gate",
+        "namesearch": "gate_iron iron gate",
         "recipes": [
             {
                 "materials": [
@@ -18703,7 +22973,7 @@ var crafts = {
         "id": "potion_speed_and_jump",
         "name": "Springheel Potion",
         "icon": "potion_pink",
-        "namesearch": "potion_pink springheel potion potion_speed_and_jump",
+        "namesearch": "springheel potion_speed_and_jump potion potion_pink",
         "recipes": [
             {
                 "materials": [
@@ -18737,7 +23007,7 @@ var crafts = {
         "id": "stairs_grass_outer_corner",
         "name": "Grass Stairs Outer Corner",
         "icon": "stairs_grass_outer_corner",
-        "namesearch": "grass outer corner stairs_grass_outer_corner stairs",
+        "namesearch": "grass corner outer stairs_grass_outer_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -18759,7 +23029,7 @@ var crafts = {
         "id": "slope_dirt_inner_corner",
         "name": "Dirt Slope Inner Corner",
         "icon": "roof_dirt_inner_corner",
-        "namesearch": "dirt roof_dirt_inner_corner corner inner slope_dirt_inner_corner slope",
+        "namesearch": "slope_dirt_inner_corner roof_dirt_inner_corner dirt inner corner slope",
         "recipes": [
             {
                 "materials": [
@@ -18781,7 +23051,7 @@ var crafts = {
         "id": "gate_wood",
         "name": "Wood Gate",
         "icon": "gate_wood",
-        "namesearch": "wood gate_wood gate",
+        "namesearch": "wood gate gate_wood",
         "recipes": [
             {
                 "materials": [
@@ -18821,7 +23091,7 @@ var crafts = {
         "id": "potion_tanky_turtle",
         "name": "Armored Tortoise Potion",
         "icon": "potion_round",
-        "namesearch": "potion potion_tanky_turtle armored tortoise potion_round",
+        "namesearch": "potion_round potion armored potion_tanky_turtle tortoise",
         "recipes": [
             {
                 "materials": [
@@ -18861,7 +23131,7 @@ var crafts = {
         "id": "slope_dirt_outer_corner",
         "name": "Dirt Slope Outer Corner",
         "icon": "roof_dirt_outer_corner",
-        "namesearch": "outer roof_dirt_outer_corner dirt corner slope_dirt_outer_corner slope",
+        "namesearch": "dirt roof_dirt_outer_corner corner slope_dirt_outer_corner outer slope",
         "recipes": [
             {
                 "materials": [
@@ -18911,7 +23181,7 @@ var crafts = {
         "id": "slope_glass_inner_corner",
         "name": "Glass Slope Inner Corner",
         "icon": "icon_roof_glass_inner_corner",
-        "namesearch": "slope_glass_inner_corner corner icon_roof_glass_inner_corner inner glass slope",
+        "namesearch": "slope_glass_inner_corner icon_roof_glass_inner_corner inner corner glass slope",
         "recipes": [
             {
                 "materials": [
@@ -18933,7 +23203,7 @@ var crafts = {
         "id": "path_stone",
         "name": "Stone Path",
         "icon": "path_stone",
-        "namesearch": "stone path path_stone",
+        "namesearch": "path_stone stone path",
         "recipes": [
             {
                 "materials": [
@@ -18967,7 +23237,7 @@ var crafts = {
         "id": "slope_glass_outer_corner",
         "name": "Glass Slope Outer Corner",
         "icon": "roof_glass_outer_corner",
-        "namesearch": "roof_glass_outer_corner outer corner slope_glass_outer_corner glass slope",
+        "namesearch": "slope_glass_outer_corner roof_glass_outer_corner corner glass outer slope",
         "recipes": [
             {
                 "materials": [
@@ -18989,7 +23259,7 @@ var crafts = {
         "id": "path_stone_decorative",
         "name": "Decorative Stone Path",
         "icon": "path_stone_decorative",
-        "namesearch": "decorative stone path path_stone_decorative",
+        "namesearch": "path_stone_decorative stone decorative path",
         "recipes": [
             {
                 "materials": [
@@ -19029,7 +23299,7 @@ var crafts = {
         "id": "stairs_glass_inner_corner",
         "name": "Glass Stairs Inner Corner",
         "icon": "stairs_glass_inner_corner",
-        "namesearch": "stairs_glass_inner_corner corner inner glass stairs",
+        "namesearch": "inner corner stairs_glass_inner_corner glass stairs",
         "recipes": [
             {
                 "materials": [
@@ -19051,7 +23321,7 @@ var crafts = {
         "id": "path_stone_natural",
         "name": "Natural Stone Path",
         "icon": "path_stone_natural",
-        "namesearch": "natural path path_stone_natural stone",
+        "namesearch": "path_stone_natural natural stone path",
         "recipes": [
             {
                 "materials": [
@@ -19085,7 +23355,7 @@ var crafts = {
         "id": "stairs_glass_outer_corner",
         "name": "Glass Stairs Outer Corner",
         "icon": "stairs_glass_outer_corner",
-        "namesearch": "outer corner stairs_glass_outer_corner glass stairs",
+        "namesearch": "stairs corner glass outer stairs_glass_outer_corner",
         "recipes": [
             {
                 "materials": [
@@ -19107,7 +23377,7 @@ var crafts = {
         "id": "wall_sand_castle",
         "name": "Sand Castle Wall",
         "icon": "wall_sand_brick",
-        "namesearch": "wall_sand_brick sand wall_sand_castle castle wall",
+        "namesearch": "sand wall castle wall_sand_brick wall_sand_castle",
         "recipes": [
             {
                 "materials": [
@@ -19147,7 +23417,7 @@ var crafts = {
         "id": "slope_peakstone_inner_corner",
         "name": "Peakstone Slope Inner Corner",
         "icon": "roof_peakstone_inner_corner",
-        "namesearch": "roof_peakstone_inner_corner corner inner slope_peakstone_inner_corner slope peakstone",
+        "namesearch": "slope_peakstone_inner_corner roof_peakstone_inner_corner inner corner peakstone slope",
         "recipes": [
             {
                 "materials": [
@@ -19169,7 +23439,7 @@ var crafts = {
         "id": "wall_corrupted_stone",
         "name": "Corrupted Stone Wall",
         "icon": "wall_corrupted_stone",
-        "namesearch": "wall_corrupted_stone corrupted wall stone",
+        "namesearch": "wall wall_corrupted_stone corrupted stone",
         "recipes": [
             {
                 "materials": [
@@ -19199,7 +23469,7 @@ var crafts = {
         "id": "slope_peakstone_outer_corner",
         "name": "Peakstone Slope Outer Corner",
         "icon": "roof_peakstone_outer_corner",
-        "namesearch": "roof_peakstone_outer_corner outer slope_peakstone_outer_corner corner slope peakstone",
+        "namesearch": "slope_peakstone_outer_corner roof_peakstone_outer_corner corner peakstone outer slope",
         "recipes": [
             {
                 "materials": [
@@ -19221,7 +23491,7 @@ var crafts = {
         "id": "wall_iron_bars",
         "name": "Iron Bars",
         "icon": "bars_iron",
-        "namesearch": "bars wall_iron_bars iron bars_iron",
+        "namesearch": "iron bars bars_iron wall_iron_bars",
         "recipes": [
             {
                 "materials": [
@@ -19257,11 +23527,45 @@ var crafts = {
         ],
         "creates": []
     },
+    "gold_band": {
+        "id": "gold_band",
+        "name": "Gold Banding Wall",
+        "icon": "gold_band",
+        "namesearch": "wall gold banding gold_band",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "iron_bar"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "dye_yellow"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "rod_obsidian"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
     "stairs_peakstone_inner_corner": {
         "id": "stairs_peakstone_inner_corner",
         "name": "Peakstone Stairs Inner Corner",
         "icon": "stairs_peakstone_inner_corner",
-        "namesearch": "stairs_peakstone_inner_corner corner inner stairs peakstone",
+        "namesearch": "inner corner peakstone stairs_peakstone_inner_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -19279,11 +23583,45 @@ var crafts = {
         ],
         "creates": []
     },
+    "gold_wave": {
+        "id": "gold_wave",
+        "name": "Gold Column Cap",
+        "icon": "gold_wave",
+        "namesearch": "column gold_wave cap gold",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "iron_bar"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "dye_yellow"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "rod_obsidian"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
     "stairs_peakstone_outer_corner": {
         "id": "stairs_peakstone_outer_corner",
         "name": "Peakstone Stairs Outer Corner",
         "icon": "stairs_peakstone_outer_corner",
-        "namesearch": "outer stairs_peakstone_outer_corner corner stairs peakstone",
+        "namesearch": "stairs_peakstone_outer_corner corner peakstone outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -19305,7 +23643,7 @@ var crafts = {
         "id": "lamp_yellow",
         "name": "Yellow Lamp",
         "icon": "lamp_yellow_01",
-        "namesearch": "yellow lamp lamp_yellow lamp_yellow_01",
+        "namesearch": "lamp_yellow_01 lamp_yellow lamp yellow",
         "recipes": [
             {
                 "materials": [
@@ -19341,11 +23679,47 @@ var crafts = {
         ],
         "creates": []
     },
+    "gold_column": {
+        "id": "gold_column",
+        "name": "Gold Column Wall",
+        "icon": "gold_column",
+        "namesearch": "gold_column column wall gold",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "iron_bar"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "dye_yellow"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "rod_obsidian"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": [
+            "gold_slab"
+        ]
+    },
     "slope_bedrock_inner_corner": {
         "id": "slope_bedrock_inner_corner",
         "name": "Bedrock Slope Inner Corner",
         "icon": "roof_bedrock_inner_corner",
-        "namesearch": "bedrock roof_bedrock_inner_corner slope_bedrock_inner_corner corner inner slope",
+        "namesearch": "bedrock slope_bedrock_inner_corner roof_bedrock_inner_corner inner corner slope",
         "recipes": [
             {
                 "materials": [
@@ -19367,7 +23741,7 @@ var crafts = {
         "id": "lamp_red",
         "name": "Red Lamp",
         "icon": "lamp_red_01",
-        "namesearch": "lamp_red_01 lamp red lamp_red",
+        "namesearch": "lamp_red lamp_red_01 red lamp",
         "recipes": [
             {
                 "materials": [
@@ -19403,11 +23777,45 @@ var crafts = {
         ],
         "creates": []
     },
+    "gold_swirl": {
+        "id": "gold_swirl",
+        "name": "Gold Swirl",
+        "icon": "gold_swirl",
+        "namesearch": "swirl gold gold_swirl",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "iron_bar"
+                        ],
+                        "count": 3
+                    },
+                    {
+                        "valid_items": [
+                            "dye_yellow"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "rod_obsidian"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
+    },
     "slope_bedrock_outer_corner": {
         "id": "slope_bedrock_outer_corner",
         "name": "Bedrock Slope Outer Corner",
         "icon": "roof_bedrock_outer_corner",
-        "namesearch": "outer bedrock slope_bedrock_outer_corner corner roof_bedrock_outer_corner slope",
+        "namesearch": "roof_bedrock_outer_corner bedrock slope_bedrock_outer_corner corner outer slope",
         "recipes": [
             {
                 "materials": [
@@ -19429,7 +23837,7 @@ var crafts = {
         "id": "roof_adobe_slanted_blue",
         "name": "Blue Adobe Roof",
         "icon": "roof_clay_blue",
-        "namesearch": "roof_adobe_slanted_blue blue roof_clay_blue adobe roof",
+        "namesearch": "roof blue roof_clay_blue roof_adobe_slanted_blue adobe",
         "recipes": [
             {
                 "materials": [
@@ -19472,7 +23880,7 @@ var crafts = {
         "id": "stairs_bedrock_inner_corner",
         "name": "Stairs Bedrock Inner Corner",
         "icon": "stairs_bedrock_inner_corner",
-        "namesearch": "bedrock corner stairs_bedrock_inner_corner inner stairs",
+        "namesearch": "bedrock stairs_bedrock_inner_corner inner corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -19494,7 +23902,7 @@ var crafts = {
         "id": "roof_adobe_slanted_red",
         "name": "Red Adobe Roof",
         "icon": "roof_clay_red",
-        "namesearch": "adobe red roof_adobe_slanted_red roof_clay_red roof",
+        "namesearch": "red roof roof_clay_red roof_adobe_slanted_red adobe",
         "recipes": [
             {
                 "materials": [
@@ -19529,15 +23937,59 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_adobe_slanted_red_outer_corner",
-            "roof_adobe_slanted_red_inner_corner"
+            "roof_adobe_slanted_red_inner_corner",
+            "roof_adobe_slanted_red_outer_corner"
         ]
+    },
+    "lantern_chinese_ox": {
+        "id": "lantern_chinese_ox",
+        "name": "Year of the Ox lantern",
+        "icon": "lantern_chinese_ox",
+        "namesearch": "lantern the of lantern_chinese_ox year ox",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "leaves_autumnwood_red"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "wood_oak_item",
+                            "wood_sequoia_item",
+                            "wood_aspen_item",
+                            "log",
+                            "wood_palm",
+                            "wood_jungle",
+                            "wood_willow",
+                            "wood_autumn",
+                            "log_willow",
+                            "wood_savannah",
+                            "drift_wood"
+                        ],
+                        "count": 2
+                    },
+                    {
+                        "valid_items": [
+                            "stick_wood"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": []
     },
     "stairs_bedrock_outer_corner": {
         "id": "stairs_bedrock_outer_corner",
         "name": "Stairs Bedrock Outer Corner",
         "icon": "stairs_bedrock_outer_corner",
-        "namesearch": "outer stairs_bedrock_outer_corner bedrock corner stairs",
+        "namesearch": "stairs_bedrock_outer_corner bedrock corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -19559,7 +24011,7 @@ var crafts = {
         "id": "roof_adobe_slanted_yellow",
         "name": "Yellow Adobe Roof",
         "icon": "roof_clay_yellow",
-        "namesearch": "yellow roof_clay_yellow roof_adobe_slanted_yellow adobe roof",
+        "namesearch": "roof yellow roof_clay_yellow roof_adobe_slanted_yellow adobe",
         "recipes": [
             {
                 "materials": [
@@ -19598,11 +24050,48 @@ var crafts = {
             "roof_adobe_slanted_yellow_outer_corner"
         ]
     },
+    "stairs_gold_gilded": {
+        "id": "stairs_gold_gilded",
+        "name": "Gold Stairs",
+        "icon": "stairs_gold_gilded",
+        "namesearch": "stairs stairs_gold_gilded gold",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "iron_bar"
+                        ],
+                        "count": 4
+                    },
+                    {
+                        "valid_items": [
+                            "dye_yellow"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "rod_obsidian"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": [
+            "stairs_gold_inner_corner",
+            "stairs_gold_outer_corner"
+        ]
+    },
     "stairs_adobeclay_blue_inner_corner": {
         "id": "stairs_adobeclay_blue_inner_corner",
         "name": "Blue Clay Stairs Inner Corner",
         "icon": "stairs_adobeclay_blue_inner_corner",
-        "namesearch": "blue stairs_adobeclay_blue_inner_corner corner inner stairs clay",
+        "namesearch": "blue stairs_adobeclay_blue_inner_corner inner corner clay stairs",
         "recipes": [
             {
                 "materials": [
@@ -19624,7 +24113,7 @@ var crafts = {
         "id": "lamp_blue",
         "name": "Blue Lamp",
         "icon": "lamp_blue_01",
-        "namesearch": "lamp_blue lamp blue lamp_blue_01",
+        "namesearch": "blue lamp_blue_01 lamp_blue lamp",
         "recipes": [
             {
                 "materials": [
@@ -19660,11 +24149,33 @@ var crafts = {
         ],
         "creates": []
     },
+    "stairs_gold_inner_corner": {
+        "id": "stairs_gold_inner_corner",
+        "name": "Gold Stairs Inner Corner",
+        "icon": "stairs_gold_inner_corner",
+        "namesearch": "inner corner stairs_gold_inner_corner stairs gold",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "stairs_gold_gilded"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 1,
+                "time": 0,
+                "station": "Processor"
+            }
+        ],
+        "creates": []
+    },
     "stairs_adobeclay_blue_outer_corner": {
         "id": "stairs_adobeclay_blue_outer_corner",
         "name": "Blue Clay Stairs Outer Corner",
         "icon": "stairs_adobeclay_blue_outer_corner",
-        "namesearch": "outer stairs_adobeclay_blue_outer_corner blue corner clay stairs",
+        "namesearch": "stairs_adobeclay_blue_outer_corner blue corner outer clay stairs",
         "recipes": [
             {
                 "materials": [
@@ -19686,7 +24197,7 @@ var crafts = {
         "id": "rod_stone",
         "name": "Stone Rod",
         "icon": "rod_stone",
-        "namesearch": "stone rod rod_stone",
+        "namesearch": "rod rod_stone stone",
         "recipes": [
             {
                 "materials": [
@@ -19742,212 +24253,234 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_gingerbread",
-            "wall_stone_block",
-            "hotel_floor",
-            "lamp_atlantis",
-            "stairs_stone",
-            "table_mayan",
-            "arc_washer",
-            "floor_adobe_blue",
-            "wall_stone_boulder",
-            "roof_stone",
-            "wall_roman_limestone_maze",
-            "helmet_obsidian",
-            "stairs_limestone",
-            "table_stone",
-            "chest_stone",
-            "gravestone_haunted_02",
-            "stairs_medieval",
-            "holiday_carpet_beige",
-            "wall_medieval_inset",
-            "arc_plow",
-            "stairs_peakstone",
-            "wall_stone_cobble_mossy",
-            "window_stucco_ruddy",
-            "window_stucco",
-            "wall_stucco_dark",
-            "wall_mayan_glyph",
-            "wall_stone_stacked",
-            "beacon_adjustable",
-            "wall_medieval_banner",
-            "roof_adobe_slanted_red",
-            "picture_frame_arc_item",
-            "path_stone_natural",
-            "holiday_carpet_grey",
-            "holiday_carpet_dark_grey",
-            "plaque_stone",
-            "path_stone",
-            "door_medieval",
-            "door_wood_rustic",
-            "lantern_arctek_01",
-            "stairs_goo_orange",
-            "roof_wood_slanted",
-            "hotel_cabinets",
-            "lamp_blue",
-            "stairs_gingerbread",
-            "lamp_yellow",
-            "torch_holiday_green",
-            "bench_haunted",
-            "wall_sand_castle",
-            "floor_stone",
-            "floor_stone_decorative",
-            "door_gingerbread",
-            "lantern_arctek_02",
-            "station_culinary",
-            "beacon_blue",
-            "holiday_carpet_dark_beige",
-            "ladder_stone",
-            "fire_pit_medieval",
-            "wall_wood_gravel",
-            "wall_medieval_icon",
-            "roof_haunted",
-            "wall_adobe_blue",
-            "fence_obsidian",
-            "wall_roman_limestone_leafcrown",
-            "automation_portal",
-            "throne_mayan",
-            "table_arctek_02",
-            "wall_adobe_yellow",
-            "hotel_dresser",
-            "shelf_wood",
-            "log_wood_ornamental",
-            "stairs_adobeclay_yellow",
-            "lamp_red",
-            "window_wood_barred",
-            "medieval_stein",
-            "carpet_yellow",
-            "goblet_mayan",
-            "wall_medieval_bricks",
-            "path_stone_decorative",
-            "chest_mayan",
-            "block_goo_orange",
-            "stairs_goo_green",
-            "stairs_glass",
             "taming_collar",
-            "sign_stone",
-            "table_arctek_01",
-            "chain_medieval",
-            "door_obsidian",
-            "switch_item",
-            "door_atlantis",
-            "torch_holiday_red",
-            "bed_red",
-            "stairs_obsidian",
-            "stairs_adobeclay_white",
-            "breastplate_obsidian",
-            "trap_door_mayan",
-            "roof_adobe_slanted_blue",
-            "bomb_flare",
-            "wall_stucco_ruddy",
-            "stairs_haunted_carpet",
-            "gravestone_haunted_01",
-            "wall_adobe_red",
-            "log_wood_ornamental_metal",
-            "roof_gingerbread_wafer",
-            "wall_roman_limestone_pillarcrown",
-            "wall_roman_limestone_basic",
-            "beacon_yellow",
-            "chest_medieval",
-            "torch_arctek_02",
-            "stairs_mayan",
-            "window_stone",
-            "fence_candycane",
-            "gate_candycane",
-            "fence_stone",
-            "cup_atlantis",
-            "sign_stone_hanging",
-            "floor_adobe_yellow",
-            "table_wood",
-            "floor_wood_tile",
-            "bed",
-            "hotel_wall_base",
-            "stairs_bedrock",
-            "sandstone_smooth_item",
-            "lamp_haunted",
-            "wall_mayan_accent",
             "wall_atlantis_accent_trident",
-            "chair_atlantis",
-            "fire_pit",
-            "window_wood",
-            "carpet_red",
-            "stairs_ice",
-            "wall_adobe",
-            "sword_obsidian",
-            "logic_counter",
-            "trap_door_atlantis",
-            "wall_stucco",
-            "chair_stone",
-            "stairs_haunted",
-            "arc_cipher",
-            "roof_obsidian",
-            "container_snow",
-            "chimney_gingerbread",
-            "column_roman_limestone_staight",
-            "trap_door_wood",
-            "wall_shelf_stone",
-            "stairs_wood",
-            "floor_adobe_red",
-            "torch_holiday_blue",
-            "holiday_shelf_wood_white",
-            "weapon_rack_stone",
-            "carpet_blue",
-            "trap_door_stone",
-            "stairs_adobeclay_blue",
-            "lattice_stone",
-            "armguards_obsidian",
-            "wall_stone_cobble",
-            "floor_wood_decorative",
-            "candles_haunted",
-            "wall_gingerbread_swirl",
-            "sword_mayan",
-            "placemat",
-            "stool_wood",
-            "lamp_wood",
-            "door_mayan",
-            "switch_medieval",
-            "planter_wood",
-            "block_goo_purple",
-            "block_goo_green",
-            "bed_yellow",
-            "holiday_bed_plaid",
-            "torch_arctek_01",
-            "chest_arctek_02",
-            "bed_blue",
-            "bomb_force",
-            "leggings_obsidian",
-            "roof_mayan",
-            "stairs_asphault",
             "torch_mayan",
-            "holiday_bed_giftwrap",
+            "floor_adobe_yellow",
+            "stairs_stone",
+            "door_mayan",
             "roof_medieval",
-            "beacon_red",
-            "wall_gingerbread_tile",
-            "wall_moroccan_siltstone",
-            "teleporter_item",
-            "floor_stone_decorativecarved",
-            "table_atlantis",
-            "stairs_goo_purple",
-            "torch_holiday_yellow",
+            "window_wood",
+            "door_atlantis",
+            "planter_wood",
+            "arc_cipher",
+            "wall_stone_cobble_mossy",
+            "arc_washer",
+            "sword_obsidian",
+            "lamp_blue",
+            "holiday_carpet_dark_beige",
+            "stairs_haunted",
+            "carpet_red",
+            "wall_roman_limestone_pillarcrown",
+            "wall_shelf_stone",
+            "shelf_wood",
+            "column_roman_limestone_staight",
+            "roof_mayan",
+            "wall_medieval_banner",
             "window_stucco_dark",
-            "wall_roman_limestone_pillar",
-            "beacon_white",
-            "stairs_adobeclay_red",
-            "gate_wood",
-            "holiday_bed_candycane",
-            "wall_roman_bedrock_square",
-            "door_stone",
+            "door_obsidian",
+            "stairs_wood",
             "flower_pot",
+            "trap_door_stone",
+            "logic_counter",
+            "beacon_white",
+            "torch_holiday_yellow",
+            "breastplate_obsidian",
+            "stairs_goo_orange",
+            "chest_arctek_02",
+            "window_stone",
+            "gravestone_haunted_01",
+            "bomb_force",
+            "block_goo_orange",
+            "gate_candycane",
+            "beacon_red",
+            "sword_mayan",
+            "door_stone",
+            "bed_red",
+            "stairs_limestone",
+            "path_stone_natural",
+            "picture_frame_arc_item",
+            "lamp_yellow",
+            "chest_medieval",
+            "wall_mayan_accent",
+            "holiday_bed_candycane",
+            "roof_obsidian",
+            "wall_wood_gravel",
+            "carpet_blue",
+            "floor_adobe_red",
+            "roof_adobe_slanted_red",
+            "goblet_mayan",
+            "switch_medieval",
+            "bomb_flare",
+            "roof_wood_slanted",
+            "table_wood",
+            "placemat",
+            "roof_stone",
+            "container_snow",
+            "table_arctek_02",
+            "wall_roman_bedrock_square",
+            "wall_stone_block",
+            "table_mayan",
+            "stairs_goo_green",
+            "hotel_cabinets",
+            "door_gingerbread",
+            "beacon_blue",
+            "sign_stone_hanging",
+            "bed_blue",
+            "holiday_carpet_dark_grey",
+            "holiday_bed_giftwrap",
+            "arc_plow",
+            "beacon_adjustable",
+            "automation_portal",
+            "plaque_stone",
+            "wall_adobe_blue",
+            "fence_stone",
+            "sign_stone",
+            "wall_gingerbread_swirl",
+            "floor_adobe_blue",
+            "log_wood_ornamental",
+            "hotel_dresser",
+            "holiday_carpet_beige",
+            "stairs_peakstone",
+            "wall_stucco",
+            "path_stone",
+            "fence_obsidian",
+            "armguards_obsidian",
+            "floor_stone",
+            "cup_atlantis",
+            "log_wood_ornamental_metal",
+            "holiday_carpet_grey",
+            "stairs_adobeclay_red",
+            "trap_door_mayan",
+            "teleporter_item",
+            "torch_holiday_green",
+            "lantern_arctek_02",
+            "wall_stone_stacked",
+            "floor_stone_decorative",
+            "window_stucco_ruddy",
+            "torch_arctek_02",
+            "window_wood_barred",
+            "wall_stone_boulder",
+            "stairs_asphault",
+            "wall_moroccan_siltstone",
+            "beacon_yellow",
+            "wall_medieval_inset",
+            "stairs_ice",
+            "wall_roman_limestone_leafcrown",
+            "switch_item",
+            "window_stucco",
+            "hotel_floor",
+            "roof_haunted",
+            "wall_roman_limestone_maze",
+            "wall_adobe_yellow",
+            "stairs_glass",
+            "lamp_haunted",
+            "station_culinary",
+            "stairs_bedrock",
+            "stairs_haunted_carpet",
+            "stairs_adobeclay_white",
+            "torch_holiday_red",
+            "trap_door_wood",
+            "medieval_stein",
+            "block_goo_green",
+            "wall_roman_limestone_basic",
+            "door_medieval",
+            "table_stone",
+            "wall_stucco_ruddy",
+            "roof_gingerbread",
+            "wall_adobe_red",
+            "table_atlantis",
+            "stool_wood",
+            "wall_mayan_glyph",
+            "carpet_yellow",
+            "stairs_mayan",
+            "holiday_bed_plaid",
+            "wall_gingerbread_tile",
+            "chair_stone",
+            "stairs_adobeclay_yellow",
+            "wall_adobe",
+            "torch_arctek_01",
+            "lamp_red",
+            "fire_pit_medieval",
+            "stairs_gingerbread",
+            "chain_medieval",
+            "stairs_canvas",
+            "chair_atlantis",
+            "lattice_stone",
+            "wall_stucco_dark",
+            "gravestone_haunted_02",
+            "lamp_wood",
+            "wall_medieval_icon",
+            "torch_holiday_blue",
+            "helmet_obsidian",
             "wall_obsidian_brick",
+            "hotel_wall_base",
+            "chest_mayan",
+            "floor_wood_tile",
+            "fire_pit",
+            "gate_wood",
+            "wall_medieval_bricks",
+            "roof_adobe_slanted_blue",
+            "roof_gingerbread_wafer",
+            "holiday_shelf_wood_white",
+            "stairs_obsidian",
+            "lantern_arctek_01",
+            "sandstone_smooth_item",
+            "weapon_rack_stone",
+            "stairs_medieval",
+            "path_stone_decorative",
+            "stairs_adobeclay_blue",
+            "lamp_atlantis",
+            "trap_door_atlantis",
+            "fence_candycane",
             "roof_adobe_slanted_yellow",
-            "stairs_canvas"
+            "table_arctek_01",
+            "bed_yellow",
+            "chest_stone",
+            "stairs_goo_purple",
+            "wall_roman_limestone_pillar",
+            "wall_sand_castle",
+            "floor_wood_decorative",
+            "block_goo_purple",
+            "ladder_stone",
+            "bed",
+            "door_wood_rustic",
+            "wall_stone_cobble",
+            "throne_mayan",
+            "leggings_obsidian",
+            "floor_stone_decorativecarved",
+            "chimney_gingerbread",
+            "bench_haunted",
+            "candles_haunted"
         ]
+    },
+    "stairs_gold_outer_corner": {
+        "id": "stairs_gold_outer_corner",
+        "name": "Gold Stairs Outer Corner",
+        "icon": "stairs_gold_outer_corner",
+        "namesearch": "stairs corner stairs_gold_outer_corner outer gold",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "stairs_gold_gilded"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Processor"
+            }
+        ],
+        "creates": []
     },
     "slope_adobeclay_blue_inner_corner": {
         "id": "slope_adobeclay_blue_inner_corner",
         "name": "Blue Clay Slope Inner Corner",
         "icon": "roof_adobeclay_blue_inner_corner",
-        "namesearch": "roof_adobeclay_blue_inner_corner blue corner clay slope_adobeclay_blue_inner_corner inner slope",
+        "namesearch": "blue inner roof_adobeclay_blue_inner_corner corner slope_adobeclay_blue_inner_corner clay slope",
         "recipes": [
             {
                 "materials": [
@@ -19965,11 +24498,33 @@ var crafts = {
         ],
         "creates": []
     },
+    "gold_slab": {
+        "id": "gold_slab",
+        "name": "Gold Slab",
+        "icon": "gold_slab",
+        "namesearch": "slab gold gold_slab",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "gold_column"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Processor"
+            }
+        ],
+        "creates": []
+    },
     "slope_adobeclay_blue_outer_corner": {
         "id": "slope_adobeclay_blue_outer_corner",
         "name": "Blue Clay Slope Outer Corner",
         "icon": "roof_adobeclay_blue_outer_corner",
-        "namesearch": "slope_adobeclay_blue_outer_corner outer roof_adobeclay_blue_outer_corner blue corner clay slope",
+        "namesearch": "roof_adobeclay_blue_outer_corner slope_adobeclay_blue_outer_corner blue corner clay outer slope",
         "recipes": [
             {
                 "materials": [
@@ -19987,11 +24542,48 @@ var crafts = {
         ],
         "creates": []
     },
+    "slope_gold": {
+        "id": "slope_gold",
+        "name": "Gold Slope",
+        "icon": "slope_gold",
+        "namesearch": "slope gold slope_gold",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "iron_bar"
+                        ],
+                        "count": 4
+                    },
+                    {
+                        "valid_items": [
+                            "dye_yellow"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "valid_items": [
+                            "rod_obsidian"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 4,
+                "time": 0,
+                "station": "Backpack"
+            }
+        ],
+        "creates": [
+            "slope_gold_outer_corner",
+            "slope_gold_inner_corner"
+        ]
+    },
     "slope_adobeclay_red_inner_corner": {
         "id": "slope_adobeclay_red_inner_corner",
         "name": "Red Clay Slope Inner Corner",
         "icon": "roof_adobeclay_red_inner_corner",
-        "namesearch": "roof_adobeclay_red_inner_corner slope_adobeclay_red_inner_corner red corner clay inner slope",
+        "namesearch": "slope_adobeclay_red_inner_corner red roof_adobeclay_red_inner_corner inner corner clay slope",
         "recipes": [
             {
                 "materials": [
@@ -20013,7 +24605,7 @@ var crafts = {
         "id": "rod_obsidian",
         "name": "Obsidian Rod",
         "icon": "rod_obsidian",
-        "namesearch": "rod_obsidian obsidian rod",
+        "namesearch": "rod obsidian rod_obsidian",
         "recipes": [
             {
                 "materials": [
@@ -20043,89 +24635,117 @@ var crafts = {
             }
         ],
         "creates": [
-            "wall_patina",
-            "fan_item",
-            "moroccan_decorative_tile_star",
-            "roof_patina",
-            "floor_linoleum_tile",
-            "wall_stone_ornamental_swirl",
-            "wall_sci_fi_exterior01",
+            "sword_iron",
             "column_roman_limestone_spiral",
-            "stairs_iron",
-            "wall_industrial_plate",
-            "moroccan_decorative_tile_white",
-            "capital_roman_bedrock_leaf",
-            "fence_obsidian",
-            "wall_iron_bars",
+            "sword_diamond",
             "fence_industrial",
-            "bellows_industrial",
-            "wall_gold_studded",
-            "wall_sci_fi",
-            "slope_sci_fi_pipe",
-            "sword_gold_welcome",
-            "pedistal_roman_obsidian_caskette",
-            "table_obsidian",
-            "fire_pit_iron",
-            "gamer_joystick",
-            "arc_text_projector_item",
-            "armguards_iron",
-            "wall_copper",
+            "number_pad_industrial",
             "slope_round_sci_fi_exterior",
             "chimney_industrial_top",
-            "door_iron_bars",
-            "gate_obsidian",
-            "number_pad_industrial",
-            "moroccan_decorative_tile_blue",
-            "arc_vault",
-            "bed_ice",
-            "moroccan_decorative_tile_mosaic",
-            "moroccan_decorative_tile_gem",
-            "frieze_roman_limestone_leaf",
-            "slope_sci_fi_exterior",
-            "roof_obsidian",
-            "floor_roman_obsidian",
-            "lamp_gas",
-            "roof_iron",
-            "wall_moroccan_iron",
             "chair_obsidian",
+            "wall_moroccan_iron_curl",
+            "wall_gold_banded",
+            "floor_sci_fi_grate",
+            "roof_obsidian",
+            "gold_swirl",
+            "wall_stone_ornamental_swirl",
+            "wall_tin",
+            "gold_column",
+            "frieze_roman_limestone_leaf",
+            "table_arctek_03",
+            "slope_sci_fi_pipe",
+            "helmet_iron",
+            "moroccan_decorative_tile_gem",
+            "moroccan_decorative_tile_star",
+            "gamer_joystick",
+            "wall_sci_fi",
+            "wall_roman_limestone_decorative_corners",
+            "arc_vault",
+            "wall_industrial_grate",
+            "moroccan_decorative_tile_blue",
+            "ladder_industrial",
+            "moroccan_decorative_tile_white",
+            "capital_roman_bedrock_laurel",
+            "fence_obsidian",
+            "wall_sci_fi_exterior01",
+            "pedistal_roman_limestone_grass",
+            "ladder_sci_fi",
+            "slope_sci_fi_exterior",
+            "wall_stone_ornamental",
+            "torch_arctek_02",
+            "gold_band",
+            "wall_patina",
+            "wall_copper",
+            "wall_gold",
+            "roof_iron",
+            "gold_wave",
+            "stairs_iron",
+            "floor_linoleum_tile",
+            "turret_snow_item",
+            "wall_iron_bars",
+            "gear_industrial",
+            "window_sci_fi",
+            "excavator",
+            "breastplate_iron",
+            "moroccan_decorative_tile_mosaic",
+            "gate_obsidian",
+            "stairs_gold_gilded",
+            "moroccan_decorative_tile_turqoise",
+            "arc_text_projector_item",
+            "wall_industrial_plate",
+            "leggings_iron",
+            "wall_gold_studded",
             "gate_industrial",
             "wall_wood_decorative",
-            "lamp_industrial",
-            "wall_gold_banded",
-            "breastplate_iron",
-            "gear_industrial",
-            "wall_stone_ornamental",
-            "wall_industrial_grate",
-            "floor_stone_decorativecarved",
-            "excavator",
-            "ladder_industrial",
-            "wall_roman_limestone_decorative_corners",
-            "torch_arctek_02",
-            "table_arctek_03",
-            "wall_moroccan_iron_curl",
-            "roof_copper",
-            "capital_roman_bedrock_laurel",
+            "fan_item",
+            "floor_roman_obsidian",
+            "table_obsidian",
+            "door_iron_bars",
             "floor_industrial_non_skid",
-            "floor_sci_fi_grate",
-            "window_sci_fi",
-            "leggings_iron",
-            "moroccan_decorative_tile_turqoise",
-            "turret_snow_item",
+            "armguards_iron",
+            "pedistal_roman_obsidian_caskette",
+            "sword_gold_welcome",
+            "bed_ice",
+            "fire_pit_iron",
+            "capital_roman_bedrock_leaf",
+            "wall_moroccan_iron",
+            "roof_patina",
             "roof_tin",
-            "wall_gold",
-            "ladder_sci_fi",
-            "sword_diamond",
-            "pedistal_roman_limestone_grass",
-            "wall_tin",
-            "sword_iron",
-            "helmet_iron"
+            "lamp_gas",
+            "slope_gold",
+            "roof_copper",
+            "floor_stone_decorativecarved",
+            "lamp_industrial",
+            "bellows_industrial"
         ]
+    },
+    "slope_gold_inner_corner": {
+        "id": "slope_gold_inner_corner",
+        "name": "Gold Slope Inner Corner",
+        "icon": "slope_gold_inner_corner",
+        "namesearch": "slope_gold_inner_corner inner corner gold slope",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "slope_gold"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 1,
+                "time": 0,
+                "station": "Processor"
+            }
+        ],
+        "creates": []
     },
     "slope_adobeclay_red_outer_corner": {
         "id": "slope_adobeclay_red_outer_corner",
         "name": "Red Clay Slope Outer Corner",
         "icon": "roof_adobeclay_red_outer_corner",
-        "namesearch": "outer roof_adobeclay_red_outer_corner slope_adobeclay_red_outer_corner red corner clay slope",
+        "namesearch": "red slope_adobeclay_red_outer_corner corner roof_adobeclay_red_outer_corner clay outer slope",
         "recipes": [
             {
                 "materials": [
@@ -20147,7 +24767,7 @@ var crafts = {
         "id": "roof_straw_slanted",
         "name": "Thatched Roof",
         "icon": "roof_straw",
-        "namesearch": "roof roof_straw_slanted thatched roof_straw",
+        "namesearch": "roof_straw_slanted roof roof_straw thatched",
         "recipes": [
             {
                 "materials": [
@@ -20180,11 +24800,33 @@ var crafts = {
             "roof_straw_slanted_outer_corner"
         ]
     },
+    "slope_gold_outer_corner": {
+        "id": "slope_gold_outer_corner",
+        "name": "Gold Slope Outer Corner",
+        "icon": "slope_gold_outer_corner",
+        "namesearch": "slope_gold_outer_corner corner gold outer slope",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "slope_gold"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Processor"
+            }
+        ],
+        "creates": []
+    },
     "stairs_adobeclay_red_inner_corner": {
         "id": "stairs_adobeclay_red_inner_corner",
         "name": "Red Clay Stairs Inner Corner",
         "icon": "stairs_adobeclay_red_inner_corner",
-        "namesearch": "stairs_adobeclay_red_inner_corner red corner inner stairs clay",
+        "namesearch": "red stairs_adobeclay_red_inner_corner inner corner clay stairs",
         "recipes": [
             {
                 "materials": [
@@ -20206,7 +24848,7 @@ var crafts = {
         "id": "stairs_adobeclay_red_outer_corner",
         "name": "Red Clay Stairs Outer Corner",
         "icon": "stairs_adobeclay_red_outer_corner",
-        "namesearch": "outer stairs_adobeclay_red_outer_corner red corner clay stairs",
+        "namesearch": "stairs_adobeclay_red_outer_corner red corner outer clay stairs",
         "recipes": [
             {
                 "materials": [
@@ -20228,7 +24870,7 @@ var crafts = {
         "id": "rod_diamond",
         "name": "Diamond Rod",
         "icon": "rod_diamond",
-        "namesearch": "diamond rod_diamond rod",
+        "namesearch": "rod rod_diamond diamond",
         "recipes": [
             {
                 "materials": [
@@ -20258,41 +24900,41 @@ var crafts = {
             }
         ],
         "creates": [
-            "armguards_lumite",
-            "wall_lumite_beveled",
-            "wall_diamond_square",
-            "corrupt_obelisk",
-            "wall_lumite_light",
-            "wall_corrupted_stone",
-            "stairs_lumite_light",
-            "excavator_super",
             "roof_lumite",
-            "sword_unicorn",
-            "wall_lumite_shattered_light",
-            "door_diamond",
-            "breastplate_lumite",
-            "chair_diamond",
-            "wall_lumite_shattered",
-            "helmet_lumite",
-            "wall_diamond_octagon",
-            "poi_item",
-            "wall_diamond_star",
-            "roof_diamond",
-            "sword_lumite",
             "wall_lumite_shattered_dark",
-            "stairs_lumite_dark",
-            "stairs_lumite",
+            "excavator_super",
+            "sword_lumite",
+            "wall_lumite_shattered",
+            "wall_diamond_star",
+            "wall_corrupted_stone",
+            "wall_diamond_octagon",
+            "wall_lumite_shattered_light",
             "wall_lumite_dark",
+            "stairs_lumite_dark",
             "leggings_lumite",
+            "stairs_lumite",
+            "wall_lumite_beveled",
+            "corrupt_obelisk",
+            "roof_diamond",
+            "wall_diamond_square",
+            "wall_lumite_light",
+            "table_diamond",
+            "breastplate_lumite",
+            "armguards_lumite",
+            "stairs_lumite_light",
+            "sword_unicorn",
             "tear_item",
-            "table_diamond"
+            "helmet_lumite",
+            "poi_item",
+            "chair_diamond",
+            "door_diamond"
         ]
     },
     "slope_adobeclay_white_inner_corner": {
         "id": "slope_adobeclay_white_inner_corner",
         "name": "White Clay Slope Inner Corner",
         "icon": "roof_adobeclay_white_inner_corner",
-        "namesearch": "roof_adobeclay_white_inner_corner slope_adobeclay_white_inner_corner corner white clay inner slope",
+        "namesearch": "roof_adobeclay_white_inner_corner slope_adobeclay_white_inner_corner inner corner white clay slope",
         "recipes": [
             {
                 "materials": [
@@ -20314,7 +24956,7 @@ var crafts = {
         "id": "rod_lumite",
         "name": "Lumite Rod",
         "icon": "rod_lumite",
-        "namesearch": "lumite rod rod_lumite",
+        "namesearch": "rod rod_lumite lumite",
         "recipes": [
             {
                 "materials": [
@@ -20344,17 +24986,17 @@ var crafts = {
             }
         ],
         "creates": [
-            "door_lumite",
             "chair_lumite",
-            "table_lumite",
-            "roof_lumite"
+            "roof_lumite",
+            "door_lumite",
+            "table_lumite"
         ]
     },
     "slope_adobeclay_white_outer_corner": {
         "id": "slope_adobeclay_white_outer_corner",
         "name": "White Clay Slope Outer Corner",
         "icon": "roof_adobeclay_white_outer_corner",
-        "namesearch": "outer corner white roof_adobeclay_white_outer_corner clay slope_adobeclay_white_outer_corner slope",
+        "namesearch": "roof_adobeclay_white_outer_corner slope_adobeclay_white_outer_corner corner white clay outer slope",
         "recipes": [
             {
                 "materials": [
@@ -20376,7 +25018,7 @@ var crafts = {
         "id": "roof_wood_slanted",
         "name": "Wood Roof",
         "icon": "roof_wood",
-        "namesearch": "roof wood roof_wood_slanted roof_wood",
+        "namesearch": "roof_wood wood roof_wood_slanted roof",
         "recipes": [
             {
                 "materials": [
@@ -20411,15 +25053,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_wood_slanted_inner_corner",
-            "roof_wood_slanted_outer_corner"
+            "roof_wood_slanted_outer_corner",
+            "roof_wood_slanted_inner_corner"
         ]
     },
     "stairs_adobeclay_white_inner_corner": {
         "id": "stairs_adobeclay_white_inner_corner",
         "name": "White Clay Stairs Inner Corner",
         "icon": "stairs_adobeclay_white_inner_corner",
-        "namesearch": "stairs_adobeclay_white_inner_corner corner white clay inner stairs",
+        "namesearch": "stairs_adobeclay_white_inner_corner inner corner white clay stairs",
         "recipes": [
             {
                 "materials": [
@@ -20441,7 +25083,7 @@ var crafts = {
         "id": "station_culinary",
         "name": "Cooking Station",
         "icon": "station_culinary",
-        "namesearch": "cooking station station_culinary",
+        "namesearch": "station station_culinary cooking",
         "recipes": [
             {
                 "materials": [
@@ -20481,7 +25123,7 @@ var crafts = {
         "id": "stairs_adobeclay_white_outer_corner",
         "name": "White Clay Stairs Outer Corner",
         "icon": "stairs_adobeclay_white_outer_corner",
-        "namesearch": "outer stairs_adobeclay_white_outer_corner corner white clay stairs",
+        "namesearch": "stairs_adobeclay_white_outer_corner corner outer white clay stairs",
         "recipes": [
             {
                 "materials": [
@@ -20537,7 +25179,7 @@ var crafts = {
         "id": "slope_adobeclay_yellow_inner_corner",
         "name": "Yellow Clay Slope Inner Corner",
         "icon": "roof_adobeclay_yellow_inner_corner",
-        "namesearch": "yellow slope_adobeclay_yellow_inner_corner corner clay inner slope roof_adobeclay_yellow_inner_corner",
+        "namesearch": "slope_adobeclay_yellow_inner_corner yellow inner corner roof_adobeclay_yellow_inner_corner clay slope",
         "recipes": [
             {
                 "materials": [
@@ -20559,7 +25201,7 @@ var crafts = {
         "id": "slope_adobeclay_yellow_outer_corner",
         "name": "Yellow Clay Slope Outer Corner",
         "icon": "roof_adobeclay_yellow_outer_corner",
-        "namesearch": "yellow outer slope_adobeclay_yellow_outer_corner corner clay roof_adobeclay_yellow_outer_corner slope",
+        "namesearch": "roof_adobeclay_yellow_outer_corner yellow corner slope_adobeclay_yellow_outer_corner clay outer slope",
         "recipes": [
             {
                 "materials": [
@@ -20610,15 +25252,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_iron_outer_corner",
-            "stairs_iron_inner_corner"
+            "stairs_iron_inner_corner",
+            "stairs_iron_outer_corner"
         ]
     },
     "stairs_adobeclay_yellow_inner_corner": {
         "id": "stairs_adobeclay_yellow_inner_corner",
         "name": "Yellow Clay Stairs Inner Corner",
         "icon": "stairs_adobeclay_yellow_inner_corner",
-        "namesearch": "yellow stairs_adobeclay_yellow_inner_corner corner clay inner stairs",
+        "namesearch": "yellow inner stairs_adobeclay_yellow_inner_corner corner clay stairs",
         "recipes": [
             {
                 "materials": [
@@ -20640,7 +25282,7 @@ var crafts = {
         "id": "roof_obsidian",
         "name": "Obsidian Roof",
         "icon": "roof_obsidian",
-        "namesearch": "obsidian roof_obsidian roof",
+        "namesearch": "roof_obsidian obsidian roof",
         "recipes": [
             {
                 "materials": [
@@ -20683,7 +25325,7 @@ var crafts = {
         "id": "stairs_adobeclay_yellow_outer_corner",
         "name": "Yellow Clay Stairs Outer Corner",
         "icon": "stairs_adobeclay_yellow_outer_corner",
-        "namesearch": "yellow outer stairs_adobeclay_yellow_outer_corner corner clay stairs",
+        "namesearch": "stairs_adobeclay_yellow_outer_corner stairs yellow corner clay outer",
         "recipes": [
             {
                 "materials": [
@@ -20705,7 +25347,7 @@ var crafts = {
         "id": "stairs_obsidian",
         "name": "Obsidian Stairs",
         "icon": "stairs_obsidian",
-        "namesearch": "obsidian stairs stairs_obsidian",
+        "namesearch": "stairs_obsidian obsidian stairs",
         "recipes": [
             {
                 "materials": [
@@ -20734,15 +25376,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_obsidian_inner_corner",
-            "stairs_obsidian_outer_corner"
+            "stairs_obsidian_outer_corner",
+            "stairs_obsidian_inner_corner"
         ]
     },
     "sword_gold_welcome": {
         "id": "sword_gold_welcome",
         "name": "Golden Sword",
         "icon": "sword_gold",
-        "namesearch": "sword_gold golden sword_gold_welcome sword",
+        "namesearch": "sword_gold_welcome sword sword_gold golden",
         "recipes": [
             {
                 "materials": [
@@ -20788,7 +25430,7 @@ var crafts = {
         "id": "stairs_stone",
         "name": "Stone Stairs",
         "icon": "stairs_stone",
-        "namesearch": "stone stairs_stone stairs",
+        "namesearch": "stone stairs stairs_stone",
         "recipes": [
             {
                 "materials": [
@@ -20817,8 +25459,8 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_stone_inner_corner",
-            "stairs_stone_outer_corner"
+            "stairs_stone_outer_corner",
+            "stairs_stone_inner_corner"
         ]
     },
     "stairs_wood": {
@@ -20958,7 +25600,7 @@ var crafts = {
         "id": "table_iron",
         "name": "Iron Table",
         "icon": "table_iron",
-        "namesearch": "table_iron iron table",
+        "namesearch": "iron table table_iron",
         "recipes": [
             {
                 "materials": [
@@ -20992,7 +25634,7 @@ var crafts = {
         "id": "ladder_industrial",
         "name": "Industrial Ladder",
         "icon": "ladder_industrial",
-        "namesearch": "ladder ladder_industrial industrial",
+        "namesearch": "industrial ladder ladder_industrial",
         "recipes": [
             {
                 "materials": [
@@ -21026,7 +25668,7 @@ var crafts = {
         "id": "table_wood",
         "name": "Wood Table",
         "icon": "table_wood",
-        "namesearch": "table_wood wood table",
+        "namesearch": "wood table table_wood",
         "recipes": [
             {
                 "materials": [
@@ -21066,7 +25708,7 @@ var crafts = {
         "id": "number_pad_industrial",
         "name": "Industrial Number Pad",
         "icon": "numberpad_industrial",
-        "namesearch": "pad industrial number_pad_industrial numberpad_industrial number",
+        "namesearch": "number numberpad_industrial number_pad_industrial pad industrial",
         "recipes": [
             {
                 "materials": [
@@ -21100,7 +25742,7 @@ var crafts = {
         "id": "wall_wood",
         "name": "Wood Wall",
         "icon": "wall_wood",
-        "namesearch": "wall_wood wall wood",
+        "namesearch": "wall wood wall_wood",
         "recipes": [
             {
                 "materials": [
@@ -21168,7 +25810,7 @@ var crafts = {
         "id": "wall_wood_blue",
         "name": "Blue Wood Wall",
         "icon": "wall_wood_blue",
-        "namesearch": "wall_wood_blue wall wood blue",
+        "namesearch": "wall wood blue wall_wood_blue",
         "recipes": [
             {
                 "materials": [
@@ -21198,7 +25840,7 @@ var crafts = {
         "id": "fence_industrial",
         "name": "Industrial Fence",
         "icon": "fence_industrial",
-        "namesearch": "fence fence_industrial industrial",
+        "namesearch": "fence industrial fence_industrial",
         "recipes": [
             {
                 "materials": [
@@ -21232,7 +25874,7 @@ var crafts = {
         "id": "wall_wood_decorative",
         "name": "Decorative Wood Wall",
         "icon": "wall_wood_decorated",
-        "namesearch": "wall_wood_decorated decorative wall_wood_decorative wall wood",
+        "namesearch": "decorative wall wood wall_wood_decorated wall_wood_decorative",
         "recipes": [
             {
                 "materials": [
@@ -21266,7 +25908,7 @@ var crafts = {
         "id": "chest_industrial",
         "name": "Industrial Locker",
         "icon": "chest_industrial",
-        "namesearch": "industrial locker chest_industrial",
+        "namesearch": "chest_industrial locker industrial",
         "recipes": [
             {
                 "materials": [
@@ -21300,7 +25942,7 @@ var crafts = {
         "id": "asphault_item",
         "name": "Asphalt",
         "icon": "asphalt",
-        "namesearch": "asphault_item asphalt",
+        "namesearch": "asphalt asphault_item",
         "recipes": [
             {
                 "materials": [
@@ -21329,8 +25971,8 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_asphault",
             "column_asphault",
+            "slope_asphault",
             "slab_asphault"
         ]
     },
@@ -21338,7 +25980,7 @@ var crafts = {
         "id": "wall_industrial_grate",
         "name": "Industrial Grated Wall",
         "icon": "wall_industrial_grate",
-        "namesearch": "wall_industrial_grate wall grated industrial",
+        "namesearch": "grated wall wall_industrial_grate industrial",
         "recipes": [
             {
                 "materials": [
@@ -21372,7 +26014,7 @@ var crafts = {
         "id": "salt_item",
         "name": "Salt",
         "icon": "salt",
-        "namesearch": "salt_item salt",
+        "namesearch": "salt salt_item",
         "recipes": [
             {
                 "materials": [
@@ -21408,7 +26050,7 @@ var crafts = {
         "id": "pressure_plate_industrial",
         "name": "Industrial LED",
         "icon": "pressure_plate_industrial",
-        "namesearch": "led pressure_plate_industrial industrial",
+        "namesearch": "pressure_plate_industrial led industrial",
         "recipes": [
             {
                 "materials": [
@@ -21442,7 +26084,7 @@ var crafts = {
         "id": "wall_wood_red",
         "name": "Red Wood Wall",
         "icon": "wall_wood_red",
-        "namesearch": "wall_wood_red wood wall red",
+        "namesearch": "wall wood red wall_wood_red",
         "recipes": [
             {
                 "materials": [
@@ -21472,7 +26114,7 @@ var crafts = {
         "id": "fan_industrial",
         "name": "Industrial Fan",
         "icon": "fan_industrial",
-        "namesearch": "fan fan_industrial industrial",
+        "namesearch": "fan_industrial fan industrial",
         "recipes": [
             {
                 "materials": [
@@ -21506,7 +26148,7 @@ var crafts = {
         "id": "wall_wood_yellow",
         "name": "Yellow Wood Wall",
         "icon": "wall_wood_yellow",
-        "namesearch": "wall_wood_yellow wall wood yellow",
+        "namesearch": "wall wood wall_wood_yellow yellow",
         "recipes": [
             {
                 "materials": [
@@ -21536,7 +26178,7 @@ var crafts = {
         "id": "wall_industrial_plate",
         "name": "Industrial Wall",
         "icon": "floor_industrial_plate",
-        "namesearch": "wall_industrial_plate floor_industrial_plate wall industrial",
+        "namesearch": "floor_industrial_plate wall industrial wall_industrial_plate",
         "recipes": [
             {
                 "materials": [
@@ -21570,7 +26212,7 @@ var crafts = {
         "id": "window_wood",
         "name": "Wood Window",
         "icon": "window_wood",
-        "namesearch": "window_wood wood window",
+        "namesearch": "window_wood window wood",
         "recipes": [
             {
                 "materials": [
@@ -21638,7 +26280,7 @@ var crafts = {
         "id": "healing_beacon",
         "name": "Healing Beacon",
         "icon": "beacon_arctek_healing",
-        "namesearch": "beacon_arctek_healing healing beacon healing_beacon",
+        "namesearch": "beacon healing beacon_arctek_healing healing_beacon",
         "recipes": [
             {
                 "materials": [
@@ -21684,7 +26326,7 @@ var crafts = {
         "id": "floor_industrial",
         "name": "Industrial Floor",
         "icon": "floor_industrial",
-        "namesearch": "floor industrial floor_industrial",
+        "namesearch": "industrial floor floor_industrial",
         "recipes": [
             {
                 "materials": [
@@ -21712,7 +26354,7 @@ var crafts = {
         "id": "gear_industrial",
         "name": "Industrial Gear",
         "icon": "gear_industrial",
-        "namesearch": "industrial gear gear_industrial",
+        "namesearch": "gear_industrial gear industrial",
         "recipes": [
             {
                 "materials": [
@@ -21780,7 +26422,7 @@ var crafts = {
         "id": "sword_unicorn",
         "name": "Rainbownator 5000",
         "icon": "sword_unicorn",
-        "namesearch": "rainbownator sword_unicorn 5000",
+        "namesearch": "5000 rainbownator sword_unicorn",
         "recipes": [
             {
                 "materials": [
@@ -21826,7 +26468,7 @@ var crafts = {
         "id": "table_industrial",
         "name": "Industrial Table",
         "icon": "shelf_industrial",
-        "namesearch": "shelf_industrial table table_industrial industrial",
+        "namesearch": "table_industrial table industrial shelf_industrial",
         "recipes": [
             {
                 "materials": [
@@ -21854,7 +26496,7 @@ var crafts = {
         "id": "torch_industrial_01",
         "name": "Wide Industrial Light",
         "icon": "torch_industrial_01",
-        "namesearch": "light wide torch_industrial_01 industrial",
+        "namesearch": "industrial light torch_industrial_01 wide",
         "recipes": [
             {
                 "materials": [
@@ -21888,7 +26530,7 @@ var crafts = {
         "id": "carpet_blue",
         "name": "Blue Carpet",
         "icon": "carpet_blue",
-        "namesearch": "carpet carpet_blue blue",
+        "namesearch": "blue carpet carpet_blue",
         "recipes": [
             {
                 "materials": [
@@ -21922,7 +26564,7 @@ var crafts = {
         "id": "torch_industrial_02",
         "name": "Industrial Light",
         "icon": "torch_industrial_02",
-        "namesearch": "light torch_industrial_02 industrial",
+        "namesearch": "torch_industrial_02 light industrial",
         "recipes": [
             {
                 "materials": [
@@ -21956,7 +26598,7 @@ var crafts = {
         "id": "carpet_red",
         "name": "Red Carpet",
         "icon": "carpet_red",
-        "namesearch": "carpet carpet_red red",
+        "namesearch": "carpet_red red carpet",
         "recipes": [
             {
                 "materials": [
@@ -22026,7 +26668,7 @@ var crafts = {
         "id": "carpet_yellow",
         "name": "Yellow Carpet",
         "icon": "carpet_yellow",
-        "namesearch": "yellow carpet_yellow carpet",
+        "namesearch": "carpet_yellow carpet yellow",
         "recipes": [
             {
                 "materials": [
@@ -22060,7 +26702,7 @@ var crafts = {
         "id": "window_industrial",
         "name": "Industrial Window",
         "icon": "window_industrial",
-        "namesearch": "industrial window window_industrial",
+        "namesearch": "window industrial window_industrial",
         "recipes": [
             {
                 "materials": [
@@ -22088,7 +26730,7 @@ var crafts = {
         "id": "block_goo_green",
         "name": "Block of Goo",
         "icon": "block_goo_green",
-        "namesearch": "of block goo block_goo_green",
+        "namesearch": "of goo block block_goo_green",
         "recipes": [
             {
                 "materials": [
@@ -22111,10 +26753,10 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_goo_green",
-            "slope_goo_green",
+            "column_goo_green",
             "slab_goo_green",
-            "column_goo_green"
+            "slope_goo_green",
+            "stairs_goo_green"
         ]
     },
     "bellows_industrial": {
@@ -22161,7 +26803,7 @@ var crafts = {
         "id": "block_goo_orange",
         "name": "Orange Block of Goo",
         "icon": "block_goo_orange",
-        "namesearch": "block_goo_orange block orange goo of",
+        "namesearch": "block of block_goo_orange orange goo",
         "recipes": [
             {
                 "materials": [
@@ -22190,18 +26832,18 @@ var crafts = {
             }
         ],
         "creates": [
-            "slab_goo_orange",
-            "column_goo_orange",
             "stairs_goo_orange",
-            "glob_goo_orange",
-            "slope_goo_orange"
+            "column_goo_orange",
+            "slope_goo_orange",
+            "slab_goo_orange",
+            "glob_goo_orange"
         ]
     },
     "switch_industrial_toggle": {
         "id": "switch_industrial_toggle",
         "name": "Industrial Switch",
         "icon": "switch_industrial_toggle",
-        "namesearch": "switch switch_industrial_toggle industrial",
+        "namesearch": "switch_industrial_toggle switch industrial",
         "recipes": [
             {
                 "materials": [
@@ -22235,7 +26877,7 @@ var crafts = {
         "id": "block_goo_purple",
         "name": "Purple Block of Goo",
         "icon": "block_goo_purple",
-        "namesearch": "purple block goo block_goo_purple of",
+        "namesearch": "block_goo_purple block of purple goo",
         "recipes": [
             {
                 "materials": [
@@ -22264,10 +26906,10 @@ var crafts = {
             }
         ],
         "creates": [
-            "glob_goo_purple",
             "column_goo_purple",
             "slope_goo_purple",
             "slab_goo_purple",
+            "glob_goo_purple",
             "stairs_goo_purple"
         ]
     },
@@ -22275,7 +26917,7 @@ var crafts = {
         "id": "sword_crowbar",
         "name": "Industrial Crowbar",
         "icon": "sword_crowbar",
-        "namesearch": "sword_crowbar crowbar industrial",
+        "namesearch": "crowbar sword_crowbar industrial",
         "recipes": [
             {
                 "materials": [
@@ -22309,7 +26951,7 @@ var crafts = {
         "id": "arc_plow",
         "name": "Plow",
         "icon": "plow",
-        "namesearch": "arc_plow plow",
+        "namesearch": "plow arc_plow",
         "recipes": [
             {
                 "materials": [
@@ -22373,45 +27015,45 @@ var crafts = {
             }
         ],
         "creates": [
-            "ladder_stone",
-            "chest_valentines",
-            "placemat",
-            "table_wood",
-            "sign_stone_hanging",
-            "bed",
-            "ladder_wood",
-            "sword_gold_welcome",
-            "armguards_diamond",
-            "fireworks_yellow_item",
-            "fireworks_halloween",
-            "armguards_iron",
-            "breastplate_diamond",
-            "fireworks_holiday",
-            "sign_wood",
-            "bomb_retro",
-            "wall_medieval_banner",
-            "leggings_diamond",
-            "stairs_wood",
-            "breastplate_iron",
-            "roof_wood_slanted",
-            "sword_stone",
-            "fence_wood",
-            "leggings_iron",
-            "fireworks_blue_item",
-            "gate_wood",
-            "helmet_diamond",
-            "banner_candy_skull",
-            "sword_iron",
             "plaque_wood",
             "fireworks_red_item",
-            "helmet_iron"
+            "armguards_diamond",
+            "sword_iron",
+            "chest_valentines",
+            "fireworks_halloween",
+            "fence_wood",
+            "roof_wood_slanted",
+            "placemat",
+            "table_wood",
+            "leggings_diamond",
+            "fireworks_yellow_item",
+            "fireworks_blue_item",
+            "bomb_retro",
+            "sword_stone",
+            "leggings_iron",
+            "sign_stone_hanging",
+            "gate_wood",
+            "helmet_iron",
+            "wall_medieval_banner",
+            "armguards_iron",
+            "banner_candy_skull",
+            "sword_gold_welcome",
+            "stairs_wood",
+            "fireworks_holiday",
+            "breastplate_diamond",
+            "ladder_stone",
+            "bed",
+            "breastplate_iron",
+            "ladder_wood",
+            "sign_wood",
+            "helmet_diamond"
         ]
     },
     "chimney_industrial": {
         "id": "chimney_industrial",
         "name": "Industrial Smoke Stack",
         "icon": "chimney_industrial",
-        "namesearch": "chimney_industrial stack smoke industrial",
+        "namesearch": "smoke chimney_industrial industrial stack",
         "recipes": [
             {
                 "materials": [
@@ -22439,7 +27081,7 @@ var crafts = {
         "id": "taming_collar",
         "name": "Taming Collar",
         "icon": "cowbell",
-        "namesearch": "collar taming cowbell taming_collar",
+        "namesearch": "taming_collar cowbell taming collar",
         "recipes": [
             {
                 "materials": [
@@ -22489,7 +27131,7 @@ var crafts = {
         "id": "chimney_industrial_top",
         "name": "Industrial Chimney",
         "icon": "cap_chimney_industrial",
-        "namesearch": "cap_chimney_industrial industrial chimney chimney_industrial_top",
+        "namesearch": "cap_chimney_industrial chimney industrial chimney_industrial_top",
         "recipes": [
             {
                 "materials": [
@@ -22523,7 +27165,7 @@ var crafts = {
         "id": "wall_thatched",
         "name": "Thatched Wall",
         "icon": "wall_thatched",
-        "namesearch": "wall thatched wall_thatched",
+        "namesearch": "wall wall_thatched thatched",
         "recipes": [
             {
                 "materials": [
@@ -22553,7 +27195,7 @@ var crafts = {
         "id": "vent_industrial",
         "name": "Industrial Vent",
         "icon": "vent_industrial",
-        "namesearch": "vent_industrial vent industrial",
+        "namesearch": "vent_industrial industrial vent",
         "recipes": [
             {
                 "materials": [
@@ -22587,7 +27229,7 @@ var crafts = {
         "id": "concrete_blue",
         "name": "Blue Concrete",
         "icon": "concrete_blue",
-        "namesearch": "concrete_blue concrete blue",
+        "namesearch": "blue concrete_blue concrete",
         "recipes": [
             {
                 "materials": [
@@ -22627,7 +27269,7 @@ var crafts = {
         "id": "door_sci_fi",
         "name": "Galactic Bay Door",
         "icon": "door_sci_fi",
-        "namesearch": "door bay door_sci_fi galactic",
+        "namesearch": "galactic bay door_sci_fi door",
         "recipes": [
             {
                 "materials": [
@@ -22661,7 +27303,7 @@ var crafts = {
         "id": "concrete_red",
         "name": "Red Concrete",
         "icon": "concrete_red",
-        "namesearch": "concrete concrete_red red",
+        "namesearch": "concrete_red red concrete",
         "recipes": [
             {
                 "materials": [
@@ -22701,7 +27343,7 @@ var crafts = {
         "id": "stairs_sci_fi",
         "name": "Galactic Stairs",
         "icon": "stairs_sci_fi",
-        "namesearch": "stairs_sci_fi stairs galactic",
+        "namesearch": "galactic stairs stairs_sci_fi",
         "recipes": [
             {
                 "materials": [
@@ -22735,7 +27377,7 @@ var crafts = {
         "id": "concrete_yellow",
         "name": "Yellow Concrete",
         "icon": "concrete_yellow",
-        "namesearch": "yellow concrete concrete_yellow",
+        "namesearch": "concrete_yellow concrete yellow",
         "recipes": [
             {
                 "materials": [
@@ -22775,7 +27417,7 @@ var crafts = {
         "id": "bed_sci_fi",
         "name": "Galactic Sleep Pod",
         "icon": "bed_sci_fi",
-        "namesearch": "pod galactic bed_sci_fi sleep",
+        "namesearch": "bed_sci_fi sleep galactic pod",
         "recipes": [
             {
                 "materials": [
@@ -22809,7 +27451,7 @@ var crafts = {
         "id": "ladder_sci_fi",
         "name": "Galactic Ladder",
         "icon": "ladder_sci_fi",
-        "namesearch": "ladder galactic ladder_sci_fi",
+        "namesearch": "galactic ladder ladder_sci_fi",
         "recipes": [
             {
                 "materials": [
@@ -22843,7 +27485,7 @@ var crafts = {
         "id": "chair_sci_fi",
         "name": "Galactic Captain's Chair",
         "icon": "chair_sci_fi",
-        "namesearch": "chair_sci_fi chair galactic captain's",
+        "namesearch": "galactic captain's chair chair_sci_fi",
         "recipes": [
             {
                 "materials": [
@@ -22877,7 +27519,7 @@ var crafts = {
         "id": "torch_sci_fi",
         "name": "Galactic Lamp",
         "icon": "torch_sci_fi",
-        "namesearch": "lamp galactic torch_sci_fi",
+        "namesearch": "torch_sci_fi galactic lamp",
         "recipes": [
             {
                 "materials": [
@@ -22911,7 +27553,7 @@ var crafts = {
         "id": "floor_sci_fi_grate",
         "name": "Galactic Floor",
         "icon": "floor_sci_fi_grate",
-        "namesearch": "floor floor_sci_fi_grate galactic",
+        "namesearch": "galactic floor_sci_fi_grate floor",
         "recipes": [
             {
                 "materials": [
@@ -22945,7 +27587,7 @@ var crafts = {
         "id": "sandstone_smooth_item",
         "name": "Smooth Sandstone",
         "icon": "sand_refined",
-        "namesearch": "sandstone_smooth_item sand_refined sandstone smooth",
+        "namesearch": "smooth sandstone_smooth_item sand_refined sandstone",
         "recipes": [
             {
                 "materials": [
@@ -22979,7 +27621,7 @@ var crafts = {
         "id": "sword_sci_fi",
         "name": "Galactic Flux Incapacitator",
         "icon": "sword_sci_fi",
-        "namesearch": "sword_sci_fi incapacitator flux galactic",
+        "namesearch": "sword_sci_fi galactic incapacitator flux",
         "recipes": [
             {
                 "materials": [
@@ -23030,15 +27672,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "chair_diamond",
-            "wall_diamond_square",
-            "door_diamond",
-            "wall_diamond_octagon",
-            "rod_diamond",
             "wall_diamond_star",
-            "roof_diamond",
-            "table_diamond",
+            "wall_diamond_octagon",
             "focus_lumite",
+            "rod_diamond",
+            "roof_diamond",
+            "wall_diamond_square",
+            "chair_diamond",
+            "table_diamond",
+            "door_diamond",
             "stairs_diamond"
         ]
     },
@@ -23046,7 +27688,7 @@ var crafts = {
         "id": "wall_sci_fi",
         "name": "Galactic Wall",
         "icon": "wall_sci_fi",
-        "namesearch": "wall wall_sci_fi galactic",
+        "namesearch": "wall galactic wall_sci_fi",
         "recipes": [
             {
                 "materials": [
@@ -23074,13 +27716,15 @@ var crafts = {
                 "station": "Backpack"
             }
         ],
-        "creates": []
+        "creates": [
+            "slab_sci_fi"
+        ]
     },
     "slab_lumite": {
         "id": "slab_lumite",
         "name": "Lumite Slab",
         "icon": "slab_lumite",
-        "namesearch": "lumite slab slab_lumite",
+        "namesearch": "slab lumite slab_lumite",
         "recipes": [
             {
                 "materials": [
@@ -23097,25 +27741,25 @@ var crafts = {
             }
         ],
         "creates": [
-            "wall_lumite_shattered",
-            "table_lumite",
-            "stairs_lumite_light",
-            "wall_lumite_shattered_dark",
-            "stairs_lumite_dark",
-            "roof_lumite",
-            "stairs_lumite",
-            "door_lumite",
-            "rod_lumite",
-            "chair_lumite",
+            "wall_lumite_shattered_light",
             "tear_item",
-            "wall_lumite_shattered_light"
+            "table_lumite",
+            "roof_lumite",
+            "wall_lumite_shattered_dark",
+            "stairs_lumite",
+            "chair_lumite",
+            "stairs_lumite_dark",
+            "rod_lumite",
+            "wall_lumite_shattered",
+            "door_lumite",
+            "stairs_lumite_light"
         ]
     },
     "wall_sci_fi_exterior01": {
         "id": "wall_sci_fi_exterior01",
         "name": "Galactic Hull",
         "icon": "wall_sci_fi_exterior01",
-        "namesearch": "hull wall_sci_fi_exterior01 galactic",
+        "namesearch": "galactic wall_sci_fi_exterior01 hull",
         "recipes": [
             {
                 "materials": [
@@ -23143,13 +27787,15 @@ var crafts = {
                 "station": "Backpack"
             }
         ],
-        "creates": []
+        "creates": [
+            "slab_sci_fi_exterior"
+        ]
     },
     "slab_obsidian": {
         "id": "slab_obsidian",
         "name": "Obsidian Slab",
         "icon": "slab_obsidian",
-        "namesearch": "obsidian slab slab_obsidian",
+        "namesearch": "slab obsidian slab_obsidian",
         "recipes": [
             {
                 "materials": [
@@ -23166,43 +27812,43 @@ var crafts = {
             }
         ],
         "creates": [
+            "roof_obsidian",
+            "wall_obsidian_checkered",
+            "gamer_monitor",
+            "inventory_sensor",
+            "gate_obsidian",
+            "actuator_item",
+            "arc_text_projector_item",
+            "stairs_sci_fi",
+            "wall_obsidian_brick",
+            "floor_roman_obsidian",
+            "table_obsidian",
+            "automation_portal",
+            "stairs_obsidian",
+            "gamer_joystick",
+            "focus_iron",
+            "rod_obsidian",
+            "chair_obsidian",
+            "pedistal_roman_obsidian_caskette",
+            "wall_obsidian_square",
+            "door_obsidian",
+            "sensor_item",
             "extractor_super",
             "healing_beacon",
-            "fence_obsidian",
-            "automation_portal",
-            "extractor_advanced",
-            "wall_obsidian_checkered",
-            "table_obsidian",
-            "gamer_joystick",
-            "arc_text_projector_item",
-            "led_sci_fi",
-            "focus_iron",
-            "sensor_item",
-            "wall_obsidian_square",
-            "sword_unicorn",
-            "actuator_item",
-            "gate_obsidian",
-            "inventory_sensor",
-            "roof_obsidian",
-            "floor_roman_obsidian",
-            "door_obsidian",
-            "chair_obsidian",
-            "gamer_monitor",
-            "teleporter_item",
-            "pedistal_roman_obsidian_caskette",
-            "stairs_obsidian",
             "wall_obsidian_rhombus",
-            "stairs_sci_fi",
+            "fence_obsidian",
+            "sword_unicorn",
+            "extractor_advanced",
             "gamer_keyboard",
-            "rod_obsidian",
-            "wall_obsidian_brick"
+            "teleporter_item",
+            "led_sci_fi"
         ]
     },
     "slope_sci_fi_exterior": {
         "id": "slope_sci_fi_exterior",
         "name": "Galactic Hull Slope",
         "icon": "slope_sci_fi_exterior",
-        "namesearch": "slope slope_sci_fi_exterior hull galactic",
+        "namesearch": "galactic slope hull slope_sci_fi_exterior",
         "recipes": [
             {
                 "materials": [
@@ -23231,15 +27877,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_sci_fi_exterior_outer_corner",
-            "slope_sci_fi_exterior_inner_corner"
+            "slope_sci_fi_exterior_inner_corner",
+            "slope_sci_fi_exterior_outer_corner"
         ]
     },
     "slope_sci_fi_exterior_inner_corner": {
         "id": "slope_sci_fi_exterior_inner_corner",
         "name": "Galactic Hull Slope Inner Corner",
         "icon": "slope_sci_fi_exterior_inner_corner",
-        "namesearch": "slope_sci_fi_exterior_inner_corner galactic hull corner inner slope",
+        "namesearch": "galactic hull inner corner slope_sci_fi_exterior_inner_corner slope",
         "recipes": [
             {
                 "materials": [
@@ -23295,7 +27941,7 @@ var crafts = {
         "id": "slope_sci_fi_exterior_outer_corner",
         "name": "Galactic Hull Slope Outer Corner",
         "icon": "slope_sci_fi_exterior_outer_corner",
-        "namesearch": "galactic outer hull slope_sci_fi_exterior_outer_corner corner slope",
+        "namesearch": "galactic hull corner slope_sci_fi_exterior_outer_corner outer slope",
         "recipes": [
             {
                 "materials": [
@@ -23317,7 +27963,7 @@ var crafts = {
         "id": "slope_round_sci_fi_exterior",
         "name": "Galactic Rounded Slope",
         "icon": "slope_round_sci_fi_exterior",
-        "namesearch": "rounded slope slope_round_sci_fi_exterior galactic",
+        "namesearch": "galactic slope_round_sci_fi_exterior rounded slope",
         "recipes": [
             {
                 "materials": [
@@ -23351,7 +27997,7 @@ var crafts = {
         "id": "table_stone",
         "name": "Stone Table",
         "icon": "table_stone",
-        "namesearch": "table_stone stone table",
+        "namesearch": "table_stone table stone",
         "recipes": [
             {
                 "materials": [
@@ -23381,11 +28027,33 @@ var crafts = {
         ],
         "creates": []
     },
+    "slab_sci_fi_exterior": {
+        "id": "slab_sci_fi_exterior",
+        "name": "Galactic Hull Slab",
+        "icon": "slab_sci_fi_exterior",
+        "namesearch": "galactic slab slab_sci_fi_exterior hull",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wall_sci_fi_exterior01"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Processor"
+            }
+        ],
+        "creates": []
+    },
     "wall_adobe": {
         "id": "wall_adobe",
         "name": "Adobe Wall",
         "icon": "wall_adobeclay_white",
-        "namesearch": "wall wall_adobeclay_white adobe wall_adobe",
+        "namesearch": "wall adobe wall_adobeclay_white wall_adobe",
         "recipes": [
             {
                 "materials": [
@@ -23422,15 +28090,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_adobeclay_white",
-            "slab_adobeclay_white"
+            "slab_adobeclay_white",
+            "slope_adobeclay_white"
         ]
     },
     "switch_sci_fi": {
         "id": "switch_sci_fi",
         "name": "Galactic Terminal",
         "icon": "switch_sci_fi",
-        "namesearch": "terminal switch_sci_fi galactic",
+        "namesearch": "switch_sci_fi galactic terminal",
         "recipes": [
             {
                 "materials": [
@@ -23464,7 +28132,7 @@ var crafts = {
         "id": "wall_adobe_blue",
         "name": "Blue Adobe Wall",
         "icon": "wall_adobeclay_blue",
-        "namesearch": "blue adobe wall_adobe_blue wall_adobeclay_blue wall",
+        "namesearch": "wall_adobe_blue wall blue wall_adobeclay_blue adobe",
         "recipes": [
             {
                 "materials": [
@@ -23507,15 +28175,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_adobeclay_blue",
-            "slab_adobeclay_blue"
+            "slab_adobeclay_blue",
+            "slope_adobeclay_blue"
         ]
     },
     "container_sci_fi": {
         "id": "container_sci_fi",
         "name": "Galactic Grav-Chamber",
         "icon": "container_sci_fi",
-        "namesearch": "grav-chamber container_sci_fi galactic",
+        "namesearch": "galactic grav-chamber container_sci_fi",
         "recipes": [
             {
                 "materials": [
@@ -23549,7 +28217,7 @@ var crafts = {
         "id": "wall_adobe_red",
         "name": "Red Adobe Wall",
         "icon": "wall_adobeclay_red",
-        "namesearch": "wall_adobeclay_red adobe wall_adobe_red red wall",
+        "namesearch": "wall_adobeclay_red red wall wall_adobe_red adobe",
         "recipes": [
             {
                 "materials": [
@@ -23592,15 +28260,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slab_adobeclay_red",
-            "slope_adobeclay_red"
+            "slope_adobeclay_red",
+            "slab_adobeclay_red"
         ]
     },
     "slope_sci_fi_pipe": {
         "id": "slope_sci_fi_pipe",
         "name": "Galactic Pipes",
         "icon": "slope_sci_fi_pipe",
-        "namesearch": "pipes slope_sci_fi_pipe galactic",
+        "namesearch": "slope_sci_fi_pipe galactic pipes",
         "recipes": [
             {
                 "materials": [
@@ -23634,7 +28302,7 @@ var crafts = {
         "id": "wall_adobe_yellow",
         "name": "Yellow Adobe Wall",
         "icon": "wall_adobeclay_yellow",
-        "namesearch": "wall_adobeclay_yellow yellow adobe wall wall_adobe_yellow",
+        "namesearch": "wall wall_adobe_yellow wall_adobeclay_yellow yellow adobe",
         "recipes": [
             {
                 "materials": [
@@ -23677,15 +28345,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "slab_adobeclay_yellow",
-            "slope_adobeclay_yellow"
+            "slope_adobeclay_yellow",
+            "slab_adobeclay_yellow"
         ]
     },
     "slope_sci_fi": {
         "id": "slope_sci_fi",
         "name": "Galactic Striped Wall Slope",
         "icon": "slope_sci_fi",
-        "namesearch": "slope_sci_fi galactic striped wall slope",
+        "namesearch": "wall galactic striped slope_sci_fi slope",
         "recipes": [
             {
                 "materials": [
@@ -23719,7 +28387,7 @@ var crafts = {
         "id": "wall_stone_block",
         "name": "Stone Block Wall",
         "icon": "wall_stone_block",
-        "namesearch": "stone wall_stone_block wall block",
+        "namesearch": "wall block wall_stone_block stone",
         "recipes": [
             {
                 "materials": [
@@ -23749,11 +28417,33 @@ var crafts = {
         ],
         "creates": []
     },
+    "slab_sci_fi": {
+        "id": "slab_sci_fi",
+        "name": "Galactic Slab",
+        "icon": "slab_sci_fi",
+        "namesearch": "galactic slab_sci_fi slab",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wall_sci_fi"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Processor"
+            }
+        ],
+        "creates": []
+    },
     "wall_stone_boulder": {
         "id": "wall_stone_boulder",
         "name": "Stone Boulder Wall",
         "icon": "wall_stone_boulder",
-        "namesearch": "stone wall boulder wall_stone_boulder",
+        "namesearch": "wall boulder wall_stone_boulder stone",
         "recipes": [
             {
                 "materials": [
@@ -23787,7 +28477,7 @@ var crafts = {
         "id": "window_sci_fi",
         "name": "Galactic Porthole",
         "icon": "window_sci_fi",
-        "namesearch": "porthole window_sci_fi galactic",
+        "namesearch": "galactic window_sci_fi porthole",
         "recipes": [
             {
                 "materials": [
@@ -23821,7 +28511,7 @@ var crafts = {
         "id": "wall_stone_cobble",
         "name": "Cobblestone",
         "icon": "wall_cobblestone",
-        "namesearch": "wall_cobblestone cobblestone wall_stone_cobble",
+        "namesearch": "wall_stone_cobble wall_cobblestone cobblestone",
         "recipes": [
             {
                 "materials": [
@@ -23857,7 +28547,7 @@ var crafts = {
         "id": "led_sci_fi",
         "name": "Galactic LED",
         "icon": "led_sci_fi",
-        "namesearch": "led_sci_fi galactic led",
+        "namesearch": "galactic led led_sci_fi",
         "recipes": [
             {
                 "materials": [
@@ -23891,7 +28581,7 @@ var crafts = {
         "id": "wall_stone_cobble_mossy",
         "name": "Mossy Cobblestone",
         "icon": "wall_cobblestone_mossy",
-        "namesearch": "wall_cobblestone_mossy mossy cobblestone wall_stone_cobble_mossy",
+        "namesearch": "mossy wall_cobblestone_mossy wall_stone_cobble_mossy cobblestone",
         "recipes": [
             {
                 "materials": [
@@ -23933,7 +28623,7 @@ var crafts = {
         "id": "slope_glass_moroccan",
         "name": "Reinforced Glass Slope",
         "icon": "slope_glass_moroccan",
-        "namesearch": "slope slope_glass_moroccan glass reinforced",
+        "namesearch": "reinforced glass slope_glass_moroccan slope",
         "recipes": [
             {
                 "materials": [
@@ -23958,7 +28648,7 @@ var crafts = {
         "id": "wall_stone_ornamental",
         "name": "Ornamental Stone Wall",
         "icon": "ornamental_stone_square",
-        "namesearch": "ornamental_stone_square wall_stone_ornamental ornamental stone wall",
+        "namesearch": "wall_stone_ornamental stone wall ornamental ornamental_stone_square",
         "recipes": [
             {
                 "materials": [
@@ -23992,7 +28682,7 @@ var crafts = {
         "id": "slope_glass_moroccan_inner_corner",
         "name": "Reinforced Glass Slope Inner Corner",
         "icon": "slope_glass_moroccan_inner_corner",
-        "namesearch": "slope_glass_moroccan_inner_corner reinforced corner inner glass slope",
+        "namesearch": "slope_glass_moroccan_inner_corner inner reinforced corner glass slope",
         "recipes": [
             {
                 "materials": [
@@ -24016,7 +28706,7 @@ var crafts = {
         "id": "wall_stone_ornamental_swirl",
         "name": "Ornamental Swirl Stone Wall",
         "icon": "ornamental_stone_swirl",
-        "namesearch": "swirl ornamental_stone_swirl wall_stone_ornamental_swirl ornamental stone wall",
+        "namesearch": "stone wall_stone_ornamental_swirl wall swirl ornamental ornamental_stone_swirl",
         "recipes": [
             {
                 "materials": [
@@ -24050,7 +28740,7 @@ var crafts = {
         "id": "slope_glass_moroccan_outer_corner",
         "name": "Reinforced Glass Slope Outer Corner",
         "icon": "slope_glass_moroccan_outer_corner",
-        "namesearch": "outer slope_glass_moroccan_outer_corner reinforced corner glass slope",
+        "namesearch": "slope_glass_moroccan_outer_corner reinforced corner glass outer slope",
         "recipes": [
             {
                 "materials": [
@@ -24072,7 +28762,7 @@ var crafts = {
         "id": "wall_stone_stacked",
         "name": "Stacked Stone Wall",
         "icon": "wall_stone_stacked",
-        "namesearch": "stone wall wall_stone_stacked stacked",
+        "namesearch": "stacked stone wall_stone_stacked wall",
         "recipes": [
             {
                 "materials": [
@@ -24152,7 +28842,7 @@ var crafts = {
         "id": "pumpkiru_chest_advanced_storage",
         "name": "Royal Pumpkin Chest",
         "icon": "chest_royal_pumpkin_storage",
-        "namesearch": "chest pumpkiru_chest_advanced_storage pumpkin royal chest_royal_pumpkin_storage",
+        "namesearch": "pumpkin chest_royal_pumpkin_storage royal pumpkiru_chest_advanced_storage chest",
         "recipes": [
             {
                 "materials": [
@@ -24192,7 +28882,7 @@ var crafts = {
         "id": "pumpkiru_chest_super_storage",
         "name": "Pumpkiru's King Chest",
         "icon": "chest_pumpkiru_king_storage",
-        "namesearch": "chest king pumpkiru_chest_super_storage chest_pumpkiru_king_storage pumpkiru's",
+        "namesearch": "pumpkiru's king chest_pumpkiru_king_storage chest pumpkiru_chest_super_storage",
         "recipes": [
             {
                 "materials": [
@@ -24232,7 +28922,7 @@ var crafts = {
         "id": "bomb_halloween_flare",
         "name": "Scare Flare",
         "icon": "grenade_scare_flare",
-        "namesearch": "flare grenade_scare_flare bomb_halloween_flare scare",
+        "namesearch": "bomb_halloween_flare grenade_scare_flare flare scare",
         "recipes": [
             {
                 "materials": [
@@ -24266,7 +28956,7 @@ var crafts = {
         "id": "wall_roman_limestone_leafcrown",
         "name": "Chiseled Limestone Laurel Accent",
         "icon": "wall_roman_limestone_leafcrown",
-        "namesearch": "chiseled laurel accent wall_roman_limestone_leafcrown limestone",
+        "namesearch": "chiseled accent limestone laurel wall_roman_limestone_leafcrown",
         "recipes": [
             {
                 "materials": [
@@ -24300,7 +28990,7 @@ var crafts = {
         "id": "bomb_halloween_skull",
         "name": "Flaming Skull",
         "icon": "grenade_skull",
-        "namesearch": "flaming skull bomb_halloween_skull grenade_skull",
+        "namesearch": "grenade_skull flaming bomb_halloween_skull skull",
         "recipes": [
             {
                 "materials": [
@@ -24340,7 +29030,7 @@ var crafts = {
         "id": "wall_roman_limestone_maze",
         "name": "Chiseled Limestone Spiral Accent",
         "icon": "wall_roman_limestone_maze",
-        "namesearch": "chiseled wall_roman_limestone_maze accent spiral limestone",
+        "namesearch": "chiseled wall_roman_limestone_maze accent limestone spiral",
         "recipes": [
             {
                 "materials": [
@@ -24374,7 +29064,7 @@ var crafts = {
         "id": "bomb_halloween_bats",
         "name": "Vlad-a-rang",
         "icon": "grenade_bat",
-        "namesearch": "grenade_bat vlad-a-rang bomb_halloween_bats",
+        "namesearch": "vlad-a-rang grenade_bat bomb_halloween_bats",
         "recipes": [
             {
                 "materials": [
@@ -24414,7 +29104,7 @@ var crafts = {
         "id": "wall_roman_limestone_pillar",
         "name": "Chiseled Limestone Column",
         "icon": "wall_roman_limestone_pillar",
-        "namesearch": "chiseled wall_roman_limestone_pillar column limestone",
+        "namesearch": "column limestone wall_roman_limestone_pillar chiseled",
         "recipes": [
             {
                 "materials": [
@@ -24494,7 +29184,7 @@ var crafts = {
         "id": "wall_roman_limestone_pillarcrown",
         "name": "Chiseled Limestone Accent",
         "icon": "wall_roman_limestone_pillarcrown",
-        "namesearch": "chiseled accent wall_roman_limestone_pillarcrown limestone",
+        "namesearch": "accent limestone chiseled wall_roman_limestone_pillarcrown",
         "recipes": [
             {
                 "materials": [
@@ -24528,7 +29218,7 @@ var crafts = {
         "id": "light_candy_skull",
         "name": "Candy Skull Candles",
         "icon": "light_candy_skull",
-        "namesearch": "candy candles skull light_candy_skull",
+        "namesearch": "light_candy_skull candles skull candy",
         "recipes": [
             {
                 "materials": [
@@ -24574,7 +29264,7 @@ var crafts = {
         "id": "extractor",
         "name": "Extractor",
         "icon": "extractor_arctek",
-        "namesearch": "extractor extractor_arctek",
+        "namesearch": "extractor_arctek extractor",
         "recipes": [
             {
                 "materials": [
@@ -24602,7 +29292,7 @@ var crafts = {
         "id": "banner_candy_skull",
         "name": "Candy Skull Banner",
         "icon": "banner_candy_skull",
-        "namesearch": "candy skull banner_candy_skull banner",
+        "namesearch": "banner banner_candy_skull skull candy",
         "recipes": [
             {
                 "materials": [
@@ -24642,7 +29332,7 @@ var crafts = {
         "id": "focus_diamond",
         "name": "Diamond Mining Cell",
         "icon": "gauntlet_diamond",
-        "namesearch": "cell diamond mining focus_diamond gauntlet_diamond",
+        "namesearch": "gauntlet_diamond mining focus_diamond cell diamond",
         "recipes": [
             {
                 "materials": [
@@ -24688,7 +29378,7 @@ var crafts = {
         "id": "statue_candy_skull",
         "name": "Candy Skull Statue",
         "icon": "candy_skull",
-        "namesearch": "statue_candy_skull candy_skull skull statue candy",
+        "namesearch": "statue_candy_skull candy statue skull candy_skull",
         "recipes": [
             {
                 "materials": [
@@ -24736,7 +29426,7 @@ var crafts = {
         "id": "focus_iron",
         "name": "Iron Mining Cell",
         "icon": "gauntlet_iron",
-        "namesearch": "cell mining focus_iron gauntlet_iron iron",
+        "namesearch": "focus_iron iron mining gauntlet_iron cell",
         "recipes": [
             {
                 "materials": [
@@ -24782,7 +29472,7 @@ var crafts = {
         "id": "light_candy_skull_red",
         "name": "Red Candy Skull Candle",
         "icon": "light_candy_skull_red",
-        "namesearch": "candle light_candy_skull_red skull red candy",
+        "namesearch": "red candy skull light_candy_skull_red candle",
         "recipes": [
             {
                 "materials": [
@@ -24822,7 +29512,7 @@ var crafts = {
         "id": "focus_lumite",
         "name": "Lumite Mining Cell",
         "icon": "gauntlet_lumite",
-        "namesearch": "cell lumite mining gauntlet_lumite focus_lumite",
+        "namesearch": "gauntlet_lumite focus_lumite mining cell lumite",
         "recipes": [
             {
                 "materials": [
@@ -24868,7 +29558,7 @@ var crafts = {
         "id": "light_candy_skull_blue",
         "name": "Blue Candy Skull Candle",
         "icon": "light_candy_skull_blue",
-        "namesearch": "candle blue skull candy light_candy_skull_blue",
+        "namesearch": "light_candy_skull_blue candy blue skull candle",
         "recipes": [
             {
                 "materials": [
@@ -24908,7 +29598,7 @@ var crafts = {
         "id": "focus_obsidian",
         "name": "Obsidian Mining Cell",
         "icon": "gauntlet_obsidian",
-        "namesearch": "cell gauntlet_obsidian mining focus_obsidian obsidian",
+        "namesearch": "obsidian focus_obsidian mining cell gauntlet_obsidian",
         "recipes": [
             {
                 "materials": [
@@ -24956,7 +29646,7 @@ var crafts = {
         "id": "light_candy_skull_yellow",
         "name": "Yellow Candy Skull Candle",
         "icon": "light_candy_skull_yellow",
-        "namesearch": "yellow candle skull light_candy_skull_yellow candy",
+        "namesearch": "candy yellow skull candle light_candy_skull_yellow",
         "recipes": [
             {
                 "materials": [
@@ -24996,7 +29686,7 @@ var crafts = {
         "id": "focus_stone",
         "name": "Stone Mining Cell",
         "icon": "gauntlet_stone",
-        "namesearch": "cell mining gauntlet_stone focus_stone stone",
+        "namesearch": "gauntlet_stone stone mining focus_stone cell",
         "recipes": [
             {
                 "materials": [
@@ -25052,7 +29742,7 @@ var crafts = {
         "id": "column_leaves_shredded",
         "name": "Shredded Leaves Column",
         "icon": "column_block_thatched",
-        "namesearch": "column column_leaves_shredded leaves column_block_thatched shredded",
+        "namesearch": "column column_block_thatched column_leaves_shredded shredded leaves",
         "recipes": [
             {
                 "materials": [
@@ -25074,7 +29764,7 @@ var crafts = {
         "id": "moroccan_decorative_tile_mosaic",
         "name": "Desert Villa Mosaic Wall",
         "icon": "moroccan_decorative_tile_mosaic",
-        "namesearch": "moroccan_decorative_tile_mosaic mosaic desert wall villa",
+        "namesearch": "moroccan_decorative_tile_mosaic desert wall mosaic villa",
         "recipes": [
             {
                 "materials": [
@@ -25114,7 +29804,7 @@ var crafts = {
         "id": "column_thatched",
         "name": "Thatched Column",
         "icon": "column_thatched",
-        "namesearch": "column_thatched column thatched",
+        "namesearch": "column column_thatched thatched",
         "recipes": [
             {
                 "materials": [
@@ -25136,7 +29826,7 @@ var crafts = {
         "id": "moroccan_decorative_tile_star",
         "name": "Desert Villa Accent Wall",
         "icon": "moroccan_decorative_tile_star",
-        "namesearch": "moroccan_decorative_tile_star desert accent wall villa",
+        "namesearch": "moroccan_decorative_tile_star desert wall accent villa",
         "recipes": [
             {
                 "materials": [
@@ -25170,7 +29860,7 @@ var crafts = {
         "id": "column_wood",
         "name": "Wood Column",
         "icon": "column_wood",
-        "namesearch": "column_wood wood column",
+        "namesearch": "column wood column_wood",
         "recipes": [
             {
                 "materials": [
@@ -25192,7 +29882,7 @@ var crafts = {
         "id": "moroccan_decorative_tile_turqoise",
         "name": "Tiled Desert Villa Wall",
         "icon": "moroccan_decorative_tile_turqoise",
-        "namesearch": "moroccan_decorative_tile_turqoise desert tiled wall villa",
+        "namesearch": "moroccan_decorative_tile_turqoise desert wall tiled villa",
         "recipes": [
             {
                 "materials": [
@@ -25232,7 +29922,7 @@ var crafts = {
         "id": "column_wood_red",
         "name": "Red Wood Column",
         "icon": "column_wood_red",
-        "namesearch": "column_wood_red wood column red",
+        "namesearch": "column wood red column_wood_red",
         "recipes": [
             {
                 "materials": [
@@ -25254,7 +29944,7 @@ var crafts = {
         "id": "moroccan_decorative_tile_blue",
         "name": "Blue Patterned Ceramic Wall",
         "icon": "moroccan_decorative_tile_blue",
-        "namesearch": "ceramic patterned blue moroccan_decorative_tile_blue wall",
+        "namesearch": "ceramic wall blue patterned moroccan_decorative_tile_blue",
         "recipes": [
             {
                 "materials": [
@@ -25294,7 +29984,7 @@ var crafts = {
         "id": "column_wood_blue",
         "name": "Blue Wood Column",
         "icon": "column_wood_blue",
-        "namesearch": "column_wood_blue wood column blue",
+        "namesearch": "column wood blue column_wood_blue",
         "recipes": [
             {
                 "materials": [
@@ -25316,7 +30006,7 @@ var crafts = {
         "id": "moroccan_decorative_tile_white",
         "name": "Opalescent Ceramic Wall",
         "icon": "moroccan_decorative_tile_white",
-        "namesearch": "moroccan_decorative_tile_white wall opalescent ceramic",
+        "namesearch": "wall ceramic opalescent moroccan_decorative_tile_white",
         "recipes": [
             {
                 "materials": [
@@ -25356,7 +30046,7 @@ var crafts = {
         "id": "column_wood_yellow",
         "name": "Yellow Wood Column",
         "icon": "column_wood_yellow",
-        "namesearch": "yellow column_wood_yellow column wood",
+        "namesearch": "column wood column_wood_yellow yellow",
         "recipes": [
             {
                 "materials": [
@@ -25378,7 +30068,7 @@ var crafts = {
         "id": "moroccan_decorative_tile_gem",
         "name": "Blue-Green Patterned Ceramic Wall",
         "icon": "moroccan_decorative_tile_gem",
-        "namesearch": "moroccan_decorative_tile_gem ceramic blue-green patterned wall",
+        "namesearch": "ceramic moroccan_decorative_tile_gem blue-green wall patterned",
         "recipes": [
             {
                 "materials": [
@@ -25418,7 +30108,7 @@ var crafts = {
         "id": "column_stone_stacked",
         "name": "Stacked Stone Column",
         "icon": "column_stone_stacked",
-        "namesearch": "column_stone_stacked column stacked stone",
+        "namesearch": "stacked column stone column_stone_stacked",
         "recipes": [
             {
                 "materials": [
@@ -25440,7 +30130,7 @@ var crafts = {
         "id": "column_obsidian_brick",
         "name": "Obsidian Column",
         "icon": "column_obsidian_brick",
-        "namesearch": "obsidian column column_obsidian_brick",
+        "namesearch": "column column_obsidian_brick obsidian",
         "recipes": [
             {
                 "materials": [
@@ -25462,7 +30152,7 @@ var crafts = {
         "id": "torch",
         "name": "Moss Torch",
         "icon": "torch_moss",
-        "namesearch": "torch moss torch_moss",
+        "namesearch": "torch torch_moss moss",
         "recipes": [
             {
                 "materials": [
@@ -25500,7 +30190,7 @@ var crafts = {
         "id": "column_roman_limestone_basic",
         "name": "Limestone Column",
         "icon": "column_roman_limestone_basic",
-        "namesearch": "column column_roman_limestone_basic limestone",
+        "namesearch": "column_roman_limestone_basic column limestone",
         "recipes": [
             {
                 "materials": [
@@ -25522,7 +30212,7 @@ var crafts = {
         "id": "extractor_advanced",
         "name": "Advanced Extractor",
         "icon": "extractor_advanced",
-        "namesearch": "extractor extractor_advanced advanced",
+        "namesearch": "advanced extractor extractor_advanced",
         "recipes": [
             {
                 "materials": [
@@ -25550,7 +30240,7 @@ var crafts = {
         "id": "column_roman_bedrock_square",
         "name": "Bedrock Column",
         "icon": "column_roman_bedrock",
-        "namesearch": "column_roman_bedrock column_roman_bedrock_square column bedrock",
+        "namesearch": "column bedrock column_roman_bedrock column_roman_bedrock_square",
         "recipes": [
             {
                 "materials": [
@@ -25572,7 +30262,7 @@ var crafts = {
         "id": "floor_stone_decorativecarved",
         "name": "Carved Stone Floor",
         "icon": "floor_stone_decoratedcarved",
-        "namesearch": "floor floor_stone_decoratedcarved carved floor_stone_decorativecarved stone",
+        "namesearch": "stone carved floor_stone_decoratedcarved floor floor_stone_decorativecarved",
         "recipes": [
             {
                 "materials": [
@@ -25612,7 +30302,7 @@ var crafts = {
         "id": "column_roman_limestone_straight_cylinder",
         "name": "Straight Limestone Column",
         "icon": "column_roman_limestone_straight",
-        "namesearch": "column straight column_roman_limestone_straight column_roman_limestone_straight_cylinder limestone",
+        "namesearch": "column column_roman_limestone_straight_cylinder column_roman_limestone_straight straight limestone",
         "recipes": [
             {
                 "materials": [
@@ -25634,7 +30324,7 @@ var crafts = {
         "id": "squitchy_jerky",
         "name": "Questionable Jerky",
         "icon": "jerky",
-        "namesearch": "jerky questionable squitchy_jerky",
+        "namesearch": "questionable jerky squitchy_jerky",
         "recipes": [
             {
                 "materials": [
@@ -25664,33 +30354,38 @@ var crafts = {
             }
         ],
         "creates": [
-            "sandwich_wholesome",
-            "soup_corrupted",
-            "soup_blazing",
-            "soup_tar",
-            "sandwich_jerky",
-            "pie",
-            "soup_bog",
-            "sandwich",
+            "soup_wholesome",
             "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
             "sandwich_corrupted",
+            "soup_tar",
+            "pie_corrupted",
             "sandwich_bog",
+            "pie_wholesome",
+            "food_sushi_karrotfish",
             "pie_jerky",
+            "pie_blazing",
+            "pie",
+            "mystery_meal",
+            "sandwich_blazing",
+            "sandwich_wholesome",
             "soup_jerky",
             "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
-            "soup_wholesome",
-            "mystery_meal",
-            "pie_blazing",
-            "pie_wholesome"
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "soup_bog",
+            "food_baked_hog",
+            "sandwich_jerky",
+            "soup_blazing",
+            "food_egg_skillet"
         ]
     },
     "column_roman_limestone_spiral_cylinder": {
         "id": "column_roman_limestone_spiral_cylinder",
         "name": "Spiral Limestone Column",
         "icon": "column_roman_limestone_spiral_cylinder",
-        "namesearch": "column_roman_limestone_spiral_cylinder column spiral limestone",
+        "namesearch": "column limestone spiral column_roman_limestone_spiral_cylinder",
         "recipes": [
             {
                 "materials": [
@@ -25712,7 +30407,7 @@ var crafts = {
         "id": "torch_coal",
         "name": "Coal Torch",
         "icon": "torch_coal",
-        "namesearch": "coal torch torch_coal",
+        "namesearch": "torch_coal torch coal",
         "recipes": [
             {
                 "materials": [
@@ -25740,7 +30435,7 @@ var crafts = {
         "id": "column_moroccan_iron",
         "name": "Iron Column",
         "icon": "column_moroccan_iron",
-        "namesearch": "column_moroccan_iron column iron",
+        "namesearch": "column column_moroccan_iron iron",
         "recipes": [
             {
                 "materials": [
@@ -25762,7 +30457,7 @@ var crafts = {
         "id": "lamp_wood",
         "name": "Wood Burning Lamp",
         "icon": "lamp_wood_burning",
-        "namesearch": "lamp_wood burning lamp_wood_burning lamp wood",
+        "namesearch": "lamp burning lamp_wood_burning wood lamp_wood",
         "recipes": [
             {
                 "materials": [
@@ -25802,7 +30497,7 @@ var crafts = {
         "id": "column_igneous",
         "name": "Igneous Column",
         "icon": "column_igneous",
-        "namesearch": "column_igneous column igneous",
+        "namesearch": "column igneous column_igneous",
         "recipes": [
             {
                 "materials": [
@@ -25864,7 +30559,7 @@ var crafts = {
         "id": "column_hardened_lava_brick",
         "name": "Hardened Lava Column",
         "icon": "column_hardened_lava_brick",
-        "namesearch": "column hardened column_hardened_lava_brick lava",
+        "namesearch": "column column_hardened_lava_brick hardened lava",
         "recipes": [
             {
                 "materials": [
@@ -25886,7 +30581,7 @@ var crafts = {
         "id": "seed_horned_melon",
         "name": "Horned Melon Seed",
         "icon": "horned_melon_seed",
-        "namesearch": "seed_horned_melon horned_melon_seed melon horned seed",
+        "namesearch": "melon horned_melon_seed seed_horned_melon seed horned",
         "recipes": [
             {
                 "materials": [
@@ -25908,7 +30603,7 @@ var crafts = {
         "id": "column_glass_diamond",
         "name": "Diamond Column",
         "icon": "column_glass_diamond",
-        "namesearch": "column diamond column_glass_diamond",
+        "namesearch": "column column_glass_diamond diamond",
         "recipes": [
             {
                 "materials": [
@@ -25930,7 +30625,7 @@ var crafts = {
         "id": "seed_turnip",
         "name": "Turnip Seed",
         "icon": "turnip_seed",
-        "namesearch": "seed_turnip turnip turnip_seed seed",
+        "namesearch": "turnip seed_turnip seed turnip_seed",
         "recipes": [
             {
                 "materials": [
@@ -25952,7 +30647,7 @@ var crafts = {
         "id": "column_corrupted_stone",
         "name": "Corrupted Stone Column",
         "icon": "column_corrupted_stone",
-        "namesearch": "stone corrupted column_corrupted_stone column",
+        "namesearch": "column corrupted stone column_corrupted_stone",
         "recipes": [
             {
                 "materials": [
@@ -25974,7 +30669,7 @@ var crafts = {
         "id": "seed_lettuce",
         "name": "Lettuce Seed",
         "icon": "lettuce_seed",
-        "namesearch": "seed_lettuce lettuce seed lettuce_seed",
+        "namesearch": "seed_lettuce lettuce lettuce_seed seed",
         "recipes": [
             {
                 "materials": [
@@ -25996,7 +30691,7 @@ var crafts = {
         "id": "column_lumite_beveled",
         "name": "Beveled Lumite Column",
         "icon": "column_lumite_beveled",
-        "namesearch": "lumite column column_lumite_beveled beveled",
+        "namesearch": "column beveled lumite column_lumite_beveled",
         "recipes": [
             {
                 "materials": [
@@ -26018,7 +30713,7 @@ var crafts = {
         "id": "seed_wheat",
         "name": "Wheat Seed",
         "icon": "wheat_seed",
-        "namesearch": "wheat_seed seed_wheat seed wheat",
+        "namesearch": "wheat seed_wheat seed wheat_seed",
         "recipes": [
             {
                 "materials": [
@@ -26040,7 +30735,7 @@ var crafts = {
         "id": "wall_ice_rocky",
         "name": "Rocky Ice Wall",
         "icon": "wall_ice_rocky",
-        "namesearch": "wall wall_ice_rocky ice rocky",
+        "namesearch": "wall ice rocky wall_ice_rocky",
         "recipes": [
             {
                 "materials": [
@@ -26068,7 +30763,7 @@ var crafts = {
         "id": "wall_igneous_block",
         "name": "Igneous Block Wall",
         "icon": "wall_igneous_block",
-        "namesearch": "wall_igneous_block block igneous wall",
+        "namesearch": "wall igneous block wall_igneous_block",
         "recipes": [
             {
                 "materials": [
@@ -26108,7 +30803,7 @@ var crafts = {
         "id": "wall_ice_rocky_snow",
         "name": "Snowcapped Ice Wall",
         "icon": "wall_ice_rocky_snow",
-        "namesearch": "wall_ice_rocky_snow wall snowcapped ice",
+        "namesearch": "wall snowcapped ice wall_ice_rocky_snow",
         "recipes": [
             {
                 "materials": [
@@ -26142,7 +30837,7 @@ var crafts = {
         "id": "wall_hardened_lava_stacked",
         "name": "Stacked Hardened Lava Wall",
         "icon": "wall_hardened_lava_stacked",
-        "namesearch": "lava wall_hardened_lava_stacked stacked wall hardened",
+        "namesearch": "wall hardened wall_hardened_lava_stacked stacked lava",
         "recipes": [
             {
                 "materials": [
@@ -26182,7 +30877,7 @@ var crafts = {
         "id": "door_ice",
         "name": "Ice Door",
         "icon": "gate_ice",
-        "namesearch": "door_ice door ice gate_ice",
+        "namesearch": "gate_ice door_ice ice door",
         "recipes": [
             {
                 "materials": [
@@ -26216,7 +30911,7 @@ var crafts = {
         "id": "wall_hardened_lava_inlay",
         "name": "Hardened Lava Inlay Wall",
         "icon": "wall_hardened_lava_inlay",
-        "namesearch": "lava inlay wall hardened wall_hardened_lava_inlay",
+        "namesearch": "wall hardened wall_hardened_lava_inlay inlay lava",
         "recipes": [
             {
                 "materials": [
@@ -26256,7 +30951,7 @@ var crafts = {
         "id": "column_ice_rocky",
         "name": "Rocky Ice Column",
         "icon": "column_ice",
-        "namesearch": "column column_ice_rocky column_ice ice rocky",
+        "namesearch": "column rocky column_ice column_ice_rocky ice",
         "recipes": [
             {
                 "materials": [
@@ -26340,7 +31035,7 @@ var crafts = {
         "id": "excavator_advanced",
         "name": "Advanced Excavator",
         "icon": "excavator_advanced",
-        "namesearch": "excavator_advanced excavator advanced",
+        "namesearch": "advanced excavator excavator_advanced",
         "recipes": [
             {
                 "materials": [
@@ -26374,7 +31069,7 @@ var crafts = {
         "id": "vines_ice",
         "name": "Ice Vines",
         "icon": "vine_ice",
-        "namesearch": "vines vine_ice ice vines_ice",
+        "namesearch": "vines_ice vine_ice vines ice",
         "recipes": [
             {
                 "materials": [
@@ -26402,7 +31097,7 @@ var crafts = {
         "id": "bomb_shard",
         "name": "Explosive Bomb",
         "icon": "grenade_shard",
-        "namesearch": "grenade_shard bomb bomb_shard explosive",
+        "namesearch": "grenade_shard bomb_shard bomb explosive",
         "recipes": [
             {
                 "materials": [
@@ -26436,7 +31131,7 @@ var crafts = {
         "id": "crystals_ice",
         "name": "Ice Crystals",
         "icon": "crystals_ice",
-        "namesearch": "ice crystals_ice crystals",
+        "namesearch": "ice crystals crystals_ice",
         "recipes": [
             {
                 "materials": [
@@ -26464,7 +31159,7 @@ var crafts = {
         "id": "bomb_stun",
         "name": "Stun Bomb",
         "icon": "grenade_stun",
-        "namesearch": "grenade_stun bomb_stun stun bomb",
+        "namesearch": "grenade_stun bomb stun bomb_stun",
         "recipes": [
             {
                 "materials": [
@@ -26498,7 +31193,7 @@ var crafts = {
         "id": "bomb_blizzard",
         "name": "Blizzard Bomb",
         "icon": "bomb_blizzard",
-        "namesearch": "bomb blizzard bomb_blizzard",
+        "namesearch": "blizzard bomb bomb_blizzard",
         "recipes": [
             {
                 "materials": [
@@ -26532,7 +31227,7 @@ var crafts = {
         "id": "bomb_snowflake",
         "name": "Shur-Ice-N",
         "icon": "bomb_snowflake",
-        "namesearch": "bomb_snowflake shur-ice-n",
+        "namesearch": "shur-ice-n bomb_snowflake",
         "recipes": [
             {
                 "materials": [
@@ -26600,7 +31295,7 @@ var crafts = {
         "id": "extractor_super",
         "name": "Super Extractor",
         "icon": "extractor_super",
-        "namesearch": "extractor extractor_super super",
+        "namesearch": "extractor_super extractor super",
         "recipes": [
             {
                 "materials": [
@@ -26628,7 +31323,7 @@ var crafts = {
         "id": "torch_arctek_01",
         "name": "Arctek Torch",
         "icon": "torch_arctek_01",
-        "namesearch": "torch torch_arctek_01 arctek",
+        "namesearch": "arctek torch torch_arctek_01",
         "recipes": [
             {
                 "materials": [
@@ -26678,7 +31373,7 @@ var crafts = {
         "id": "lantern_arctek_01",
         "name": "Arctek Lantern",
         "icon": "lantern_arctek_01",
-        "namesearch": "lantern arctek lantern_arctek_01",
+        "namesearch": "arctek lantern lantern_arctek_01",
         "recipes": [
             {
                 "materials": [
@@ -26734,7 +31429,7 @@ var crafts = {
         "id": "chest_arctek_01",
         "name": "Arctek Chest",
         "icon": "chest_arctek_01",
-        "namesearch": "arctek chest chest_arctek_01",
+        "namesearch": "arctek chest_arctek_01 chest",
         "recipes": [
             {
                 "materials": [
@@ -26768,7 +31463,7 @@ var crafts = {
         "id": "fireworks_holiday",
         "name": "New Years Fireworks",
         "icon": "fireworks_holiday",
-        "namesearch": "fireworks new fireworks_holiday years",
+        "namesearch": "new fireworks years fireworks_holiday",
         "recipes": [
             {
                 "materials": [
@@ -26808,7 +31503,7 @@ var crafts = {
         "id": "excavator_super",
         "name": "Super Excavator",
         "icon": "excavator_super",
-        "namesearch": "excavator excavator_super super",
+        "namesearch": "super excavator excavator_super",
         "recipes": [
             {
                 "materials": [
@@ -26842,7 +31537,7 @@ var crafts = {
         "id": "container_ice",
         "name": "Frozen Container",
         "icon": "container_ice",
-        "namesearch": "container_ice frozen container",
+        "namesearch": "container_ice container frozen",
         "recipes": [
             {
                 "materials": [
@@ -26864,7 +31559,7 @@ var crafts = {
         "id": "beacon_red",
         "name": "Red Beacon",
         "icon": "beacon_red",
-        "namesearch": "red beacon beacon_red",
+        "namesearch": "beacon red beacon_red",
         "recipes": [
             {
                 "materials": [
@@ -26904,7 +31599,7 @@ var crafts = {
         "id": "turret_snow_item",
         "name": "Snowball Turret",
         "icon": "turret_holiday",
-        "namesearch": "snowball turret_holiday turret_snow_item turret",
+        "namesearch": "turret_holiday turret_snow_item snowball turret",
         "recipes": [
             {
                 "materials": [
@@ -26944,7 +31639,7 @@ var crafts = {
         "id": "beacon_blue",
         "name": "Blue Beacon",
         "icon": "beacon_blue",
-        "namesearch": "beacon_blue blue beacon",
+        "namesearch": "beacon beacon_blue blue",
         "recipes": [
             {
                 "materials": [
@@ -26984,7 +31679,7 @@ var crafts = {
         "id": "container_tree",
         "name": "Holiday Decorative Tree",
         "icon": "tree_holiday_deco",
-        "namesearch": "tree holiday container_tree tree_holiday_deco decorative",
+        "namesearch": "decorative holiday container_tree tree tree_holiday_deco",
         "recipes": [
             {
                 "materials": [
@@ -27072,7 +31767,7 @@ var crafts = {
         "id": "bed_ice",
         "name": "Ice Bed",
         "icon": "bed_ice",
-        "namesearch": "bed_ice bed ice",
+        "namesearch": "bed ice bed_ice",
         "recipes": [
             {
                 "materials": [
@@ -27106,7 +31801,7 @@ var crafts = {
         "id": "beacon_white",
         "name": "White Beacon",
         "icon": "beacon_white",
-        "namesearch": "beacon_white white beacon",
+        "namesearch": "beacon_white beacon white",
         "recipes": [
             {
                 "materials": [
@@ -27140,7 +31835,7 @@ var crafts = {
         "id": "container_snow",
         "name": "Snow Burried Container",
         "icon": "container_snow",
-        "namesearch": "snow burried container_snow container",
+        "namesearch": "container_snow container burried snow",
         "recipes": [
             {
                 "materials": [
@@ -27185,48 +31880,48 @@ var crafts = {
             }
         ],
         "creates": [
-            "pumpkin_haunted",
-            "statue_candy_skull",
-            "bone_broth",
-            "deathstatue",
-            "fossils",
-            "light_candy_skull_red",
-            "bomb_defoliage",
-            "roof_haunted",
-            "lamp_haunted",
-            "gravestone_haunted_02",
-            "bomb_halloween_skull",
             "light_candy_skull_blue",
-            "helmet_leather",
-            "bomb_halloween_bats",
-            "fireworks_halloween",
-            "breastplate_leather",
-            "sword_obsidian",
-            "pumpkiru_chest_super_storage",
-            "stairs_haunted",
+            "fossils",
+            "deathstatue",
             "spawner_mob_item",
+            "fireworks_halloween",
             "pumpkiru_chest_advanced_storage",
-            "skull_haunted",
-            "leggings_leather",
             "floor_haunted",
-            "soup",
+            "pumpkin_haunted",
+            "bomb_halloween_skull",
+            "gravestone_haunted_02",
+            "bomb_halloween_bats",
+            "sword_obsidian",
+            "roof_haunted",
             "sword_stone",
-            "bomb_halloween_flare",
+            "stairs_haunted",
+            "lamp_haunted",
+            "skull_haunted",
+            "light_candy_skull_red",
             "stairs_haunted_carpet",
-            "wall_haunted",
-            "door_wood_haunted",
-            "gravestone_haunted_01",
-            "light_candy_skull_yellow",
-            "wall_haunted_stone",
+            "pumpkiru_chest_super_storage",
+            "armguards_leather",
             "banner_candy_skull",
-            "armguards_leather"
+            "helmet_leather",
+            "light_candy_skull_yellow",
+            "soup",
+            "statue_candy_skull",
+            "bomb_halloween_flare",
+            "wall_haunted_stone",
+            "bomb_defoliage",
+            "wall_haunted",
+            "gravestone_haunted_01",
+            "door_wood_haunted",
+            "bone_broth",
+            "breastplate_leather",
+            "leggings_leather"
         ]
     },
     "stairs_ice": {
         "id": "stairs_ice",
         "name": "Ice Stairs",
         "icon": "stairs_ice",
-        "namesearch": "stairs ice stairs_ice",
+        "namesearch": "stairs_ice ice stairs",
         "recipes": [
             {
                 "materials": [
@@ -27257,7 +31952,7 @@ var crafts = {
         "id": "crystal_shard",
         "name": "Crystal Shard",
         "icon": "crystal_shard",
-        "namesearch": "crystal shard crystal_shard",
+        "namesearch": "crystal crystal_shard shard",
         "recipes": [
             {
                 "materials": [
@@ -27274,25 +31969,25 @@ var crafts = {
             }
         ],
         "creates": [
-            "bomb_peircing",
-            "bomb_halloween_bats",
-            "bomb_shard",
             "medieval_haystack",
             "regenerate_health_basic",
-            "wall_atlantis_tile",
-            "sword_unicorn",
+            "bomb_peircing",
             "bomb_snowflake",
-            "stairs_atlantis",
-            "container_sci_fi",
+            "sword_unicorn",
+            "bomb_shard",
+            "corrupt_obelisk",
             "torch_sci_fi",
-            "corrupt_obelisk"
+            "wall_atlantis_tile",
+            "container_sci_fi",
+            "bomb_halloween_bats",
+            "stairs_atlantis"
         ]
     },
     "stairs_ice_inner_corner": {
         "id": "stairs_ice_inner_corner",
         "name": "Ice Stairs Inner Corner",
         "icon": "stairs_ice_inner_corner",
-        "namesearch": "corner ice inner stairs stairs_ice_inner_corner",
+        "namesearch": "stairs_ice_inner_corner inner corner ice stairs",
         "recipes": [
             {
                 "materials": [
@@ -27331,39 +32026,39 @@ var crafts = {
             }
         ],
         "creates": [
-            "bomb_fire",
+            "fireworks_red_item",
+            "bomb_snowflake",
+            "tnt",
+            "bomb_poison",
+            "fireworks_halloween",
             "bomb_halloween_skull",
-            "bomb_blizzard",
+            "excavator_super",
             "bomb_halloween_bats",
             "fireworks_yellow_item",
-            "fireworks_halloween",
-            "excavator_super",
-            "fireworks_holiday",
-            "bomb_snowflake",
-            "bomb_corrupt",
+            "fireworks_blue_item",
             "bomb_uncorrupt",
-            "bomb_force",
-            "tnt_tier2_item",
+            "bomb_stun",
+            "bomb_freeze",
             "bomb_peircing",
-            "bomb_shard",
+            "turret_snow_item",
+            "bomb_fire",
+            "tnt_tier2_item",
+            "bomb_corrupt",
             "tnt_tier3_item",
             "excavator",
-            "bomb_stun",
-            "tnt_tier1_large_item",
-            "turret_snow_item",
             "excavator_advanced",
-            "fireworks_blue_item",
-            "bomb_poison",
-            "tnt",
-            "fireworks_red_item",
-            "bomb_freeze"
+            "fireworks_holiday",
+            "tnt_tier1_large_item",
+            "bomb_shard",
+            "bomb_force",
+            "bomb_blizzard"
         ]
     },
     "stairs_ice_outer_corner": {
         "id": "stairs_ice_outer_corner",
         "name": "Ice Stairs Outer Corner",
         "icon": "stairs_ice_outer_corner",
-        "namesearch": "outer stairs_ice_outer_corner corner ice stairs",
+        "namesearch": "stairs_ice_outer_corner corner outer ice stairs",
         "recipes": [
             {
                 "materials": [
@@ -27385,7 +32080,7 @@ var crafts = {
         "id": "ice_slope_inner_corner",
         "name": "Ice Slope Inner Corner",
         "icon": "slope_ice_inner_corner",
-        "namesearch": "ice_slope_inner_corner corner ice inner slope_ice_inner_corner slope",
+        "namesearch": "ice_slope_inner_corner inner corner slope_ice_inner_corner ice slope",
         "recipes": [
             {
                 "materials": [
@@ -27407,7 +32102,7 @@ var crafts = {
         "id": "fire_pit",
         "name": "Fire Pit",
         "icon": "fire_pit",
-        "namesearch": "fire_pit fire pit",
+        "namesearch": "fire fire_pit pit",
         "recipes": [
             {
                 "materials": [
@@ -27447,7 +32142,7 @@ var crafts = {
         "id": "ice_slope_outer_corner",
         "name": "Ice Slope Outer Corner",
         "icon": "slope_ice_outer_corner",
-        "namesearch": "outer slope_ice_outer_corner ice_slope_outer_corner corner ice slope",
+        "namesearch": "corner ice_slope_outer_corner slope_ice_outer_corner ice outer slope",
         "recipes": [
             {
                 "materials": [
@@ -27469,7 +32164,7 @@ var crafts = {
         "id": "planter_wood",
         "name": "Wood Planter",
         "icon": "planter_wood_single",
-        "namesearch": "planter_wood_single wood planter_wood planter",
+        "namesearch": "planter_wood wood planter planter_wood_single",
         "recipes": [
             {
                 "materials": [
@@ -27509,7 +32204,7 @@ var crafts = {
         "id": "music_box",
         "name": "Holiday Music Box",
         "icon": "music_box_holiday",
-        "namesearch": "music holiday music_box box music_box_holiday",
+        "namesearch": "music_box holiday box music_box_holiday music",
         "recipes": [
             {
                 "materials": [
@@ -27565,7 +32260,7 @@ var crafts = {
         "id": "snowman",
         "name": "Blocky the Snowman",
         "icon": "snowman",
-        "namesearch": "blocky snowman the",
+        "namesearch": "snowman the blocky",
         "recipes": [
             {
                 "materials": [
@@ -27599,7 +32294,7 @@ var crafts = {
         "id": "chest_valentines",
         "name": "Heart-Shaped Box",
         "icon": "chest_valentines",
-        "namesearch": "heart-shaped box chest_valentines",
+        "namesearch": "box heart-shaped chest_valentines",
         "recipes": [
             {
                 "materials": [
@@ -27657,7 +32352,7 @@ var crafts = {
         "id": "lantern_chinese_dog",
         "name": "Year of the Dog Lantern",
         "icon": "lantern_chinese_dog",
-        "namesearch": "year dog the lantern_chinese_dog lantern of",
+        "namesearch": "lantern the of lantern_chinese_dog year dog",
         "recipes": [
             {
                 "materials": [
@@ -27751,7 +32446,7 @@ var crafts = {
         "id": "wall_wood_red_chinese",
         "name": "Forbidden Red Wood Wall",
         "icon": "wall_wood_red_chinese",
-        "namesearch": "wall_wood_red_chinese forbidden red wall wood",
+        "namesearch": "wall_wood_red_chinese red wall forbidden wood",
         "recipes": [
             {
                 "materials": [
@@ -27784,16 +32479,17 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_wood_red_chinese",
+            "column_wood_red_chinese",
             "slab_wood_red_chinese",
-            "column_wood_red_chinese"
+            "stairs_wood_red_chinese",
+            "slope_wood_red_chinese"
         ]
     },
     "fireworks_red_item": {
         "id": "fireworks_red_item",
         "name": "Red Fireworks",
         "icon": "firework_red",
-        "namesearch": "firework_red fireworks fireworks_red_item red",
+        "namesearch": "firework_red fireworks_red_item red fireworks",
         "recipes": [
             {
                 "materials": [
@@ -27829,11 +32525,36 @@ var crafts = {
         ],
         "creates": []
     },
+    "slope_wood_red_chinese": {
+        "id": "slope_wood_red_chinese",
+        "name": "Forbidden Red Wood Slope",
+        "icon": "slope_wood_red_chinese",
+        "namesearch": "red forbidden slope_wood_red_chinese wood slope",
+        "recipes": [
+            {
+                "materials": [
+                    {
+                        "valid_items": [
+                            "wall_wood_red_chinese"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "count": 2,
+                "time": 0,
+                "station": "Processor"
+            }
+        ],
+        "creates": [
+            "slope_wood_red_chinese_outer_corner",
+            "slope_wood_red_chinese_inner_corner"
+        ]
+    },
     "fireworks_blue_item": {
         "id": "fireworks_blue_item",
         "name": "Blue Fireworks",
         "icon": "firework_blue",
-        "namesearch": "fireworks fireworks_blue_item blue firework_blue",
+        "namesearch": "fireworks_blue_item firework_blue blue fireworks",
         "recipes": [
             {
                 "materials": [
@@ -27873,7 +32594,7 @@ var crafts = {
         "id": "slope_wood_red_chinese_inner_corner",
         "name": "Forbidden Red Wood Inner Corner",
         "icon": "slope_wood_red_chinese_inner_corner",
-        "namesearch": "forbidden red slope_wood_red_chinese_inner_corner corner inner wood",
+        "namesearch": "red forbidden inner wood corner slope_wood_red_chinese_inner_corner",
         "recipes": [
             {
                 "materials": [
@@ -27895,7 +32616,7 @@ var crafts = {
         "id": "fireworks_yellow_item",
         "name": "Yellow Fireworks",
         "icon": "firework_yellow",
-        "namesearch": "yellow fireworks_yellow_item firework_yellow fireworks",
+        "namesearch": "firework_yellow fireworks yellow fireworks_yellow_item",
         "recipes": [
             {
                 "materials": [
@@ -27935,7 +32656,7 @@ var crafts = {
         "id": "slope_wood_red_chinese_outer_corner",
         "name": "Forbidden Red Wood Outer Corner",
         "icon": "slope_wood_red_chinese_outer_corner",
-        "namesearch": "outer forbidden red corner wood slope_wood_red_chinese_outer_corner",
+        "namesearch": "red slope_wood_red_chinese_outer_corner forbidden wood corner outer",
         "recipes": [
             {
                 "materials": [
@@ -27957,7 +32678,7 @@ var crafts = {
         "id": "column_wood_red_chinese",
         "name": "Forbidden Red Wood Column",
         "icon": "column_wood_red_chinese",
-        "namesearch": "column column_wood_red_chinese forbidden red wood",
+        "namesearch": "column red column_wood_red_chinese forbidden wood",
         "recipes": [
             {
                 "materials": [
@@ -27979,7 +32700,7 @@ var crafts = {
         "id": "roof_chinese_red",
         "name": "Forbidden Red Shingles",
         "icon": "roof_chinese_red",
-        "namesearch": "shingles red roof_chinese_red forbidden",
+        "namesearch": "forbidden shingles roof_chinese_red red",
         "recipes": [
             {
                 "materials": [
@@ -28025,7 +32746,7 @@ var crafts = {
         "id": "roof_chinese_red_inner_corner",
         "name": "Forbidden Red Roof Inner Corner",
         "icon": "roof_chinese_red_inner_corner",
-        "namesearch": "forbidden red corner inner roof_chinese_red_inner_corner roof",
+        "namesearch": "red roof forbidden roof_chinese_red_inner_corner inner corner",
         "recipes": [
             {
                 "materials": [
@@ -28047,7 +32768,7 @@ var crafts = {
         "id": "roof_chinese_red_outer_corner",
         "name": "Forbidden Red Roof Outer Corner",
         "icon": "roof_chinese_red_outer_corner",
-        "namesearch": "outer forbidden red corner roof_chinese_red_outer_corner roof",
+        "namesearch": "red roof roof_chinese_red_outer_corner forbidden corner outer",
         "recipes": [
             {
                 "materials": [
@@ -28069,7 +32790,7 @@ var crafts = {
         "id": "roof_chinese_jade",
         "name": "Forbidden Jade Shingles",
         "icon": "roof_chinese_jade",
-        "namesearch": "roof_chinese_jade shingles jade forbidden",
+        "namesearch": "roof_chinese_jade shingles forbidden jade",
         "recipes": [
             {
                 "materials": [
@@ -28115,7 +32836,7 @@ var crafts = {
         "id": "roof_chinese_jade_inner_corner",
         "name": "Forbidden Jade Roof Inner Corner",
         "icon": "roof_chinese_jade_inner_corner",
-        "namesearch": "jade forbidden roof_chinese_jade_inner_corner corner inner roof",
+        "namesearch": "roof forbidden inner jade roof_chinese_jade_inner_corner corner",
         "recipes": [
             {
                 "materials": [
@@ -28137,7 +32858,7 @@ var crafts = {
         "id": "roof_chinese_jade_outer_corner",
         "name": "Forbidden Jade Roof Outer Corner",
         "icon": "roof_chinese_jade_outer_corner",
-        "namesearch": "roof_chinese_jade_outer_corner jade outer forbidden corner roof",
+        "namesearch": "roof forbidden roof_chinese_jade_outer_corner jade corner outer",
         "recipes": [
             {
                 "materials": [
@@ -28159,7 +32880,7 @@ var crafts = {
         "id": "roof_slope_chinese_red",
         "name": "Forbidden Red Shingled Roof",
         "icon": "roof_slope_chinese_red",
-        "namesearch": "forbidden shingled roof_slope_chinese_red red roof",
+        "namesearch": "red roof forbidden roof_slope_chinese_red shingled",
         "recipes": [
             {
                 "materials": [
@@ -28184,7 +32905,7 @@ var crafts = {
         "id": "regenerate_health_basic",
         "name": "Health Regeneration Potion",
         "icon": "potion_health",
-        "namesearch": "potion potion_health health regenerate_health_basic regeneration",
+        "namesearch": "regenerate_health_basic regeneration potion health potion_health",
         "recipes": [
             {
                 "materials": [
@@ -28218,7 +32939,7 @@ var crafts = {
         "id": "roof_slope_chinese_jade",
         "name": "Forbidden Jade Roof",
         "icon": "roof_slope_chinese_jade",
-        "namesearch": "roof jade roof_slope_chinese_jade forbidden",
+        "namesearch": "forbidden roof_slope_chinese_jade roof jade",
         "recipes": [
             {
                 "materials": [
@@ -28243,7 +32964,7 @@ var crafts = {
         "id": "regenerate_stamina_basic",
         "name": "Stamina Regeneration Potion",
         "icon": "potion_stamina",
-        "namesearch": "potion potion_stamina stamina regenerate_stamina_basic regeneration",
+        "namesearch": "potion_stamina regeneration potion stamina regenerate_stamina_basic",
         "recipes": [
             {
                 "materials": [
@@ -28290,7 +33011,7 @@ var crafts = {
         "id": "window_chinese",
         "name": "Forbidden Window",
         "icon": "window_chinese",
-        "namesearch": "window_chinese window forbidden",
+        "namesearch": "window_chinese forbidden window",
         "recipes": [
             {
                 "materials": [
@@ -28318,7 +33039,7 @@ var crafts = {
         "id": "resist_poison_basic",
         "name": "Poison Resistance Potion",
         "icon": "potion_shield_posion",
-        "namesearch": "potion resist_poison_basic resistance poison potion_shield_posion",
+        "namesearch": "poison potion potion_shield_posion resistance resist_poison_basic",
         "recipes": [
             {
                 "materials": [
@@ -28352,7 +33073,7 @@ var crafts = {
         "id": "lattice_chinese",
         "name": "Forbidden Window Lattice",
         "icon": "lattice_chinese",
-        "namesearch": "lattice lattice_chinese window forbidden",
+        "namesearch": "forbidden lattice_chinese lattice window",
         "recipes": [
             {
                 "materials": [
@@ -28402,7 +33123,7 @@ var crafts = {
         "id": "weapon_rack_stone",
         "name": "Stone Weapon Rack",
         "icon": "armor_rack_stone",
-        "namesearch": "rack armor_rack_stone weapon stone weapon_rack_stone",
+        "namesearch": "armor_rack_stone stone weapon weapon_rack_stone rack",
         "recipes": [
             {
                 "materials": [
@@ -28442,7 +33163,7 @@ var crafts = {
         "id": "roof_asphault_outer_corner",
         "name": "Asphalt Slope Outer Corner",
         "icon": "roof_asphault_outer_corner",
-        "namesearch": "outer roof_asphault_outer_corner corner asphalt slope",
+        "namesearch": "roof_asphault_outer_corner asphalt corner outer slope",
         "recipes": [
             {
                 "materials": [
@@ -28464,7 +33185,7 @@ var crafts = {
         "id": "wall_shelf_stone",
         "name": "Stone Wall Shelf",
         "icon": "wall_shelf_stone",
-        "namesearch": "stone wall shelf wall_shelf_stone",
+        "namesearch": "wall shelf wall_shelf_stone stone",
         "recipes": [
             {
                 "materials": [
@@ -28498,7 +33219,7 @@ var crafts = {
         "id": "roof_asphault_inner_corner",
         "name": "Asphalt Slope Inner Corner",
         "icon": "roof_asphault_inner_corner",
-        "namesearch": "roof_asphault_inner_corner corner inner asphalt slope",
+        "namesearch": "roof_asphault_inner_corner asphalt inner corner slope",
         "recipes": [
             {
                 "materials": [
@@ -28542,7 +33263,7 @@ var crafts = {
         "id": "slope_asphault",
         "name": "Asphalt Slope",
         "icon": "slope_asphault",
-        "namesearch": "slope_asphault asphalt slope",
+        "namesearch": "asphalt slope slope_asphault",
         "recipes": [
             {
                 "materials": [
@@ -28559,15 +33280,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_asphault_outer_corner",
-            "roof_asphault_inner_corner"
+            "roof_asphault_inner_corner",
+            "roof_asphault_outer_corner"
         ]
     },
     "column_roman_limestone_staight": {
         "id": "column_roman_limestone_staight",
         "name": "Straight Limestone",
         "icon": "column_roman_limestone_staight",
-        "namesearch": "straight column_roman_limestone_staight limestone",
+        "namesearch": "straight limestone column_roman_limestone_staight",
         "recipes": [
             {
                 "materials": [
@@ -28603,7 +33324,7 @@ var crafts = {
         "id": "lattice_stone",
         "name": "Stone Window Lattice",
         "icon": "window_stone_lattice",
-        "namesearch": "lattice_stone window_stone_lattice stone lattice window",
+        "namesearch": "stone lattice window_stone_lattice lattice_stone window",
         "recipes": [
             {
                 "materials": [
@@ -28631,7 +33352,7 @@ var crafts = {
         "id": "column_roman_limestone_spiral",
         "name": "Spiral Limestone",
         "icon": "column_roman_limestone_spiral",
-        "namesearch": "spiral column_roman_limestone_spiral limestone",
+        "namesearch": "column_roman_limestone_spiral limestone spiral",
         "recipes": [
             {
                 "materials": [
@@ -28673,7 +33394,7 @@ var crafts = {
         "id": "stairs_asphault",
         "name": "Asphalt Stairs",
         "icon": "stairs_asphault",
-        "namesearch": "stairs asphalt stairs_asphault",
+        "namesearch": "stairs_asphault asphalt stairs",
         "recipes": [
             {
                 "materials": [
@@ -28710,7 +33431,7 @@ var crafts = {
         "id": "floor_roman_obsidian",
         "name": "Obsidian Floor",
         "icon": "floor_roman_obsidian",
-        "namesearch": "floor obsidian floor_roman_obsidian",
+        "namesearch": "floor_roman_obsidian obsidian floor",
         "recipes": [
             {
                 "materials": [
@@ -28744,7 +33465,7 @@ var crafts = {
         "id": "stairs_asphault_inner_corner",
         "name": "Asphalt Stairs Inner Corner",
         "icon": "stairs_asphault_inner_corner",
-        "namesearch": "stairs_asphault_inner_corner corner inner asphalt stairs",
+        "namesearch": "stairs_asphault_inner_corner asphalt inner corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -28766,7 +33487,7 @@ var crafts = {
         "id": "pedistal_roman_limestone_grass",
         "name": "Limestone Pedestal",
         "icon": "pedistal_roman_limestone_grass",
-        "namesearch": "pedestal pedistal_roman_limestone_grass limestone",
+        "namesearch": "limestone pedistal_roman_limestone_grass pedestal",
         "recipes": [
             {
                 "materials": [
@@ -28806,7 +33527,7 @@ var crafts = {
         "id": "stairs_asphault_outer_corner",
         "name": "Asphalt Stairs Outer Corner",
         "icon": "stairs_asphault_outer_corner",
-        "namesearch": "outer corner stairs_asphault_outer_corner asphalt stairs",
+        "namesearch": "asphalt stairs_asphault_outer_corner corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -28828,7 +33549,7 @@ var crafts = {
         "id": "roof_roman_limestone_halfgable",
         "name": "Limestone Roof",
         "icon": "roof_roman_limestone_halfgable",
-        "namesearch": "roof_roman_limestone_halfgable roof limestone",
+        "namesearch": "limestone roof_roman_limestone_halfgable roof",
         "recipes": [
             {
                 "materials": [
@@ -28857,15 +33578,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_roman_limestone_halfgable_inner_corner",
-            "roof_roman_limestone_halfgable_outer_corner"
+            "roof_roman_limestone_halfgable_outer_corner",
+            "roof_roman_limestone_halfgable_inner_corner"
         ]
     },
     "glob_goo_orange": {
         "id": "glob_goo_orange",
         "name": "Glob of Goo",
         "icon": "globgooorange",
-        "namesearch": "glob_goo_orange goo globgooorange glob of",
+        "namesearch": "glob globgooorange of glob_goo_orange goo",
         "recipes": [
             {
                 "materials": [
@@ -28890,7 +33611,7 @@ var crafts = {
         "id": "wall_roman_bedrock_square",
         "name": "Bedrock Wall",
         "icon": "wall_roman_bedrock_square",
-        "namesearch": "bedrock wall_roman_bedrock_square wall",
+        "namesearch": "wall wall_roman_bedrock_square bedrock",
         "recipes": [
             {
                 "materials": [
@@ -28919,16 +33640,16 @@ var crafts = {
             }
         ],
         "creates": [
-            "column_roman_bedrock_square",
+            "slab_bedrock",
             "slope_bedrock",
-            "slab_bedrock"
+            "column_roman_bedrock_square"
         ]
     },
     "glob_goo_purple": {
         "id": "glob_goo_purple",
         "name": "Glob of Goo",
         "icon": "globgoopurple",
-        "namesearch": "glob_goo_purple goo glob of globgoopurple",
+        "namesearch": "glob globgoopurple of glob_goo_purple goo",
         "recipes": [
             {
                 "materials": [
@@ -28954,7 +33675,7 @@ var crafts = {
         "id": "wall_roman_limestone_basic",
         "name": "Limestone Wall",
         "icon": "wall_roman_limestone_basic",
-        "namesearch": "wall wall_roman_limestone_basic limestone",
+        "namesearch": "wall limestone wall_roman_limestone_basic",
         "recipes": [
             {
                 "materials": [
@@ -28983,16 +33704,16 @@ var crafts = {
             }
         ],
         "creates": [
-            "slab_limestone",
             "column_roman_limestone_basic",
-            "slope_limestone"
+            "slope_limestone",
+            "slab_limestone"
         ]
     },
     "glob_goo": {
         "id": "glob_goo",
         "name": "Glob of Goo",
         "icon": "globgoo",
-        "namesearch": "glob_goo goo glob of globgoo",
+        "namesearch": "glob of globgoo goo glob_goo",
         "recipes": [
             {
                 "materials": [
@@ -29009,117 +33730,117 @@ var crafts = {
             }
         ],
         "creates": [
-            "statue_candy_skull",
-            "stairs_brick_retro",
-            "glass_tourmaline_watermelon",
-            "floor_adobe_blue",
-            "flower_retro",
-            "grass_retro",
-            "wall_furnace_aztec",
-            "gift_box_red",
-            "moroccan_decorative_tile_blue",
-            "wall_lumite_shattered_light",
-            "wood_retro",
-            "door_diamond",
-            "tnt_tier2_item",
-            "wall_lumite_shattered",
-            "tnt_tier3_item",
-            "wall_gold_banded",
-            "concrete_yellow",
-            "bathroom_bathtub",
-            "cauldron_goo_green",
-            "glass_diamond",
-            "stairs_lumite",
-            "wall_subway_tile",
-            "floor_stone_decorative",
-            "glass_tourmaline_green",
-            "bathroom_soap",
-            "wall_brick_retro",
-            "wall_lumite_beveled",
-            "moroccan_decorative_tile_star",
-            "stairs_iron",
-            "wall_iron_bars",
-            "wall_roman_limestone_leafcrown",
-            "pipe_retro",
-            "bathroom_sink",
-            "arc_text_projector_item",
-            "fireworks_halloween",
-            "wall_furnace_cross",
-            "gift_box_blue",
-            "wall_obsidian_square",
-            "picture_frame_item",
-            "stairs_diamond",
-            "statue_retro",
-            "frieze_roman_limestone_leaf",
-            "moroccan_decorative_tile_gem",
-            "industrial_barricade",
-            "block_goo_orange",
-            "table_lumite",
-            "kitchen_cabinet",
-            "wall_diamond_octagon",
-            "door_obsidian",
-            "roof_diamond",
-            "capital_roman_bedrock_laurel",
-            "kitchen_sink",
-            "wall_obsidian_rhombus",
-            "wall_lumite_shattered_dark",
-            "door_lumite",
-            "wall_roman_limestone_pillarcrown",
-            "roof_chinese_jade",
-            "floor_linoleum_tile",
-            "exclamation_retro",
             "floor_adobe_yellow",
+            "wall_obsidian_checkered",
+            "fireworks_halloween",
+            "asphault_item",
+            "wall_diamond_star",
+            "gift_box_red",
+            "table_lumite",
+            "kitchen_sink",
+            "wall_roman_limestone_pillarcrown",
+            "sand_retro",
+            "stairs_brick_retro",
+            "window_bars",
+            "banner_candy_skull",
+            "wall_moroccan_iron_curl",
+            "door_obsidian",
+            "bathroom_sink",
+            "wall_subway_tile",
+            "wall_obsidian_rhombus",
+            "tnt_tier1_large_item",
+            "chest_arctek_02",
+            "block_goo_orange",
+            "wall_gold_banded",
+            "glass_tourmaline_watermelon",
+            "door_diamond",
+            "dirt_retro",
+            "wall_furnace_aztec",
+            "glass_tourmaline_green",
+            "floor_adobe_red",
+            "cauldron_goo_green",
+            "wall_lumite_shattered_dark",
+            "wall_lumite_shattered",
+            "wall_diamond_octagon",
+            "wall_lumite_shattered_light",
+            "bathroom_bathtub",
             "mushroom_retro",
-            "moroccan_decorative_tile_white",
-            "concrete_red",
-            "wall_diamond_square",
-            "wall_gold_studded",
-            "bomb_halloween_skull",
+            "frieze_roman_limestone_leaf",
+            "table_arctek_03",
+            "grass_retro",
+            "moroccan_decorative_tile_gem",
+            "moroccan_decorative_tile_star",
+            "wall_furnace_cross",
+            "floor_adobe_blue",
+            "wall_lumite_beveled",
+            "wall_obsidian_square",
+            "arc_vault",
+            "glass_diamond",
+            "roof_diamond",
+            "wall_hardened_lava_brick",
+            "tnt_tier3_item",
+            "moroccan_decorative_tile_blue",
             "wall_lumite_light",
-            "concrete_blue",
+            "moroccan_decorative_tile_white",
+            "capital_roman_bedrock_laurel",
+            "industrial_barricade",
+            "concrete_red",
+            "statue_candy_skull",
+            "kitchen_cabinet",
+            "flytrap_retro",
+            "floor_stone_decorative",
+            "tnt",
+            "roof_chinese_jade",
+            "wall_roman_limestone_leafcrown",
             "bomb_retro",
+            "wall_lumite_dark",
+            "roof_iron",
+            "bathroom_toilet",
+            "stairs_iron",
+            "stairs_lumite",
+            "floor_linoleum_tile",
+            "leaves_retro",
+            "picture_frame_item",
+            "block_goo_green",
+            "wall_iron_bars",
+            "tnt_tier2_item",
+            "wall_diamond_square",
+            "chair_lumite",
+            "salt_item",
+            "statue_retro",
+            "stone_retro",
+            "exclamation_retro",
             "chair_diamond",
             "moroccan_decorative_tile_mosaic",
-            "floor_adobe_red",
-            "chair_lumite",
-            "window_bars",
-            "wall_diamond_star",
-            "wall_moroccan_iron_curl",
-            "leaves_retro",
-            "sand_retro",
-            "wall_lumite_dark",
-            "asphault_item",
-            "wall_hardened_lava_brick",
+            "pipe_retro",
             "star_retro",
-            "block_goo_purple",
-            "wall_obsidian_checkered",
-            "block_goo_green",
-            "flytrap_retro",
-            "bathroom_toilet",
-            "chest_arctek_02",
-            "arc_vault",
-            "gift_box_green",
-            "lava_retro",
-            "roof_iron",
-            "dirt_retro",
-            "pedistal_roman_obsidian_caskette",
-            "floor_stone_decorativecarved",
-            "table_arctek_03",
-            "tnt_tier1_large_item",
+            "bomb_halloween_skull",
+            "gift_box_blue",
             "wall_furnace_grate",
-            "stone_retro",
-            "salt_item",
-            "banner_candy_skull",
+            "arc_text_projector_item",
+            "wall_obsidian_brick",
+            "bathroom_soap",
+            "lava_retro",
+            "wall_gold_studded",
+            "gift_box_green",
+            "door_lumite",
+            "wood_retro",
+            "pedistal_roman_obsidian_caskette",
+            "flower_retro",
             "table_diamond",
-            "tnt",
-            "wall_obsidian_brick"
+            "stairs_diamond",
+            "block_goo_purple",
+            "concrete_blue",
+            "wall_brick_retro",
+            "concrete_yellow",
+            "floor_stone_decorativecarved"
         ]
     },
     "wall_roman_limestone_decorative_corners": {
         "id": "wall_roman_limestone_decorative_corners",
         "name": "Carved Limestone Wall",
         "icon": "wall_roman_limestone_decorative_corners",
-        "namesearch": "carved wall_roman_limestone_decorative_corners wall limestone",
+        "namesearch": "carved limestone wall wall_roman_limestone_decorative_corners",
         "recipes": [
             {
                 "materials": [
@@ -29159,7 +33880,7 @@ var crafts = {
         "id": "slope_snow",
         "name": "Snow Slope",
         "icon": "slope_snow",
-        "namesearch": "snow slope_snow slope",
+        "namesearch": "slope snow slope_snow",
         "recipes": [
             {
                 "materials": [
@@ -29176,8 +33897,8 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_snow_outer_corner",
             "slope_snow_inner_corner",
+            "slope_snow_outer_corner",
             "slope_round_snow"
         ]
     },
@@ -29185,7 +33906,7 @@ var crafts = {
         "id": "chest_arctek_02",
         "name": "Grand Arctek Chest",
         "icon": "chest_arctek_02",
-        "namesearch": "chest grand chest_arctek_02 arctek",
+        "namesearch": "grand arctek chest_arctek_02 chest",
         "recipes": [
             {
                 "materials": [
@@ -29225,7 +33946,7 @@ var crafts = {
         "id": "slope_snow_inner_corner",
         "name": "Snow Slope Inner Corner",
         "icon": "slope_snow_inner_corner",
-        "namesearch": "snow corner inner slope_snow_inner_corner slope",
+        "namesearch": "slope_snow_inner_corner snow inner corner slope",
         "recipes": [
             {
                 "materials": [
@@ -29247,7 +33968,7 @@ var crafts = {
         "id": "torch_arctek_02",
         "name": "Grand Arctek Torch",
         "icon": "torch_arctek_02",
-        "namesearch": "torch grand arctek torch_arctek_02",
+        "namesearch": "grand arctek torch torch_arctek_02",
         "recipes": [
             {
                 "materials": [
@@ -29281,7 +34002,7 @@ var crafts = {
         "id": "slope_snow_outer_corner",
         "name": "Snow Slope Outer Corner",
         "icon": "slope_snow_outer_corner",
-        "namesearch": "snow outer corner slope_snow_outer_corner slope",
+        "namesearch": "snow corner slope_snow_outer_corner outer slope",
         "recipes": [
             {
                 "materials": [
@@ -29303,7 +34024,7 @@ var crafts = {
         "id": "lantern_arctek_02",
         "name": "Grand Arctek Lantern",
         "icon": "lantern_arctek_02",
-        "namesearch": "lantern grand arctek lantern_arctek_02",
+        "namesearch": "grand arctek lantern_arctek_02 lantern",
         "recipes": [
             {
                 "materials": [
@@ -29343,7 +34064,7 @@ var crafts = {
         "id": "slab_snow",
         "name": "Snow Slab",
         "icon": "slab_snow",
-        "namesearch": "slab_snow slab snow",
+        "namesearch": "slab snow slab_snow",
         "recipes": [
             {
                 "materials": [
@@ -29365,7 +34086,7 @@ var crafts = {
         "id": "table_arctek_01",
         "name": "Arctek Table",
         "icon": "table_arctek_01",
-        "namesearch": "table table_arctek_01 arctek",
+        "namesearch": "arctek table table_arctek_01",
         "recipes": [
             {
                 "materials": [
@@ -29399,7 +34120,7 @@ var crafts = {
         "id": "stairs_snow",
         "name": "Snow Stairs",
         "icon": "stairs_snow",
-        "namesearch": "snow stairs_snow stairs",
+        "namesearch": "stairs_snow snow stairs",
         "recipes": [
             {
                 "materials": [
@@ -29416,15 +34137,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_snow_outer_corner",
-            "stairs_snow_inner_corner"
+            "stairs_snow_inner_corner",
+            "stairs_snow_outer_corner"
         ]
     },
     "table_arctek_02": {
         "id": "table_arctek_02",
         "name": "Advanced Arctek Table",
         "icon": "table_arctek_02",
-        "namesearch": "table arctek advanced table_arctek_02",
+        "namesearch": "table_arctek_02 arctek advanced table",
         "recipes": [
             {
                 "materials": [
@@ -29464,7 +34185,7 @@ var crafts = {
         "id": "stairs_snow_inner_corner",
         "name": "Snow Stairs Inner Corner",
         "icon": "stairs_snow_inner_corner",
-        "namesearch": "snow corner inner stairs_snow_inner_corner stairs",
+        "namesearch": "snow inner corner stairs_snow_inner_corner stairs",
         "recipes": [
             {
                 "materials": [
@@ -29486,7 +34207,7 @@ var crafts = {
         "id": "table_arctek_03",
         "name": "Grand Arctek Table",
         "icon": "table_arctek_03",
-        "namesearch": "table grand arctek table_arctek_03",
+        "namesearch": "grand arctek table table_arctek_03",
         "recipes": [
             {
                 "materials": [
@@ -29526,7 +34247,7 @@ var crafts = {
         "id": "stairs_snow_outer_corner",
         "name": "Snow Stairs Outer Corner",
         "icon": "stairs_snow_outer_corner",
-        "namesearch": "snow outer stairs_snow_outer_corner corner stairs",
+        "namesearch": "snow stairs stairs_snow_outer_corner corner outer",
         "recipes": [
             {
                 "materials": [
@@ -29548,7 +34269,7 @@ var crafts = {
         "id": "sign_wood",
         "name": "Wood Sign",
         "icon": "sign_wood",
-        "namesearch": "sign wood sign_wood",
+        "namesearch": "wood sign sign_wood",
         "recipes": [
             {
                 "materials": [
@@ -29582,7 +34303,7 @@ var crafts = {
         "id": "slope_round_snow",
         "name": "Rounded Snow Slope",
         "icon": "slope_round_snow",
-        "namesearch": "snow slope slope_round_snow rounded",
+        "namesearch": "snow rounded slope_round_snow slope",
         "recipes": [
             {
                 "materials": [
@@ -29604,7 +34325,7 @@ var crafts = {
         "id": "window_stone",
         "name": "Stone Window",
         "icon": "windows_stone",
-        "namesearch": "stone window_stone window windows_stone",
+        "namesearch": "windows_stone window window_stone stone",
         "recipes": [
             {
                 "materials": [
@@ -29638,7 +34359,7 @@ var crafts = {
         "id": "column_snow",
         "name": "Snow Column",
         "icon": "column_snow",
-        "namesearch": "snow column_snow column",
+        "namesearch": "column snow column_snow",
         "recipes": [
             {
                 "materials": [
@@ -29660,7 +34381,7 @@ var crafts = {
         "id": "window_bars",
         "name": "Barred Window",
         "icon": "windows_stone_bars",
-        "namesearch": "barred windows_stone_bars window_bars window",
+        "namesearch": "window_bars windows_stone_bars barred window",
         "recipes": [
             {
                 "materials": [
@@ -29734,7 +34455,7 @@ var crafts = {
         "id": "wall_moroccan_iron",
         "name": "Iron Wall",
         "icon": "wall_moroccan_iron",
-        "namesearch": "wall wall_moroccan_iron iron",
+        "namesearch": "wall iron wall_moroccan_iron",
         "recipes": [
             {
                 "materials": [
@@ -29770,7 +34491,7 @@ var crafts = {
         "id": "snowball",
         "name": "Snowcube",
         "icon": "snowball",
-        "namesearch": "snowball snowcube",
+        "namesearch": "snowcube snowball",
         "recipes": [
             {
                 "materials": [
@@ -29792,7 +34513,7 @@ var crafts = {
         "id": "wall_moroccan_iron_curl",
         "name": "Curl Iron Wall",
         "icon": "wall_moroccan_iron_curl",
-        "namesearch": "wall_moroccan_iron_curl wall iron curl",
+        "namesearch": "wall curl iron wall_moroccan_iron_curl",
         "recipes": [
             {
                 "materials": [
@@ -29832,7 +34553,7 @@ var crafts = {
         "id": "capital_roman_bedrock_leaf",
         "name": "Imprinted Bedrock Wall",
         "icon": "capital_roman_bedrock_leaf",
-        "namesearch": "wall capital_roman_bedrock_leaf imprinted bedrock",
+        "namesearch": "imprinted capital_roman_bedrock_leaf bedrock wall",
         "recipes": [
             {
                 "materials": [
@@ -29875,7 +34596,7 @@ var crafts = {
         "id": "glass_moroccan",
         "name": "Reinforced Glass",
         "icon": "glass_moroccan",
-        "namesearch": "glass_moroccan glass reinforced",
+        "namesearch": "reinforced glass glass_moroccan",
         "recipes": [
             {
                 "materials": [
@@ -29905,7 +34626,7 @@ var crafts = {
         "id": "slope_lumite_beveled",
         "name": "Lumite Slope",
         "icon": "slope_lumite_bevel",
-        "namesearch": "slope_lumite_bevel lumite slope_lumite_beveled slope",
+        "namesearch": "slope slope_lumite_bevel lumite slope_lumite_beveled",
         "recipes": [
             {
                 "materials": [
@@ -29922,16 +34643,16 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_lumite_beveled_inner_corner",
+            "slope_round_lumite_beveled",
             "slope_lumite_beveled_outer_corner",
-            "slope_round_lumite_beveled"
+            "slope_lumite_beveled_inner_corner"
         ]
     },
     "ladder_stone": {
         "id": "ladder_stone",
         "name": "Stone Ladder",
         "icon": "ladder_stone",
-        "namesearch": "stone ladder ladder_stone",
+        "namesearch": "ladder ladder_stone stone",
         "recipes": [
             {
                 "materials": [
@@ -29965,7 +34686,7 @@ var crafts = {
         "id": "slope_lumite_beveled_inner_corner",
         "name": "Lumite Slope Inner Corner",
         "icon": "slope_lumite_bevel_inner_corner",
-        "namesearch": "lumite slope_lumite_beveled_inner_corner corner slope_lumite_bevel_inner_corner inner slope",
+        "namesearch": "slope_lumite_bevel_inner_corner slope_lumite_beveled_inner_corner inner corner lumite slope",
         "recipes": [
             {
                 "materials": [
@@ -29987,7 +34708,7 @@ var crafts = {
         "id": "glass_diamond",
         "name": "Diamond Glass",
         "icon": "glass_mosaic_diamond",
-        "namesearch": "glass_diamond diamond glass glass_mosaic_diamond",
+        "namesearch": "glass_mosaic_diamond glass glass_diamond diamond",
         "recipes": [
             {
                 "materials": [
@@ -30023,7 +34744,7 @@ var crafts = {
         "id": "slope_lumite_beveled_outer_corner",
         "name": "Lumite Slope Outer Corner",
         "icon": "slope_lumite_bevel_outer_corner",
-        "namesearch": "lumite slope_lumite_bevel_outer_corner outer corner slope_lumite_beveled_outer_corner slope",
+        "namesearch": "corner slope_lumite_bevel_outer_corner slope_lumite_beveled_outer_corner lumite outer slope",
         "recipes": [
             {
                 "materials": [
@@ -30045,7 +34766,7 @@ var crafts = {
         "id": "glass_tourmaline_watermelon",
         "name": "Tourmaline Glass",
         "icon": "glass_mosaic_tourmaline",
-        "namesearch": "tourmaline glass_mosaic_tourmaline glass glass_tourmaline_watermelon",
+        "namesearch": "glass_mosaic_tourmaline glass tourmaline glass_tourmaline_watermelon",
         "recipes": [
             {
                 "materials": [
@@ -30079,7 +34800,7 @@ var crafts = {
         "id": "slab_lumite_beveled",
         "name": "Beveled Lumite Slab",
         "icon": "slab_lumite_bevel",
-        "namesearch": "lumite slab_lumite_beveled slab_lumite_bevel slab beveled",
+        "namesearch": "slab_lumite_bevel slab beveled slab_lumite_beveled lumite",
         "recipes": [
             {
                 "materials": [
@@ -30101,7 +34822,7 @@ var crafts = {
         "id": "glass_tourmaline_green",
         "name": "Green Tourmaline Glass",
         "icon": "glass_mosaic_tourmaline_green",
-        "namesearch": "green glass_mosaic_tourmaline_green glass_tourmaline_green tourmaline glass",
+        "namesearch": "glass_tourmaline_green glass_mosaic_tourmaline_green glass tourmaline green",
         "recipes": [
             {
                 "materials": [
@@ -30135,7 +34856,7 @@ var crafts = {
         "id": "slope_round_lumite_beveled",
         "name": "Rounded Lumite Slope",
         "icon": "slope_round_lumite_bevel",
-        "namesearch": "lumite slope_round_lumite_beveled rounded slope_round_lumite_bevel slope",
+        "namesearch": "slope_round_lumite_beveled slope_round_lumite_bevel rounded lumite slope",
         "recipes": [
             {
                 "materials": [
@@ -30157,7 +34878,7 @@ var crafts = {
         "id": "wall_moroccan_tile_yellow",
         "name": "Yellow Mosaic Tile Wall",
         "icon": "wall_mosaic_yellow",
-        "namesearch": "yellow tile wall_moroccan_tile_yellow mosaic wall_mosaic_yellow wall",
+        "namesearch": "tile wall yellow wall_moroccan_tile_yellow mosaic wall_mosaic_yellow",
         "recipes": [
             {
                 "materials": [
@@ -30197,7 +34918,7 @@ var crafts = {
         "id": "slope_lumite_light",
         "name": "Light Lumite Slope",
         "icon": "slope_lumite_bevel_light",
-        "namesearch": "lumite light slope_lumite_bevel_light slope_lumite_light slope",
+        "namesearch": "slope_lumite_light slope_lumite_bevel_light light lumite slope",
         "recipes": [
             {
                 "materials": [
@@ -30215,15 +34936,15 @@ var crafts = {
         ],
         "creates": [
             "slope_lumite_light_inner_corner",
-            "slope_round_lumite_light",
-            "slope_lumite_light_outer_corner"
+            "slope_lumite_light_outer_corner",
+            "slope_round_lumite_light"
         ]
     },
     "wall_moroccan_tile_blue": {
         "id": "wall_moroccan_tile_blue",
         "name": "Blue Mosaic Tile Wall",
         "icon": "wall_mosaic_blue",
-        "namesearch": "tile blue mosaic wall_moroccan_tile_blue wall wall_mosaic_blue",
+        "namesearch": "tile wall blue wall_moroccan_tile_blue mosaic wall_mosaic_blue",
         "recipes": [
             {
                 "materials": [
@@ -30263,7 +34984,7 @@ var crafts = {
         "id": "slope_lumite_light_inner_corner",
         "name": "Light Lumite Slope Inner Corner",
         "icon": "slope_lumite_bevel_light_inner_corner",
-        "namesearch": "lumite slope_lumite_light_inner_corner light slope_lumite_bevel_light_inner_corner corner inner slope",
+        "namesearch": "light inner corner slope_lumite_bevel_light_inner_corner slope_lumite_light_inner_corner lumite slope",
         "recipes": [
             {
                 "materials": [
@@ -30285,7 +35006,7 @@ var crafts = {
         "id": "wall_moroccan_tile_red",
         "name": "Red Mosaic Tile Wall",
         "icon": "wall_mosaic_red",
-        "namesearch": "wall_moroccan_tile_red tile mosaic red wall wall_mosaic_red",
+        "namesearch": "red tile wall wall_mosaic_red mosaic wall_moroccan_tile_red",
         "recipes": [
             {
                 "materials": [
@@ -30325,7 +35046,7 @@ var crafts = {
         "id": "slope_lumite_light_outer_corner",
         "name": "Light Lumite Slope Outer Corner",
         "icon": "slope_lumite_bevel_light_outer_corner",
-        "namesearch": "lumite outer slope_lumite_light_outer_corner light slope_lumite_bevel_light_outer_corner corner slope",
+        "namesearch": "light slope_lumite_light_outer_corner corner slope_lumite_bevel_light_outer_corner lumite outer slope",
         "recipes": [
             {
                 "materials": [
@@ -30347,7 +35068,7 @@ var crafts = {
         "id": "door_limestone_bedrock",
         "name": "Bedrock Door",
         "icon": "door_limestone_bedrock",
-        "namesearch": "door door_limestone_bedrock bedrock",
+        "namesearch": "door bedrock door_limestone_bedrock",
         "recipes": [
             {
                 "materials": [
@@ -30387,7 +35108,7 @@ var crafts = {
         "id": "slab_lumite_light",
         "name": "Light Lumite Slab",
         "icon": "slab_lumite_bevel_light",
-        "namesearch": "lumite light slab_lumite_bevel_light slab slab_lumite_light",
+        "namesearch": "slab_lumite_bevel_light slab light slab_lumite_light lumite",
         "recipes": [
             {
                 "materials": [
@@ -30409,7 +35130,7 @@ var crafts = {
         "id": "stairs_lumite_light",
         "name": "Light Lumite Stairs",
         "icon": "stairs_lumite_bevel_light",
-        "namesearch": "lumite stairs_lumite_light light stairs stairs_lumite_bevel_light",
+        "namesearch": "light stairs_lumite_bevel_light lumite stairs stairs_lumite_light",
         "recipes": [
             {
                 "materials": [
@@ -30446,7 +35167,7 @@ var crafts = {
         "id": "stairs_lumite_light_inner_corner",
         "name": "Light Lumite Stairs Inner Corner",
         "icon": "stairs_lumite_bevel_light_inner_corner",
-        "namesearch": "lumite light stairs_lumite_bevel_light_inner_corner corner stairs_lumite_light_inner_corner inner stairs",
+        "namesearch": "stairs_lumite_bevel_light_inner_corner stairs_lumite_light_inner_corner light inner corner lumite stairs",
         "recipes": [
             {
                 "materials": [
@@ -30468,7 +35189,7 @@ var crafts = {
         "id": "stairs_lumite_light_outer_corner",
         "name": "Light Lumite Stairs Outer Corner",
         "icon": "stairs_lumite_bevel_light_outer_corner",
-        "namesearch": "stairs_lumite_light_outer_corner lumite stairs_lumite_bevel_light_outer_corner outer light corner stairs",
+        "namesearch": "light stairs_lumite_light_outer_corner stairs_lumite_bevel_light_outer_corner corner outer lumite stairs",
         "recipes": [
             {
                 "materials": [
@@ -30490,7 +35211,7 @@ var crafts = {
         "id": "slope_round_lumite_light",
         "name": "Rounded Light Lumite Slope",
         "icon": "slope_round_lumite_bevel_light",
-        "namesearch": "lumite slope_round_lumite_light light slope_round_lumite_bevel_light rounded slope",
+        "namesearch": "slope_round_lumite_light light rounded slope_round_lumite_bevel_light lumite slope",
         "recipes": [
             {
                 "materials": [
@@ -30512,7 +35233,7 @@ var crafts = {
         "id": "column_lumite_light",
         "name": "Light Lumite Column",
         "icon": "column_lumite_bevel_light",
-        "namesearch": "lumite column column_lumite_light light column_lumite_bevel_light",
+        "namesearch": "column column_lumite_light light column_lumite_bevel_light lumite",
         "recipes": [
             {
                 "materials": [
@@ -30534,7 +35255,7 @@ var crafts = {
         "id": "slope_lumite_dark",
         "name": "Dark Lumite Slope",
         "icon": "slope_lumite_bevel_dark",
-        "namesearch": "lumite slope_lumite_dark dark slope_lumite_bevel_dark slope",
+        "namesearch": "slope_lumite_dark dark slope_lumite_bevel_dark lumite slope",
         "recipes": [
             {
                 "materials": [
@@ -30551,16 +35272,16 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_round_lumite_dark",
             "slope_lumite_dark_outer_corner",
-            "slope_lumite_dark_inner_corner"
+            "slope_lumite_dark_inner_corner",
+            "slope_round_lumite_dark"
         ]
     },
     "slope_lumite_dark_inner_corner": {
         "id": "slope_lumite_dark_inner_corner",
         "name": "Dark Lumite Slope Inner Corner",
         "icon": "slope_lumite_bevel_dark_inner_corner",
-        "namesearch": "lumite slope_lumite_dark_inner_corner slope_lumite_bevel_dark_inner_corner corner inner dark slope",
+        "namesearch": "slope_lumite_dark_inner_corner dark inner slope_lumite_bevel_dark_inner_corner corner lumite slope",
         "recipes": [
             {
                 "materials": [
@@ -30582,7 +35303,7 @@ var crafts = {
         "id": "slope_lumite_dark_outer_corner",
         "name": "Dark Lumite Slope Outer Corner",
         "icon": "slope_lumite_bevel_dark_outer_corner",
-        "namesearch": "lumite outer slope_lumite_bevel_dark_outer_corner slope_lumite_dark_outer_corner corner dark slope",
+        "namesearch": "slope_lumite_bevel_dark_outer_corner dark corner slope_lumite_dark_outer_corner lumite outer slope",
         "recipes": [
             {
                 "materials": [
@@ -30604,7 +35325,7 @@ var crafts = {
         "id": "slab_lumite_dark",
         "name": "Dark Lumite Slab",
         "icon": "slab_lumite_bevel_dark",
-        "namesearch": "lumite slab_lumite_bevel_dark slab dark slab_lumite_dark",
+        "namesearch": "slab_lumite_bevel_dark slab dark slab_lumite_dark lumite",
         "recipes": [
             {
                 "materials": [
@@ -30626,7 +35347,7 @@ var crafts = {
         "id": "stairs_lumite_dark",
         "name": "Dark Lumite Stairs",
         "icon": "stairs_lumite_bevel_dark",
-        "namesearch": "lumite stairs_lumite_dark stairs_lumite_bevel_dark dark stairs",
+        "namesearch": "dark stairs_lumite_bevel_dark stairs_lumite_dark lumite stairs",
         "recipes": [
             {
                 "materials": [
@@ -30655,15 +35376,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_lumite_dark_outer_corner",
-            "stairs_lumite_dark_inner_corner"
+            "stairs_lumite_dark_inner_corner",
+            "stairs_lumite_dark_outer_corner"
         ]
     },
     "stairs_lumite_dark_inner_corner": {
         "id": "stairs_lumite_dark_inner_corner",
         "name": "Dark Lumite Slope Inner Corner",
         "icon": "stairs_lumite_bevel_dark_inner_corner",
-        "namesearch": "lumite stairs_lumite_bevel_dark_inner_corner stairs_lumite_dark_inner_corner corner inner dark slope",
+        "namesearch": "dark inner corner stairs_lumite_bevel_dark_inner_corner stairs_lumite_dark_inner_corner lumite slope",
         "recipes": [
             {
                 "materials": [
@@ -30685,7 +35406,7 @@ var crafts = {
         "id": "stairs_lumite_dark_outer_corner",
         "name": "Dark Lumite Slope Outer Corner",
         "icon": "stairs_lumite_bevel_dark_outer_corner",
-        "namesearch": "stairs_lumite_dark_outer_corner lumite outer stairs_lumite_bevel_dark_outer_corner corner dark slope",
+        "namesearch": "stairs_lumite_bevel_dark_outer_corner dark stairs_lumite_dark_outer_corner corner lumite outer slope",
         "recipes": [
             {
                 "materials": [
@@ -30707,7 +35428,7 @@ var crafts = {
         "id": "slope_round_lumite_dark",
         "name": "Rounded Dark Lumite Slope",
         "icon": "slope_round_lumite_bevel_dark",
-        "namesearch": "lumite slope_round_lumite_bevel_dark slope_round_lumite_dark rounded dark slope",
+        "namesearch": "dark rounded slope_round_lumite_dark lumite slope_round_lumite_bevel_dark slope",
         "recipes": [
             {
                 "materials": [
@@ -30729,7 +35450,7 @@ var crafts = {
         "id": "column_lumite_dark",
         "name": "Dark Lumite Column",
         "icon": "column_lumite_bevel_dark",
-        "namesearch": "lumite column column_lumite_dark column_lumite_bevel_dark dark",
+        "namesearch": "column column_lumite_bevel_dark column_lumite_dark dark lumite",
         "recipes": [
             {
                 "materials": [
@@ -30789,7 +35510,7 @@ var crafts = {
         "id": "flower_daisy",
         "name": "Canvas Flower",
         "icon": "flower_canvas",
-        "namesearch": "flower canvas flower_canvas flower_daisy",
+        "namesearch": "canvas flower flower_canvas flower_daisy",
         "recipes": [
             {
                 "materials": [
@@ -30825,7 +35546,7 @@ var crafts = {
         "id": "bomb_poison",
         "name": "Poison Bomb",
         "icon": "grenade_growth",
-        "namesearch": "poison grenade_growth bomb bomb_poison",
+        "namesearch": "bomb grenade_growth poison bomb_poison",
         "recipes": [
             {
                 "materials": [
@@ -30865,7 +35586,7 @@ var crafts = {
         "id": "cauldron_goo_green",
         "name": "Green Goo Cauldron",
         "icon": "cauldron_goo_green",
-        "namesearch": "green cauldron_goo_green goo cauldron",
+        "namesearch": "goo cauldron cauldron_goo_green green",
         "recipes": [
             {
                 "materials": [
@@ -30893,7 +35614,7 @@ var crafts = {
         "id": "cauldron_goo_purple",
         "name": "Purple Goo Cauldron",
         "icon": "cauldron_goo_purple",
-        "namesearch": "cauldron_goo_purple goo purple cauldron",
+        "namesearch": "purple cauldron_goo_purple cauldron goo",
         "recipes": [
             {
                 "materials": [
@@ -30921,7 +35642,7 @@ var crafts = {
         "id": "wall_igneous",
         "name": "Igneous Wall",
         "icon": "wall_drago_igneous",
-        "namesearch": "igneous wall wall_drago_igneous wall_igneous",
+        "namesearch": "wall_igneous igneous wall_drago_igneous wall",
         "recipes": [
             {
                 "materials": [
@@ -30957,7 +35678,7 @@ var crafts = {
         "id": "cauldron_goo_orange",
         "name": "Orange Goo Cauldron",
         "icon": "cauldron_goo_orange",
-        "namesearch": "goo orange cauldron_goo_orange cauldron",
+        "namesearch": "orange cauldron_goo_orange cauldron goo",
         "recipes": [
             {
                 "materials": [
@@ -30985,7 +35706,7 @@ var crafts = {
         "id": "roof_igneous",
         "name": "Igneous Roof",
         "icon": "roof_drago_gabled_igneous",
-        "namesearch": "roof_drago_gabled_igneous roof igneous roof_igneous",
+        "namesearch": "igneous roof_drago_gabled_igneous roof roof_igneous",
         "recipes": [
             {
                 "materials": [
@@ -31028,7 +35749,7 @@ var crafts = {
         "id": "canvas",
         "name": "Canvas Wall",
         "icon": "wall_canvas",
-        "namesearch": "wall_canvas canvas wall",
+        "namesearch": "canvas wall_canvas wall",
         "recipes": [
             {
                 "materials": [
@@ -31061,16 +35782,16 @@ var crafts = {
             }
         ],
         "creates": [
+            "column_canvas",
             "slab_canvas",
-            "slope_canvas",
-            "column_canvas"
+            "slope_canvas"
         ]
     },
     "floor_hardened_lava": {
         "id": "floor_hardened_lava",
         "name": "Hardened Lava Floor",
         "icon": "wall_drago_hardened_lava",
-        "namesearch": "floor lava wall_drago_hardened_lava floor_hardened_lava hardened",
+        "namesearch": "hardened wall_drago_hardened_lava floor floor_hardened_lava lava",
         "recipes": [
             {
                 "materials": [
@@ -31127,16 +35848,16 @@ var crafts = {
             }
         ],
         "creates": [
+            "slope_round_canvas",
             "slope_canvas_outer_corner",
-            "slope_canvas_inner_corner",
-            "slope_round_canvas"
+            "slope_canvas_inner_corner"
         ]
     },
     "wall_bungalow": {
         "id": "wall_bungalow",
         "name": "Bungalow Wall",
         "icon": "wall_bungalow",
-        "namesearch": "wall_bungalow bungalow wall",
+        "namesearch": "bungalow wall_bungalow wall",
         "recipes": [
             {
                 "materials": [
@@ -31176,7 +35897,7 @@ var crafts = {
         "id": "slope_canvas_inner_corner",
         "name": "Canvas Slope Inner Corner",
         "icon": "slope_canvas_inner_corner",
-        "namesearch": "canvas slope_canvas_inner_corner corner inner slope",
+        "namesearch": "inner corner slope_canvas_inner_corner canvas slope",
         "recipes": [
             {
                 "materials": [
@@ -31238,7 +35959,7 @@ var crafts = {
         "id": "slope_canvas_outer_corner",
         "name": "Canvas Slope Outer Corner",
         "icon": "slope_canvas_outer_corner",
-        "namesearch": "canvas outer slope_canvas_outer_corner corner slope",
+        "namesearch": "corner canvas slope_canvas_outer_corner outer slope",
         "recipes": [
             {
                 "materials": [
@@ -31260,7 +35981,7 @@ var crafts = {
         "id": "wall_bungalow_accent",
         "name": "Bungalow Accent Wall",
         "icon": "wall_bungalow_accent",
-        "namesearch": "wall_bungalow_accent wall bungalow accent",
+        "namesearch": "bungalow accent wall wall_bungalow_accent",
         "recipes": [
             {
                 "materials": [
@@ -31300,7 +36021,7 @@ var crafts = {
         "id": "slope_round_canvas",
         "name": "Rounded Canvas Slope",
         "icon": "slope_round_canvas",
-        "namesearch": "slope slope_round_canvas rounded canvas",
+        "namesearch": "canvas slope_round_canvas rounded slope",
         "recipes": [
             {
                 "materials": [
@@ -31322,7 +36043,7 @@ var crafts = {
         "id": "roof_bungalow",
         "name": "Bungalow Roof",
         "icon": "roof_bungalow",
-        "namesearch": "bungalow roof_bungalow roof",
+        "namesearch": "bungalow roof roof_bungalow",
         "recipes": [
             {
                 "materials": [
@@ -31358,15 +36079,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_bungalow_outer_corner",
-            "roof_bungalow_inner_corner"
+            "roof_bungalow_inner_corner",
+            "roof_bungalow_outer_corner"
         ]
     },
     "slab_canvas": {
         "id": "slab_canvas",
         "name": "Canvas Slab",
         "icon": "slab_canvas",
-        "namesearch": "slab_canvas slab canvas",
+        "namesearch": "canvas slab slab_canvas",
         "recipes": [
             {
                 "materials": [
@@ -31425,15 +36146,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_bungalow_outer_corner",
-            "stairs_bungalow_inner_corner"
+            "stairs_bungalow_inner_corner",
+            "stairs_bungalow_outer_corner"
         ]
     },
     "eighth_canvas": {
         "id": "eighth_canvas",
         "name": "Canvas Eighth",
         "icon": "slab_eighth_canvas",
-        "namesearch": "eighth canvas slab_eighth_canvas eighth_canvas",
+        "namesearch": "canvas eighth eighth_canvas slab_eighth_canvas",
         "recipes": [
             {
                 "materials": [
@@ -31455,7 +36176,7 @@ var crafts = {
         "id": "rockster_rock",
         "name": "Rockster Rock",
         "icon": "rockster_rock",
-        "namesearch": "rock rockster_rock rockster",
+        "namesearch": "rockster rock rockster_rock",
         "recipes": [
             {
                 "materials": [
@@ -31472,19 +36193,19 @@ var crafts = {
             }
         ],
         "creates": [
-            "helmet_leather",
-            "potion_tanky_turtle",
-            "wall_stone_ornamental_swirl",
-            "leggings_leather",
             "wall_stone_ornamental",
-            "armguards_leather"
+            "armguards_leather",
+            "wall_stone_ornamental_swirl",
+            "potion_tanky_turtle",
+            "helmet_leather",
+            "leggings_leather"
         ]
     },
     "stairs_canvas": {
         "id": "stairs_canvas",
         "name": "Canvas Stairs",
         "icon": "stairs_canvas",
-        "namesearch": "canvas stairs stairs_canvas",
+        "namesearch": "canvas stairs_canvas stairs",
         "recipes": [
             {
                 "materials": [
@@ -31513,15 +36234,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_canvas_outer_corner",
-            "stairs_canvas_inner_corner"
+            "stairs_canvas_inner_corner",
+            "stairs_canvas_outer_corner"
         ]
     },
     "stairs_canvas_inner_corner": {
         "id": "stairs_canvas_inner_corner",
         "name": "Canvas Stairs Inner Corner",
         "icon": "stairs_canvas_inner_corner",
-        "namesearch": "canvas stairs_canvas_inner_corner corner inner stairs",
+        "namesearch": "stairs_canvas_inner_corner inner corner canvas stairs",
         "recipes": [
             {
                 "materials": [
@@ -31543,7 +36264,7 @@ var crafts = {
         "id": "stairs_canvas_outer_corner",
         "name": "Canvas Stairs Outer Corner",
         "icon": "stairs_canvas_outer_corner",
-        "namesearch": "stairs_canvas_outer_corner canvas outer corner stairs",
+        "namesearch": "corner stairs_canvas_outer_corner outer canvas stairs",
         "recipes": [
             {
                 "materials": [
@@ -31565,7 +36286,7 @@ var crafts = {
         "id": "column_canvas",
         "name": "Canvas Column",
         "icon": "column_canvas",
-        "namesearch": "column canvas column_canvas",
+        "namesearch": "canvas column_canvas column",
         "recipes": [
             {
                 "materials": [
@@ -31587,7 +36308,7 @@ var crafts = {
         "id": "slope_goo_green",
         "name": "Green Goo Slope",
         "icon": "slope_goo_green",
-        "namesearch": "green goo slope_goo_green slope",
+        "namesearch": "slope slope_goo_green goo green",
         "recipes": [
             {
                 "materials": [
@@ -31605,15 +36326,15 @@ var crafts = {
         ],
         "creates": [
             "slope_goo_green_inner_corner",
-            "slope_goo_green_outer_corner",
-            "slope_round_goo_green"
+            "slope_round_goo_green",
+            "slope_goo_green_outer_corner"
         ]
     },
     "wall_bungalow_accent_fur": {
         "id": "wall_bungalow_accent_fur",
         "name": "Bungalow Fur Wall",
         "icon": "wall_bungalow_accent_fur",
-        "namesearch": "bungalow wall wall_bungalow_accent_fur fur",
+        "namesearch": "bungalow fur wall_bungalow_accent_fur wall",
         "recipes": [
             {
                 "materials": [
@@ -31653,7 +36374,7 @@ var crafts = {
         "id": "slope_goo_green_inner_corner",
         "name": "Green Goo Slope Inner Corner",
         "icon": "slope_goo_green_inner_corner",
-        "namesearch": "green slope_goo_green_inner_corner corner inner goo slope",
+        "namesearch": "inner slope_goo_green_inner_corner corner green goo slope",
         "recipes": [
             {
                 "materials": [
@@ -31675,7 +36396,7 @@ var crafts = {
         "id": "door_bungalow",
         "name": "Bungalow Door",
         "icon": "door_bungalow",
-        "namesearch": "bungalow door door_bungalow",
+        "namesearch": "bungalow door_bungalow door",
         "recipes": [
             {
                 "materials": [
@@ -31715,7 +36436,7 @@ var crafts = {
         "id": "slope_goo_green_outer_corner",
         "name": "Green Goo Slope Outer Corner",
         "icon": "slope_goo_green_outer_corner",
-        "namesearch": "green slope_goo_green_outer_corner outer corner goo slope",
+        "namesearch": "goo corner slope_goo_green_outer_corner green outer slope",
         "recipes": [
             {
                 "materials": [
@@ -31777,7 +36498,7 @@ var crafts = {
         "id": "slab_goo_green",
         "name": "Green Goo Slab",
         "icon": "slab_goo_green",
-        "namesearch": "green goo slab slab_goo_green",
+        "namesearch": "slab_goo_green slab goo green",
         "recipes": [
             {
                 "materials": [
@@ -31799,7 +36520,7 @@ var crafts = {
         "id": "torch_bungalow",
         "name": "Bungalow Torch",
         "icon": "torch_bungalow",
-        "namesearch": "torch bungalow torch_bungalow",
+        "namesearch": "bungalow torch torch_bungalow",
         "recipes": [
             {
                 "materials": [
@@ -31833,7 +36554,7 @@ var crafts = {
         "id": "stairs_goo_green",
         "name": "Green Goo Stairs",
         "icon": "stairs_goo_green",
-        "namesearch": "green goo stairs_goo_green stairs",
+        "namesearch": "green stairs goo stairs_goo_green",
         "recipes": [
             {
                 "materials": [
@@ -31856,15 +36577,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "stairs_goo_green_inner_corner",
-            "stairs_goo_green_outer_corner"
+            "stairs_goo_green_outer_corner",
+            "stairs_goo_green_inner_corner"
         ]
     },
     "wall_stucco": {
         "id": "wall_stucco",
         "name": "Stucco Wall",
         "icon": "wall_stucco",
-        "namesearch": "wall stucco wall_stucco",
+        "namesearch": "stucco wall_stucco wall",
         "recipes": [
             {
                 "materials": [
@@ -31898,7 +36619,7 @@ var crafts = {
         "id": "stairs_goo_green_inner_corner",
         "name": "Green Goo Stairs Inner Corner",
         "icon": "stairs_goo_green_inner_corner",
-        "namesearch": "green stairs_goo_green_inner_corner corner inner goo stairs",
+        "namesearch": "stairs stairs_goo_green_inner_corner inner corner goo green",
         "recipes": [
             {
                 "materials": [
@@ -31920,7 +36641,7 @@ var crafts = {
         "id": "wall_stucco_ruddy",
         "name": "Ruddy Stucco Wall",
         "icon": "wall_stucco_ruddy",
-        "namesearch": "ruddy stucco wall wall_stucco_ruddy",
+        "namesearch": "stucco ruddy wall_stucco_ruddy wall",
         "recipes": [
             {
                 "materials": [
@@ -31954,7 +36675,7 @@ var crafts = {
         "id": "stairs_goo_green_outer_corner",
         "name": "Green Goo Stairs Outer Corner",
         "icon": "stairs_goo_green_outer_corner",
-        "namesearch": "green outer stairs_goo_green_outer_corner corner goo stairs",
+        "namesearch": "stairs_goo_green_outer_corner goo corner outer stairs green",
         "recipes": [
             {
                 "materials": [
@@ -31976,7 +36697,7 @@ var crafts = {
         "id": "wall_stucco_dark",
         "name": "Dark Stucco Wall",
         "icon": "wall_stucco_dark",
-        "namesearch": "stucco wall dark wall_stucco_dark",
+        "namesearch": "stucco wall_stucco_dark dark wall",
         "recipes": [
             {
                 "materials": [
@@ -32010,7 +36731,7 @@ var crafts = {
         "id": "slope_round_goo_green",
         "name": "Green Goo Rounded Slope",
         "icon": "slope_round_goo_green",
-        "namesearch": "green slope_round_goo_green rounded goo slope",
+        "namesearch": "rounded slope_round_goo_green green goo slope",
         "recipes": [
             {
                 "materials": [
@@ -32032,7 +36753,7 @@ var crafts = {
         "id": "wall_copper",
         "name": "Copper Wall",
         "icon": "wall_copper",
-        "namesearch": "wall wall_copper copper",
+        "namesearch": "copper wall_copper wall",
         "recipes": [
             {
                 "materials": [
@@ -32072,7 +36793,7 @@ var crafts = {
         "id": "column_goo_green",
         "name": "Green Goo Column",
         "icon": "column_goo_green",
-        "namesearch": "green goo column column_goo_green",
+        "namesearch": "column_goo_green column goo green",
         "recipes": [
             {
                 "materials": [
@@ -32094,7 +36815,7 @@ var crafts = {
         "id": "wall_patina",
         "name": "Patina Wall",
         "icon": "wall_patina",
-        "namesearch": "wall_patina patina wall",
+        "namesearch": "wall wall_patina patina",
         "recipes": [
             {
                 "materials": [
@@ -32134,7 +36855,7 @@ var crafts = {
         "id": "slope_goo_orange",
         "name": "Orange Goo Slope",
         "icon": "slope_goo_orange",
-        "namesearch": "goo slope_goo_orange orange slope",
+        "namesearch": "slope_goo_orange orange goo slope",
         "recipes": [
             {
                 "materials": [
@@ -32151,16 +36872,16 @@ var crafts = {
             }
         ],
         "creates": [
-            "slope_round_goo_orange",
             "slope_goo_orange_outer_corner",
-            "slope_goo_orange_inner_corner"
+            "slope_goo_orange_inner_corner",
+            "slope_round_goo_orange"
         ]
     },
     "wall_tin": {
         "id": "wall_tin",
         "name": "Tin Wall",
         "icon": "wall_tin",
-        "namesearch": "wall tin wall_tin",
+        "namesearch": "tin wall_tin wall",
         "recipes": [
             {
                 "materials": [
@@ -32200,7 +36921,7 @@ var crafts = {
         "id": "slope_goo_orange_inner_corner",
         "name": "Orange Goo Slope Inner Corner",
         "icon": "slope_goo_orange_inner_corner",
-        "namesearch": "orange corner inner goo slope_goo_orange_inner_corner slope",
+        "namesearch": "inner orange corner slope_goo_orange_inner_corner goo slope",
         "recipes": [
             {
                 "materials": [
@@ -32222,7 +36943,7 @@ var crafts = {
         "id": "roof_copper",
         "name": "Copper Roof",
         "icon": "roof_copper",
-        "namesearch": "roof copper roof_copper",
+        "namesearch": "copper roof_copper roof",
         "recipes": [
             {
                 "materials": [
@@ -32257,15 +36978,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_copper_outer_corner",
-            "roof_copper_inner_corner"
+            "roof_copper_inner_corner",
+            "roof_copper_outer_corner"
         ]
     },
     "slope_goo_orange_outer_corner": {
         "id": "slope_goo_orange_outer_corner",
         "name": "Orange Goo Slope Outer Corner",
         "icon": "slope_goo_orange_outer_corner",
-        "namesearch": "slope_goo_orange_outer_corner outer orange corner goo slope",
+        "namesearch": "orange goo corner slope_goo_orange_outer_corner outer slope",
         "recipes": [
             {
                 "materials": [
@@ -32287,7 +37008,7 @@ var crafts = {
         "id": "roof_patina",
         "name": "Patina Roof",
         "icon": "roof_patina",
-        "namesearch": "roof_patina patina roof",
+        "namesearch": "roof_patina roof patina",
         "recipes": [
             {
                 "materials": [
@@ -32322,15 +37043,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_patina_inner_corner",
-            "roof_patina_outer_corner"
+            "roof_patina_outer_corner",
+            "roof_patina_inner_corner"
         ]
     },
     "slab_goo_orange": {
         "id": "slab_goo_orange",
         "name": "Orange Goo Slab",
         "icon": "slab_goo_orange",
-        "namesearch": "goo slab_goo_orange orange slab",
+        "namesearch": "orange slab goo slab_goo_orange",
         "recipes": [
             {
                 "materials": [
@@ -32387,15 +37108,15 @@ var crafts = {
             }
         ],
         "creates": [
-            "roof_tin_inner_corner",
-            "roof_tin_outer_corner"
+            "roof_tin_outer_corner",
+            "roof_tin_inner_corner"
         ]
     },
     "stairs_goo_orange": {
         "id": "stairs_goo_orange",
         "name": "Orange Goo Stairs",
         "icon": "stairs_goo_orange",
-        "namesearch": "stairs_goo_orange orange goo stairs",
+        "namesearch": "stairs_goo_orange orange stairs goo",
         "recipes": [
             {
                 "materials": [
@@ -32426,7 +37147,7 @@ var crafts = {
         "id": "ice_slope",
         "name": "Ice Slope",
         "icon": "ice_slope",
-        "namesearch": "ice slope ice_slope",
+        "namesearch": "ice_slope ice slope",
         "recipes": [
             {
                 "materials": [
@@ -32451,7 +37172,7 @@ var crafts = {
         "id": "stairs_goo_orange_inner_corner",
         "name": "Orange Goo Stairs Inner Corner",
         "icon": "stairs_goo_orange_inner_corner",
-        "namesearch": "orange corner inner goo stairs stairs_goo_orange_inner_corner",
+        "namesearch": "stairs stairs_goo_orange_inner_corner inner orange corner goo",
         "recipes": [
             {
                 "materials": [
@@ -32473,7 +37194,7 @@ var crafts = {
         "id": "wall_wood_gravel",
         "name": "Wood Gravel Wall",
         "icon": "wall_wood_gravel",
-        "namesearch": "gravel wall wood wall_wood_gravel",
+        "namesearch": "gravel wood wall_wood_gravel wall",
         "recipes": [
             {
                 "materials": [
@@ -32509,7 +37230,7 @@ var crafts = {
         "id": "stairs_goo_orange_outer_corner",
         "name": "Orange Goo Stairs Outer Corner",
         "icon": "stairs_goo_orange_outer_corner",
-        "namesearch": "outer orange stairs_goo_orange_outer_corner corner goo stairs",
+        "namesearch": "orange stairs_goo_orange_outer_corner goo corner outer stairs",
         "recipes": [
             {
                 "materials": [
@@ -32531,7 +37252,7 @@ var crafts = {
         "id": "window_stucco",
         "name": "Stucco Window",
         "icon": "window_stucco",
-        "namesearch": "stucco window_stucco window",
+        "namesearch": "stucco window window_stucco",
         "recipes": [
             {
                 "materials": [
@@ -32565,7 +37286,7 @@ var crafts = {
         "id": "slope_round_goo_orange",
         "name": "Orange Goo Rounded Slope",
         "icon": "slope_round_goo_orange",
-        "namesearch": "orange goo rounded slope_round_goo_orange slope",
+        "namesearch": "rounded orange slope_round_goo_orange goo slope",
         "recipes": [
             {
                 "materials": [
@@ -32587,7 +37308,7 @@ var crafts = {
         "id": "window_stucco_dark",
         "name": "Dark Stucco Window",
         "icon": "window_stucco_dark",
-        "namesearch": "stucco window_stucco_dark dark window",
+        "namesearch": "stucco window dark window_stucco_dark",
         "recipes": [
             {
                 "materials": [
@@ -32621,7 +37342,7 @@ var crafts = {
         "id": "column_goo_orange",
         "name": "Orange Goo Column",
         "icon": "column_goo_orange",
-        "namesearch": "goo orange column column_goo_orange",
+        "namesearch": "column orange goo column_goo_orange",
         "recipes": [
             {
                 "materials": [
@@ -32643,7 +37364,7 @@ var crafts = {
         "id": "window_stucco_ruddy",
         "name": "Ruddy Stucco Window",
         "icon": "window_stucco_ruddy",
-        "namesearch": "stucco ruddy window_stucco_ruddy window",
+        "namesearch": "stucco ruddy window window_stucco_ruddy",
         "recipes": [
             {
                 "materials": [
@@ -32677,7 +37398,7 @@ var crafts = {
         "id": "slope_goo_purple",
         "name": "Purple Goo Slope",
         "icon": "slope_goo_purple",
-        "namesearch": "purple slope goo slope_goo_purple",
+        "namesearch": "purple slope_goo_purple goo slope",
         "recipes": [
             {
                 "materials": [
@@ -32694,16 +37415,16 @@ var crafts = {
             }
         ],
         "creates": [
+            "slope_goo_purple_inner_corner",
             "slope_round_goo_purple",
-            "slope_goo_purple_outer_corner",
-            "slope_goo_purple_inner_corner"
+            "slope_goo_purple_outer_corner"
         ]
     },
     "door_wood_rustic": {
         "id": "door_wood_rustic",
         "name": "Rustic Wood Door",
         "icon": "door_canyon_wood",
-        "namesearch": "rustic door_wood_rustic door_canyon_wood door wood",
+        "namesearch": "rustic door_wood_rustic wood door door_canyon_wood",
         "recipes": [
             {
                 "materials": [
@@ -32745,7 +37466,7 @@ var crafts = {
         "id": "slope_goo_purple_inner_corner",
         "name": "Purple Goo Slope Inner Corner",
         "icon": "slope_goo_purple_inner_corner",
-        "namesearch": "slope_goo_purple_inner_corner goo corner inner purple slope",
+        "namesearch": "slope_goo_purple_inner_corner inner corner purple goo slope",
         "recipes": [
             {
                 "materials": [
@@ -32767,7 +37488,7 @@ var crafts = {
         "id": "log_wood_ornamental",
         "name": "Weathered Wood Wall",
         "icon": "log_wood_ornamental",
-        "namesearch": "log_wood_ornamental wall weathered wood",
+        "namesearch": "wall weathered wood log_wood_ornamental",
         "recipes": [
             {
                 "materials": [
@@ -32813,7 +37534,7 @@ var crafts = {
         "id": "slope_goo_purple_outer_corner",
         "name": "Purple Goo Slope Outer Corner",
         "icon": "slope_goo_purple_outer_corner",
-        "namesearch": "outer slope_goo_purple_outer_corner goo corner purple slope",
+        "namesearch": "goo corner purple slope_goo_purple_outer_corner outer slope",
         "recipes": [
             {
                 "materials": [
@@ -32835,7 +37556,7 @@ var crafts = {
         "id": "log_wood_ornamental_metal",
         "name": "Banded Weathered Wood Wall",
         "icon": "log_wood_ornamental_metal",
-        "namesearch": "weathered log_wood_ornamental_metal banded wall wood",
+        "namesearch": "wall banded log_wood_ornamental_metal weathered wood",
         "recipes": [
             {
                 "materials": [
@@ -32909,7 +37630,7 @@ var crafts = {
         "id": "window_wood_barred",
         "name": "Barred Wood Window",
         "icon": "window_wood_barred",
-        "namesearch": "window_wood_barred wood barred window",
+        "namesearch": "window_wood_barred window barred wood",
         "recipes": [
             {
                 "materials": [
@@ -32961,7 +37682,7 @@ var crafts = {
         "id": "stairs_goo_purple",
         "name": "Purple Goo Stairs",
         "icon": "stairs_goo_purple",
-        "namesearch": "purple stairs goo stairs_goo_purple",
+        "namesearch": "purple stairs_goo_purple stairs goo",
         "recipes": [
             {
                 "materials": [
@@ -32992,7 +37713,7 @@ var crafts = {
         "id": "pedistal_roman_obsidian_caskette",
         "name": "Figured Obsidian Wall",
         "icon": "pedistal_roman_obsidian_caskette",
-        "namesearch": "obsidian wall pedistal_roman_obsidian_caskette figured",
+        "namesearch": "wall pedistal_roman_obsidian_caskette obsidian figured",
         "recipes": [
             {
                 "materials": [
@@ -33026,7 +37747,7 @@ var crafts = {
         "id": "stairs_goo_purple_inner_corner",
         "name": "Purple Goo Stairs Inner Corner",
         "icon": "stairs_goo_purple_inner_corner",
-        "namesearch": "stairs_goo_purple_inner_corner goo corner inner purple stairs",
+        "namesearch": "inner stairs_goo_purple_inner_corner goo corner purple stairs",
         "recipes": [
             {
                 "materials": [
@@ -33048,7 +37769,7 @@ var crafts = {
         "id": "frieze_roman_limestone_leaf",
         "name": "Figured Limestone Wall",
         "icon": "frieze_roman_limestone_leaf",
-        "namesearch": "frieze_roman_limestone_leaf wall figured limestone",
+        "namesearch": "wall limestone figured frieze_roman_limestone_leaf",
         "recipes": [
             {
                 "materials": [
@@ -33088,7 +37809,7 @@ var crafts = {
         "id": "stairs_goo_purple_outer_corner",
         "name": "Purple Goo Stairs Outer Corner",
         "icon": "stairs_goo_purple_outer_corner",
-        "namesearch": "purple outer stairs_goo_purple_outer_corner corner goo stairs",
+        "namesearch": "goo corner stairs_goo_purple_outer_corner outer purple stairs",
         "recipes": [
             {
                 "materials": [
@@ -33110,7 +37831,7 @@ var crafts = {
         "id": "capital_roman_bedrock_laurel",
         "name": "Laurel Bedrock Wall",
         "icon": "capital_roman_bedrock_laurel",
-        "namesearch": "bedrock capital_roman_bedrock_laurel wall laurel",
+        "namesearch": "wall laurel bedrock capital_roman_bedrock_laurel",
         "recipes": [
             {
                 "materials": [
@@ -33150,7 +37871,7 @@ var crafts = {
         "id": "slope_round_goo_purple",
         "name": "Purple Goo Rounded Slope",
         "icon": "slope_round_goo_purple",
-        "namesearch": "slope_round_goo_purple goo rounded purple slope",
+        "namesearch": "rounded purple slope_round_goo_purple goo slope",
         "recipes": [
             {
                 "materials": [
@@ -33202,21 +37923,26 @@ var crafts = {
             }
         ],
         "creates": [
-            "sandwich_egg",
-            "sandwich_turnip",
-            "sandwich_jerky",
-            "sandwich_mushroom",
-            "sandwich_melon",
+            "food_rotisserie_chizzard",
             "sandwich_cactus",
             "sandwich",
-            "sandwich_frigid"
+            "sandwich_turnip",
+            "sandwich_frigid",
+            "sandwich_melon",
+            "food_cake_shrew",
+            "food_sushi_karrotfish",
+            "sandwich_mushroom",
+            "food_baked_hog",
+            "sandwich_jerky",
+            "sandwich_egg",
+            "food_egg_skillet"
         ]
     },
     "bread_wholesome": {
         "id": "bread_wholesome",
         "name": "Wholesome Bread",
         "icon": "bread_wholesome",
-        "namesearch": "wholesome bread bread_wholesome",
+        "namesearch": "bread_wholesome wholesome bread",
         "recipes": [
             {
                 "materials": [
@@ -33240,15 +37966,20 @@ var crafts = {
             }
         ],
         "creates": [
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "food_cake_shrew",
+            "food_sushi_karrotfish",
             "sandwich_wholesome",
-            "sandwich"
+            "food_baked_hog",
+            "food_egg_skillet"
         ]
     },
     "bread_corrupted": {
         "id": "bread_corrupted",
         "name": "Corrupted Bread",
         "icon": "bread_corrupted",
-        "namesearch": "bread corrupted bread_corrupted",
+        "namesearch": "bread_corrupted corrupted bread",
         "recipes": [
             {
                 "materials": [
@@ -33272,15 +38003,20 @@ var crafts = {
             }
         ],
         "creates": [
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "food_cake_shrew",
             "sandwich_corrupted",
-            "sandwich"
+            "food_sushi_karrotfish",
+            "food_baked_hog",
+            "food_egg_skillet"
         ]
     },
     "bread_bog": {
         "id": "bread_bog",
         "name": "Bog Bread",
         "icon": "bread_bog",
-        "namesearch": "bread bog bread_bog",
+        "namesearch": "bread_bog bog bread",
         "recipes": [
             {
                 "materials": [
@@ -33304,15 +38040,20 @@ var crafts = {
             }
         ],
         "creates": [
+            "food_rotisserie_chizzard",
             "sandwich_bog",
-            "sandwich"
+            "sandwich",
+            "food_cake_shrew",
+            "food_sushi_karrotfish",
+            "food_baked_hog",
+            "food_egg_skillet"
         ]
     },
     "bread_tar": {
         "id": "bread_tar",
         "name": "Tar Bread",
         "icon": "bread_tar",
-        "namesearch": "bread tar bread_tar",
+        "namesearch": "tar bread_tar bread",
         "recipes": [
             {
                 "materials": [
@@ -33336,15 +38077,20 @@ var crafts = {
             }
         ],
         "creates": [
+            "food_rotisserie_chizzard",
             "sandwich_tar",
-            "sandwich"
+            "sandwich",
+            "food_cake_shrew",
+            "food_sushi_karrotfish",
+            "food_baked_hog",
+            "food_egg_skillet"
         ]
     },
     "bread_blazing": {
         "id": "bread_blazing",
         "name": "Blazing Bread",
         "icon": "bread_blazing",
-        "namesearch": "bread bread_blazing blazing",
+        "namesearch": "bread_blazing bread blazing",
         "recipes": [
             {
                 "materials": [
@@ -33368,15 +38114,20 @@ var crafts = {
             }
         ],
         "creates": [
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "food_cake_shrew",
             "sandwich_blazing",
-            "sandwich"
+            "food_sushi_karrotfish",
+            "food_baked_hog",
+            "food_egg_skillet"
         ]
     },
     "bread_gingerbread": {
         "id": "bread_gingerbread",
         "name": "Gingerbread Loaf",
         "icon": "bread_gingerbread",
-        "namesearch": "bread_gingerbread loaf gingerbread",
+        "namesearch": "gingerbread loaf bread_gingerbread",
         "recipes": [
             {
                 "materials": [
@@ -33400,23 +38151,23 @@ var crafts = {
             }
         ],
         "creates": [
+            "chimney_gingerbread",
             "window_gingerbread",
-            "wall_gingerbread_swirl",
-            "roof_gingerbread",
+            "wall_gingerbread_tile",
             "stairs_gingerbread",
             "wall_gingerbread_brick",
-            "chimney_gingerbread",
-            "wall_gingerbread_tile",
-            "roof_gingerbread_wafer",
+            "door_gingerbread",
+            "roof_gingerbread",
+            "wall_gingerbread_swirl",
             "wall_gingerbread",
-            "door_gingerbread"
+            "roof_gingerbread_wafer"
         ]
     },
     "column_goo_purple": {
         "id": "column_goo_purple",
         "name": "Purple Goo Column",
         "icon": "column_goo_purple",
-        "namesearch": "column_goo_purple purple goo column",
+        "namesearch": "purple column goo column_goo_purple",
         "recipes": [
             {
                 "materials": [
@@ -33438,7 +38189,7 @@ var crafts = {
         "id": "deathstatue",
         "name": "Death Statue",
         "icon": "death_statue",
-        "namesearch": "deathstatue death_statue death statue",
+        "namesearch": "death statue death_statue deathstatue",
         "recipes": [
             {
                 "materials": [
@@ -33455,19 +38206,19 @@ var crafts = {
             }
         ],
         "creates": [
-            "cauldron_goo_purple",
-            "logic_rng",
-            "cauldron_goo_orange",
-            "cauldron_haunted",
             "bomb_defoliage",
-            "cauldron_goo_green"
+            "cauldron_goo_purple",
+            "cauldron_goo_green",
+            "cauldron_haunted",
+            "cauldron_goo_orange",
+            "logic_rng"
         ]
     },
     "stairs_gingerbread_basic": {
         "id": "stairs_gingerbread_basic",
         "name": "Plain Gingerbread Stairs",
         "icon": "stairs_gingerbread_basic",
-        "namesearch": "plain stairs stairs_gingerbread_basic gingerbread",
+        "namesearch": "stairs_gingerbread_basic plain gingerbread stairs",
         "recipes": [
             {
                 "materials": [
@@ -33498,7 +38249,7 @@ var crafts = {
         "id": "soup",
         "name": "Soup",
         "icon": "soup_vegetable",
-        "namesearch": "soup soup_vegetable",
+        "namesearch": "soup_vegetable soup",
         "recipes": [
             {
                 "materials": [
@@ -33564,7 +38315,7 @@ var crafts = {
         "id": "soup_jerky",
         "name": "Chizzard Noodle Soup",
         "icon": "soup_jerky",
-        "namesearch": "soup_jerky chizzard soup noodle",
+        "namesearch": "noodle soup_jerky chizzard soup",
         "recipes": [
             {
                 "materials": [
@@ -33664,7 +38415,7 @@ var crafts = {
         "id": "soup_egg",
         "name": "Egg Drop Soup",
         "icon": "soup_egg",
-        "namesearch": "soup egg drop soup_egg",
+        "namesearch": "soup_egg soup egg drop",
         "recipes": [
             {
                 "materials": [
@@ -33770,7 +38521,7 @@ var crafts = {
         "id": "soup_bog",
         "name": "Bog Broth",
         "icon": "soup_bog",
-        "namesearch": "broth bog soup_bog",
+        "namesearch": "soup_bog bog broth",
         "recipes": [
             {
                 "materials": [
@@ -33829,7 +38580,7 @@ var crafts = {
         "id": "soup_wholesome",
         "name": "Wholesome Soup",
         "icon": "soup_wholesome",
-        "namesearch": "soup_wholesome wholesome soup",
+        "namesearch": "wholesome soup_wholesome soup",
         "recipes": [
             {
                 "materials": [
@@ -33888,7 +38639,7 @@ var crafts = {
         "id": "soup_frigid",
         "name": "Frigid Soup",
         "icon": "soup_frigid",
-        "namesearch": "frigid soup soup_frigid",
+        "namesearch": "soup_frigid soup frigid",
         "recipes": [
             {
                 "materials": [
@@ -33929,7 +38680,7 @@ var crafts = {
         "id": "soup_tar",
         "name": "Tar Soup",
         "icon": "soup_tar",
-        "namesearch": "soup_tar tar soup",
+        "namesearch": "tar soup soup_tar",
         "recipes": [
             {
                 "materials": [
@@ -33988,7 +38739,7 @@ var crafts = {
         "id": "bone_broth",
         "name": "Bone Broth",
         "icon": "soup_bonebroth",
-        "namesearch": "bone_broth broth bone soup_bonebroth",
+        "namesearch": "bone_broth bone soup_bonebroth broth",
         "recipes": [
             {
                 "materials": [
@@ -34157,7 +38908,7 @@ var crafts = {
         "id": "soup_cactus",
         "name": "Spiky Soup",
         "icon": "soup_spiny",
-        "namesearch": "spiky soup_cactus soup soup_spiny",
+        "namesearch": "soup_spiny soup_cactus soup spiky",
         "recipes": [
             {
                 "materials": [
@@ -34230,7 +38981,7 @@ var crafts = {
         "id": "slope_gingerbread_basic",
         "name": "Plain Gingerbread Slope",
         "icon": "slope_gingerbread_basic",
-        "namesearch": "slope_gingerbread_basic plain slope gingerbread",
+        "namesearch": "slope_gingerbread_basic gingerbread plain slope",
         "recipes": [
             {
                 "materials": [
@@ -34255,7 +39006,7 @@ var crafts = {
         "id": "slope_gingerbread_basic_inner_corner",
         "name": "Plain Gingerbread Slope Inner Corner",
         "icon": "slope_gingerbread_basic_inner_corner",
-        "namesearch": "gingerbread plain corner inner slope slope_gingerbread_basic_inner_corner",
+        "namesearch": "inner gingerbread corner slope_gingerbread_basic_inner_corner plain slope",
         "recipes": [
             {
                 "materials": [
@@ -34277,7 +39028,7 @@ var crafts = {
         "id": "slope_gingerbread_basic_outer_corner",
         "name": "Plain Gingerbread Slope Outer Corner",
         "icon": "slope_gingerbread_basic_outer_corner",
-        "namesearch": "outer gingerbread plain corner slope_gingerbread_basic_outer_corner slope",
+        "namesearch": "slope_gingerbread_basic_outer_corner gingerbread corner plain outer slope",
         "recipes": [
             {
                 "materials": [
@@ -34299,7 +39050,7 @@ var crafts = {
         "id": "stairs_gingerbread_basic_inner_corner",
         "name": "Plain Gingerbread Stairs Inner Corner",
         "icon": "stairs_gingerbread_basic_inner_corner",
-        "namesearch": "stairs_gingerbread_basic_inner_corner gingerbread plain corner inner stairs",
+        "namesearch": "stairs_gingerbread_basic_inner_corner inner gingerbread corner plain stairs",
         "recipes": [
             {
                 "materials": [
@@ -34321,7 +39072,7 @@ var crafts = {
         "id": "stairs_gingerbread_basic_outer_corner",
         "name": "Plain Gingerbread Stairs Outer Corner",
         "icon": "stairs_gingerbread_basic_outer_corner",
-        "namesearch": "stairs_gingerbread_basic_outer_corner outer gingerbread plain corner stairs",
+        "namesearch": "stairs_gingerbread_basic_outer_corner gingerbread corner outer plain stairs",
         "recipes": [
             {
                 "materials": [
@@ -34343,7 +39094,7 @@ var crafts = {
         "id": "slab_gingerbread_basic",
         "name": "Plain Gingerbread Slab",
         "icon": "slab_gingerbread_basic",
-        "namesearch": "plain slab slab_gingerbread_basic gingerbread",
+        "namesearch": "gingerbread slab_gingerbread_basic slab plain",
         "recipes": [
             {
                 "materials": [
@@ -34367,7 +39118,7 @@ var crafts = {
         "id": "eighth_gingerbread_basic",
         "name": "Plain Gingerbread Eighth",
         "icon": "eighth_gingerbread_basic",
-        "namesearch": "plain eighth_gingerbread_basic eighth gingerbread",
+        "namesearch": "eighth eighth_gingerbread_basic plain gingerbread",
         "recipes": [
             {
                 "materials": [
@@ -34389,7 +39140,7 @@ var crafts = {
         "id": "column_gingerbread_basic",
         "name": "Plain Gingerbread Column",
         "icon": "column_gingerbread_basic",
-        "namesearch": "column_gingerbread_basic plain column gingerbread",
+        "namesearch": "column gingerbread plain column_gingerbread_basic",
         "recipes": [
             {
                 "materials": [
@@ -34443,1682 +39194,40 @@ var crafts = {
         ],
         "creates": []
     },
-    "sandwich": {
-        "id": "sandwich",
-        "name": "Sandwich",
-        "icon": "sandwich_veggie",
-        "namesearch": "sandwich_veggie sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread",
-                            "bread_wholesome",
-                            "bread_corrupted",
-                            "bread_tar",
-                            "bread_blazing",
-                            "bread_bog"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_jerky": {
-        "id": "sandwich_jerky",
-        "name": "Jerky Sandwich",
-        "icon": "sandwich_jerky",
-        "namesearch": "jerky sandwich_jerky sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_corrupted": {
-        "id": "sandwich_corrupted",
-        "name": "Corrupted Sandwich",
-        "icon": "sandwich_corrupt",
-        "namesearch": "sandwich_corrupted corrupted sandwich_corrupt sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread_corrupted"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_turnip": {
-        "id": "sandwich_turnip",
-        "name": "Turnip Sandwich",
-        "icon": "sandwich_turnip",
-        "namesearch": "turnip sandwich_turnip sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "turnip"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "turnip"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_mushroom": {
-        "id": "sandwich_mushroom",
-        "name": "Mushroom Sandwich",
-        "icon": "sandwich_mushroom",
-        "namesearch": "mushroom sandwich_mushroom sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "mushroom_brown"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            },
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "mushroom_glowing"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            },
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "mushroom_red"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_melon": {
-        "id": "sandwich_melon",
-        "name": "Melon Sandwich",
-        "icon": "sandwich_melon",
-        "namesearch": "sandwich_melon melon sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "horned_melon"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            },
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "horned_melon"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_blazing": {
-        "id": "sandwich_blazing",
-        "name": "Blazing Sandwich",
-        "icon": "sandwich_blazing",
-        "namesearch": "blazing sandwich_blazing sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread_blazing"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_wholesome": {
-        "id": "sandwich_wholesome",
-        "name": "Wholesome Sandwich",
-        "icon": "sandwich_wholesome",
-        "namesearch": "wholesome sandwich sandwich_wholesome",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread_wholesome"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_bog": {
-        "id": "sandwich_bog",
-        "name": "Bog Sandwich",
-        "icon": "sandwich_bog",
-        "namesearch": "sandwich_bog bog sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread_bog"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_egg": {
-        "id": "sandwich_egg",
-        "name": "Egg Sandwich",
-        "icon": "sandwich_egg",
-        "namesearch": "sandwich_egg egg sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_frigid": {
-        "id": "sandwich_frigid",
-        "name": "Frigid Sandwich",
-        "icon": "sandwich_frigid",
-        "namesearch": "frigid sandwich_frigid sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_tar": {
-        "id": "sandwich_tar",
-        "name": "Tar Sandwich",
-        "icon": "sandwich_tar",
-        "namesearch": "tar sandwich_tar sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread_tar"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "sandwich_cactus": {
-        "id": "sandwich_cactus",
-        "name": "Spiky Sandwich",
-        "icon": "sandwich_spiny",
-        "namesearch": "sandwich_spiny sandwich_cactus spiky sandwich",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "plant_cactus01"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            },
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "bread"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "turnip",
-                            "autumn_leafi_leaf",
-                            "leafy_leaf",
-                            "baby_leafi_leaf",
-                            "dried_leafi_leaf",
-                            "mossy_leafi_leaf"
-                        ],
-                        "count": 3
-                    },
-                    {
-                        "valid_items": [
-                            "plant_cactus02"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "sandwich"
-            }
-        ],
-        "creates": []
-    },
-    "holiday_wreath": {
-        "id": "holiday_wreath",
-        "name": "Holiday Wreath",
-        "icon": "holiday_wreath",
-        "namesearch": "holiday_wreath holiday wreath",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "dye_red"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "leather"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "leaves_oak_item",
-                            "leaves_autumnwood_yellow",
-                            "leaves_autumnwood_red",
-                            "leaves_autumnwood_brown",
-                            "leaves_sequoia_item",
-                            "leaves_aspen_item",
-                            "leaves_palm",
-                            "leaves_jungle",
-                            "leaves_willow",
-                            "leaves_savannah",
-                            "leaves_sequoia_snow_capped"
-                        ],
-                        "count": 1
-                    }
-                ],
-                "count": 4,
-                "time": 0,
-                "station": "Backpack"
-            }
-        ],
-        "creates": []
-    },
-    "led_holiday_tree": {
-        "id": "led_holiday_tree",
-        "name": "LED Tree Block",
-        "icon": "led_holiday_tree",
-        "namesearch": "tree led_holiday_tree led block",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "glass"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "leaves_oak_item",
-                            "leaves_autumnwood_yellow",
-                            "leaves_autumnwood_red",
-                            "leaves_autumnwood_brown",
-                            "leaves_sequoia_item",
-                            "leaves_aspen_item",
-                            "leaves_palm",
-                            "leaves_jungle",
-                            "leaves_willow",
-                            "leaves_savannah",
-                            "leaves_sequoia_snow_capped"
-                        ],
-                        "count": 8
-                    },
-                    {
-                        "valid_items": [
-                            "arcstone"
-                        ],
-                        "count": 1
-                    }
-                ],
-                "count": 8,
-                "time": 0,
-                "station": "Backpack"
-            }
-        ],
-        "creates": []
-    },
-    "snow_globe_leafi": {
-        "id": "snow_globe_leafi",
-        "name": "Leafi Snow Globe",
-        "icon": "snow_globe_leafi",
-        "namesearch": "snow leafi globe snow_globe_leafi",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "glass"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "wood_oak_item",
-                            "wood_sequoia_item",
-                            "wood_aspen_item",
-                            "log",
-                            "wood_palm",
-                            "wood_jungle",
-                            "wood_willow",
-                            "wood_autumn",
-                            "log_willow",
-                            "wood_savannah",
-                            "drift_wood"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "snow_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "leafy_leaf"
-                        ],
-                        "count": 1
-                    }
-                ],
-                "count": 4,
-                "time": 0,
-                "station": "Backpack"
-            }
-        ],
-        "creates": []
-    },
-    "snow_globe_frosted": {
-        "id": "snow_globe_frosted",
-        "name": "Magic Snow Globe",
-        "icon": "snow_globe_frosted",
-        "namesearch": "snow snow_globe_frosted globe magic",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "arcstone"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "wood_oak_item",
-                            "wood_sequoia_item",
-                            "wood_aspen_item",
-                            "log",
-                            "wood_palm",
-                            "wood_jungle",
-                            "wood_willow",
-                            "wood_autumn",
-                            "log_willow",
-                            "wood_savannah",
-                            "drift_wood"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "snow_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "leafy_leaf"
-                        ],
-                        "count": 1
-                    }
-                ],
-                "count": 1,
-                "time": 0,
-                "station": "Backpack"
-            }
-        ],
-        "creates": []
-    },
-    "holiday_ornament_red": {
-        "id": "holiday_ornament_red",
-        "name": "Red Ornament",
-        "icon": "holiday_ornament_red",
-        "namesearch": "holiday_ornament_red ornament red",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "glass"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "dye_red"
-                        ],
-                        "count": 1
-                    }
-                ],
-                "count": 4,
-                "time": 0,
-                "station": "Backpack"
-            }
-        ],
-        "creates": []
-    },
-    "holiday_garland": {
-        "id": "holiday_garland",
-        "name": "Holiday Garland",
-        "icon": "holiday_garland",
-        "namesearch": "garland holiday_garland holiday",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "dye_red"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "leather"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "leaves_oak_item",
-                            "leaves_autumnwood_yellow",
-                            "leaves_autumnwood_red",
-                            "leaves_autumnwood_brown",
-                            "leaves_sequoia_item",
-                            "leaves_aspen_item",
-                            "leaves_palm",
-                            "leaves_jungle",
-                            "leaves_willow",
-                            "leaves_savannah",
-                            "leaves_sequoia_snow_capped"
-                        ],
-                        "count": 1
-                    }
-                ],
-                "count": 8,
-                "time": 0,
-                "station": "Backpack"
-            }
-        ],
-        "creates": []
-    },
-    "pie": {
-        "id": "pie",
-        "name": "Pie",
-        "icon": "pie",
-        "namesearch": "pie",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item",
-                            "lava_item",
-                            "water_mineral_item",
-                            "tar_item",
-                            "water_corrupted_item",
-                            "water_bog_item",
-                            "molasses"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
-    "pie_jerky": {
-        "id": "pie_jerky",
-        "name": "Chizzard Pot Pie",
-        "icon": "pie_jerky",
-        "namesearch": "chizzard pie_jerky pie pot",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item",
-                            "lava_item",
-                            "water_mineral_item",
-                            "tar_item",
-                            "water_corrupted_item",
-                            "water_bog_item",
-                            "molasses"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
-    "pie_melon": {
-        "id": "pie_melon",
-        "name": "Melon Pie",
-        "icon": "pie_melon",
-        "namesearch": "pie melon pie_melon",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item",
-                            "lava_item",
-                            "water_mineral_item",
-                            "tar_item",
-                            "water_corrupted_item",
-                            "water_bog_item",
-                            "molasses"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "horned_melon"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
-    "pie_blazing": {
-        "id": "pie_blazing",
-        "name": "Blazing Pie",
-        "icon": "pie_blazing",
-        "namesearch": "pie_blazing pie blazing",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "lava_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
-    "pie_frigid": {
-        "id": "pie_frigid",
-        "name": "Frigid Pie",
-        "icon": "pie_frigid",
-        "namesearch": "frigid pie_frigid pie",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item",
-                            "lava_item",
-                            "water_mineral_item",
-                            "tar_item",
-                            "water_corrupted_item",
-                            "water_bog_item",
-                            "molasses"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
-    "pie_wholesome": {
-        "id": "pie_wholesome",
-        "name": "Wholesome Pie",
-        "icon": "pie_wholesome",
-        "namesearch": "wholesome pie pie_wholesome",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_mineral_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
-    "pie_corrupted": {
-        "id": "pie_corrupted",
-        "name": "Corrupted Pie",
-        "icon": "pie_corrupted",
-        "namesearch": "corrupted pie pie_corrupted",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_corrupted_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "lettuce",
-                            "mushroom_red",
-                            "horned_melon",
-                            "turnip",
-                            "mushroom_brown",
-                            "mushroom_glowing",
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg",
-                            "chizzard_gizzard",
-                            "blizzard_chizzard_gizzard",
-                            "filet_o_karrotfish",
-                            "pork_chop",
-                            "poultry_parts",
-                            "plant_bamboo",
-                            "plant_cactus01",
-                            "plant_cactus02",
-                            "plant_succulent",
-                            "plant_pilea",
-                            "squitchy_jerky"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
-    "pie_mushroom": {
-        "id": "pie_mushroom",
-        "name": "Mushroom Pot Pie",
-        "icon": "pie_mushroom",
-        "namesearch": "mushroom pie pot pie_mushroom",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "mushroom_red"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            },
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "mushroom_glowing"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            },
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "mushroom_brown"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
-    "pie_cactus": {
-        "id": "pie_cactus",
-        "name": "Spiky Pie",
-        "icon": "pie_spiny",
-        "namesearch": "pie_spiny spiky pie pie_cactus",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "plant_cactus01"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            },
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "plant_cactus02"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
-    "food_cake_shrew": {
-        "id": "food_cake_shrew",
-        "name": "Poisonous Pastry",
-        "icon": "food_cake_shrew",
-        "namesearch": "food_cake_shrew pastry poisonous",
-        "recipes": [
-            {
-                "materials": [
-                    {
-                        "valid_items": [
-                            "wheat"
-                        ],
-                        "count": 2
-                    },
-                    {
-                        "valid_items": [
-                            "chizzard_egg",
-                            "blizzard_chizzard_egg"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "water_item"
-                        ],
-                        "count": 1
-                    },
-                    {
-                        "valid_items": [
-                            "plant_succulent"
-                        ],
-                        "count": 3
-                    }
-                ],
-                "count": 2,
-                "time": 0,
-                "station": "Culinary",
-                "recipe_category": "pie"
-            }
-        ],
-        "creates": []
-    },
     "water_mineral_item": {
         "id": "water_mineral_item",
         "name": "Mineral Water",
         "icon": "water_mineral",
-        "namesearch": "water water_mineral water_mineral_item mineral",
+        "namesearch": "water water_mineral mineral water_mineral_item",
         "recipes": [],
         "creates": [
-            "bone_broth",
-            "wall_atlantis_wave",
-            "soup_egg",
-            "bread",
-            "bread_wholesome",
-            "wall_atlantis_accent_trident",
+            "soup_wholesome",
             "pie_melon",
-            "bomb_foliage",
+            "wall_atlantis_accent_trident",
+            "bread",
+            "wall_atlantis_trim_symbol",
+            "wall_atlantis_wave",
+            "wall_atlantis_sunken",
+            "door_atlantis",
             "stairs_atlantis",
-            "trap_door_atlantis",
+            "pie_wholesome",
             "wall_atlantis_trim",
+            "pie_jerky",
+            "soup_egg",
             "medieval_stein",
             "pie",
-            "pie_frigid",
             "medieval_pint",
-            "wall_atlantis_trim_symbol",
-            "door_atlantis",
-            "pie_jerky",
-            "wall_atlantis_sunken",
-            "soup",
-            "soup_wholesome",
-            "wall_atlantis_tile",
+            "potion_no_breath_loss",
+            "trap_door_atlantis",
             "roof_atlantis",
-            "pie_wholesome",
-            "wall_atlantis_accent",
+            "bread_wholesome",
+            "soup",
+            "bomb_foliage",
             "wall_atlantis",
-            "potion_no_breath_loss"
+            "pie_frigid",
+            "wall_atlantis_accent",
+            "wall_atlantis_tile",
+            "bone_broth"
         ]
     },
     "coral_item": {
@@ -36129,145 +39238,87 @@ var crafts = {
         "recipes": [],
         "creates": [
             "wall_atlantis_trim_symbol",
-            "altar_atlantis",
-            "wall_atlantis_trim",
+            "chest_atlantis",
             "wall_atlantis_wave",
-            "chest_atlantis"
+            "wall_atlantis_trim",
+            "altar_atlantis"
         ]
     },
     "wood_sequoia_item": {
         "id": "wood_sequoia_item",
         "name": "Elderwood",
         "icon": "wood_sequoia",
-        "namesearch": "wood_sequoia_item elderwood wood_sequoia",
+        "namesearch": "elderwood wood_sequoia_item wood_sequoia",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
         ]
     },
-    "arcstone": {
-        "id": "arcstone",
-        "name": "Arcstone",
-        "icon": "arcstone",
-        "namesearch": "arcstone",
+    "feral_pigsy_fur": {
+        "id": "feral_pigsy_fur",
+        "name": "Feral Pigsy Fur",
+        "icon": "pigsy_feral_fur",
+        "namesearch": "fur feral pigsy_feral_fur pigsy feral_pigsy_fur",
         "recipes": [],
         "creates": [
-            "armguards_lumite",
-            "logic_rng",
-            "logic_gate_item",
-            "chest_valentines",
-            "chest_industrial",
-            "snow_globe_frosted",
-            "led_holiday_tree",
-            "bomb_defoliage",
-            "automation_portal",
-            "table_arctek_02",
-            "potion_speed_and_jump",
-            "chest_lockable",
-            "arc_text_projector_item",
-            "number_comparison_item",
-            "sword_sci_fi",
-            "bomb_foliage",
-            "gift_box_red",
-            "torch_arctek_01",
-            "beacon_adjustable",
-            "gift_box_blue",
-            "sensor_item",
-            "captureblueprint_15_item",
-            "actuator_item",
-            "logic_counter",
-            "picture_frame_arc_item",
-            "code_block_item",
-            "potion_jimmy",
-            "pumpkiru_chest_basic_storage",
-            "delay_block_item",
-            "arc_vault",
-            "pumpkiru_chest_super_storage",
-            "chest_arctek_02",
-            "gamer_drink",
-            "inventory_sensor",
-            "breastplate_lumite",
-            "gift_box_green",
-            "chest_mayan",
-            "chest_arctek_01",
-            "potion_skull_poison",
-            "spawner_mob_item",
-            "helmet_lumite",
-            "pumpkiru_chest_advanced_storage",
-            "potion_tanky_turtle",
-            "table_arctek_01",
-            "poi_item",
-            "lantern_arctek_01",
-            "kitchen_percolator",
-            "captureblueprint_63_item",
-            "sword_lumite",
-            "torch_arctek_02",
-            "table_arctek_03",
-            "captureblueprint_31_item",
-            "lantern_arctek_02",
-            "spawner_loot_item",
-            "invert_block_item",
-            "leggings_lumite",
-            "tear_item",
-            "numberstorage",
-            "chest_medieval"
-        ]
-    },
-    "sulfur_item": {
-        "id": "sulfur_item",
-        "name": "Sulfur",
-        "icon": "igneous_sulfur",
-        "namesearch": "sulfur_item igneous_sulfur sulfur",
-        "recipes": [],
-        "creates": [
-            "resist_freeze_basic",
-            "floor_hardened_lava"
+            "bomb_peircing",
+            "breastplate_iron",
+            "sword_iron",
+            "armguards_iron",
+            "wall_bungalow_accent_fur",
+            "bomb_poison",
+            "wall_bungalow_accent",
+            "sword_gold_welcome",
+            "leggings_iron",
+            "resist_poison_basic",
+            "helmet_iron"
         ]
     },
     "grass_item": {
@@ -36277,13 +39328,13 @@ var crafts = {
         "namesearch": "grass grass_item",
         "recipes": [],
         "creates": [
-            "slope_grass",
             "slab_grass_full",
-            "path_stone",
-            "grass_retro",
+            "path_stone_decorative",
             "slab_grass",
+            "slope_grass",
             "path_stone_natural",
-            "path_stone_decorative"
+            "path_stone",
+            "grass_retro"
         ]
     },
     "mold": {
@@ -36294,38 +39345,85 @@ var crafts = {
         "recipes": [],
         "creates": [
             "wall_moroccan_siltstone",
-            "glob_goo",
             "bomb_uncorrupt",
-            "potion_no_breath_loss"
+            "potion_no_breath_loss",
+            "glob_goo"
         ]
     },
     "dirt_item": {
         "id": "dirt_item",
         "name": "Dirt",
         "icon": "dirt",
-        "namesearch": "dirt dirt_item",
+        "namesearch": "dirt_item dirt",
         "recipes": [],
         "creates": [
-            "flower_retro",
             "slope_dirt",
-            "dirt_retro",
+            "flower_retro",
             "planter_wood",
+            "slab_dirt",
             "mud_item",
-            "slab_dirt"
+            "dirt_retro"
         ]
     },
-    "miru_eye": {
-        "id": "miru_eye",
-        "name": "Miru Eye",
-        "icon": "miru_eye",
-        "namesearch": "miru_eye eye miru",
+    "sulfur_item": {
+        "id": "sulfur_item",
+        "name": "Sulfur",
+        "icon": "igneous_sulfur",
+        "namesearch": "sulfur sulfur_item igneous_sulfur",
         "recipes": [],
         "creates": [
-            "breastplate_obsidian",
+            "resist_freeze_basic",
+            "floor_hardened_lava"
+        ]
+    },
+    "leather": {
+        "id": "leather",
+        "name": "Leather",
+        "icon": "leather",
+        "namesearch": "leather",
+        "recipes": [],
+        "creates": [
+            "table_medieval",
+            "medieval_banner_hanging",
+            "haunted_book",
+            "switch_industrial_toggle",
+            "planter_pigsy",
+            "fireworks_halloween",
+            "stairs_canvas",
+            "switch_industrial_lever",
+            "placemat",
+            "holiday_garland",
+            "canvas",
+            "snowman",
+            "hotel_couch",
+            "bomb_halloween_bats",
+            "music_box",
             "helmet_obsidian",
-            "sword_obsidian",
+            "hotel_couch_corner",
+            "chair_sci_fi",
+            "bomb_stun",
+            "flower_daisy",
+            "picture_frame_item",
+            "holiday_wreath",
+            "wall_medieval_banner",
+            "armguards_leather",
+            "stairs_medieval_rug",
+            "hotel_curtain",
+            "banner_candy_skull",
+            "easel",
+            "hotel_couch_ottoman",
+            "hotel_chair",
+            "hotel_jabot",
+            "helmet_leather",
+            "breastplate_obsidian",
+            "sword_crowbar",
             "armguards_obsidian",
-            "leggings_obsidian"
+            "bomb_shard",
+            "leggings_obsidian",
+            "medieval_banner_hanging2",
+            "breastplate_leather",
+            "leggings_leather",
+            "bellows_industrial"
         ]
     },
     "tar_item": {
@@ -36335,148 +39433,231 @@ var crafts = {
         "namesearch": "tar tar_item",
         "recipes": [],
         "creates": [
-            "bone_broth",
-            "wall_sci_fi_exterior01",
-            "slope_sci_fi_pipe",
-            "wall_sci_fi",
-            "bread",
-            "pie_melon",
-            "slope_sci_fi",
-            "gamer_joystick",
-            "sword_sci_fi",
-            "soup_tar",
-            "led_sci_fi",
-            "slope_round_sci_fi_exterior",
             "switch_sci_fi",
-            "pie",
-            "pie_frigid",
+            "pie_melon",
+            "bread",
             "door_sci_fi",
-            "slope_sci_fi_exterior",
-            "potion_skull_poison",
-            "container_sci_fi",
-            "pie_jerky",
-            "bed_sci_fi",
-            "chair_sci_fi",
-            "soup",
-            "stairs_sci_fi",
-            "floor_sci_fi_grate",
-            "window_sci_fi",
             "bread_tar",
-            "ladder_sci_fi",
+            "container_sci_fi",
+            "soup_tar",
+            "slope_sci_fi",
+            "stairs_sci_fi",
+            "slope_round_sci_fi_exterior",
+            "chair_sci_fi",
+            "pie_jerky",
+            "potion_skull_poison",
+            "bed_sci_fi",
+            "slope_sci_fi_pipe",
+            "soup_egg",
+            "gamer_joystick",
+            "pie",
+            "wall_sci_fi",
+            "sword_sci_fi",
+            "window_sci_fi",
+            "soup",
+            "wall_sci_fi_exterior01",
+            "pie_frigid",
             "gamer_keyboard",
-            "soup_egg"
+            "floor_sci_fi_grate",
+            "ladder_sci_fi",
+            "bone_broth",
+            "led_sci_fi",
+            "slope_sci_fi_exterior"
         ]
     },
     "water_corrupted_item": {
         "id": "water_corrupted_item",
         "name": "Corrupted Water",
         "icon": "water_corrupted",
-        "namesearch": "water_corrupted water corrupted water_corrupted_item",
+        "namesearch": "water_corrupted water_corrupted_item corrupted water",
         "recipes": [],
         "creates": [
-            "bone_broth",
-            "soup",
             "pie_corrupted",
-            "bread_corrupted",
-            "soup_corrupted",
+            "bone_broth",
             "medieval_stein",
+            "pie_melon",
             "pie",
-            "pie_jerky",
-            "soup_egg",
             "bread",
+            "soup_corrupted",
             "pie_frigid",
             "medieval_pint",
-            "pie_melon"
+            "bread_corrupted",
+            "pie_jerky",
+            "soup_egg",
+            "soup"
+        ]
+    },
+    "arcstone": {
+        "id": "arcstone",
+        "name": "Arcstone",
+        "icon": "arcstone",
+        "namesearch": "arcstone",
+        "recipes": [],
+        "creates": [
+            "delay_block_item",
+            "gamer_drink",
+            "captureblueprint_31_item",
+            "torch_arctek_02",
+            "chest_valentines",
+            "number_comparison_item",
+            "spawner_mob_item",
+            "captureblueprint_63_item",
+            "pumpkiru_chest_basic_storage",
+            "inventory_sensor",
+            "numberstorage",
+            "pumpkiru_chest_advanced_storage",
+            "potion_tanky_turtle",
+            "table_arctek_02",
+            "snow_globe_frosted",
+            "gift_box_blue",
+            "sword_lumite",
+            "actuator_item",
+            "gift_box_red",
+            "arc_text_projector_item",
+            "potion_jimmy",
+            "chest_mayan",
+            "invert_block_item",
+            "table_arctek_03",
+            "leggings_lumite",
+            "potion_skull_poison",
+            "kitchen_percolator",
+            "gift_box_green",
+            "pumpkiru_chest_super_storage",
+            "logic_rng",
+            "lantern_arctek_01",
+            "beacon_adjustable",
+            "automation_portal",
+            "chest_arctek_01",
+            "sword_sci_fi",
+            "logic_gate_item",
+            "arc_vault",
+            "potion_speed_and_jump",
+            "led_holiday_tree",
+            "chest_lockable",
+            "lantern_arctek_02",
+            "sensor_item",
+            "table_arctek_01",
+            "logic_counter",
+            "armguards_lumite",
+            "breastplate_lumite",
+            "bomb_foliage",
+            "bomb_defoliage",
+            "chest_arctek_02",
+            "captureblueprint_15_item",
+            "tear_item",
+            "chest_industrial",
+            "spawner_loot_item",
+            "helmet_lumite",
+            "poi_item",
+            "picture_frame_arc_item",
+            "code_block_item",
+            "chest_medieval",
+            "torch_arctek_01"
+        ]
+    },
+    "miru_eye": {
+        "id": "miru_eye",
+        "name": "Miru Eye",
+        "icon": "miru_eye",
+        "namesearch": "miru eye miru_eye",
+        "recipes": [],
+        "creates": [
+            "breastplate_obsidian",
+            "armguards_obsidian",
+            "sword_obsidian",
+            "helmet_obsidian",
+            "leggings_obsidian"
         ]
     },
     "aquamarine_item": {
         "id": "aquamarine_item",
         "name": "Siltstone",
         "icon": "siltrock",
-        "namesearch": "siltstone siltrock aquamarine_item",
+        "namesearch": "siltstone aquamarine_item siltrock",
         "recipes": [],
         "creates": [
-            "moroccan_decorative_tile_mosaic",
             "industrial_barricade",
-            "bathroom_sink",
-            "concrete_blue",
-            "moroccan_decorative_tile_turqoise",
+            "concrete_red",
+            "moroccan_decorative_tile_mosaic",
             "moroccan_decorative_tile_star",
+            "moroccan_decorative_tile_turqoise",
             "wall_moroccan_tile_red",
-            "floor_linoleum_tile",
+            "bathroom_bathtub",
+            "wall_moroccan_iron_curl",
+            "concrete_blue",
+            "wall_moroccan_tile_blue",
+            "kitchen_sink",
+            "concrete_yellow",
+            "bathroom_toilet",
+            "bathroom_sink",
             "wall_moroccan_tile_yellow",
             "wall_moroccan_siltstone",
-            "bathroom_toilet",
-            "wall_subway_tile",
-            "concrete_red",
-            "concrete_yellow",
-            "bathroom_bathtub",
-            "wall_moroccan_tile_blue",
-            "wall_moroccan_iron_curl",
-            "kitchen_sink"
+            "floor_linoleum_tile",
+            "wall_subway_tile"
         ]
     },
     "wood_aspen_item": {
         "id": "wood_aspen_item",
         "name": "Ashenwood",
         "icon": "wood_aspen",
-        "namesearch": "wood_aspen_item wood_aspen ashenwood",
+        "namesearch": "ashenwood wood_aspen_item wood_aspen",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
         ]
     },
     "log_aspen_item": {
         "id": "log_aspen_item",
         "name": "Ashenwood Log",
         "icon": "log_aspen",
-        "namesearch": "log_aspen_item log_aspen log ashenwood",
+        "namesearch": "log_aspen log ashenwood log_aspen_item",
         "recipes": [],
         "creates": [
             "stick_wood"
@@ -36490,12 +39671,12 @@ var crafts = {
         "recipes": [],
         "creates": [
             "slab_stone",
-            "station_furniture",
-            "rod_stone",
-            "wall_roman_bedrock_square",
-            "door_limestone_bedrock",
-            "capital_roman_bedrock_leaf",
             "focus_obsidian",
+            "station_furniture",
+            "door_limestone_bedrock",
+            "rod_stone",
+            "capital_roman_bedrock_leaf",
+            "wall_roman_bedrock_square",
             "capital_roman_bedrock_laurel"
         ]
     },
@@ -36506,68 +39687,56 @@ var crafts = {
         "namesearch": "wheat",
         "recipes": [],
         "creates": [
-            "bread_corrupted",
-            "kitchen_toaster",
-            "bread",
-            "bread_wholesome",
             "pie_melon",
+            "bread",
+            "food_cake_shrew",
+            "kitchen_toaster",
+            "bread_corrupted",
+            "bread_tar",
+            "seed_wheat",
+            "pie_corrupted",
+            "bread_bog",
+            "pie_wholesome",
+            "pie_mushroom",
+            "pie_jerky",
+            "pie_blazing",
             "pie",
             "bread_gingerbread",
-            "pie_frigid",
-            "food_cake_shrew",
-            "bread_blazing",
-            "bread_bog",
-            "pie_jerky",
-            "bread_tar",
+            "bread_wholesome",
             "pie_cactus",
-            "pie_corrupted",
-            "seed_wheat",
-            "pie_mushroom",
-            "pie_blazing",
-            "pie_wholesome"
+            "pie_frigid",
+            "bread_blazing"
         ]
     },
     "stone_corrupted_item": {
         "id": "stone_corrupted_item",
         "name": "Corrupted Stone",
         "icon": "stone_corrupted",
-        "namesearch": "stone corrupted stone_corrupted stone_corrupted_item",
+        "namesearch": "corrupted stone stone_corrupted_item stone_corrupted",
         "recipes": [],
         "creates": [
             "wall_corrupted_stone",
+            "tnt_tier3_item",
             "corrupt_obelisk",
-            "bomb_corrupt",
-            "tnt_tier3_item"
-        ]
-    },
-    "arctic_miru_eye": {
-        "id": "arctic_miru_eye",
-        "name": "Arctic Miru Eye",
-        "icon": "miru_arctic_eye",
-        "namesearch": "arctic_miru_eye arctic miru_arctic_eye miru eye",
-        "recipes": [],
-        "creates": [
-            "crystals_ice",
-            "resist_fire_basic",
-            "sword_diamond"
+            "bomb_corrupt"
         ]
     },
     "hardened_lava_item": {
         "id": "hardened_lava_item",
         "name": "Hardened Lava",
         "icon": "hardened_lava",
-        "namesearch": "hardened hardened_lava_item lava hardened_lava",
+        "namesearch": "hardened_lava hardened hardened_lava_item lava",
         "recipes": [],
         "creates": [
-            "tnt_tier2_item",
             "bomb_fire",
-            "wall_hardened_lava_stacked",
+            "tnt_tier2_item",
             "focus_diamond",
+            "wall_hardened_lava_stacked",
             "wall_hardened_lava_inlay",
             "floor_hardened_lava",
-            "bomb_halloween_skull",
             "wall_hardened_lava_brick",
-            "lava_retro"
+            "lava_retro",
+            "bomb_halloween_skull"
         ]
     },
     "ice_item": {
@@ -36577,24 +39746,24 @@ var crafts = {
         "namesearch": "ice_item ice",
         "recipes": [],
         "creates": [
-            "door_ice",
-            "wall_ice_rocky_snow",
             "wall_ice_rocky",
-            "snow_blower",
-            "bomb_blizzard",
-            "stairs_lumite_light",
-            "stairs_ice",
-            "holiday_stained_glass_white",
-            "bed_ice",
-            "crystals_ice",
-            "vines_ice",
-            "container_ice",
-            "focus_diamond",
-            "turret_snow_item",
-            "column_ice_rocky",
-            "spire_ice",
             "icicle",
+            "vines_ice",
+            "column_ice_rocky",
+            "stairs_ice",
+            "spire_ice",
+            "holiday_stained_glass_white",
+            "door_ice",
+            "container_ice",
+            "crystals_ice",
             "bomb_freeze",
+            "turret_snow_item",
+            "snow_blower",
+            "bed_ice",
+            "wall_ice_rocky_snow",
+            "stairs_lumite_light",
+            "focus_diamond",
+            "bomb_blizzard",
             "ice_slope"
         ]
     },
@@ -36602,16 +39771,16 @@ var crafts = {
         "id": "igneous_rock_item",
         "name": "Igneous Rock",
         "icon": "igneous",
-        "namesearch": "rock igneous_rock_item igneous",
+        "namesearch": "igneous_rock_item igneous rock",
         "recipes": [],
         "creates": [
-            "wall_igneous_block",
-            "roof_igneous",
-            "potion_tanky_turtle",
-            "wall_hardened_lava_stacked",
-            "wall_igneous",
             "sandstone_smooth_item",
-            "wall_hardened_lava_brick"
+            "wall_igneous",
+            "wall_igneous_block",
+            "wall_hardened_lava_stacked",
+            "wall_hardened_lava_brick",
+            "potion_tanky_turtle",
+            "roof_igneous"
         ]
     },
     "wood_palm": {
@@ -36621,53 +39790,66 @@ var crafts = {
         "namesearch": "shorewood wood_palm",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
+        ]
+    },
+    "arctic_miru_eye": {
+        "id": "arctic_miru_eye",
+        "name": "Arctic Miru Eye",
+        "icon": "miru_arctic_eye",
+        "namesearch": "arctic_miru_eye miru miru_arctic_eye eye arctic",
+        "recipes": [],
+        "creates": [
+            "resist_fire_basic",
+            "sword_diamond",
+            "crystals_ice"
         ]
     },
     "lava_item": {
@@ -36677,37 +39859,37 @@ var crafts = {
         "namesearch": "lava_item lava",
         "recipes": [],
         "creates": [
-            "soup_blazing",
             "bone_broth",
-            "soup",
             "wall_furnace_grate",
-            "wall_furnace_cross",
-            "wall_furnace_aztec",
-            "bread_blazing",
-            "sword_medieval",
             "medieval_stein",
-            "pie",
-            "pie_jerky",
-            "soup_egg",
             "pie_melon",
+            "pie",
+            "wall_furnace_cross",
             "bread",
-            "pie_blazing",
             "pie_frigid",
             "medieval_pint",
-            "wall_hardened_lava_inlay"
+            "soup_egg",
+            "wall_hardened_lava_inlay",
+            "soup_blazing",
+            "pie_jerky",
+            "pie_blazing",
+            "sword_medieval",
+            "bread_blazing",
+            "soup",
+            "wall_furnace_aztec"
         ]
     },
     "leaves_aspen_item": {
         "id": "leaves_aspen_item",
         "name": "Ashenwood Leaves",
         "icon": "leaf_aspen",
-        "namesearch": "leaf_aspen leaves leaves_aspen_item ashenwood",
+        "namesearch": "leaves_aspen_item leaf_aspen ashenwood leaves",
         "recipes": [],
         "creates": [
             "holiday_wreath",
             "led_holiday_tree",
-            "holiday_garland",
             "container_tree",
+            "holiday_garland",
             "leaves_shredded",
             "leaves_retro",
             "flytrap_retro"
@@ -36717,13 +39899,13 @@ var crafts = {
         "id": "leaves_palm",
         "name": "Shorewood Leaves",
         "icon": "leaf_palm",
-        "namesearch": "shorewood leaves leaf_palm leaves_palm",
+        "namesearch": "leaf_palm leaves_palm shorewood leaves",
         "recipes": [],
         "creates": [
             "holiday_wreath",
             "led_holiday_tree",
-            "holiday_garland",
             "container_tree",
+            "holiday_garland",
             "leaves_shredded",
             "leaves_retro",
             "flytrap_retro"
@@ -36733,13 +39915,13 @@ var crafts = {
         "id": "leaves_oak_item",
         "name": "Cragwood Leaves",
         "icon": "leaf_oak",
-        "namesearch": "leaf_oak cragwood leaves leaves_oak_item",
+        "namesearch": "leaf_oak leaves_oak_item cragwood leaves",
         "recipes": [],
         "creates": [
             "holiday_wreath",
             "led_holiday_tree",
-            "holiday_garland",
             "container_tree",
+            "holiday_garland",
             "leaves_shredded",
             "leaves_retro",
             "flytrap_retro"
@@ -36749,67 +39931,47 @@ var crafts = {
         "id": "leaves_jungle_flower",
         "name": "Wildwood Flower",
         "icon": "flower_jungle",
-        "namesearch": "flower_jungle leaves_jungle_flower wildwood flower",
+        "namesearch": "flower leaves_jungle_flower wildwood flower_jungle",
         "recipes": [],
         "creates": [
-            "potion_gold",
+            "taming_collar",
             "statue_candy_skull",
+            "hotel_flower",
+            "potion_gold",
+            "flower_poinsettia",
+            "potion_basic",
+            "focus_stone",
             "chest_valentines",
             "flower_retro",
-            "taming_collar",
-            "potion_basic",
-            "plum_blossom",
-            "resist_poison_basic",
-            "flower_poinsettia",
             "planter_mayan",
-            "hotel_flower",
-            "flower_daisy",
-            "focus_stone",
-            "regenerate_stamina_basic"
-        ]
-    },
-    "party_hat_red": {
-        "id": "party_hat_red",
-        "name": "Red Party Hat",
-        "icon": "party_hat_red",
-        "namesearch": "hat party red party_hat_red",
-        "recipes": [],
-        "creates": [
-            "logic_rng"
-        ]
-    },
-    "potion_attract_rockster": {
-        "id": "potion_attract_rockster",
-        "name": "L'Rockster",
-        "icon": "perfume_eau_rockster",
-        "namesearch": "l'rockster potion_attract_rockster perfume_eau_rockster",
-        "recipes": [],
-        "creates": [
-            "logic_rng"
+            "resist_poison_basic",
+            "regenerate_stamina_basic",
+            "plum_blossom",
+            "flower_daisy"
         ]
     },
     "leaves_willow_flower": {
         "id": "leaves_willow_flower",
         "name": "Weepwood Flower",
         "icon": "flower_weepwood",
-        "namesearch": "flower weepwood leaves_willow_flower flower_weepwood",
+        "namesearch": "leaves_willow_flower flower flower_weepwood weepwood",
         "recipes": [],
         "creates": [
-            "potion_gold",
-            "logic_rng",
+            "taming_collar",
             "statue_candy_skull",
+            "hotel_flower",
+            "potion_gold",
+            "flower_poinsettia",
+            "flower_daisy",
+            "potion_basic",
+            "focus_stone",
             "chest_valentines",
             "flower_retro",
-            "taming_collar",
-            "potion_basic",
-            "plum_blossom",
-            "flower_poinsettia",
-            "planter_mayan",
-            "hotel_flower",
-            "flower_daisy",
             "bomb_poison",
-            "focus_stone",
-            "regenerate_stamina_basic"
+            "planter_mayan",
+            "regenerate_stamina_basic",
+            "plum_blossom",
+            "logic_rng"
         ]
     },
     "leaves_sequoia_item": {
@@ -36821,8 +39983,8 @@ var crafts = {
         "creates": [
             "holiday_wreath",
             "led_holiday_tree",
-            "holiday_garland",
             "container_tree",
+            "holiday_garland",
             "leaves_shredded",
             "leaves_retro",
             "flytrap_retro"
@@ -36832,35 +39994,24 @@ var crafts = {
         "id": "cactus_flower",
         "name": "Cactus flower",
         "icon": "flower_cactus",
-        "namesearch": "flower cactus_flower flower_cactus cactus",
+        "namesearch": "flower flower_cactus cactus cactus_flower",
         "recipes": [],
         "creates": [
-            "potion_gold",
+            "taming_collar",
             "statue_candy_skull",
+            "hotel_flower",
+            "potion_gold",
+            "focus_lumite",
+            "flower_poinsettia",
+            "potion_basic",
+            "focus_stone",
             "chest_valentines",
             "flower_retro",
-            "taming_collar",
-            "potion_basic",
-            "plum_blossom",
-            "flower_poinsettia",
-            "planter_mayan",
-            "hotel_flower",
-            "flower_daisy",
             "resist_corruption_basic",
-            "focus_stone",
-            "focus_lumite",
-            "regenerate_stamina_basic"
-        ]
-    },
-    "slope_wood_red_chinese": {
-        "id": "slope_wood_red_chinese",
-        "name": "Forbidden Red Wood Slope",
-        "icon": "slope_wood_red_chinese",
-        "namesearch": "slope_wood_red_chinese forbidden red wood slope",
-        "recipes": [],
-        "creates": [
-            "slope_wood_red_chinese_outer_corner",
-            "slope_wood_red_chinese_inner_corner"
+            "planter_mayan",
+            "regenerate_stamina_basic",
+            "plum_blossom",
+            "flower_daisy"
         ]
     },
     "limestone_item": {
@@ -36870,24 +40021,24 @@ var crafts = {
         "namesearch": "limestone_item limestone",
         "recipes": [],
         "creates": [
-            "frieze_roman_limestone_leaf",
             "slab_stone",
-            "wall_roman_limestone_maze",
-            "door_limestone_bedrock",
-            "rod_stone",
-            "wall_stone_ornamental_swirl",
-            "wall_roman_limestone_pillar",
-            "column_roman_limestone_staight",
-            "column_roman_limestone_spiral",
-            "salt_item",
-            "wall_roman_limestone_decorative_corners",
             "wall_stone_ornamental",
-            "wall_roman_limestone_leafcrown",
-            "wall_roman_limestone_pillarcrown",
-            "pedistal_roman_limestone_grass",
+            "roof_roman_limestone_halfgable",
             "tnt",
+            "wall_roman_limestone_maze",
+            "wall_stone_ornamental_swirl",
             "wall_roman_limestone_basic",
-            "roof_roman_limestone_halfgable"
+            "column_roman_limestone_spiral",
+            "wall_roman_limestone_pillar",
+            "wall_roman_limestone_decorative_corners",
+            "door_limestone_bedrock",
+            "wall_roman_limestone_pillarcrown",
+            "frieze_roman_limestone_leaf",
+            "rod_stone",
+            "pedistal_roman_limestone_grass",
+            "salt_item",
+            "wall_roman_limestone_leafcrown",
+            "column_roman_limestone_staight"
         ]
     },
     "log": {
@@ -36897,75 +40048,76 @@ var crafts = {
         "namesearch": "cragwood log log_oak",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
         ]
     },
     "wildflower": {
         "id": "wildflower",
         "name": "Wildflower",
         "icon": "flower_wild",
-        "namesearch": "flower_wild wildflower",
+        "namesearch": "wildflower flower_wild",
         "recipes": [],
         "creates": [
-            "potion_gold",
+            "taming_collar",
             "statue_candy_skull",
+            "hotel_flower",
+            "potion_gold",
+            "flower_poinsettia",
+            "potion_basic",
+            "focus_stone",
             "chest_valentines",
             "flower_retro",
-            "taming_collar",
-            "potion_basic",
-            "plum_blossom",
-            "flower_poinsettia",
             "planter_mayan",
-            "hotel_flower",
-            "flower_daisy",
-            "focus_stone",
-            "regenerate_stamina_basic"
+            "regenerate_stamina_basic",
+            "plum_blossom",
+            "flower_daisy"
         ]
     },
     "tundra_flower": {
@@ -36975,20 +40127,54 @@ var crafts = {
         "namesearch": "tundra flower_tundra flower tundra_flower",
         "recipes": [],
         "creates": [
-            "potion_gold",
+            "taming_collar",
             "statue_candy_skull",
+            "hotel_flower",
+            "potion_gold",
+            "flower_poinsettia",
+            "potion_basic",
+            "resist_fire_basic",
+            "focus_stone",
             "chest_valentines",
             "flower_retro",
-            "taming_collar",
-            "potion_basic",
-            "plum_blossom",
-            "flower_poinsettia",
             "planter_mayan",
-            "hotel_flower",
-            "resist_fire_basic",
-            "flower_daisy",
-            "focus_stone",
-            "regenerate_stamina_basic"
+            "regenerate_stamina_basic",
+            "plum_blossom",
+            "flower_daisy"
+        ]
+    },
+    "tall_grass": {
+        "id": "tall_grass",
+        "name": "Tallgrass",
+        "icon": "grass_tall",
+        "namesearch": "grass_tall tall_grass tallgrass",
+        "recipes": [],
+        "creates": [
+            "medieval_haystack",
+            "potion_jimmy",
+            "wall_atlantis_sunken",
+            "medieval_haybale_long",
+            "medieval_haybale"
+        ]
+    },
+    "party_hat_red": {
+        "id": "party_hat_red",
+        "name": "Red Party Hat",
+        "icon": "party_hat_red",
+        "namesearch": "hat party_hat_red red party",
+        "recipes": [],
+        "creates": [
+            "logic_rng"
+        ]
+    },
+    "potion_attract_rockster": {
+        "id": "potion_attract_rockster",
+        "name": "L'Rockster",
+        "icon": "perfume_eau_rockster",
+        "namesearch": "perfume_eau_rockster potion_attract_rockster l'rockster",
+        "recipes": [],
+        "creates": [
+            "logic_rng"
         ]
     },
     "sinew": {
@@ -37001,60 +40187,35 @@ var crafts = {
             "twine"
         ]
     },
-    "tall_grass": {
-        "id": "tall_grass",
-        "name": "Tallgrass",
-        "icon": "grass_tall",
-        "namesearch": "grass_tall tallgrass tall_grass",
-        "recipes": [],
-        "creates": [
-            "medieval_haystack",
-            "wall_atlantis_sunken",
-            "potion_jimmy",
-            "medieval_haybale",
-            "medieval_haybale_long"
-        ]
-    },
-    "dust_evil_dust": {
-        "id": "dust_evil_dust",
-        "name": "Dustevil Dust",
-        "icon": "dust_evil",
-        "namesearch": "dustevil dust_evil dust dust_evil_dust",
-        "recipes": [],
-        "creates": [
-            "bomb_force",
-            "resist_corruption_basic"
-        ]
-    },
     "tallgrass_savannah": {
         "id": "tallgrass_savannah",
         "name": "Savannah Tallgrass",
         "icon": "grass_tall_savannah",
-        "namesearch": "tallgrass grass_tall_savannah tallgrass_savannah savannah",
+        "namesearch": "savannah grass_tall_savannah tallgrass_savannah tallgrass",
         "recipes": [],
         "creates": [
-            "medieval_haybale",
             "medieval_haystack",
+            "medieval_haybale_long",
             "potion_jimmy",
-            "medieval_haybale_long"
+            "medieval_haybale"
         ]
     },
     "salt_rock_item": {
         "id": "salt_rock_item",
         "name": "Saltrock",
         "icon": "saltrocks",
-        "namesearch": "saltrock saltrocks salt_rock_item",
+        "namesearch": "salt_rock_item saltrock saltrocks",
         "recipes": [],
         "creates": [
-            "salt_item",
-            "focus_iron"
+            "focus_iron",
+            "salt_item"
         ]
     },
     "ground_jungle": {
         "id": "ground_jungle",
         "name": "Detritus",
         "icon": "ground_jungle_02",
-        "namesearch": "ground_jungle ground_jungle_02 detritus",
+        "namesearch": "ground_jungle detritus ground_jungle_02",
         "recipes": [],
         "creates": [
             "resist_poison_basic"
@@ -37064,32 +40225,17 @@ var crafts = {
         "id": "sand_item",
         "name": "Sand",
         "icon": "sand",
-        "namesearch": "sand_item sand",
+        "namesearch": "sand sand_item",
         "recipes": [],
         "creates": [
-            "sand_retro",
-            "wall_sand_castle",
-            "wall_atlantis_trim",
-            "wall_atlantis_accent",
+            "wall_atlantis_accent_trident",
             "wall_atlantis",
             "chest_atlantis",
+            "wall_atlantis_accent",
+            "wall_atlantis_trim",
+            "sand_retro",
             "glass",
-            "wall_atlantis_accent_trident"
-        ]
-    },
-    "seashells": {
-        "id": "seashells",
-        "name": "Seashells",
-        "icon": "seashells",
-        "namesearch": "seashells",
-        "recipes": [],
-        "creates": [
-            "cup_atlantis",
-            "focus_iron",
-            "wall_sand_castle",
-            "moroccan_decorative_tile_white",
-            "altar_atlantis",
-            "chest_atlantis"
+            "wall_sand_castle"
         ]
     },
     "water_bog_item": {
@@ -37100,26 +40246,41 @@ var crafts = {
         "recipes": [],
         "creates": [
             "bone_broth",
-            "soup",
             "bomb_defoliage",
-            "regenerate_health_basic",
-            "bread_bog",
             "medieval_stein",
+            "pie_melon",
             "pie",
-            "soup_bog",
-            "soup_egg",
-            "pie_jerky",
+            "regenerate_health_basic",
             "bread",
+            "bread_bog",
+            "soup_bog",
             "pie_frigid",
             "medieval_pint",
-            "pie_melon"
+            "pie_jerky",
+            "soup_egg",
+            "soup"
+        ]
+    },
+    "seashells": {
+        "id": "seashells",
+        "name": "Seashells",
+        "icon": "seashells",
+        "namesearch": "seashells",
+        "recipes": [],
+        "creates": [
+            "focus_iron",
+            "chest_atlantis",
+            "altar_atlantis",
+            "cup_atlantis",
+            "moroccan_decorative_tile_white",
+            "wall_sand_castle"
         ]
     },
     "sandstone_item": {
         "id": "sandstone_item",
         "name": "Sandstone",
         "icon": "sandstone",
-        "namesearch": "sandstone_item sandstone",
+        "namesearch": "sandstone sandstone_item",
         "recipes": [],
         "creates": [
             "sandstone_smooth_item"
@@ -37129,76 +40290,76 @@ var crafts = {
         "id": "flower_autumnwood",
         "name": "Autumnwood Flower",
         "icon": "flower_autumnwood",
-        "namesearch": "flower flower_autumnwood autumnwood",
+        "namesearch": "flower_autumnwood flower autumnwood",
         "recipes": [],
         "creates": [
-            "potion_gold",
+            "taming_collar",
             "statue_candy_skull",
+            "hotel_flower",
+            "potion_gold",
+            "flower_poinsettia",
+            "potion_basic",
+            "focus_stone",
             "chest_valentines",
             "flower_retro",
-            "taming_collar",
-            "potion_basic",
-            "plum_blossom",
-            "flower_poinsettia",
             "planter_mayan",
-            "hotel_flower",
-            "flower_daisy",
-            "focus_stone",
-            "regenerate_stamina_basic"
+            "regenerate_stamina_basic",
+            "plum_blossom",
+            "flower_daisy"
         ]
     },
     "snow_item": {
         "id": "snow_item",
         "name": "Snow",
         "icon": "snow",
-        "namesearch": "snow snow_item",
+        "namesearch": "snow_item snow",
         "recipes": [],
         "creates": [
-            "wall_gingerbread_swirl",
-            "roof_gingerbread",
-            "holiday_carpet_dark_beige",
-            "fence_candycane",
-            "snow_globe_pigsy",
-            "gate_candycane",
-            "snowman",
-            "stairs_snow",
-            "snow_globe_frosted",
-            "wall_wood_white",
-            "wall_ice_rocky_snow",
-            "holiday_fireplace_white",
-            "door_wood_white",
-            "holiday_carpet_beige",
-            "bomb_blizzard",
-            "slab_snow",
-            "holiday_stained_glass_white",
-            "bomb_snowflake",
-            "holiday_carpet_grey",
-            "slope_snow",
-            "holiday_carpet_dark_grey",
-            "holiday_stained_glass_green",
-            "wall_candycane",
-            "holiday_stained_glass_blue",
-            "holiday_bed_giftwrap",
-            "container_snow",
-            "wall_gingerbread_brick",
-            "column_snow",
-            "chimney_gingerbread",
-            "wall_gingerbread_tile",
-            "holiday_wall_brick_white",
-            "table_wood_white",
-            "holiday_shelf_wood_white",
-            "snow_globe_leafi",
             "holiday_stained_glass_red",
+            "holiday_stained_glass_green",
+            "bomb_snowflake",
             "snow_globe_reaudolph",
+            "wall_candycane",
             "stairs_gingerbread",
-            "turret_snow_item",
-            "snowball",
-            "floor_wood_white",
-            "holiday_bed_candycane",
+            "wall_gingerbread_brick",
+            "container_snow",
+            "snow_globe_frosted",
+            "snowman",
+            "holiday_stained_glass_white",
+            "holiday_stained_glass_blue",
+            "holiday_fireplace_white",
+            "holiday_carpet_dark_beige",
+            "door_wood_white",
+            "slope_snow",
+            "door_gingerbread",
             "chair_wood_white",
-            "snow_globe_trog",
+            "table_wood_white",
+            "holiday_carpet_dark_grey",
+            "floor_wood_white",
+            "holiday_bed_giftwrap",
             "roof_gingerbread_wafer",
-            "door_gingerbread"
+            "holiday_shelf_wood_white",
+            "snow_globe_trog",
+            "turret_snow_item",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "slab_snow",
+            "snowball",
+            "chimney_gingerbread",
+            "column_snow",
+            "holiday_bed_candycane",
+            "holiday_carpet_beige",
+            "fence_candycane",
+            "roof_gingerbread",
+            "stairs_snow",
+            "wall_ice_rocky_snow",
+            "snow_globe_leafi",
+            "wall_gingerbread_tile",
+            "bomb_blizzard",
+            "gate_candycane",
+            "holiday_carpet_grey",
+            "wall_gingerbread_swirl",
+            "holiday_wall_brick_white"
         ]
     },
     "mountain_stone": {
@@ -37208,95 +40369,84 @@ var crafts = {
         "namesearch": "mountain_stone peakstone",
         "recipes": [],
         "creates": [
-            "slope_peakstone",
+            "statue_retro",
             "slab_peakstone",
-            "statue_retro"
-        ]
-    },
-    "pigsy_droppings": {
-        "id": "pigsy_droppings",
-        "name": "Pigsy Droppings",
-        "icon": "pigsy_droppings",
-        "namesearch": "pigsy_droppings pigsy droppings",
-        "recipes": [],
-        "creates": [
-            "logic_rng",
-            "bomb_foliage",
-            "potion_skull_poison"
+            "slope_peakstone"
         ]
     },
     "drift_wood": {
         "id": "drift_wood",
         "name": "Driftwood",
         "icon": "log_driftwood",
-        "namesearch": "driftwood log_driftwood drift_wood",
+        "namesearch": "log_driftwood drift_wood driftwood",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
         ]
     },
     "stalactite_item": {
         "id": "stalactite_item",
         "name": "Stalactite",
         "icon": "stalactite",
-        "namesearch": "stalactite stalactite_item",
+        "namesearch": "stalactite_item stalactite",
         "recipes": [],
         "creates": [
-            "moroccan_decorative_tile_mosaic",
             "tnt_tier1_large_item",
+            "moroccan_decorative_tile_mosaic",
             "moroccan_decorative_tile_turqoise",
-            "healing_beacon",
-            "floor_linoleum_tile",
-            "wall_moroccan_siltstone",
-            "wall_subway_tile",
+            "bomb_uncorrupt",
             "resist_corruption_basic",
-            "bomb_uncorrupt"
+            "wall_moroccan_siltstone",
+            "floor_linoleum_tile",
+            "healing_beacon",
+            "wall_subway_tile"
         ]
     },
     "stone_item": {
@@ -37306,78 +40456,89 @@ var crafts = {
         "namesearch": "stone stone_item",
         "recipes": [],
         "creates": [
-            "logic_rng",
-            "slab_stone",
-            "logic_gate_item",
-            "wall_stone_boulder",
-            "station_sawyer",
-            "pressure_plate_item",
-            "kitchen_fridge",
-            "wall_medieval_icon",
-            "wall_ice_rocky_snow",
-            "wall_ice_rocky",
-            "wall_medieval_spike",
-            "wall_mayan",
-            "gravestone_haunted_02",
-            "wall_medieval_inset",
-            "arc_plow",
-            "wall_mayan_glyph",
-            "wall_stone_stacked",
-            "code_block_item",
-            "wall_medieval_banner",
-            "path_stone_natural",
-            "floor_industrial",
             "delay_block_item",
-            "focus_stone",
-            "planter_haunted",
-            "wall_medieval_bricks",
-            "goblet_mayan",
-            "altar_mayan",
-            "path_stone_decorative",
-            "chest_mayan",
             "taming_collar",
-            "roof_medieval",
-            "wall_mayan_trim_turquoise",
+            "wall_ice_rocky",
+            "pressure_plate_item",
+            "goblet_mayan",
             "number_pad_item",
-            "sword_stone",
+            "wall_stone_boulder",
+            "roof_medieval",
+            "altar_mayan",
             "column_ice_rocky",
-            "gravestone_haunted_01",
-            "stone_retro",
-            "rod_stone",
-            "wall_haunted_stone",
-            "door_stone",
+            "wall_medieval_inset",
+            "gravestone_haunted_02",
+            "wall_medieval_icon",
+            "slab_stone",
+            "sword_stone",
+            "chest_mayan",
             "invert_block_item",
+            "wall_medieval_bricks",
+            "kitchen_fridge",
+            "arc_plow",
+            "logic_rng",
+            "wall_medieval_banner",
+            "path_stone_decorative",
+            "logic_gate_item",
             "camp_fire",
-            "medieval_banner_post"
+            "medieval_banner_post",
+            "wall_mayan",
+            "wall_ice_rocky_snow",
+            "wall_mayan_glyph",
+            "wall_mayan_trim_turquoise",
+            "station_sawyer",
+            "floor_industrial",
+            "planter_haunted",
+            "wall_haunted_stone",
+            "gravestone_haunted_01",
+            "focus_stone",
+            "stone_retro",
+            "wall_medieval_spike",
+            "door_stone",
+            "rod_stone",
+            "path_stone_natural",
+            "code_block_item",
+            "wall_stone_stacked"
         ]
     },
     "canyon_stone_1": {
         "id": "canyon_stone_1",
         "name": "Ruddy Canyonstone",
         "icon": "canyon_stone_1",
-        "namesearch": "canyon_stone_1 ruddy canyonstone",
+        "namesearch": "canyonstone ruddy canyon_stone_1",
         "recipes": [],
         "creates": [
-            "wall_patina",
-            "roof_patina",
             "wall_wood_gravel",
-            "wall_adobe_blue",
-            "wall_adobe_yellow",
-            "wall_stone_cobble_mossy",
-            "window_stucco_ruddy",
-            "planter_geometric",
-            "planter_elevated",
-            "log_wood_ornamental",
-            "wall_adobe",
             "window_wood_barred",
-            "door_wood_rustic",
-            "wall_stucco_ruddy",
+            "planter_elevated",
             "planter_pigsy",
-            "wall_adobe_red",
-            "log_wood_ornamental_metal",
+            "planter_geometric",
+            "wall_patina",
+            "wall_stone_cobble_mossy",
+            "planter_footed",
+            "wall_adobe_yellow",
             "planter_terracotta",
+            "wall_adobe_blue",
+            "log_wood_ornamental",
+            "wall_stucco_ruddy",
+            "wall_adobe_red",
+            "roof_patina",
+            "door_wood_rustic",
             "wall_stone_cobble",
-            "planter_footed"
+            "log_wood_ornamental_metal",
+            "wall_adobe",
+            "window_stucco_ruddy"
+        ]
+    },
+    "dust_evil_dust": {
+        "id": "dust_evil_dust",
+        "name": "Dustevil Dust",
+        "icon": "dust_evil",
+        "namesearch": "dustevil dust_evil_dust dust_evil dust",
+        "recipes": [],
+        "creates": [
+            "resist_corruption_basic",
+            "bomb_force"
         ]
     },
     "canyon_stone_2": {
@@ -37387,90 +40548,102 @@ var crafts = {
         "namesearch": "canyonstone canyon_stone_2",
         "recipes": [],
         "creates": [
-            "wall_stucco",
             "wall_wood_gravel",
-            "wall_adobe_blue",
-            "wall_adobe_yellow",
+            "window_wood_barred",
+            "planter_elevated",
+            "planter_pigsy",
+            "planter_geometric",
+            "wall_copper",
             "wall_stone_cobble_mossy",
             "window_stucco",
-            "planter_geometric",
-            "planter_elevated",
-            "wall_copper",
-            "log_wood_ornamental",
-            "wall_adobe",
-            "window_wood_barred",
-            "door_wood_rustic",
-            "roof_copper",
-            "planter_pigsy",
-            "wall_adobe_red",
-            "log_wood_ornamental_metal",
+            "planter_footed",
+            "wall_adobe_yellow",
             "planter_terracotta",
+            "wall_adobe_blue",
+            "log_wood_ornamental",
+            "wall_stucco",
+            "wall_adobe_red",
+            "door_wood_rustic",
             "wall_stone_cobble",
-            "planter_footed"
+            "log_wood_ornamental_metal",
+            "roof_copper",
+            "wall_adobe"
         ]
     },
     "canyon_stone_3": {
         "id": "canyon_stone_3",
         "name": "Dark Canyonstone",
         "icon": "canyon_stone_3",
-        "namesearch": "dark canyonstone canyon_stone_3",
+        "namesearch": "canyonstone dark canyon_stone_3",
         "recipes": [],
         "creates": [
-            "wall_stucco_dark",
             "wall_wood_gravel",
-            "wall_adobe_blue",
-            "wall_adobe_yellow",
-            "wall_stone_cobble_mossy",
-            "planter_geometric",
-            "planter_elevated",
-            "log_wood_ornamental",
-            "wall_adobe",
-            "wall_stone_cobble",
             "window_wood_barred",
-            "door_wood_rustic",
-            "roof_tin",
-            "window_stucco_dark",
+            "planter_elevated",
             "planter_pigsy",
-            "wall_adobe_red",
-            "log_wood_ornamental_metal",
-            "planter_terracotta",
             "wall_tin",
-            "planter_footed"
+            "planter_geometric",
+            "wall_stucco_dark",
+            "wall_stone_cobble_mossy",
+            "planter_footed",
+            "wall_adobe_yellow",
+            "planter_terracotta",
+            "wall_adobe_blue",
+            "log_wood_ornamental",
+            "window_stucco_dark",
+            "wall_adobe_red",
+            "roof_tin",
+            "door_wood_rustic",
+            "wall_stone_cobble",
+            "log_wood_ornamental_metal",
+            "wall_adobe"
+        ]
+    },
+    "pigsy_droppings": {
+        "id": "pigsy_droppings",
+        "name": "Pigsy Droppings",
+        "icon": "pigsy_droppings",
+        "namesearch": "pigsy_droppings droppings pigsy",
+        "recipes": [],
+        "creates": [
+            "potion_skull_poison",
+            "bomb_foliage",
+            "logic_rng"
         ]
     },
     "plant_succulent": {
         "id": "plant_succulent",
         "name": "Desert Succulent",
         "icon": "plant_succulent_food",
-        "namesearch": "plant_succulent plant_succulent_food succulent desert",
+        "namesearch": "plant_succulent_food succulent desert plant_succulent",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "soup_corrupted",
-            "soup_blazing",
-            "soup_tar",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "food_cake_shrew",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_bog",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
             "soup_wholesome",
-            "mystery_meal",
-            "seed_plant_succulent",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_corrupted",
+            "soup_tar",
+            "pie_corrupted",
+            "sandwich_bog",
+            "pie_wholesome",
             "pie_blazing",
-            "pie_wholesome"
+            "seed_plant_succulent",
+            "pie",
+            "mystery_meal",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup",
+            "sandwich",
+            "soup_bog",
+            "soup_blazing"
         ]
     },
     "leaves_jungle_2": {
         "id": "leaves_jungle_2",
         "name": "Dark Wildwood Leaves",
         "icon": "leaf_jungle_02",
-        "namesearch": "wildwood leaves leaf_jungle_02 leaves_jungle_2 dark",
+        "namesearch": "dark leaves leaf_jungle_02 wildwood leaves_jungle_2",
         "recipes": [],
         "creates": [
             "leaves_shredded",
@@ -37481,40 +40654,40 @@ var crafts = {
         "id": "plant_pilea",
         "name": "Mirror Grass",
         "icon": "plant_pilea_food",
-        "namesearch": "plant_pilea_food grass mirror plant_pilea",
+        "namesearch": "grass mirror plant_pilea plant_pilea_food",
         "recipes": [],
         "creates": [
-            "soup_blazing",
-            "soup",
-            "sandwich_tar",
-            "sandwich_blazing",
-            "sandwich_wholesome",
-            "soup_wholesome",
             "pie_corrupted",
-            "soup_tar",
-            "mystery_meal",
-            "seed_plant_pilea",
-            "soup_corrupted",
-            "sandwich_corrupted",
-            "pie_blazing",
-            "sandwich_bog",
+            "soup_wholesome",
             "pie",
-            "soup_bog",
+            "sandwich_bog",
             "sandwich",
-            "pie_wholesome"
+            "sandwich_tar",
+            "mystery_meal",
+            "soup_corrupted",
+            "soup_bog",
+            "sandwich_blazing",
+            "sandwich_corrupted",
+            "pie_wholesome",
+            "soup_tar",
+            "sandwich_wholesome",
+            "soup_blazing",
+            "seed_plant_pilea",
+            "pie_blazing",
+            "soup"
         ]
     },
     "leaves_sequoia_snow_capped": {
         "id": "leaves_sequoia_snow_capped",
         "name": "Snowy Elderwood Leaves",
         "icon": "leaf_sequoia_snow",
-        "namesearch": "leaves_sequoia_snow_capped elderwood snowy leaves leaf_sequoia_snow",
+        "namesearch": "leaves elderwood leaves_sequoia_snow_capped leaf_sequoia_snow snowy",
         "recipes": [],
         "creates": [
             "holiday_wreath",
             "led_holiday_tree",
-            "holiday_garland",
             "container_tree",
+            "holiday_garland",
             "leaves_retro",
             "flytrap_retro"
         ]
@@ -37523,60 +40696,70 @@ var crafts = {
         "id": "plant_cactus02",
         "name": "Prickly Pal Cactus",
         "icon": "plant_cactus02_food",
-        "namesearch": "prickly plant_cactus02 plant_cactus02_food cactus pal",
+        "namesearch": "cactus plant_cactus02_food plant_cactus02 pal prickly",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "soup_corrupted",
-            "soup_blazing",
-            "soup_tar",
-            "sandwich_cactus",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_bog",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
             "soup_wholesome",
-            "pie_cactus",
-            "mystery_meal",
-            "pie_blazing",
-            "pie_wholesome",
+            "soup_cactus",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_corrupted",
+            "soup_tar",
+            "pie_corrupted",
             "seed_plant_cactus02",
-            "soup_cactus"
+            "sandwich_bog",
+            "pie_wholesome",
+            "food_sushi_karrotfish",
+            "sandwich_cactus",
+            "pie_blazing",
+            "pie",
+            "mystery_meal",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "pie_cactus",
+            "soup",
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "soup_bog",
+            "food_baked_hog",
+            "soup_blazing",
+            "food_egg_skillet"
         ]
     },
     "plant_cactus01": {
         "id": "plant_cactus01",
         "name": "Big Pokey Cactus",
         "icon": "plant_cactus01_food",
-        "namesearch": "plant_cactus01_food pokey cactus plant_cactus01 big",
+        "namesearch": "plant_cactus01_food big cactus plant_cactus01 pokey",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "soup_corrupted",
-            "soup_blazing",
-            "soup_tar",
-            "seed_plant_cactus01",
-            "sandwich_cactus",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_bog",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
             "soup_wholesome",
-            "pie_cactus",
-            "mystery_meal",
-            "pie_blazing",
+            "soup_cactus",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_corrupted",
+            "soup_tar",
+            "pie_corrupted",
+            "sandwich_bog",
+            "seed_plant_cactus01",
             "pie_wholesome",
-            "soup_cactus"
+            "food_sushi_karrotfish",
+            "sandwich_cactus",
+            "pie_blazing",
+            "pie",
+            "mystery_meal",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "pie_cactus",
+            "soup",
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "soup_bog",
+            "food_baked_hog",
+            "soup_blazing",
+            "food_egg_skillet"
         ]
     },
     "plant_bamboo": {
@@ -37586,24 +40769,24 @@ var crafts = {
         "namesearch": "plant_bamboo_food bamboo wild plant_bamboo",
         "recipes": [],
         "creates": [
-            "soup_blazing",
-            "soup",
-            "seed_plant_bamboo",
-            "sandwich_blazing",
-            "sandwich_wholesome",
-            "soup_wholesome",
-            "sandwich_tar",
-            "soup_tar",
             "pie_corrupted",
+            "soup_wholesome",
+            "seed_plant_bamboo",
+            "pie",
+            "sandwich_bog",
+            "sandwich",
+            "sandwich_tar",
             "mystery_meal",
             "soup_corrupted",
-            "sandwich_corrupted",
-            "pie_blazing",
-            "sandwich_bog",
-            "pie",
             "soup_bog",
-            "sandwich",
-            "pie_wholesome"
+            "sandwich_blazing",
+            "sandwich_corrupted",
+            "pie_wholesome",
+            "soup_tar",
+            "sandwich_wholesome",
+            "soup_blazing",
+            "pie_blazing",
+            "soup"
         ]
     },
     "water_item": {
@@ -37613,117 +40796,123 @@ var crafts = {
         "namesearch": "water water_item",
         "recipes": [],
         "creates": [
-            "bone_broth",
-            "arc_washer",
-            "kitchen_toaster",
-            "bread",
-            "mud_item",
-            "potion_speed_and_jump",
+            "soup_cactus",
             "pie_melon",
-            "flower_retro",
-            "bomb_foliage",
+            "bread",
+            "food_cake_shrew",
+            "kitchen_toaster",
+            "vent_industrial",
+            "potion_tanky_turtle",
+            "soup_frigid",
+            "arc_washer",
+            "pie_mushroom",
             "bathroom_toilet",
+            "pie_jerky",
+            "sword_medieval",
+            "mud_item",
+            "soup_egg",
             "medieval_stein",
             "pie",
-            "pie_frigid",
             "medieval_pint",
-            "food_cake_shrew",
-            "potion_tanky_turtle",
-            "vent_industrial",
-            "pie_jerky",
+            "potion_speed_and_jump",
+            "flower_retro",
             "soup_jerky",
-            "soup_frigid",
-            "soup",
             "pie_cactus",
-            "pie_mushroom",
-            "sword_medieval",
-            "soup_egg",
-            "soup_cactus"
+            "soup",
+            "bomb_foliage",
+            "pie_frigid",
+            "bone_broth"
         ]
     },
     "wood_oak_item": {
         "id": "wood_oak_item",
         "name": "Cragwood",
         "icon": "wood_oak",
-        "namesearch": "wood_oak cragwood wood_oak_item",
+        "namesearch": "wood_oak_item cragwood wood_oak",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
         ]
     },
     "horned_melon": {
         "id": "horned_melon",
         "name": "Horned Melon",
         "icon": "melon",
-        "namesearch": "horned_melon horned melon",
+        "namesearch": "horned melon horned_melon",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "soup_corrupted",
-            "pie_melon",
-            "soup_blazing",
-            "soup_tar",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "sandwich_tar",
-            "seed_horned_melon",
-            "sandwich_corrupted",
-            "sandwich_melon",
-            "sandwich_bog",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
             "soup_wholesome",
-            "mystery_meal",
+            "pie_melon",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_melon",
+            "sandwich_corrupted",
+            "soup_tar",
+            "pie_corrupted",
+            "sandwich_bog",
+            "pie_wholesome",
+            "food_sushi_karrotfish",
             "pie_blazing",
-            "pie_wholesome"
+            "pie",
+            "mystery_meal",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup",
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "soup_bog",
+            "food_baked_hog",
+            "soup_blazing",
+            "seed_horned_melon",
+            "food_egg_skillet"
         ]
     },
     "lettuce": {
@@ -37733,44 +40922,39 @@ var crafts = {
         "namesearch": "lettuce crisphead",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "sandwich_mushroom",
-            "soup_corrupted",
-            "sandwich_frigid",
-            "soup_blazing",
-            "soup_tar",
-            "sandwich_jerky",
-            "sandwich_cactus",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "sandwich_egg",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_melon",
-            "sandwich_bog",
-            "soup_jerky",
-            "soup_frigid",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
             "soup_wholesome",
-            "mystery_meal",
-            "seed_lettuce",
-            "pie_blazing",
+            "soup_cactus",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_melon",
+            "sandwich_corrupted",
+            "soup_tar",
+            "soup_frigid",
+            "pie_corrupted",
+            "sandwich_bog",
             "pie_wholesome",
+            "food_sushi_karrotfish",
+            "sandwich_mushroom",
+            "sandwich_cactus",
+            "pie_blazing",
             "soup_egg",
-            "soup_cactus"
-        ]
-    },
-    "pebble_pebble": {
-        "id": "pebble_pebble",
-        "name": "Pebble's Pebble",
-        "icon": "pebbles_pebble",
-        "namesearch": "pebble pebble_pebble pebbles_pebble pebble's",
-        "recipes": [],
-        "creates": [
-            "rockster_rock"
+            "pie",
+            "mystery_meal",
+            "sandwich_frigid",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "seed_lettuce",
+            "soup_jerky",
+            "sandwich_egg",
+            "soup",
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "soup_bog",
+            "food_baked_hog",
+            "sandwich_jerky",
+            "soup_blazing",
+            "food_egg_skillet"
         ]
     },
     "turnip": {
@@ -37780,61 +40964,76 @@ var crafts = {
         "namesearch": "turnip",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "sandwich_mushroom",
-            "soup_corrupted",
-            "sandwich_frigid",
-            "soup_blazing",
-            "soup_tar",
-            "sandwich_jerky",
-            "sandwich_cactus",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "sandwich_egg",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_melon",
-            "sandwich_bog",
-            "seed_turnip",
-            "soup_jerky",
-            "soup_frigid",
-            "soup",
-            "sandwich_turnip",
-            "sandwich_blazing",
-            "pie_corrupted",
             "soup_wholesome",
-            "mystery_meal",
-            "pie_blazing",
+            "soup_cactus",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_melon",
+            "sandwich_corrupted",
+            "soup_tar",
+            "soup_frigid",
+            "pie_corrupted",
+            "sandwich_bog",
             "pie_wholesome",
+            "food_sushi_karrotfish",
+            "sandwich_mushroom",
+            "sandwich_cactus",
+            "pie_blazing",
             "soup_egg",
-            "soup_cactus"
+            "seed_turnip",
+            "pie",
+            "mystery_meal",
+            "sandwich_turnip",
+            "sandwich_frigid",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup_jerky",
+            "sandwich_egg",
+            "soup",
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "soup_bog",
+            "food_baked_hog",
+            "sandwich_jerky",
+            "soup_blazing",
+            "food_egg_skillet"
+        ]
+    },
+    "pebble_pebble": {
+        "id": "pebble_pebble",
+        "name": "Pebble's Pebble",
+        "icon": "pebbles_pebble",
+        "namesearch": "pebble's pebble_pebble pebble pebbles_pebble",
+        "recipes": [],
+        "creates": [
+            "rockster_rock"
         ]
     },
     "warmworm_tooth": {
         "id": "warmworm_tooth",
         "name": "Warmworm Tooth",
         "icon": "warmworm_tooth",
-        "namesearch": "tooth warmworm_tooth warmworm",
+        "namesearch": "warmworm_tooth warmworm tooth",
         "recipes": [],
         "creates": [
-            "leggings_iron",
-            "armguards_iron",
+            "breastplate_iron",
             "bomb_fire",
+            "armguards_iron",
+            "flytrap_retro",
+            "sword_iron",
+            "leggings_iron",
             "resist_freeze_basic",
             "sword_medieval",
-            "breastplate_iron",
             "sword_diamond",
-            "sword_iron",
-            "helmet_iron",
-            "flytrap_retro"
+            "helmet_iron"
         ]
     },
     "shrewd_shrew_tail": {
         "id": "shrewd_shrew_tail",
         "name": "Shrewdshrew Tail",
         "icon": "shrewd_tail",
-        "namesearch": "shrewdshrew shrewd_shrew_tail shrewd_tail tail",
+        "namesearch": "shrewd_shrew_tail shrewd_tail shrewdshrew tail",
         "recipes": [],
         "creates": [
             "resist_freeze_basic",
@@ -37848,21 +41047,21 @@ var crafts = {
         "namesearch": "scales_karrotfish scales",
         "recipes": [],
         "creates": [
-            "chair_atlantis",
-            "vase_atlantis",
-            "lamp_atlantis",
+            "wall_atlantis_accent_trident",
             "wall_atlantis_trim_symbol",
-            "wall_atlantis_wave",
-            "wall_atlantis_tile",
-            "door_atlantis",
-            "trap_door_atlantis",
-            "wall_atlantis_sunken",
-            "stairs_atlantis",
+            "vase_atlantis",
             "wall_atlantis_accent",
-            "roof_atlantis",
-            "table_atlantis",
             "potion_no_breath_loss",
-            "wall_atlantis_accent_trident"
+            "lamp_atlantis",
+            "wall_atlantis_wave",
+            "wall_atlantis_sunken",
+            "trap_door_atlantis",
+            "chair_atlantis",
+            "door_atlantis",
+            "roof_atlantis",
+            "wall_atlantis_tile",
+            "table_atlantis",
+            "stairs_atlantis"
         ]
     },
     "rambeau_tuft": {
@@ -37872,72 +41071,45 @@ var crafts = {
         "namesearch": "rambeau rambeau_tuft tuft",
         "recipes": [],
         "creates": [
+            "breastplate_diamond",
+            "gamer_drink",
+            "bomb_freeze",
             "armguards_diamond",
             "holiday_bed_plaid",
-            "breastplate_diamond",
-            "leggings_diamond",
-            "helmet_diamond",
             "resist_fire_basic",
-            "gamer_drink",
-            "bomb_freeze"
+            "leggings_diamond",
+            "helmet_diamond"
         ]
     },
     "blizzard_chizzard_gizzard": {
         "id": "blizzard_chizzard_gizzard",
         "name": "Blizzard Chizzard Gizzard",
         "icon": "chizzard_blizzard_gizzard",
-        "namesearch": "chizzard_blizzard_gizzard chizzard blizzard gizzard blizzard_chizzard_gizzard",
+        "namesearch": "gizzard chizzard chizzard_blizzard_gizzard blizzard blizzard_chizzard_gizzard",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "soup_corrupted",
-            "soup_blazing",
-            "soup_tar",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "resist_fire_basic",
-            "sandwich_bog",
-            "regenerate_stamina_basic",
-            "soup",
-            "music_box",
-            "sandwich_blazing",
             "soup_wholesome",
+            "sandwich_tar",
+            "soup_corrupted",
+            "sandwich_corrupted",
+            "soup_tar",
             "pie_corrupted",
-            "mystery_meal",
-            "pie_blazing",
+            "music_box",
+            "sandwich_bog",
             "pie_wholesome",
             "squitchy_jerky",
-            "bomb_freeze"
-        ]
-    },
-    "corruption_dust": {
-        "id": "corruption_dust",
-        "name": "Corruption Dust",
-        "icon": "corruption_dust",
-        "namesearch": "corruption corruption_dust dust",
-        "recipes": [],
-        "creates": [
-            "sword_gold",
-            "armguards_lumite",
-            "armguards_diamond",
-            "logic_rng",
-            "healing_beacon",
-            "helmet_lumite",
-            "wall_lumite_shattered_dark",
-            "breastplate_diamond",
-            "wall_lumite_dark",
-            "leggings_lumite",
-            "tear_item",
-            "helmet_diamond",
-            "sword_lumite",
-            "corrupt_obelisk",
-            "focus_lumite",
-            "bomb_corrupt",
-            "leggings_diamond",
-            "breastplate_lumite"
+            "pie_blazing",
+            "bomb_freeze",
+            "pie",
+            "mystery_meal",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup",
+            "sandwich",
+            "soup_bog",
+            "resist_fire_basic",
+            "soup_blazing",
+            "regenerate_stamina_basic"
         ]
     },
     "molasses": {
@@ -37947,72 +41119,78 @@ var crafts = {
         "namesearch": "molasses",
         "recipes": [],
         "creates": [
-            "window_gingerbread",
-            "bone_broth",
-            "wall_candycane",
-            "soup",
-            "fence_candycane",
-            "gate_candycane",
-            "bread_gingerbread",
-            "roof_gingerbread_wafer",
             "gamer_drink",
+            "bone_broth",
             "medieval_stein",
+            "soup",
+            "pie_melon",
             "pie",
-            "pie_jerky",
-            "soup_egg",
             "bread",
+            "wall_candycane",
             "pie_frigid",
             "medieval_pint",
+            "bread_gingerbread",
+            "gate_candycane",
             "door_gingerbread",
-            "pie_melon"
+            "fence_candycane",
+            "pie_jerky",
+            "soup_egg",
+            "window_gingerbread",
+            "roof_gingerbread_wafer"
         ]
     },
-    "trogg_horn": {
-        "id": "trogg_horn",
-        "name": "Trog Horn",
-        "icon": "trog_horn",
-        "namesearch": "trog_horn trogg_horn trog horn",
+    "corruption_dust": {
+        "id": "corruption_dust",
+        "name": "Corruption Dust",
+        "icon": "corruption_dust",
+        "namesearch": "corruption dust corruption_dust",
         "recipes": [],
         "creates": [
-            "armguards_lumite",
-            "music_box",
-            "healing_beacon",
-            "potion_speed_and_jump",
-            "helmet_lumite",
-            "leggings_lumite",
-            "wall_lumite_shattered_light",
-            "resist_corruption_basic",
+            "breastplate_diamond",
+            "focus_lumite",
+            "armguards_diamond",
+            "wall_lumite_dark",
+            "helmet_diamond",
+            "corrupt_obelisk",
+            "tear_item",
             "sword_lumite",
-            "bomb_uncorrupt",
-            "wall_lumite_light",
-            "breastplate_lumite"
-        ]
-    },
-    "ore_obsidian": {
-        "id": "ore_obsidian",
-        "name": "Obsidian Ore",
-        "icon": "ore_obsidian",
-        "namesearch": "obsidian ore_obsidian ore",
-        "recipes": [],
-        "creates": [
-            "obsidian"
+            "bomb_corrupt",
+            "logic_rng",
+            "sword_gold",
+            "helmet_lumite",
+            "wall_lumite_shattered_dark",
+            "leggings_lumite",
+            "leggings_diamond",
+            "healing_beacon",
+            "breastplate_lumite",
+            "armguards_lumite"
         ]
     },
     "ore_lumite": {
         "id": "ore_lumite",
         "name": "Lumite Ore",
         "icon": "ore_lumite",
-        "namesearch": "lumite ore_lumite ore",
+        "namesearch": "ore ore_lumite lumite",
         "recipes": [],
         "creates": [
             "lumite"
+        ]
+    },
+    "ore_obsidian": {
+        "id": "ore_obsidian",
+        "name": "Obsidian Ore",
+        "icon": "ore_obsidian",
+        "namesearch": "ore obsidian ore_obsidian",
+        "recipes": [],
+        "creates": [
+            "obsidian"
         ]
     },
     "ore_diamond": {
         "id": "ore_diamond",
         "name": "Diamond Ore",
         "icon": "ore_diamond",
-        "namesearch": "diamond ore ore_diamond",
+        "namesearch": "ore ore_diamond diamond",
         "recipes": [],
         "creates": [
             "diamond"
@@ -38022,7 +41200,7 @@ var crafts = {
         "id": "ore_iron",
         "name": "Iron Ore",
         "icon": "ore_iron",
-        "namesearch": "ore iron ore_iron",
+        "namesearch": "ore_iron iron ore",
         "recipes": [],
         "creates": [
             "iron_bar"
@@ -38035,49 +41213,49 @@ var crafts = {
         "namesearch": "coal",
         "recipes": [],
         "creates": [
-            "kitchen_range",
-            "beacon_blue",
-            "lamp_atlantis",
-            "torch_medieval",
-            "lamp_wood",
-            "fire_pit_medieval",
-            "snowman",
-            "kitchen_toaster",
-            "lamp_haunted",
-            "torch_bungalow",
-            "fire_pit_iron",
-            "torch_industrial_02",
-            "fire_pit",
             "lamp_red",
-            "chimney_industrial_top",
-            "bomb_retro",
-            "gunpowder",
-            "focus_stone",
-            "led_block_item",
-            "stairs_asphault",
-            "arc_cipher",
-            "chandelier_medieval",
-            "beacon_red",
-            "lamp_gas",
+            "fire_pit_medieval",
+            "kitchen_toaster",
             "vent_industrial",
+            "stairs_asphault",
+            "kitchen_range",
+            "asphault_item",
+            "beacon_yellow",
+            "snowman",
+            "arc_cipher",
+            "lamp_wood",
+            "led_block_item",
+            "bomb_retro",
+            "torch_bungalow",
+            "lamp_blue",
+            "torch_holiday_blue",
+            "chimney_industrial_top",
+            "lamp_haunted",
+            "station_culinary",
+            "beacon_blue",
+            "chandelier_medieval",
+            "fire_pit",
+            "gunpowder",
             "kitchen_percolator",
             "torch_holiday_red",
-            "torch_holiday_blue",
             "lamp_medieval",
-            "hotel_lamp_standing",
-            "torch_holiday_yellow",
-            "lamp_blue",
-            "lamp_yellow",
-            "hotel_chandelier",
-            "torch_holiday_green",
-            "beacon_white",
             "camp_fire",
-            "torch_coal",
-            "beacon_yellow",
-            "asphault_item",
+            "lamp_atlantis",
+            "fire_pit_iron",
+            "hotel_lamp_standing",
+            "torch_industrial_02",
+            "hotel_chandelier",
+            "beacon_white",
+            "torch_holiday_yellow",
+            "torch_medieval",
+            "lamp_gas",
             "torch_industrial_01",
+            "focus_stone",
+            "beacon_red",
             "hotel_torch",
-            "station_culinary"
+            "torch_coal",
+            "torch_holiday_green",
+            "lamp_yellow"
         ]
     },
     "moss": {
@@ -38096,188 +41274,103 @@ var crafts = {
         "id": "vines",
         "name": "Vines",
         "icon": "vine",
-        "namesearch": "vines vine",
+        "namesearch": "vine vines",
         "recipes": [],
         "creates": [
-            "sword_mayan",
-            "stairs_bungalow",
-            "wall_bungalow",
-            "door_ice",
-            "station_sawyer",
-            "wall_bungalow_accent_fur",
-            "roof_bungalow",
             "wall_thatched",
-            "torch_bungalow",
-            "flytrap_retro",
+            "wall_bungalow_accent_fur",
             "door_bungalow",
-            "breastplate_leather",
+            "pumpkiru_chest_advanced_storage",
+            "window_bungalow",
+            "vines_ice",
+            "door_ice",
+            "torch_bungalow",
+            "door_wood",
+            "wall_bungalow",
+            "twine",
+            "sword_wood",
+            "roof_straw_slanted",
+            "stairs_bungalow",
             "pumpkiru_chest_super_storage",
             "wall_bungalow_accent",
-            "sword_wood",
-            "vines_ice",
-            "chest_wood",
-            "pumpkiru_chest_advanced_storage",
-            "door_wood",
-            "door_wood_haunted",
+            "station_sawyer",
             "wall_bungalow_support",
-            "roof_straw_slanted",
-            "window_bungalow",
-            "twine"
+            "chest_wood",
+            "door_wood_haunted",
+            "roof_bungalow",
+            "sword_mayan",
+            "breastplate_leather",
+            "flytrap_retro"
         ]
     },
-    "chizzard_gizzard": {
-        "id": "chizzard_gizzard",
-        "name": "Chizzard Gizzard",
-        "icon": "chizzard_gizzard",
-        "namesearch": "chizzard chizzard_gizzard gizzard",
+    "trogg_horn": {
+        "id": "trogg_horn",
+        "name": "Trog Horn",
+        "icon": "trog_horn",
+        "namesearch": "trog_horn horn trogg_horn trog",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "soup_corrupted",
-            "soup_blazing",
-            "soup_tar",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_bog",
-            "bomb_stun",
-            "regenerate_stamina_basic",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
-            "soup_wholesome",
-            "mystery_meal",
-            "pie_blazing",
-            "pie_wholesome",
-            "squitchy_jerky"
+            "wall_lumite_shattered_light",
+            "music_box",
+            "armguards_lumite",
+            "potion_speed_and_jump",
+            "sword_lumite",
+            "bomb_uncorrupt",
+            "helmet_lumite",
+            "resist_corruption_basic",
+            "leggings_lumite",
+            "wall_lumite_light",
+            "healing_beacon",
+            "breastplate_lumite"
         ]
     },
     "flower_yellow": {
         "id": "flower_yellow",
         "name": "Yellow Flower",
         "icon": "flower_yellow",
-        "namesearch": "flower yellow flower_yellow",
+        "namesearch": "flower_yellow flower yellow",
         "recipes": [],
         "creates": [
-            "potion_gold",
+            "taming_collar",
             "statue_candy_skull",
+            "hotel_flower",
+            "potion_gold",
+            "flower_poinsettia",
+            "potion_basic",
+            "focus_stone",
             "chest_valentines",
             "flower_retro",
-            "taming_collar",
-            "dye_yellow",
-            "potion_basic",
-            "plum_blossom",
-            "flower_poinsettia",
             "planter_mayan",
-            "hotel_flower",
-            "flower_daisy",
-            "focus_stone",
-            "regenerate_stamina_basic"
+            "dye_yellow",
+            "regenerate_stamina_basic",
+            "plum_blossom",
+            "flower_daisy"
         ]
     },
     "flower_blue": {
         "id": "flower_blue",
         "name": "Blue Flower",
         "icon": "flower_blue",
-        "namesearch": "flower flower_blue blue",
+        "namesearch": "flower_blue flower blue",
         "recipes": [],
         "creates": [
-            "potion_gold",
-            "statue_candy_skull",
             "holiday_giftwrap_blue",
-            "dye_blue",
-            "flower_retro",
             "taming_collar",
             "bomb_halloween_flare",
-            "bomb_flare",
-            "potion_basic",
-            "plum_blossom",
-            "chest_valentines",
-            "flower_poinsettia",
-            "planter_mayan",
             "hotel_flower",
-            "flower_daisy",
+            "potion_gold",
+            "statue_candy_skull",
+            "flower_poinsettia",
+            "potion_basic",
             "focus_stone",
-            "regenerate_stamina_basic"
-        ]
-    },
-    "chizzard_egg": {
-        "id": "chizzard_egg",
-        "name": "Chizzard Egg",
-        "icon": "egg_chizzard",
-        "namesearch": "chizzard egg chizzard_egg egg_chizzard",
-        "recipes": [],
-        "creates": [
-            "sandwich_wholesome",
-            "soup_corrupted",
-            "pie_melon",
-            "soup_blazing",
-            "soup_tar",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "sandwich_egg",
-            "food_cake_shrew",
-            "sandwich_tar",
-            "food_egg_skillet",
-            "sandwich_corrupted",
-            "sandwich_bog",
-            "pie_jerky",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
-            "soup_wholesome",
-            "pie_cactus",
-            "mystery_meal",
-            "pie_mushroom",
-            "pie_blazing",
-            "pie_wholesome",
-            "soup_egg"
-        ]
-    },
-    "leafy_leaf": {
-        "id": "leafy_leaf",
-        "name": "Leafi Leaf",
-        "icon": "leafi_leaf",
-        "namesearch": "leaf leafi leafy_leaf leafi_leaf",
-        "recipes": [],
-        "creates": [
-            "bone_broth",
-            "sandwich_wholesome",
-            "snow_globe_pigsy",
-            "snow_globe_frosted",
-            "sandwich_mushroom",
-            "soup_corrupted",
-            "potion_small",
-            "capital_roman_bedrock_leaf",
-            "sandwich_frigid",
-            "soup_blazing",
-            "soup_tar",
-            "sandwich_jerky",
-            "pumpkiru_chest_basic_storage",
-            "sandwich_cactus",
-            "soup_bog",
-            "sandwich",
-            "holiday_stained_glass_green",
-            "sandwich_egg",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_melon",
-            "sandwich_bog",
-            "soup_jerky",
+            "chest_valentines",
+            "flower_retro",
+            "bomb_flare",
+            "dye_blue",
+            "planter_mayan",
             "regenerate_stamina_basic",
-            "snow_globe_leafi",
-            "soup_frigid",
-            "soup",
-            "snow_globe_reaudolph",
-            "music_box",
-            "sandwich_blazing",
-            "soup_wholesome",
-            "snow_globe_trog",
-            "soup_egg",
-            "soup_cactus"
+            "plum_blossom",
+            "flower_daisy"
         ]
     },
     "flower_red": {
@@ -38287,313 +41380,79 @@ var crafts = {
         "namesearch": "flower_red flower red",
         "recipes": [],
         "creates": [
-            "potion_gold",
             "holiday_giftwrap_red",
+            "taming_collar",
+            "hotel_flower",
+            "potion_gold",
             "statue_candy_skull",
+            "holiday_giftwrap_candycane",
+            "flower_poinsettia",
+            "potion_basic",
+            "focus_stone",
             "chest_valentines",
             "flower_retro",
-            "taming_collar",
-            "potion_basic",
-            "plum_blossom",
             "dye_red",
-            "planter_mayan",
-            "hotel_flower",
-            "flower_poinsettia",
-            "flower_daisy",
-            "holiday_giftwrap_candycane",
-            "focus_stone",
             "resist_freeze_basic",
-            "regenerate_stamina_basic"
-        ]
-    },
-    "dried_leafi_leaf": {
-        "id": "dried_leafi_leaf",
-        "name": "Dried Leafi Leaf",
-        "icon": "leafi_leaf_dried",
-        "namesearch": "leaf dried leafi leafi_leaf_dried dried_leafi_leaf",
-        "recipes": [],
-        "creates": [
-            "bone_broth",
-            "sandwich_wholesome",
-            "sandwich_mushroom",
-            "soup_corrupted",
-            "potion_small",
-            "capital_roman_bedrock_leaf",
-            "sandwich_frigid",
-            "soup_blazing",
-            "soup_tar",
-            "sandwich_jerky",
-            "sandwich_cactus",
-            "soup_bog",
-            "sandwich",
-            "sandwich_egg",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_melon",
-            "sandwich_bog",
-            "soup_jerky",
+            "planter_mayan",
             "regenerate_stamina_basic",
-            "soup_frigid",
-            "soup",
-            "sandwich_blazing",
-            "soup_wholesome",
-            "soup_egg",
-            "soup_cactus"
+            "plum_blossom",
+            "flower_daisy"
         ]
     },
     "mushroom_red": {
         "id": "mushroom_red",
         "name": "Red Mushroom",
         "icon": "mushroom_red",
-        "namesearch": "mushroom mushroom_red red",
+        "namesearch": "red mushroom_red mushroom",
         "recipes": [],
         "creates": [
-            "stairs_brick_retro",
-            "sandwich_wholesome",
-            "exclamation_retro",
-            "mushroom_retro",
-            "sandwich_mushroom",
-            "soup_corrupted",
-            "potion_small",
-            "star_retro",
-            "pipe_retro",
-            "flytrap_retro",
-            "soup_blazing",
-            "flower_retro",
-            "soup_tar",
-            "grass_retro",
-            "bomb_retro",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "focus_stone",
-            "wood_retro",
-            "statue_retro",
-            "lava_retro",
-            "sandwich_tar",
             "taming_collar",
-            "dirt_retro",
-            "sandwich_corrupted",
+            "soup_wholesome",
             "focus_obsidian",
-            "sandwich_bog",
-            "leaves_retro",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
-            "soup_wholesome",
-            "potion_basic",
-            "sand_retro",
-            "stone_retro",
-            "mystery_meal",
-            "pie_mushroom",
-            "pie_blazing",
-            "pie_wholesome",
-            "wall_brick_retro",
-            "spore_mushroom_red"
-        ]
-    },
-    "mossy_leafi_leaf": {
-        "id": "mossy_leafi_leaf",
-        "name": "Mossy Leafi Leaf",
-        "icon": "leafi_leaf_mossy",
-        "namesearch": "leaf mossy_leafi_leaf leafi leafi_leaf_mossy mossy",
-        "recipes": [],
-        "creates": [
-            "bone_broth",
-            "sandwich_wholesome",
-            "sandwich_mushroom",
-            "soup_corrupted",
-            "potion_small",
-            "capital_roman_bedrock_leaf",
-            "sandwich_frigid",
-            "soup_blazing",
-            "soup_tar",
-            "sandwich_jerky",
-            "sandwich_cactus",
-            "soup_bog",
-            "sandwich",
-            "sandwich_egg",
             "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_melon",
-            "sandwich_bog",
-            "soup_jerky",
-            "regenerate_stamina_basic",
-            "soup_frigid",
-            "soup",
-            "sandwich_blazing",
-            "soup_wholesome",
-            "bomb_poison",
-            "soup_egg",
-            "soup_cactus"
-        ]
-    },
-    "blizzard_chizzard_egg": {
-        "id": "blizzard_chizzard_egg",
-        "name": "Blizzard Chizzard Egg",
-        "icon": "egg_blizzard_chizzard",
-        "namesearch": "egg chizzard blizzard_chizzard_egg egg_blizzard_chizzard blizzard",
-        "recipes": [],
-        "creates": [
-            "sandwich_wholesome",
             "soup_corrupted",
-            "sandwich_frigid",
-            "pie_melon",
-            "soup_blazing",
-            "soup_tar",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "pie_frigid",
             "food_cake_shrew",
-            "sandwich_tar",
-            "food_egg_skillet",
             "sandwich_corrupted",
-            "sandwich_bog",
-            "pie_jerky",
-            "soup_frigid",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
-            "soup_wholesome",
-            "pie_cactus",
-            "mystery_meal",
-            "pie_mushroom",
-            "pie_blazing",
-            "pie_wholesome"
-        ]
-    },
-    "autumn_leafi_leaf": {
-        "id": "autumn_leafi_leaf",
-        "name": "Autumn Leafi Leaf",
-        "icon": "leafi_leaf_autumn",
-        "namesearch": "autumn leaf leafi leafi_leaf_autumn autumn_leafi_leaf",
-        "recipes": [],
-        "creates": [
-            "bone_broth",
-            "sandwich_wholesome",
-            "sandwich_mushroom",
-            "soup_corrupted",
-            "potion_small",
-            "capital_roman_bedrock_leaf",
-            "sandwich_frigid",
-            "soup_blazing",
+            "pipe_retro",
+            "star_retro",
             "soup_tar",
-            "sandwich_jerky",
-            "sandwich_cactus",
-            "soup_bog",
-            "sandwich",
-            "sandwich_egg",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_melon",
+            "pie_corrupted",
+            "bomb_retro",
+            "spore_mushroom_red",
             "sandwich_bog",
-            "soup_jerky",
-            "regenerate_stamina_basic",
-            "soup_frigid",
-            "soup",
-            "sandwich_blazing",
-            "soup_wholesome",
-            "soup_egg",
-            "soup_cactus"
-        ]
-    },
-    "filet_o_karrotfish": {
-        "id": "filet_o_karrotfish",
-        "name": "Filet o' Karrotfish",
-        "icon": "filet_karrotfish",
-        "namesearch": "karrotfish filet_karrotfish o' filet_o_karrotfish filet",
-        "recipes": [],
-        "creates": [
-            "soup_blazing",
-            "soup",
+            "potion_small",
+            "mushroom_retro",
+            "pie_wholesome",
             "food_sushi_karrotfish",
-            "sandwich_tar",
-            "sandwich_blazing",
-            "sandwich_wholesome",
-            "soup_wholesome",
-            "pie_corrupted",
-            "soup_tar",
-            "mystery_meal",
-            "soup_corrupted",
-            "sandwich_corrupted",
-            "pie_blazing",
-            "sandwich_bog",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "pie_wholesome"
-        ]
-    },
-    "baby_leafi_leaf": {
-        "id": "baby_leafi_leaf",
-        "name": "Baby Leafi Leaf",
-        "icon": "babyleafi_leaf",
-        "namesearch": "leaf leafi baby baby_leafi_leaf babyleafi_leaf",
-        "recipes": [],
-        "creates": [
-            "bone_broth",
-            "sandwich_wholesome",
             "sandwich_mushroom",
-            "soup_corrupted",
-            "potion_small",
-            "sandwich_frigid",
-            "soup_blazing",
-            "soup_tar",
-            "sandwich_jerky",
-            "sandwich_cactus",
-            "soup_bog",
-            "sandwich",
-            "sandwich_egg",
-            "sandwich_tar",
-            "sandwich_corrupted",
-            "sandwich_melon",
-            "sandwich_bog",
-            "soup_jerky",
-            "regenerate_stamina_basic",
-            "soup_frigid",
-            "soup",
-            "sandwich_blazing",
-            "soup_wholesome",
-            "soup_egg",
-            "soup_cactus"
-        ]
-    },
-    "pork_chop": {
-        "id": "pork_chop",
-        "name": "Pork Chop",
-        "icon": "pork_chop",
-        "namesearch": "pork_chop chop pork",
-        "recipes": [],
-        "creates": [
-            "soup_blazing",
-            "soup",
-            "food_baked_hog",
-            "sandwich_blazing",
-            "sandwich_wholesome",
-            "soup_wholesome",
-            "sandwich_tar",
-            "soup_tar",
-            "pie_corrupted",
-            "mystery_meal",
-            "soup_corrupted",
-            "sandwich_corrupted",
+            "pie_mushroom",
+            "lava_retro",
+            "food_egg_skillet",
+            "sand_retro",
             "pie_blazing",
-            "sandwich_bog",
+            "stairs_brick_retro",
+            "grass_retro",
+            "leaves_retro",
+            "wood_retro",
             "pie",
-            "soup_bog",
+            "mystery_meal",
+            "sandwich_blazing",
+            "flower_retro",
+            "sandwich_wholesome",
+            "soup",
+            "food_rotisserie_chizzard",
             "sandwich",
-            "pie_wholesome"
-        ]
-    },
-    "boss_hog_tusk": {
-        "id": "boss_hog_tusk",
-        "name": "Bosshog Tusk",
-        "icon": "boss_hog_tusk",
-        "namesearch": "tusk bosshog boss_hog_tusk",
-        "recipes": [],
-        "creates": [
-            "potion_small"
+            "soup_bog",
+            "potion_basic",
+            "statue_retro",
+            "focus_stone",
+            "wall_brick_retro",
+            "stone_retro",
+            "food_baked_hog",
+            "soup_blazing",
+            "exclamation_retro",
+            "flytrap_retro",
+            "dirt_retro"
         ]
     },
     "mushroom_brown": {
@@ -38603,135 +41462,475 @@ var crafts = {
         "namesearch": "mushroom_brown brown mushroom",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "mushroom_retro",
-            "sandwich_mushroom",
-            "soup_corrupted",
-            "potion_small",
-            "soup_blazing",
-            "spore_mushroom_brown",
-            "soup_tar",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "focus_stone",
-            "sandwich_tar",
             "taming_collar",
-            "sandwich_corrupted",
-            "focus_obsidian",
-            "sandwich_bog",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
             "soup_wholesome",
-            "potion_basic",
-            "mystery_meal",
+            "focus_obsidian",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_corrupted",
+            "soup_tar",
+            "spore_mushroom_brown",
+            "pie_corrupted",
+            "sandwich_bog",
+            "potion_small",
+            "mushroom_retro",
+            "pie_wholesome",
+            "food_sushi_karrotfish",
+            "sandwich_mushroom",
             "pie_mushroom",
             "pie_blazing",
-            "pie_wholesome"
-        ]
-    },
-    "poultry_parts": {
-        "id": "poultry_parts",
-        "name": "Poultry Parts",
-        "icon": "poultry_parts",
-        "namesearch": "poultry poultry_parts parts",
-        "recipes": [],
-        "creates": [
-            "soup_blazing",
-            "soup",
-            "sandwich_tar",
+            "pie",
+            "mystery_meal",
             "sandwich_blazing",
             "sandwich_wholesome",
-            "soup_wholesome",
-            "pie_corrupted",
-            "soup_tar",
-            "mystery_meal",
-            "soup_corrupted",
+            "soup",
             "food_rotisserie_chizzard",
-            "sandwich_corrupted",
-            "pie_blazing",
-            "sandwich_bog",
-            "pie",
-            "soup_bog",
             "sandwich",
-            "pie_wholesome"
+            "soup_bog",
+            "potion_basic",
+            "focus_stone",
+            "food_baked_hog",
+            "soup_blazing",
+            "food_egg_skillet"
         ]
     },
     "mushroom_glowing": {
         "id": "mushroom_glowing",
         "name": "Glowing Mushroom",
         "icon": "mushroom_glowing",
-        "namesearch": "mushroom glowing mushroom_glowing",
+        "namesearch": "mushroom_glowing mushroom glowing",
         "recipes": [],
         "creates": [
-            "sandwich_wholesome",
-            "mushroom_retro",
-            "sandwich_mushroom",
-            "soup_corrupted",
-            "potion_small",
-            "soup_blazing",
-            "soup_tar",
-            "focus_iron",
-            "pie",
-            "soup_bog",
-            "sandwich",
-            "focus_stone",
-            "spore_mushroom_glowing",
-            "sandwich_tar",
             "taming_collar",
-            "sandwich_corrupted",
-            "focus_obsidian",
-            "sandwich_bog",
-            "soup",
-            "sandwich_blazing",
-            "pie_corrupted",
             "soup_wholesome",
-            "potion_basic",
-            "mystery_meal",
+            "focus_obsidian",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_corrupted",
+            "soup_tar",
+            "pie_corrupted",
+            "sandwich_bog",
+            "potion_small",
+            "mushroom_retro",
+            "pie_wholesome",
+            "food_sushi_karrotfish",
+            "sandwich_mushroom",
             "pie_mushroom",
             "pie_blazing",
-            "pie_wholesome"
+            "pie",
+            "focus_iron",
+            "mystery_meal",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup",
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "soup_bog",
+            "potion_basic",
+            "focus_stone",
+            "food_baked_hog",
+            "soup_blazing",
+            "spore_mushroom_glowing",
+            "food_egg_skillet"
+        ]
+    },
+    "chizzard_gizzard": {
+        "id": "chizzard_gizzard",
+        "name": "Chizzard Gizzard",
+        "icon": "chizzard_gizzard",
+        "namesearch": "chizzard_gizzard chizzard gizzard",
+        "recipes": [],
+        "creates": [
+            "soup_wholesome",
+            "sandwich_tar",
+            "soup_corrupted",
+            "sandwich_corrupted",
+            "soup_tar",
+            "pie_corrupted",
+            "sandwich_bog",
+            "pie_wholesome",
+            "bomb_stun",
+            "squitchy_jerky",
+            "pie_blazing",
+            "pie",
+            "mystery_meal",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup",
+            "sandwich",
+            "soup_bog",
+            "soup_blazing",
+            "regenerate_stamina_basic"
+        ]
+    },
+    "chizzard_egg": {
+        "id": "chizzard_egg",
+        "name": "Chizzard Egg",
+        "icon": "egg_chizzard",
+        "namesearch": "egg_chizzard chizzard_egg chizzard egg",
+        "recipes": [],
+        "creates": [
+            "soup_wholesome",
+            "pie_melon",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_corrupted",
+            "soup_tar",
+            "pie_corrupted",
+            "sandwich_bog",
+            "pie_wholesome",
+            "food_sushi_karrotfish",
+            "pie_mushroom",
+            "pie_jerky",
+            "pie_blazing",
+            "soup_egg",
+            "pie",
+            "mystery_meal",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "sandwich_egg",
+            "pie_cactus",
+            "soup",
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "soup_bog",
+            "food_baked_hog",
+            "soup_blazing",
+            "food_egg_skillet"
         ]
     },
     "bees_wax": {
         "id": "bees_wax",
         "name": "Beeswax",
         "icon": "beeswax",
-        "namesearch": "beeswax bees_wax",
+        "namesearch": "bees_wax beeswax",
         "recipes": [],
         "creates": [
-            "candles_haunted",
+            "glue",
             "potion_gold",
-            "hotel_dresser",
-            "lattice_chinese",
-            "door_bungalow",
             "light_candy_skull_blue",
+            "window_bungalow",
+            "chest_wood",
+            "door_wood",
+            "hotel_dresser",
+            "hotel_cabinets",
+            "roof_straw_slanted",
+            "door_stone",
             "light_candy_skull",
             "light_candy_skull_red",
-            "light_candy_skull_yellow",
-            "glue",
-            "window_bungalow",
-            "door_stone",
             "window_chinese",
-            "door_wood",
-            "roof_straw_slanted",
-            "hotel_cabinets",
-            "chest_wood"
+            "door_bungalow",
+            "lattice_chinese",
+            "light_candy_skull_yellow",
+            "candles_haunted"
+        ]
+    },
+    "leafy_leaf": {
+        "id": "leafy_leaf",
+        "name": "Leafi Leaf",
+        "icon": "leafi_leaf",
+        "namesearch": "leafi_leaf leafy_leaf leaf leafi",
+        "recipes": [],
+        "creates": [
+            "soup_wholesome",
+            "soup_cactus",
+            "holiday_stained_glass_green",
+            "sandwich_tar",
+            "snow_globe_reaudolph",
+            "soup_corrupted",
+            "sandwich_melon",
+            "sandwich_corrupted",
+            "pumpkiru_chest_basic_storage",
+            "soup_tar",
+            "snow_globe_frosted",
+            "soup_frigid",
+            "music_box",
+            "sandwich_bog",
+            "potion_small",
+            "sandwich_mushroom",
+            "sandwich_cactus",
+            "soup_egg",
+            "snow_globe_trog",
+            "snow_globe_pigsy",
+            "sandwich_frigid",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup_jerky",
+            "sandwich_egg",
+            "capital_roman_bedrock_leaf",
+            "soup",
+            "sandwich",
+            "soup_bog",
+            "snow_globe_leafi",
+            "sandwich_jerky",
+            "soup_blazing",
+            "bone_broth",
+            "regenerate_stamina_basic"
+        ]
+    },
+    "dried_leafi_leaf": {
+        "id": "dried_leafi_leaf",
+        "name": "Dried Leafi Leaf",
+        "icon": "leafi_leaf_dried",
+        "namesearch": "dried leafi dried_leafi_leaf leaf leafi_leaf_dried",
+        "recipes": [],
+        "creates": [
+            "soup_wholesome",
+            "soup_cactus",
+            "sandwich_tar",
+            "soup_corrupted",
+            "sandwich_melon",
+            "sandwich_corrupted",
+            "soup_tar",
+            "soup_frigid",
+            "sandwich_bog",
+            "potion_small",
+            "sandwich_mushroom",
+            "sandwich_cactus",
+            "soup_egg",
+            "sandwich_frigid",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup_jerky",
+            "sandwich_egg",
+            "capital_roman_bedrock_leaf",
+            "soup",
+            "sandwich",
+            "soup_bog",
+            "sandwich_jerky",
+            "soup_blazing",
+            "bone_broth",
+            "regenerate_stamina_basic"
+        ]
+    },
+    "blizzard_chizzard_egg": {
+        "id": "blizzard_chizzard_egg",
+        "name": "Blizzard Chizzard Egg",
+        "icon": "egg_blizzard_chizzard",
+        "namesearch": "chizzard blizzard blizzard_chizzard_egg egg_blizzard_chizzard egg",
+        "recipes": [],
+        "creates": [
+            "soup_wholesome",
+            "pie_melon",
+            "sandwich_tar",
+            "soup_corrupted",
+            "food_cake_shrew",
+            "sandwich_corrupted",
+            "soup_tar",
+            "soup_frigid",
+            "pie_corrupted",
+            "sandwich_bog",
+            "pie_wholesome",
+            "food_sushi_karrotfish",
+            "pie_mushroom",
+            "pie_jerky",
+            "pie_blazing",
+            "pie",
+            "mystery_meal",
+            "sandwich_frigid",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "pie_cactus",
+            "soup",
+            "food_rotisserie_chizzard",
+            "sandwich",
+            "soup_bog",
+            "pie_frigid",
+            "food_baked_hog",
+            "soup_blazing",
+            "food_egg_skillet"
+        ]
+    },
+    "mossy_leafi_leaf": {
+        "id": "mossy_leafi_leaf",
+        "name": "Mossy Leafi Leaf",
+        "icon": "leafi_leaf_mossy",
+        "namesearch": "mossy mossy_leafi_leaf leafi leafi_leaf_mossy leaf",
+        "recipes": [],
+        "creates": [
+            "soup_wholesome",
+            "soup_cactus",
+            "sandwich_tar",
+            "soup_corrupted",
+            "sandwich_melon",
+            "sandwich_corrupted",
+            "bomb_poison",
+            "soup_tar",
+            "soup_frigid",
+            "sandwich_bog",
+            "potion_small",
+            "sandwich_mushroom",
+            "sandwich_cactus",
+            "soup_egg",
+            "sandwich_frigid",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup_jerky",
+            "sandwich_egg",
+            "capital_roman_bedrock_leaf",
+            "soup",
+            "sandwich",
+            "soup_bog",
+            "sandwich_jerky",
+            "soup_blazing",
+            "bone_broth",
+            "regenerate_stamina_basic"
+        ]
+    },
+    "filet_o_karrotfish": {
+        "id": "filet_o_karrotfish",
+        "name": "Filet o' Karrotfish",
+        "icon": "filet_karrotfish",
+        "namesearch": "karrotfish filet filet_o_karrotfish o' filet_karrotfish",
+        "recipes": [],
+        "creates": [
+            "pie_corrupted",
+            "soup_wholesome",
+            "pie",
+            "sandwich_bog",
+            "sandwich",
+            "sandwich_tar",
+            "mystery_meal",
+            "soup_corrupted",
+            "soup_bog",
+            "sandwich_blazing",
+            "sandwich_corrupted",
+            "pie_wholesome",
+            "food_sushi_karrotfish",
+            "sandwich_wholesome",
+            "soup_tar",
+            "soup_blazing",
+            "pie_blazing",
+            "soup"
+        ]
+    },
+    "autumn_leafi_leaf": {
+        "id": "autumn_leafi_leaf",
+        "name": "Autumn Leafi Leaf",
+        "icon": "leafi_leaf_autumn",
+        "namesearch": "autumn_leafi_leaf leafi_leaf_autumn leafi autumn leaf",
+        "recipes": [],
+        "creates": [
+            "soup_wholesome",
+            "soup_cactus",
+            "sandwich_tar",
+            "soup_corrupted",
+            "sandwich_melon",
+            "sandwich_corrupted",
+            "soup_tar",
+            "soup_frigid",
+            "sandwich_bog",
+            "potion_small",
+            "sandwich_mushroom",
+            "sandwich_cactus",
+            "soup_egg",
+            "sandwich_frigid",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup_jerky",
+            "sandwich_egg",
+            "capital_roman_bedrock_leaf",
+            "soup",
+            "sandwich",
+            "soup_bog",
+            "sandwich_jerky",
+            "soup_blazing",
+            "bone_broth",
+            "regenerate_stamina_basic"
         ]
     },
     "leaves_jungle": {
         "id": "leaves_jungle",
         "name": "Wildwood Leaves",
         "icon": "leaf_jungle",
-        "namesearch": "wildwood leaf_jungle leaves leaves_jungle",
+        "namesearch": "leaves leaf_jungle wildwood leaves_jungle",
         "recipes": [],
         "creates": [
             "holiday_wreath",
             "led_holiday_tree",
-            "holiday_garland",
-            "container_tree",
             "roof_bungalow",
+            "container_tree",
+            "holiday_garland",
+            "leaves_shredded",
+            "leaves_retro",
+            "flytrap_retro"
+        ]
+    },
+    "baby_leafi_leaf": {
+        "id": "baby_leafi_leaf",
+        "name": "Baby Leafi Leaf",
+        "icon": "babyleafi_leaf",
+        "namesearch": "baby leafi babyleafi_leaf baby_leafi_leaf leaf",
+        "recipes": [],
+        "creates": [
+            "soup_wholesome",
+            "soup_cactus",
+            "sandwich_tar",
+            "soup_corrupted",
+            "sandwich_melon",
+            "sandwich_corrupted",
+            "soup_tar",
+            "soup_frigid",
+            "sandwich_bog",
+            "potion_small",
+            "sandwich_mushroom",
+            "sandwich_cactus",
+            "soup_egg",
+            "sandwich_frigid",
+            "sandwich_blazing",
+            "sandwich_wholesome",
+            "soup_jerky",
+            "sandwich_egg",
+            "soup",
+            "sandwich",
+            "soup_bog",
+            "sandwich_jerky",
+            "soup_blazing",
+            "bone_broth",
+            "regenerate_stamina_basic"
+        ]
+    },
+    "pork_chop": {
+        "id": "pork_chop",
+        "name": "Pork Chop",
+        "icon": "pork_chop",
+        "namesearch": "chop pork_chop pork",
+        "recipes": [],
+        "creates": [
+            "pie_corrupted",
+            "soup_wholesome",
+            "pie",
+            "sandwich_bog",
+            "sandwich",
+            "sandwich_tar",
+            "mystery_meal",
+            "soup_corrupted",
+            "soup_bog",
+            "sandwich_blazing",
+            "sandwich_corrupted",
+            "pie_wholesome",
+            "soup_tar",
+            "sandwich_wholesome",
+            "food_baked_hog",
+            "soup_blazing",
+            "pie_blazing",
+            "soup"
+        ]
+    },
+    "leaves_willow": {
+        "id": "leaves_willow",
+        "name": "Weepwood Leaves",
+        "icon": "leaf_weepwood",
+        "namesearch": "weepwood leaves_willow leaves leaf_weepwood",
+        "recipes": [],
+        "creates": [
+            "holiday_wreath",
+            "led_holiday_tree",
+            "container_tree",
+            "holiday_garland",
             "leaves_shredded",
             "leaves_retro",
             "flytrap_retro"
@@ -38744,97 +41943,109 @@ var crafts = {
         "namesearch": "wood_wildwood wood_jungle wildwood",
         "recipes": [],
         "creates": [
-            "stairs_mayan",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "roof_chinese_jade",
-            "chest_valentines",
-            "sword_mayan",
-            "table_mayan",
-            "slab_wood",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "torch",
-            "wall_bungalow",
-            "kitchen_fridge",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_bungalow",
-            "stairs_medieval_rug",
-            "door_mayan",
-            "switch_medieval",
-            "hotel_wall_base",
-            "roof_bungalow",
             "wall_mayan_accent_serpent",
-            "wall_mayan",
-            "throne_mayan",
-            "wall_mayan_accent",
-            "chair_mayan",
-            "stairs_medieval",
-            "torch_bungalow",
-            "hotel_dresser",
-            "hotel_wall",
-            "wall_bungalow_accent_fur",
-            "door_bungalow",
-            "log_wood_ornamental",
-            "snow_globe_frosted",
-            "wall_mayan_glyph",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "planter_mayan",
-            "stick_wood",
-            "chair_medieval",
-            "wall_bungalow_accent",
-            "wood_retro",
-            "sword_wood",
-            "goblet_mayan",
-            "altar_mayan",
-            "roof_mayan",
-            "medieval_cart",
-            "chest_mayan",
-            "throne_medieval",
+            "torch",
             "torch_mayan",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "window_bungalow",
-            "wall_mayan_trim_turquoise",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "wall_mayan_trim",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "goblet_mayan",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "wall_bungalow_accent_fur",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "door_mayan",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "lantern_chinese_pigsy",
+            "wall_wood",
+            "container_tree",
+            "hotel_wall_trim",
             "roof_chinese_red",
-            "wall_haunted",
-            "door_wood_haunted",
-            "log_wood_ornamental_metal",
+            "altar_mayan",
+            "canvas",
+            "snow_globe_frosted",
+            "throne_medieval",
+            "window_bungalow",
+            "table_mayan",
+            "torch_bungalow",
+            "music_box",
+            "door_wood",
+            "wall_bungalow",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "chest_mayan",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "stairs_bungalow",
+            "kitchen_fridge",
+            "roof_mayan",
             "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "wall_bungalow_accent",
+            "hotel_dresser",
+            "hotel_jabot",
+            "wall_mayan",
+            "chair_mayan",
+            "medieval_cart",
+            "planter_mayan",
+            "wall_mayan_glyph",
+            "wall_mayan_trim_turquoise",
+            "station_sawyer",
             "wall_bungalow_support",
-            "chest_medieval"
+            "stairs_mayan",
+            "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
+            "door_wood_haunted",
+            "throne_mayan",
+            "roof_bungalow",
+            "log_wood_ornamental_metal",
+            "wall_mayan_trim",
+            "sword_mayan",
+            "hotel_wall",
+            "door_bungalow",
+            "chest_medieval",
+            "wall_mayan_accent"
         ]
     },
-    "leaves_willow": {
-        "id": "leaves_willow",
-        "name": "Weepwood Leaves",
-        "icon": "leaf_weepwood",
-        "namesearch": "weepwood leaf_weepwood leaves leaves_willow",
+    "poultry_parts": {
+        "id": "poultry_parts",
+        "name": "Poultry Parts",
+        "icon": "poultry_parts",
+        "namesearch": "parts poultry_parts poultry",
         "recipes": [],
         "creates": [
-            "holiday_wreath",
-            "led_holiday_tree",
-            "holiday_garland",
-            "container_tree",
-            "leaves_shredded",
-            "leaves_retro",
-            "flytrap_retro"
+            "pie_corrupted",
+            "food_rotisserie_chizzard",
+            "soup_wholesome",
+            "pie",
+            "sandwich_bog",
+            "sandwich",
+            "sandwich_tar",
+            "mystery_meal",
+            "soup_corrupted",
+            "soup_bog",
+            "sandwich_blazing",
+            "sandwich_corrupted",
+            "pie_wholesome",
+            "soup_tar",
+            "sandwich_wholesome",
+            "soup_blazing",
+            "pie_blazing",
+            "soup"
         ]
     },
     "wood_willow": {
@@ -38844,138 +42055,150 @@ var crafts = {
         "namesearch": "weepwood wood_willow",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
         ]
     },
     "log_willow": {
         "id": "log_willow",
         "name": "Weepwood Log",
         "icon": "log_willow",
-        "namesearch": "log_willow log weepwood",
+        "namesearch": "weepwood log log_willow",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
         ]
     },
     "leaves_autumnwood_yellow": {
         "id": "leaves_autumnwood_yellow",
         "name": "Citrus Autumnwood Leaves",
         "icon": "leaf_autumn_yellow",
-        "namesearch": "autumnwood leaf_autumn_yellow leaves leaves_autumnwood_yellow citrus",
+        "namesearch": "leaves leaves_autumnwood_yellow citrus leaf_autumn_yellow autumnwood",
         "recipes": [],
         "creates": [
             "holiday_wreath",
             "led_holiday_tree",
-            "holiday_garland",
             "container_tree",
+            "holiday_garland",
             "leaves_shredded",
             "leaves_retro",
             "flytrap_retro"
+        ]
+    },
+    "boss_hog_tusk": {
+        "id": "boss_hog_tusk",
+        "name": "Bosshog Tusk",
+        "icon": "boss_hog_tusk",
+        "namesearch": "boss_hog_tusk tusk bosshog",
+        "recipes": [],
+        "creates": [
+            "potion_small"
         ]
     },
     "leaves_autumnwood_brown": {
         "id": "leaves_autumnwood_brown",
         "name": "Mocha Autumnwood Leaves",
         "icon": "leaf_autumn_orange",
-        "namesearch": "autumnwood leaf_autumn_orange leaves leaves_autumnwood_brown mocha",
+        "namesearch": "leaves_autumnwood_brown mocha leaves leaf_autumn_orange autumnwood",
         "recipes": [],
         "creates": [
             "holiday_wreath",
             "led_holiday_tree",
-            "holiday_garland",
             "container_tree",
+            "holiday_garland",
             "leaves_shredded",
             "leaves_retro",
             "flytrap_retro"
@@ -38985,95 +42208,77 @@ var crafts = {
         "id": "leaves_autumnwood_red",
         "name": "Cinnamon Autumnwood Leaves",
         "icon": "leaf_autumn_red",
-        "namesearch": "autumnwood leaves cinnamon leaves_autumnwood_red leaf_autumn_red",
+        "namesearch": "leaf_autumn_red leaves leaves_autumnwood_red cinnamon autumnwood",
         "recipes": [],
         "creates": [
             "holiday_wreath",
+            "lantern_chinese_rat",
             "led_holiday_tree",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
             "lantern_chinese_dog",
             "holiday_garland",
-            "container_tree",
-            "lantern_chinese_rat",
-            "lantern_chinese_pigsy",
             "leaves_shredded",
             "leaves_retro",
             "flytrap_retro"
-        ]
-    },
-    "feral_pigsy_fur": {
-        "id": "feral_pigsy_fur",
-        "name": "Feral Pigsy Fur",
-        "icon": "pigsy_feral_fur",
-        "namesearch": "fur feral pigsy_feral_fur feral_pigsy_fur pigsy",
-        "recipes": [],
-        "creates": [
-            "bomb_peircing",
-            "wall_bungalow_accent_fur",
-            "leggings_iron",
-            "armguards_iron",
-            "resist_poison_basic",
-            "breastplate_iron",
-            "bomb_poison",
-            "wall_bungalow_accent",
-            "sword_iron",
-            "sword_gold_welcome",
-            "helmet_iron"
         ]
     },
     "wood_autumn": {
         "id": "wood_autumn",
         "name": "Autumnwood",
         "icon": "wood_autumnwood",
-        "namesearch": "autumnwood wood_autumnwood wood_autumn",
+        "namesearch": "wood_autumnwood wood_autumn autumnwood",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
         ]
     },
     "leaves_savannah": {
@@ -39085,8 +42290,8 @@ var crafts = {
         "creates": [
             "holiday_wreath",
             "led_holiday_tree",
-            "holiday_garland",
             "container_tree",
+            "holiday_garland",
             "leaves_shredded",
             "leaves_retro",
             "flytrap_retro"
@@ -39099,181 +42304,132 @@ var crafts = {
         "namesearch": "parchwood wood_savannah",
         "recipes": [],
         "creates": [
-            "roof_chinese_jade",
-            "wall_wood",
             "wall_wood_red_chinese",
-            "chest_valentines",
-            "slab_wood",
             "torch",
-            "snow_globe_pigsy",
-            "station_sawyer",
-            "snow_globe_frosted",
-            "container_tree",
-            "wall_wood_white",
-            "stairs_medieval_rug",
-            "switch_medieval",
-            "hotel_wall_base",
-            "stairs_medieval",
-            "hotel_dresser",
-            "hotel_wall",
-            "log_wood_ornamental",
-            "lantern_chinese_dog",
-            "pumpkiru_chest_basic_storage",
-            "hotel_wall_trim",
-            "window_wood_barred",
-            "stick_wood",
-            "chair_medieval",
-            "wood_retro",
-            "sword_wood",
-            "throne_medieval",
-            "medieval_cart",
-            "chest_wood",
-            "roof_medieval",
-            "door_medieval",
-            "lantern_chinese_pigsy",
-            "hotel_jabot",
-            "door_wood",
-            "lantern_chinese_rat",
-            "hotel_cabinets",
-            "easel",
-            "snow_globe_leafi",
             "snow_globe_reaudolph",
-            "canvas",
-            "music_box",
+            "roof_chinese_jade",
+            "window_wood_barred",
+            "chest_valentines",
+            "switch_medieval",
+            "pumpkiru_chest_basic_storage",
+            "roof_medieval",
+            "lantern_chinese_ox",
+            "container_tree",
+            "lantern_chinese_pigsy",
+            "wall_wood",
             "roof_chinese_red",
+            "hotel_wall_trim",
+            "canvas",
+            "snow_globe_frosted",
+            "music_box",
+            "door_wood",
+            "hotel_wall_base",
+            "hotel_cabinets",
+            "sword_wood",
+            "lantern_chinese_dog",
+            "chair_medieval",
+            "snow_globe_trog",
+            "wood_retro",
+            "snow_globe_pigsy",
+            "wall_wood_white",
+            "log_wood_ornamental",
+            "stairs_medieval_rug",
+            "stairs_medieval",
+            "stick_wood",
+            "lantern_chinese_rat",
+            "slab_wood",
+            "door_medieval",
+            "easel",
+            "hotel_dresser",
+            "hotel_jabot",
+            "medieval_cart",
+            "station_sawyer",
             "wall_haunted",
+            "chest_wood",
+            "snow_globe_leafi",
             "door_wood_haunted",
             "log_wood_ornamental_metal",
-            "snow_globe_trog",
-            "chest_medieval"
+            "hotel_wall",
+            "chest_medieval",
+            "throne_medieval"
         ]
     },
     "crystal_plant": {
         "id": "crystal_plant",
         "name": "Tourmaline",
         "icon": "tourmaline",
-        "namesearch": "tourmaline crystal_plant",
+        "namesearch": "crystal_plant tourmaline",
         "recipes": [],
         "creates": [
-            "stairs_mayan",
-            "glass_tourmaline_watermelon",
-            "sword_mayan",
+            "glass_tourmaline_green",
+            "wall_mayan_accent_serpent",
+            "torch_mayan",
+            "goblet_mayan",
+            "door_mayan",
+            "altar_mayan",
+            "crystal_infused",
             "table_mayan",
             "crystal_shard",
             "kitchen_fridge",
-            "door_mayan",
-            "throne_mayan",
-            "wall_mayan_accent_serpent",
-            "chair_mayan",
-            "crystal_infused",
-            "goblet_mayan",
-            "altar_mayan",
             "roof_mayan",
             "moroccan_decorative_tile_gem",
-            "torch_mayan",
-            "focus_diamond",
+            "chair_mayan",
             "wall_mayan_trim_turquoise",
-            "glass_tourmaline_green"
-        ]
-    },
-    "leather": {
-        "id": "leather",
-        "name": "Leather",
-        "icon": "leather",
-        "namesearch": "leather",
-        "recipes": [],
-        "creates": [
-            "hotel_chair",
-            "placemat",
-            "snowman",
-            "helmet_obsidian",
-            "stairs_medieval_rug",
-            "switch_industrial_lever",
-            "bellows_industrial",
-            "medieval_banner_hanging",
-            "haunted_book",
-            "sword_crowbar",
-            "helmet_leather",
-            "holiday_wreath",
-            "hotel_couch_ottoman",
-            "bomb_halloween_bats",
-            "fireworks_halloween",
-            "breastplate_leather",
-            "medieval_banner_hanging2",
-            "wall_medieval_banner",
-            "picture_frame_item",
-            "flower_daisy",
-            "leggings_obsidian",
-            "table_medieval",
-            "bomb_shard",
-            "hotel_couch",
-            "leggings_leather",
-            "switch_industrial_toggle",
-            "bomb_stun",
-            "hotel_jabot",
-            "easel",
-            "chair_sci_fi",
-            "canvas",
-            "hotel_couch_corner",
-            "breastplate_obsidian",
-            "music_box",
-            "holiday_garland",
-            "planter_pigsy",
-            "armguards_obsidian",
-            "banner_candy_skull",
-            "armguards_leather",
-            "hotel_curtain",
-            "stairs_canvas"
+            "stairs_mayan",
+            "focus_diamond",
+            "throne_mayan",
+            "sword_mayan",
+            "glass_tourmaline_watermelon"
         ]
     },
     "magnet": {
         "id": "magnet",
         "name": "Magnetite",
         "icon": "magnetite",
-        "namesearch": "magnetite magnet",
+        "namesearch": "magnet magnetite",
         "recipes": [],
         "creates": [
-            "fan_item",
-            "logic_rng",
-            "logic_gate_item",
-            "pressure_plate_item",
-            "fan_industrial",
-            "flipflop_block_item",
-            "switch_medieval",
-            "switch_industrial_lever",
-            "automation_portal",
-            "slope_sci_fi",
-            "chest_lockable",
-            "number_comparison_item",
-            "sword_sci_fi",
-            "slope_round_sci_fi_exterior",
-            "switch_sci_fi",
-            "beacon_adjustable",
-            "sensor_item",
-            "code_block_item",
-            "actuator_item",
-            "logic_counter",
-            "number_pad_industrial",
-            "torch_sci_fi",
             "delay_block_item",
+            "switch_sci_fi",
+            "focus_obsidian",
+            "pressure_plate_item",
+            "number_pad_item",
+            "switch_industrial_toggle",
+            "flipflop_block_item",
+            "number_comparison_item",
+            "switch_medieval",
+            "gamer_monitor",
             "door_sci_fi",
             "inventory_sensor",
-            "arc_cipher",
-            "gamer_monitor",
-            "pressure_plate_industrial",
-            "teleporter_item",
-            "switch_item",
-            "kitchen_percolator",
+            "numberstorage",
+            "switch_industrial_lever",
             "container_sci_fi",
-            "switch_industrial_toggle",
-            "gear_industrial",
-            "bed_sci_fi",
-            "focus_obsidian",
-            "number_pad_item",
+            "arc_cipher",
+            "slope_sci_fi",
+            "switch_item",
+            "pressure_plate_industrial",
+            "actuator_item",
+            "number_pad_industrial",
+            "slope_round_sci_fi_exterior",
             "chair_sci_fi",
             "invert_block_item",
+            "bed_sci_fi",
+            "fan_item",
+            "kitchen_percolator",
+            "logic_rng",
+            "beacon_adjustable",
+            "automation_portal",
+            "sword_sci_fi",
+            "gear_industrial",
+            "logic_gate_item",
+            "chest_lockable",
+            "torch_sci_fi",
+            "sensor_item",
+            "logic_counter",
+            "fan_industrial",
             "gamer_keyboard",
-            "numberstorage"
+            "teleporter_item",
+            "code_block_item"
         ]
     }
 }
