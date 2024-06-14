@@ -1,11 +1,9 @@
 # CreatiCount v2.71.1 (Petey's Eggsquisite Kitchen Kraze)
-Material counter / processing time calculator for [Creativerse](https://store.steampowered.com/app/280790/Creativerse/), free to play on Steam.
+Material counter / processing time calculator for [Creativerse](https://store.steampowered.com/app/280790/Creativerse/).
 
 Live latest version on [my website](http://entuland.com/creaticount).
 
 Discussion about CreatiCount on the [Steam Forums](https://steamcommunity.com/app/280790/discussions/3/3288067088097143542/)
-
-If you like my contributions you may consider reading http://entuland.com/en/support-entuland
 
 # License
 The data in the following files is copyright of [Playfulcorp](http://www.playfulcorp.com), creators of Creativerse, used here with their permission:
